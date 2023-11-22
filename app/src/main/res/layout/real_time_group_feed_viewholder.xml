@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    orientation="horizontal"
+    id="@+id/checkAppxSupportCrossVersionSnapshot"
+    layout_width="match_parent"
+    layout_height="32dp"
+    layout_marginTop="4dp"
+    layout_marginBottom="4dp">
+    <FrameLayout
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            id="@+id/ivActor1"
+            padding="1dp"
+            layout_width="19dp"
+            layout_height="19dp"
+            NOT_FOUND_0xe="@style/2132018200"
+            NOT_FOUND_0x10="@color/MyBillsEntityDataFactory_res_0x7f060157"
+            NOT_FOUND_0x11="1dp"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            id="@+id/setHelperTextAppearance"
+            padding="1dp"
+            layout_width="19dp"
+            layout_height="19dp"
+            layout_marginTop="6dp"
+            layout_marginStart="6dp"
+            NOT_FOUND_0xe="@style/2132018200"
+            NOT_FOUND_0x10="@color/MyBillsEntityDataFactory_res_0x7f060157"
+            NOT_FOUND_0x11="1dp"/>
+    </FrameLayout>
+    <TextView
+        ellipsize="end"
+        id="@+id/containsNull"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        maxLines="1"
+        layout_weight="1"
+        contentDescription="@string/lblActivity"
+        layout_marginStart="8dp"
+        layout_marginEnd="8dp"
+        style="@style/2132017439"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_width="16dp"
+        layout_height="16dp"
+        NOT_FOUND_0xf="@drawable/ic_feed_group"/>
+</LinearLayout>

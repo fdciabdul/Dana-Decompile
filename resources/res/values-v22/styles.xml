@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132017240" parent="@style/2132017308">
+    </style>
+    <style name="2132017247" parent="@style/2132017309">
+    </style>
+    <style name="2132017308" parent="@style/2132017298">
+        <item name="2130968607">?android:attr/actionModeShareDrawable</item>
+        <item name="2130969126">?android:attr/editTextBackground</item>
+    </style>
+    <style name="2132017309" parent="@style/2132017300">
+        <item name="2130968607">?android:attr/actionModeShareDrawable</item>
+        <item name="2130969126">?android:attr/editTextBackground</item>
+    </style>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/cv_voucher_banner"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    layout_marginEnd="8dp"
+    NOT_FOUND_0x7="@dimen/MyBillsEntityDataFactory_res_0x7f07005f"
+    NOT_FOUND_0x8="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/cl_voucher_list"
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <ImageView
+            id="@+id/SaveNumberOfLocationPermissionShownData"
+            layout_width="320dp"
+            layout_height="128dp"
+            src="@drawable/voucher_banner_en"
+            scaleType="fitXY"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

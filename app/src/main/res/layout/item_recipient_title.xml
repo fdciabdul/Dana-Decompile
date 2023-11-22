@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/2132017490">
+    <TextView
+        textSize="24sp"
+        textColor="#4a4a4a"
+        id="@+id/tv_send_to_fist_row"
+        paddingLeft="16dp"
+        paddingTop="20dp"
+        paddingRight="16dp"
+        text="@string/who_would_you_like"
+        fontFamily="@font/2131296266"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        style="@style/2132017490"/>
+    <TextView
+        textSize="24sp"
+        textColor="#4a4a4a"
+        id="@+id/tv_send_to_second_row"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        layout_marginBottom="8dp"
+        text="@string/to_send"
+        fontFamily="@font/2131296266"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/tv_send_to_fist_row"
+        style="@style/2132017490"/>
+    <TextView
+        textSize="14sp"
+        textColor="#646464"
+        id="@+id/tv_select_recipient"
+        paddingLeft="16dp"
+        paddingTop="8dp"
+        paddingRight="16dp"
+        paddingBottom="16dp"
+        text="@string/select_the_recipient"
+        fontFamily="@font/2131296265"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/tv_send_to_second_row"
+        style="@style/2132017490"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

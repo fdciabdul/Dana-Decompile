@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, user-scalable=no" />
+    <script> document.title='\u200b'</script>
+    <script>
+      (function(baseFontSize, fontscale) {
+        'use strict';
+
+        var _baseFontSize = baseFontSize || 100;
+        var _fontscale = fontscale || 1;
+
+        var win = window;
+        var doc = win.document;
+        var ua = navigator.userAgent;
+        var matches = ua.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i);
+        var UCversion = ua.match(/U3\/((\d+|\.){5,})/i);
+        var isUCHd = UCversion && parseInt(UCversion[1].split('.').join(''), 10) >= 80;
+        var isIos = navigator.appVersion.match(/(iphone|ipad|ipod)/gi);
+        var dpr = win.devicePixelRatio || 1;
+        if (!isIos && !(matches && matches[1] > 534) && !isUCHd) {
+          // disable HD, set dpr 1 if not iOS or not > Android4.3 or not UC core
+          dpr = 1;
+        }
+        var scale = 1 / dpr;
+
+        var metaEl = doc.querySelector('meta[name="viewport"]');
+        if (!metaEl) {
+          metaEl = doc.createElement('meta');
+          metaEl.setAttribute('name', 'viewport');
+          doc.head.appendChild(metaEl);
+        }
+        metaEl.setAttribute('content', 'width=device-width,user-scalable=no,initial-scale=' + scale + ',maximum-scale=' + scale + ',minimum-scale=' + scale);
+        doc.documentElement.style.fontSize = _baseFontSize / 2 * dpr * _fontscale + 'px';
+      })(100, 1);
+    </script>
+    <style type="text/css">
+      html {
+        font-family: sans-serif; 
+        -ms-text-size-adjust: 100%; 
+        -webkit-text-size-adjust: 100%; 
+      }
+
+      p, hr, span {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      a {
+        background-color: transparent; 
+        -webkit-text-decoration-skip: objects; 
+      }
+
+      a:active {
+        outline-width: 0;
+      }
+
+      h1 {
+        font-size: 2em;
+        margin: .67em 0;
+      }
+
+      .error-msg {
+        color: #000000;
+        font-size: .3rem;
+        font-weight: 600;
+        text-align: center;
+        margin: .3rem auto;
+      }
+
+      .error-img {
+        width: .9rem;
+        height: .9rem;
+        margin: 1.2rem auto 0 auto;
+        background: center / contain no-repeat url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAC3UExURUxpcf/HAP/GAP/GAP/GAP/GAP/IAP/GAP/HAP/GAP/HAP/GAP/HAP/HAP/GAP/KAP/GAP//AP/GAP/GAP/GAP//AP/KAP/GAP/aAP/IAP/HAP/MAP/GAP/HAP/GAP/GAP/GAP/IAP/GAP/HAP/GAP/GAP/HAP/IAP/fAP/GAP/GAP/GAP/GAP/HAP/GAP/GAP/HAP/GAP/HAP/GAP/////WS//zy//88//vu//wvP/9+f/MH//MHmR33jsAAAAzdFJOUwApxsVj31TsSf6y+zfS9R3iBJrCEgE1iwc4uxQbQPr570vLpaLne2sILf2smVi5uJitxDr03iUAAAMFSURBVGjezZvnViJBEIWbSc2gRAkSBCQnAbeIsu//XItzEEGC01U9XXv/63dm6OlKt4RQ1WDo9TozO+nKRkO6SXvW6XnDgYhWsf7YHcEVjdxxPxYRtOq0u3BX3bZT1U199hJ1CKF6wnvWiC3OmxBazXlRE/alAoqqvGjAxm1AyI4TsY8tQKr1SMDmcz6g5efySGzBkUCSdAoYbvoJyHpKq3NfJWiQfFXEZks+aJFfyqpwaxZok1VTiAUZ0KhM6OhRlqBVshzyrkqBZqVC3WNvD6BdD28hnjcC7p786zOXUxCJUr/8zjEJEUnePdu1DESmzJ3vOWtBhLJu32EliFSlm3HBjxbs34gYabWDtduuN38VD9jVKFlQjL/bxWKxUY3P1zIDR/GffOzBH6pv27mSX6l+wYtPKX/Nl3lYDkyAIXeRx/pmwP7PrFc9f8aBofUjJoEpMJzHKdsc+M9ZXQbmwHBa0VVMgisn9S+YBMN3/TwxC54c+wxNs+DmV7fCA7Ng8A7ghGlw4tBHqpsG16uoeEgHH6Jj2zy4HYC75sHdIIcH82D4zO77HOD+HvzOAR7vwS4H2BViMOIAjwZiCBxgGCIvajLYEz0ecE90eMAdMeUBT4XFA7ZEkgecRN8fRLArJA9YigYPuMEHZnvVbIeL7XOyecC2mPGAZ3xBgi0ssiUCbKkPW7LHlt6KMfJvUU3U04QeW8Js9uAtpYTBFm27zXq7oxRt2DKVoi6lMKeoTWlFUORQmi8EHZovyHYTQQlSg40gj9RSXK7WqyWKe2wpopqoy+DKRJHnpLbxKgCvMOAiqVG+DsBrBLdCGw3gn/iFNgxB/8Y2dfyDPdVx6sALqRZ5xIfTxYhPfaiJU44+xsUViXn64JoQD2mjeoyujupVzQmYF53+v+wYfAYUPssNm8mIz1bFZyTjs87xmQX57JF8hlA+Cyyf6ZfP5sxn7Ga0svOZ9/nWFRgXNBhXUhiXcIL6eaKydjTRtXbEuGjFuFp2XKZ7N79Md7Y+OLW+1getKW598B8P0r4+rXdZ6QAAAABJRU5ErkJggg==");
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-body">
+        <p>Custom error page</p>
+      <div class="error-img"></div>
+      <div id="msg" class="error-msg"></div>
+    </div>
+      <script>
+        function queryString ()
+        {
+            // This function is anonymous, is executed immediately and
+            // the return value is assigned to QueryString!
+            var query_string = {};
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++)
+            {
+                var pair = vars[i].split("=");
+                // If first entry with this name
+                if (typeof query_string[pair[0]] === "undefined")
+                {
+                    query_string[pair[0]] = pair[1];
+                    // If second entry with this name
+                } else if (typeof query_string[pair[0]] === "string")
+                {
+                    var arr = [query_string[pair[0]], pair[1]];
+                    query_string[pair[0]] = arr;
+                    // If third or later entry with this name
+                } else
+                {
+                    query_string[pair[0]].push(pair[1]);
+                }
+            }
+            return query_string;
+        }
+        var query = queryString()
+        var type = query.type || 'MINI_PROGRAM'
+        var errorCode = query.errorCode || '101'
+
+        var msgNode = document.getElementById("msg");
+        var newNode = document.createElement("p");
+        switch(type) {
+          case 'MINI_PROGRAM':
+            if (errorCode === '1001'){
+              newNode.innerHTML ="The mini-program is not exist";
+            } else if (errorCode === '1002') {
+              newNode.innerHTML ="The mini-program has been removed";
+            } else if (errorCode === '1003') {
+              newNode.innerHTML = "The mini-program load failed";
+            } else if (errorCode === '1004') {
+              // appx update failed
+              newNode.innerHTML = "The mini-program framework load failed";
+            }
+            break;
+          case 'H5':
+            if (errorCode === '1001'){
+              newNode.innerHTML ="The app is not exist";
+            } else if (errorCode === '1002') {
+              newNode.innerHTML ="The app has been removed";
+            }
+            break;
+          default:
+            if (errorCode === '1001'){
+              newNode.innerHTML ="The mini-program is not exist";
+            } else if (errorCode === '1002') {
+              newNode.innerHTML ="The mini-program has been removed";
+            }
+        }
+        msgNode.appendChild(newNode)
+      </script>
+  </body>
+</html>

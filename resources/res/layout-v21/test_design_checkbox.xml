@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <CheckBox
+        id="@+id/test_checkbox_android_button_tint"
+        background="?android:attr/colorBackground"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        buttonTint="@color/2131099803"/>
+    <CheckBox
+        id="@+id/test_checkbox_app_button_tint"
+        background="?android:attr/colorBackground"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x5="@color/2131099803"/>
+</LinearLayout>

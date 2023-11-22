@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    enabled="false"
+    orientation="horizontal"
+    id="@+id/action_container"
+    background="@null"
+    paddingLeft="4dp"
+    layout_width="0dp"
+    layout_height="48dp"
+    layout_weight="1"
+    paddingStart="4dp"
+    style="@style/2132018045">
+    <ImageView
+        enabled="false"
+        layout_gravity="start|center_vertical"
+        id="@+id/action_image"
+        layout_width="32dp"
+        layout_height="32dp"
+        scaleType="centerInside"
+        alpha="0.5"/>
+    <TextView
+        enabled="false"
+        textColor="#ccc"
+        ellipsize="end"
+        layout_gravity="start|center_vertical"
+        id="@+id/action_text"
+        paddingLeft="4dp"
+        clickable="false"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        singleLine="true"
+        alpha="0.5"
+        paddingStart="4dp"
+        style="@style/2132018046"/>
+</LinearLayout>

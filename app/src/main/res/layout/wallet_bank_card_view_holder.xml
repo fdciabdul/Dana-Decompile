@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/cl_item_wallet_container"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <id.dana.wallet_v3.view.walletcardview.BankWalletV3CardView
+        id="@+id/item_bank_card"
+        layout_width="match_parent"
+        layout_height="wrap_content"/>
+</FrameLayout>

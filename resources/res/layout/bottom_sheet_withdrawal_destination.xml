@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/bs_withdrawal_destination"
+    background="@drawable/rounded_top_background"
+    focusable="true"
+    clickable="true"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    NOT_FOUND_0xd="@string/bottom_sheet_behavior">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="match_parent"
+        layout_height="wrap_content">
+        <ImageView
+            layout_gravity="center_horizontal"
+            id="@+id/iv_top_arrow"
+            layout_width="32dp"
+            layout_height="4dp"
+            layout_marginTop="8dp"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x12="0"
+            NOT_FOUND_0x15="@drawable/ic_flat_dark"/>
+        <id.dana.savings.withdrawal.SavingWithdrawalDestinationView
+            id="@+id/view_saving_withdrawal"
+            clipToPadding="false"
+            layout_marginTop="14dp"
+            contentDescription="@string/btnDanaBalanceAddressOption"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="@+id/iv_top_arrow"
+            style="@style/2132017490"/>
+        <id.dana.component.buttoncomponent.DanaButtonSecondaryView
+            id="@+id/btn_action"
+            layout_marginTop="8dp"
+            layout_marginBottom="16dp"
+            contentDescription="@string/btnCancel"
+            layout_marginStart="16dp"
+            layout_marginEnd="16dp"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="@+id/view_saving_withdrawal"
+            NOT_FOUND_0x13="@string/option_cancel"
+            NOT_FOUND_0x14="1"
+            style="@style/2132017490"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

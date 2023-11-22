@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/ll_linked_merchant_skeleton_container"
+    background="@android:color/white"
+    paddingTop="12dp"
+    paddingBottom="12dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        id="@+id/viewSkeleton"
+        background="@drawable/square_rounded_skeleton"
+        layout_width="60dp"
+        layout_height="60dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"/>
+    <LinearLayout
+        orientation="vertical"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginStart="16dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/viewSkeleton"
+        NOT_FOUND_0xc="0">
+        <View
+            background="@drawable/square_rounded_skeleton"
+            layout_width="153dp"
+            layout_height="18dp"/>
+        <View
+            background="@drawable/square_rounded_skeleton"
+            layout_width="196dp"
+            layout_height="16dp"
+            layout_marginTop="2dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

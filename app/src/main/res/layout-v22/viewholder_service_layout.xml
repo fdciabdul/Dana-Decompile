@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center_horizontal"
+    orientation="vertical"
+    paddingLeft="2dp"
+    paddingTop="2dp"
+    paddingRight="2dp"
+    paddingBottom="6dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    paddingHorizontal="2dp">
+    <View
+        background="@drawable/bg_circle_grey_20"
+        layout_width="@dimen/2131165627"
+        layout_height="@dimen/2131165627"/>
+    <View
+        background="@drawable/bg_rounded_8dp_grey20"
+        layout_width="60dp"
+        layout_height="14dp"
+        layout_marginTop="4dp"/>
+</LinearLayout>

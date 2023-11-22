@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="32dp"
+    android:width="33dp"
+    android:viewportWidth="33"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@drawable/res_0x7f0800d0_ic_dana_point_missed__0"
+        android:pathData="M32.5,16C32.5,24.837 25.337,32 16.5,32C7.663,32 0.5,24.837 0.5,16C0.5,7.163 7.663,0 16.5,0C25.337,0 32.5,7.163 32.5,16Z"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0800d1_ic_dana_point_missed__1"
+        android:pathData="M16.5,16C16.5,23.732 13.366,30 9.5,30C5.634,30 2.5,23.732 2.5,16C2.5,8.268 5.634,2 9.5,2C13.366,2 16.5,8.268 16.5,16Z"
+        android:strokeAlpha="0.5"
+        android:fillAlpha="0.5"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0800d2_ic_dana_point_missed__2"
+        android:pathData="M28.5,16C28.5,22.627 23.127,28 16.5,28C9.873,28 4.5,22.627 4.5,16C4.5,9.373 9.873,4 16.5,4C23.127,4 28.5,9.373 28.5,16Z"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0800d3_ic_dana_point_missed__3"
+        android:pathData="M27.5,16C27.5,22.075 22.575,27 16.5,27C10.425,27 5.5,22.075 5.5,16C5.5,9.925 10.425,5 16.5,5C22.575,5 27.5,9.925 27.5,16Z"/>
+    <path
+        android:fillColor="#919eb5"
+        android:pathData="M21.235,22C21.934,22 22.516,21.409 22.214,20.779C21.925,20.178 21.424,19.626 20.743,19.172C19.617,18.421 18.091,18 16.5,18C14.909,18 13.383,18.421 12.257,19.172C11.576,19.626 11.075,20.178 10.786,20.779C10.484,21.409 11.066,22 11.765,22V22C12.464,22 13.034,21.38 13.489,20.85C13.64,20.674 13.827,20.51 14.046,20.364C14.697,19.93 15.58,19.687 16.5,19.687C17.42,19.687 18.303,19.93 18.954,20.364C19.173,20.51 19.36,20.674 19.511,20.85C19.966,21.38 20.536,22 21.235,22V22Z"/>
+    <path
+        android:fillColor="#919eb5"
+        android:pathData="M21.5,13m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#919eb5"
+        android:pathData="M11.5,13m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+</vector>

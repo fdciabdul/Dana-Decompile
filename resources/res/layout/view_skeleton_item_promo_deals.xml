@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_square_rounded_corner"
+    layout_width="wrap_content"
+    layout_height="74dp"
+    paddingEnd="16dp">
+    <View
+        id="@+id/ivIcon"
+        background="@drawable/square_rounded_skeleton_4dp_grey20"
+        padding="11dp"
+        layout_width="58dp"
+        layout_height="54dp"
+        NOT_FOUND_0x9="@+id/llContent"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/llContent"/>
+    <LinearLayout
+        orientation="vertical"
+        id="@+id/llContent"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/ivIcon"
+        NOT_FOUND_0xd="0">
+        <View
+            id="@+id/tvTitle"
+            background="@drawable/square_rounded_skeleton_4dp_grey20"
+            layout_width="97dp"
+            layout_height="18dp"
+            style="@style/2132017908"/>
+        <TextView
+            id="@+id/isHelperTextDisplayed"
+            background="@drawable/square_rounded_skeleton_4dp_grey20"
+            layout_width="97dp"
+            layout_height="18dp"
+            layout_marginTop="4dp"
+            style="@style/2132017440"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="?android:attr/selectableItemBackground"
+    focusable="true"
+    clickable="true"
+    style="@style/2132017490">
+    <include layout="@layout/layout_send_new_bank"/>
+</FrameLayout>

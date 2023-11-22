@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.griver.image.photo.widget.PhotoPreview xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <FrameLayout
+        id="@+id/photoZone"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="match_parent">
+        <com.alibaba.griver.image.photo.widget.PhotoView
+            layout_gravity="center"
+            id="@+id/iv_content"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            contentDescription="@string/griver_image_media_image"/>
+        <ProgressBar
+            layout_gravity="center"
+            id="@+id/pb_loading"
+            visibility="gone"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            indeterminateDrawable="@drawable/griver_image_pb_default"/>
+        <com.alibaba.griver.image.photo.widget.CircleProgressBar
+            layout_gravity="center"
+            id="@+id/pb_exactly_progress"
+            visibility="gone"
+            layout_width="wrap_content"
+            layout_height="wrap_content"/>
+    </FrameLayout>
+</com.alibaba.griver.image.photo.widget.PhotoPreview>

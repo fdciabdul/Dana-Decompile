@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_root"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        id="@+id/res_0x7f0a18bd_getstaticqrpresenter_getdynamicprofileqr_2_1"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="7dp"
+        layout_marginBottom="11dp"
+        layout_marginStart="12dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        style="@style/2132017916"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/cl_see_all"
+        background="@drawable/bg_rounded_white"
+        padding="4dp"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xf="@+id/res_0x7f0a18bd_getstaticqrpresenter_getdynamicprofileqr_2_1"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x14="@+id/res_0x7f0a18bd_getstaticqrpresenter_getdynamicprofileqr_2_1">
+        <TextView
+            textSize="12sp"
+            textColor="#108ee9"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            text="@string/see_all"
+            textAllCaps="true"
+            fontFamily="@font/2131296266"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x11="0"
+            NOT_FOUND_0x12="0"
+            NOT_FOUND_0x14="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

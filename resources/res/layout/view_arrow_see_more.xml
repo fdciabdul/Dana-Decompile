@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    NOT_FOUND_0x6="16dp"
+    NOT_FOUND_0x7="2dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_margin="8dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/ivDown"
+            layout_width="18dp"
+            layout_height="18dp"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="@drawable/ic_down"/>
+        <TextView
+            id="@+id/res_0x7f0a155b_longcounterbuilder_cc"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            text="@string/see_more_linked_merchant"
+            layout_marginStart="4dp"
+            NOT_FOUND_0x8="@+id/ivDown"
+            NOT_FOUND_0x9="@+id/ivDown"
+            NOT_FOUND_0xb="@+id/ivDown"
+            style="@style/2132017903"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

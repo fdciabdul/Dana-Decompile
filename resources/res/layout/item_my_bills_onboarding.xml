@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="center_horizontal"
+        id="@+id/iv_mybills_intro_image"
+        layout_width="@dimen/2131165304"
+        layout_height="@dimen/2131165304"
+        layout_marginTop="@dimen/2131165307"
+        cropToPadding="true"/>
+    <TextView
+        gravity="center_horizontal"
+        id="@+id/tv_mybills_intro_subtitle"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        style="@style/2132017932"/>
+    <TextView
+        ellipsize="end"
+        gravity="center_horizontal"
+        id="@+id/tv_mybills_intro_description"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        maxLines="2"
+        lines="2"
+        lineSpacingExtra="4sp"
+        style="@style/2132017407"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

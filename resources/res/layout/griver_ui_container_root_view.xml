@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.griver.ui.container.GriverRootView xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <com.alibaba.griver.ui.refresh.GriverSwipeRefreshLayout
+        id="@+id/griver_layout_refresh"
+        layout_width="match_parent"
+        layout_height="match_parent"/>
+    <com.alibaba.griver.ui.progress.GriverProgressBar
+        id="@+id/griver_h5_prgress"
+        layout_width="match_parent"
+        layout_height="3dp"
+        max="100"
+        progress="0"
+        secondaryProgress="0"
+        indeterminate="false"
+        layout_alignParentTop="true"
+        style="@style/2132018213"/>
+</com.alibaba.griver.ui.container.GriverRootView>

@@ -1,0 +1,36 @@
+{
+  "balance": {
+    "amount": "19.000",
+    "currency": "Rp"
+  },
+  "businessAvatarUrl": "https://a.m.dana.id/avatar/p/avatar-216620000275030912800-1630071366253.jpg",
+  "extendInfo": {
+    "USER_FIRST_TRX": "1630114865707"
+  },
+  "faceAuthActivated": true,
+  "faceAuthEligible": true,
+  "faceAuthEnrolled": true,
+  "freezeFundIn": false,
+  "freezeFundOut": false,
+  "kybLoanAvailable": false,
+  "merchantId": "216620000275030912800",
+  "merchantName": "Beebisnis",
+  "merchantQrCode": "00020101021126570011ID.DANA.WWW011893600915316988776702091698877670303UMI51440014ID.CO.QRIS.WWW0215ID102***snis6010Kota Jambi6105361456304F5A0",
+  "merchantStatus": "ACTIVE",
+  "merchantType": "INDIVIDUAL",
+  "nmid": "ID1021093322746",
+  "pendingBalance": {
+    "amount": "2.000",
+    "currency": "Rp"
+  },
+  "settlementPeriod": "T+1|17:00",
+  "signedContracts": [{
+    "productCode": "51051000101000100048",
+    "productName": "KYB"
+  }, {
+    "productCode": "51051000101000100050",
+    "productName": "P2M"
+  }],
+  "success": true,
+  "unSignedContracts": []
+}

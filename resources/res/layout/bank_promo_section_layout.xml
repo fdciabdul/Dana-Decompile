@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/clBankPromo"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginBottom="24dp">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/getMissionTitle"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/res_0x7f0a11fc_observablepublishalt_innerdisposable"/>
+    <id.dana.promodiscovery.richview.PromoDiscoverySectionHeaderView
+        id="@+id/res_0x7f0a11fc_observablepublishalt_innerdisposable"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x8="@drawable/ic_bank_promo"
+        NOT_FOUND_0x9="@string/bank_promo_header"
+        NOT_FOUND_0xa="@+id/getMissionTitle"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/rl_quest_skeleton"
+    padding="7dp"
+    style="@style/2132017490">
+    <View
+        id="@+id/view_shimmer_id"
+        background="@drawable/square_skeleton"
+        layout_width="30dp"
+        layout_height="30dp"
+        layout_marginRight="8dp"/>
+    <View
+        id="@+id/view_shimmer_title"
+        background="@drawable/square_skeleton"
+        layout_width="match_parent"
+        layout_height="20dp"
+        layout_marginBottom="1dp"
+        layout_toLeftOf="@+id/view_shimmer_action"
+        layout_toRightOf="@+id/view_shimmer_id"/>
+    <View
+        background="@drawable/square_skeleton"
+        layout_width="match_parent"
+        layout_height="20dp"
+        layout_toLeftOf="@+id/view_shimmer_action"
+        layout_toRightOf="@+id/view_shimmer_id"
+        layout_below="@+id/view_shimmer_title"/>
+    <View
+        id="@+id/view_shimmer_action"
+        background="@drawable/square_skeleton"
+        layout_width="70dp"
+        layout_height="30dp"
+        layout_marginLeft="5dp"
+        layout_alignParentRight="true"/>
+</RelativeLayout>

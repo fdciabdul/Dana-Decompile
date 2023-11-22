@@ -1,0 +1,245 @@
+package com.alibaba.griver.base.utils;
+
+import android.text.TextUtils;
+import com.alibaba.ariver.kernel.RVParams;
+import com.alibaba.griver.image.framework.api.APImageFormat;
+import com.alipay.imobile.network.quake.transport.http.constant.HeaderConstant;
+import com.alipay.mobile.verifyidentity.business.securitycommon.bean.SecurityConstants;
+import io.opentelemetry.semconv.resource.attributes.ResourceAttributes;
+import io.opentelemetry.semconv.trace.attributes.SemanticAttributes;
+import io.split.android.client.service.ServiceConstants;
+import java.util.HashMap;
+import java.util.Map;
+
+/* loaded from: classes6.dex */
+public class MimeTypeUtil {
+    static Map<String, String> map;
+
+    static {
+        HashMap hashMap = new HashMap();
+        map = hashMap;
+        hashMap.put("3gp", "video/3gpp");
+        map.put("7z", "application/x-7z-compressed");
+        map.put("accdb", "application/msaccess");
+        map.put("ai", "application/illustrator");
+        map.put("apk", "application/vnd.android.package-archive");
+        map.put("arw", "image/x-dcraw");
+        map.put("avi", "video/x-msvideo");
+        map.put("bash", "text/x-shellscript");
+        map.put("bat", "application/x-msdos-program");
+        map.put("blend", "application/x-blender");
+        map.put("bin", "application/x-bin");
+        map.put("bmp", "image/bmp");
+        map.put("bpg", "image/bpg");
+        map.put("bz2", "application/x-bzip2");
+        map.put("cb7", "application/x-cbr");
+        map.put("cba", "application/x-cbr");
+        map.put("cbr", "application/x-cbr");
+        map.put("cbt", "application/x-cbr");
+        map.put("cbtc", "application/x-cbr");
+        map.put("cbz", "application/x-cbr");
+        map.put("cc", "text/x-c");
+        map.put("cdr", "application/coreldraw");
+        map.put("class", "application/java");
+        map.put("cnf", "text/plain");
+        map.put("conf", "text/plain");
+        map.put(ResourceAttributes.TelemetrySdkLanguageValues.CPP, "text/x-c++src");
+        map.put("cr2", "image/x-dcraw");
+        map.put("css", "text/css");
+        map.put("csv", "text/csv");
+        map.put("cvbdl", "application/x-cbr");
+        map.put("c", "text/x-c");
+        map.put("c++", "text/x-c++src");
+        map.put("dcr", "image/x-dcraw");
+        map.put("deb", "application/x-deb");
+        map.put("dng", "image/x-dcraw");
+        map.put("doc", "application/msword");
+        map.put("docm", "application/vnd.ms-word.document.macroEnabled.12");
+        map.put("docx", "application/vnd.openxmlformats-officedocument.wordprocessingml.document");
+        map.put("dot", "application/msword");
+        map.put("dotx", "application/vnd.openxmlformats-officedocument.wordprocessingml.template");
+        map.put("dv", "video/dv");
+        map.put("eot", "application/vnd.ms-fontobject");
+        map.put("epub", "application/epub+zip");
+        map.put("eps", "application/postscript");
+        map.put("erf", "image/x-dcraw");
+        map.put("exe", "application/x-ms-dos-executable");
+        map.put("fb2", "application/x-fictionbook+xml");
+        map.put("flac", "audio/flac");
+        map.put("flv", "video/x-flv");
+        map.put(APImageFormat.SUFFIX_GIF, "image/gif");
+        map.put("gpx", "application/gpx+xml");
+        map.put("gz", "application/gzip");
+        map.put(HeaderConstant.HEADER_VALUE_CONTENT_ENCODING_GZIP, "application/gzip");
+        map.put("h", "text/x-h");
+        map.put("heic", "image/heic");
+        map.put("heif", "image/heif");
+        map.put("hh", "text/x-h");
+        map.put("hpp", "text/x-h");
+        map.put("htaccess", "text/plain");
+        map.put("html", "text/html");
+        map.put("htm", "text/html");
+        map.put("ical", "text/calendar");
+        map.put("ics", "text/calendar");
+        map.put("iiq", "image/x-dcraw");
+        map.put("impress", "text/impress");
+        map.put("java", "text/x-java-source");
+        map.put("jp2", "image/jp2");
+        map.put("jpeg", "image/jpeg");
+        map.put(APImageFormat.SUFFIX_JPG, "image/jpeg");
+        map.put("jps", "image/jpeg");
+        map.put("js", "application/javascript");
+        map.put("json", "application/json");
+        map.put("k25", "image/x-dcraw");
+        map.put("kdc", "image/x-dcraw");
+        map.put("key", "application/x-iwork-keynote-sffkey");
+        map.put("keynote", "application/x-iwork-keynote-sffkey");
+        map.put("kml", "application/vnd.google-earth.kml+xml");
+        map.put("kmz", "application/vnd.google-earth.kmz");
+        map.put("kra", "application/x-krita");
+        map.put("ldif", "text/x-ldif");
+        map.put("love", "application/x-love-game");
+        map.put("lwp", "application/vnd.lotus-wordpro");
+        map.put("m", "text/x-matlab");
+        map.put("m2t", "video/mp2t");
+        map.put("m3u", "audio/mpegurl");
+        map.put("m3u8", "audio/mpegurl");
+        map.put("m4a", "audio/mp4");
+        map.put("m4b", "audio/m4b");
+        map.put("m4v", "video/mp4");
+        map.put("markdown", "text/markdown");
+        map.put("mdown", "text/markdown");
+        map.put("md", "text/markdown");
+        map.put("mdb", "application/msaccess");
+        map.put("mdwn", "text/markdown");
+        map.put("mkd", "text/markdown");
+        map.put("mef", "image/x-dcraw");
+        map.put("mkv", "video/x-matroska");
+        map.put("mobi", "application/x-mobipocket-ebook");
+        map.put("mov", "video/quicktime");
+        map.put("mp3", "audio/mpeg");
+        map.put("mp4", "video/mp4");
+        map.put("mpeg", "video/mpeg");
+        map.put("mpg", "video/mpeg");
+        map.put("mpo", "image/jpeg");
+        map.put("msi", "application/x-msi");
+        map.put("mts", "video/MP2T");
+        map.put("mt2s", "video/MP2T");
+        map.put("nef", "image/x-dcraw");
+        map.put("numbers", "application/x-iwork-numbers-sffnumbers");
+        map.put("odf", "application/vnd.oasis.opendocument.formula");
+        map.put("odg", "application/vnd.oasis.opendocument.graphics");
+        map.put("odp", "application/vnd.oasis.opendocument.presentation");
+        map.put("ods", "application/vnd.oasis.opendocument.spreadsheet");
+        map.put("odt", "application/vnd.oasis.opendocument.text");
+        map.put("oga", "audio/ogg");
+        map.put("ogg", "audio/ogg");
+        map.put("ogv", "video/ogg");
+        map.put(SemanticAttributes.DbCassandraConsistencyLevelValues.ONE, "application/msonenote");
+        map.put("opus", "audio/ogg");
+        map.put("orf", "image/x-dcraw");
+        map.put("otf", "application/font-sfnt");
+        map.put(SecurityConstants.KEY_PAGES, "application/x-iwork-pages-sffpages");
+        map.put("pdf", "application/pdf");
+        map.put("pfb", "application/x-font");
+        map.put("pef", "image/x-dcraw");
+        map.put(ResourceAttributes.TelemetrySdkLanguageValues.PHP, "application/x-php");
+        map.put(RVParams.PREFETCH_LOCATION, "application/x-perl");
+        map.put("pls", "audio/x-scpls");
+        map.put(APImageFormat.SUFFIX_PNG, "image/png");
+        map.put("pot", "application/vnd.ms-powerpoint");
+        map.put("potm", "application/vnd.ms-powerpoint.template.macroEnabled.12");
+        map.put("potx", "application/vnd.openxmlformats-officedocument.presentationml.template");
+        map.put("ppa", "application/vnd.ms-powerpoint");
+        map.put("ppam", "application/vnd.ms-powerpoint.addin.macroEnabled.12");
+        map.put("pps", "application/vnd.ms-powerpoint");
+        map.put("ppsm", "application/vnd.ms-powerpoint.slideshow.macroEnabled.12");
+        map.put("ppsx", "application/vnd.openxmlformats-officedocument.presentationml.slideshow");
+        map.put("ppt", "application/vnd.ms-powerpoint");
+        map.put("pptm", "application/vnd.ms-powerpoint.presentation.macroEnabled.12");
+        map.put("pptx", "application/vnd.openxmlformats-officedocument.presentationml.presentation");
+        map.put(RVParams.PRESSO_LOGIN, "application/postscript");
+        map.put("psd", "application/x-photoshop");
+        map.put("py", "text/x-python");
+        map.put("raf", "image/x-dcraw");
+        map.put("rar", "application/x-rar-compressed");
+        map.put("reveal", "text/reveal");
+        map.put("rss", "application/rss+xml");
+        map.put("rtf", "application/rtf");
+        map.put("rw2", "image/x-dcraw");
+        map.put("schema", "text/plain");
+        map.put("sgf", "application/sgf");
+        map.put("sh-lib", "text/x-shellscript");
+        map.put("sh", "text/x-shellscript");
+        map.put("srf", "image/x-dcraw");
+        map.put("sr2", "image/x-dcraw");
+        map.put("svg", "image/svg+xml");
+        map.put("swf", "application/x-shockwave-flash");
+        map.put("tar", "application/x-tar");
+        map.put("tar.bz2", "application/x-bzip2");
+        map.put("tar.gz", "application/x-compressed");
+        map.put("tbz2", "application/x-bzip2");
+        map.put("tcx", "application/vnd.garmin.tcx+xml");
+        map.put("tex", "application/x-tex");
+        map.put("tgz", "application/x-compressed");
+        map.put("tiff", "image/tiff");
+        map.put("tif", "image/tiff");
+        map.put("ttf", "application/font-sfnt");
+        map.put("txt", "text/plain");
+        map.put("vcard", "text/vcard");
+        map.put("vcf", "text/vcard");
+        map.put("vob", "video/dvd");
+        map.put("vsd", "application/vnd.visio");
+        map.put("vsdm", "application/vnd.ms-visio.drawing.macroEnabled.12");
+        map.put("vsdx", "application/vnd.ms-visio.drawing");
+        map.put("vssm", "application/vnd.ms-visio.stencil.macroEnabled.12");
+        map.put("vssx", "application/vnd.ms-visio.stencil");
+        map.put("vstm", "application/vnd.ms-visio.template.macroEnabled.12");
+        map.put("vstx", "application/vnd.ms-visio.template");
+        map.put("wav", "audio/wav");
+        map.put("webm", "video/webm");
+        map.put("woff", "application/font-woff");
+        map.put("wpd", "application/vnd.wordperfect");
+        map.put("wmv", "video/x-ms-wmv");
+        map.put("xcf", "application/x-gimp");
+        map.put("xla", "application/vnd.ms-excel");
+        map.put("xlam", "application/vnd.ms-excel.addin.macroEnabled.12");
+        map.put("xls", "application/vnd.ms-excel");
+        map.put("xlsb", "application/vnd.ms-excel.sheet.binary.macroEnabled.12");
+        map.put("xlsm", "application/vnd.ms-excel.sheet.macroEnabled.12");
+        map.put("xlsx", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+        map.put("xlt", "application/vnd.ms-excel");
+        map.put("xltm", "application/vnd.ms-excel.template.macroEnabled.12");
+        map.put("xltx", "application/vnd.openxmlformats-officedocument.spreadsheetml.template");
+        map.put("xml", "application/xml");
+        map.put("xrf", "image/x-dcraw");
+        map.put(ServiceConstants.YAML_EXTENSION, "application/yaml");
+        map.put(ServiceConstants.YML_EXTENSION, "application/yaml");
+        map.put("zip", "application/zip");
+        map.put("url", "application/internet-shortcut");
+        map.put("webloc", "application/internet-shortcut");
+    }
+
+    public static String getMimeTypeByExtension(String str) {
+        if (TextUtils.isEmpty(str) || !map.containsKey(str)) {
+            return null;
+        }
+        return map.get(str);
+    }
+
+    public static String getMimeType(String str) {
+        String extension = getExtension(str);
+        if (extension != null) {
+            return map.get(extension.toLowerCase());
+        }
+        return null;
+    }
+
+    public static String getExtension(String str) {
+        int lastIndexOf;
+        if (str == null || str.length() == 0 || (lastIndexOf = str.lastIndexOf(".")) <= 0) {
+            return null;
+        }
+        return str.substring(lastIndexOf + 1);
+    }
+}

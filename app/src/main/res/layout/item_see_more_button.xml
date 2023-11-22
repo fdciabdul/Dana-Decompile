@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center"
+    orientation="horizontal"
+    paddingTop="18dp"
+    paddingBottom="18dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <Button
+        textSize="11dp"
+        id="@+id/res_0x7f0a0225_flowablereduce_reducesubscriber"
+        layout_width="wrap_content"
+        layout_height="32dp"
+        text="@string/see_more"
+        textAllCaps="true"
+        paddingStart="19dp"
+        paddingEnd="19dp"
+        style="@style/2132017615"/>
+</LinearLayout>

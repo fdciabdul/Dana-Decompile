@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    background="@android:color/white"
+    style="@style/2132017531">
+    <include layout="@layout/layout_toolbar"/>
+    <com.google.android.material.tabs.TabLayout
+        id="@+id/res_0x7f0a12c8_component1_gbym_se"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x5="?attr/2130968968"
+        NOT_FOUND_0x6="@android:color/white"
+        NOT_FOUND_0x7="3dp"
+        NOT_FOUND_0x8="@style/2132017468"/>
+    <androidx.viewpager.widget.ViewPager
+        id="@+id/view_pager"
+        style="@style/2132017531"/>
+</LinearLayout>

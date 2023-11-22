@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="#ffffff"
+    padding="8dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <TextView
+        id="@+id/res_0x7f0a1902_getzendeskbasicticket_domain_productionrelease"
+        layout_width="wrap_content"
+        layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

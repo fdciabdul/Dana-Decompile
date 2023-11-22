@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cvWrapper"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    NOT_FOUND_0x5="8dp"
+    NOT_FOUND_0x6="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/cv_add_bank_account_banner"
+        layout_width="match_parent"
+        layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/ivBg"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            scaleType="fitXY"
+            adjustViewBounds="true"
+            NOT_FOUND_0x7="0"
+            NOT_FOUND_0x8="8dp"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

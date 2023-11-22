@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/vg_empty_state_feed_notif_root"
+    visibility="gone"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_empty_feed_notification"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xc="@+id/tv_empty_feed_notification_title"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="2"
+        NOT_FOUND_0x12="@drawable/ic_feed_notif_state_empty"/>
+    <TextView
+        textColor="#313131"
+        gravity="center"
+        id="@+id/tv_empty_feed_notification_title"
+        tag="@string/error_message_tag"
+        paddingTop="16dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/lbl_empty_feed_notification_title"
+        paddingStart="26dp"
+        paddingEnd="26dp"
+        NOT_FOUND_0xc="@+id/tv_empty_feed_notification_desc"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/iv_empty_feed_notification"
+        style="@style/2132017926"/>
+    <TextView
+        gravity="center"
+        id="@+id/tv_empty_feed_notification_desc"
+        paddingTop="8dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/lbl_empty_feed_notification_desc"
+        paddingStart="26dp"
+        paddingEnd="26dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/tv_empty_feed_notification_title"
+        style="@style/2132017414"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

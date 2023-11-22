@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="bottom"
+    orientation="vertical"
+    id="@+id/ll_key_area"
+    background="#e3e7ee"
+    paddingLeft="1.5dp"
+    paddingRight="1.5dp"
+    clickable="false"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <LinearLayout
+        layout_gravity="center_horizontal"
+        orientation="horizontal"
+        id="@+id/row1_frame"
+        layout_width="match_parent"
+        layout_height="46dp"
+        layout_marginTop="9dp">
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="q"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="w"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="e"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="r"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="t"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="y"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="u"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="i"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="o"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="p"
+                style="@style/2132018222"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        gravity="center_horizontal"
+        orientation="horizontal"
+        id="@+id/row2_frame"
+        layout_width="match_parent"
+        layout_height="46dp">
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="a"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="s"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="d"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="f"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="g"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="h"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="j"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="k"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="l"
+                style="@style/2132018222"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        layout_gravity="center_horizontal"
+        orientation="horizontal"
+        id="@+id/row3_frame"
+        layout_width="match_parent"
+        layout_height="46dp">
+        <FrameLayout
+            id="@+id/key_ABC"
+            background="@drawable/keyboard_key_123_bg"
+            clickable="true"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_marginLeft="4.5dp"
+            layout_marginTop="9dp"
+            layout_marginRight="4.5dp"
+            layout_marginBottom="9dp"
+            layout_weight="1">
+            <ImageView
+                textAppearance="?android:attr/textAppearanceMedium"
+                gravity="center"
+                layout_gravity="center"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                src="@drawable/keyboard_key_shift_up"
+                style="@style/2132018223"/>
+            <TextView
+                textAppearance="?android:attr/textAppearanceMedium"
+                gravity="center"
+                layout_gravity="center"
+                visibility="gone"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                text="@string/keyboard_more_num"
+                style="@style/2132018219"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="z"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="x"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="c"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="v"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="b"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="n"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="m"
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout
+            gravity="center"
+            id="@+id/key_del1"
+            background="@drawable/keyboard_key_123_bg"
+            clickable="true"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_marginLeft="4.5dp"
+            layout_marginTop="9dp"
+            layout_marginRight="4.5dp"
+            layout_marginBottom="9dp"
+            layout_weight="1">
+            <ImageView
+                textAppearance="?android:attr/textAppearanceMedium"
+                layout_gravity="center"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                src="@drawable/keyboard_key_delete_bg"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        layout_gravity="center_horizontal"
+        orientation="horizontal"
+        id="@+id/key_bottom"
+        layout_width="match_parent"
+        layout_height="46dp">
+        <TextView
+            textAppearance="?android:attr/textAppearanceMedium"
+            gravity="center"
+            id="@+id/key_123"
+            background="@drawable/keyboard_key_123_bg"
+            clickable="true"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_marginLeft="4.5dp"
+            layout_marginTop="9dp"
+            layout_marginRight="4.5dp"
+            layout_marginBottom="9dp"
+            text="123"
+            layout_weight="1"
+            style="@style/2132018219"/>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text=","
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <FrameLayout
+            id="@+id/key_space"
+            style="@style/2132018221">
+            <TextView
+                textAppearance="?android:attr/textAppearanceMedium"
+                gravity="center"
+                background="@drawable/keyboard_key_bg"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                text="@string/keyboard_space"
+                style="@style/2132018219"/>
+        </FrameLayout>
+        <FrameLayout style="@style/2132018221">
+            <TextView
+                text="."
+                style="@style/2132018222"/>
+        </FrameLayout>
+        <TextView
+            textAppearance="?android:attr/textAppearanceMedium"
+            gravity="center"
+            id="@+id/key_enter"
+            background="@drawable/keyboard_key_ok_bg"
+            clickable="true"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_marginLeft="4.5dp"
+            layout_marginTop="9dp"
+            layout_marginRight="4.5dp"
+            layout_marginBottom="9dp"
+            text="@string/keyboard_ok"
+            layout_weight="1"
+            style="@style/2132018220"/>
+    </LinearLayout>
+</LinearLayout>

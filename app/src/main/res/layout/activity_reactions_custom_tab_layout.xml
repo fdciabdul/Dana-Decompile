@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/tl_custom_activity_reactions"
+    background="@drawable/bg_rounded_corner_activity_reactions_tab_layout"
+    paddingLeft="8dp"
+    paddingRight="8dp"
+    layout_width="wrap_content"
+    layout_height="32dp">
+    <androidx.emoji.widget.EmojiAppCompatTextView
+        textAppearance="?attr/2130970172"
+        textSize="16sp"
+        id="@+id/tv_feed_reaction_emoji"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        layout_marginBottom="5dp"
+        includeFontPadding="false"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textAppearance="?attr/2130970172"
+        textSize="16sp"
+        textColor="#727272"
+        id="@+id/tv_feed_reaction_counter"
+        layout_width="wrap_content"
+        layout_height="0dp"
+        includeFontPadding="false"
+        NOT_FOUND_0xc="@+id/tv_feed_reaction_emoji"
+        NOT_FOUND_0xe="@+id/tv_feed_reaction_emoji"
+        NOT_FOUND_0xf="@+id/tv_feed_reaction_emoji"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

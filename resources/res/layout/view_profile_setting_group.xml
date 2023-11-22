@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/vg_profile_completion_root"
+    background="#f5f5f5"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        id="@+id/vg_profile_completion_container"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        NOT_FOUND_0xb="@color/2131100488"
+        NOT_FOUND_0xc="8dp"
+        NOT_FOUND_0xd="0dp"
+        NOT_FOUND_0x10="@color/2131100475"
+        NOT_FOUND_0x11="1dp">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/res_0x7f0a1194_danapolycardsviewmodel_getallrewardlist_2"
+            clipToPadding="false"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            overScrollMode="never"
+            paddingStart="1dp"
+            paddingEnd="1dp"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"/>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

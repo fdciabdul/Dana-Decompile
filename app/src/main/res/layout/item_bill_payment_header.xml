@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#f5f5f5"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        id="@+id/tvBillHeaderTitle"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_marginBottom="12dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        style="@style/2132017916"/>
+    <androidx.constraintlayout.widget.Group
+        id="@+id/groupBillsAmount"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xb="ivBillsAmount, tvBillsAmount"/>
+    <ImageView
+        id="@+id/ivBillsAmount"
+        layout_width="wrap_content"
+        layout_height="0dp"
+        src="@drawable/blue_textview_background"
+        adjustViewBounds="true"
+        NOT_FOUND_0xc="@+id/tvBillsAmount"
+        NOT_FOUND_0xd="@+id/tvBillsAmount"
+        NOT_FOUND_0xf="@+id/tvBillsAmount"
+        NOT_FOUND_0x10="@+id/tvBillsAmount"/>
+    <TextView
+        id="@+id/tvBillsAmount"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginStart="8dp"
+        NOT_FOUND_0xc="@+id/tvBillHeaderTitle"
+        NOT_FOUND_0xe="@+id/tvBillHeaderTitle"
+        NOT_FOUND_0x10="@+id/tvBillHeaderTitle"
+        style="@style/2132017430"/>
+    <TextView
+        id="@+id/res_0x7f0a13a3_newsocialfeedsadapter_oncreateviewholder_1"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="ADD NEW BILL"
+        NOT_FOUND_0xc="@+id/tvBillHeaderTitle"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x10="@+id/tvBillHeaderTitle"
+        style="@style/2132017895"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <include
+        id="@+id/layoutToolbar"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        layout="@layout/layout_toolbar"/>
+    <com.google.android.material.card.MaterialCardView
+        id="@+id/mcvFamilyMember"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x6="@color/2131100488"
+        NOT_FOUND_0x7="6dp"
+        NOT_FOUND_0x8="0dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/layoutToolbar"
+        NOT_FOUND_0xe="@color/2131100475"
+        NOT_FOUND_0xf="1dp">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rvListMember"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xc="@+id/layoutToolbar"
+            style="@style/2132017490"/>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

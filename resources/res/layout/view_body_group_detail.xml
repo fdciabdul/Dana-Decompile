@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/clBody"
+    background="@drawable/bg_card_rounded"
+    paddingTop="22dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rvGridListMembers"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x12="0"/>
+    <View
+        id="@+id/viewDivider"
+        background="#e3e3e3"
+        layout_width="wrap_content"
+        layout_height="1dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/rvGridListMembers"/>
+    <TextView
+        textColor="#727272"
+        id="@+id/res_0x7f0a13ba_imagecaptureviewmodel_gettipuploadphoto_1"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        text="@string/text_maximum_members"
+        contentDescription="@string/lbl_max_member"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/viewDivider"
+        style="@style/2132017425"/>
+    <androidx.constraintlayout.widget.Group
+        id="@+id/groupLabelMaxMembers"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xd="viewDivider, tvAnggotaMax"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

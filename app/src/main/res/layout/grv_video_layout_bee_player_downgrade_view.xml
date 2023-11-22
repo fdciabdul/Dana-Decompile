@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center"
+    layout_gravity="center"
+    background="#000000"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <TextView
+        textSize="16sp"
+        textColor="#a6ffffff"
+        gravity="center"
+        id="@+id/tv_error_hint"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/griver_str_failed_by_downgrade"
+        drawablePadding="5dp"/>
+</RelativeLayout>

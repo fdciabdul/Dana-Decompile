@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/vw_skleton_left"
+    background="@drawable/square_rounded_skeleton"
+    layout_height="44dp"
+    style="@style/2132017490"/>

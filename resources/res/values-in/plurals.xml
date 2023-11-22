@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="2131820544">
+        <item quantity="zero">%d Kartu</item>
+        <item quantity="one">%d Kartu</item>
+        <item quantity="other">%d Kartu</item>
+    </plurals>
+    <plurals name="2131820545">
+        <item quantity="other">%d hari</item>
+    </plurals>
+    <plurals name="res_0x7f110002_kclassimpl_data_declarednonstaticmembers_2">
+        <item quantity="other">%d hari</item>
+    </plurals>
+    <plurals name="2131820547">
+        <item quantity="other">Kadaluarsa dalam %d hari</item>
+    </plurals>
+    <plurals name="2131820548">
+        <item quantity="other">Kadaluarsa dalam %d jam</item>
+    </plurals>
+    <plurals name="2131820549">
+        <item quantity="other">%d Review</item>
+    </plurals>
+    <plurals name="2131820550">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="PlaceComponentResult">
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="2131820552">
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <plurals name="getAuthRequestContext">
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <plurals name="2131820554">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="2131820555">
+        <item quantity="other">%d Tagihan</item>
+    </plurals>
+    <plurals name="2131820556">
+        <item quantity="one">%1$d ulasan</item>
+        <item quantity="other">%1$d ulasan</item>
+    </plurals>
+    <plurals name="2131820557">
+        <item quantity="other">%d Partisipan</item>
+    </plurals>
+    <plurals name="2131820558">
+        <item quantity="other">%d KARTU BARU</item>
+    </plurals>
+    <plurals name="2131820559">
+        <item quantity="other">%d KARTU</item>
+    </plurals>
+    <plurals name="2131820560">
+        <item quantity="other">%d respons</item>
+    </plurals>
+    <plurals name="2131820561">
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <plurals name="2131820562">
+        <item quantity="other">%d Komentar</item>
+    </plurals>
+    <plurals name="2131820563">
+        <item quantity="other">%d Saymoji</item>
+    </plurals>
+    <plurals name="2131820564">
+        <item quantity="other">%d PRODUK BARU</item>
+    </plurals>
+    <plurals name="2131820565">
+        <item quantity="other">%d PRODUK</item>
+    </plurals>
+    <plurals name="2131820566">
+        <item quantity="other">%d minggu</item>
+    </plurals>
+    <plurals name="2131820567">
+        <item quantity="other">Quest Milikmu</item>
+    </plurals>
+</resources>

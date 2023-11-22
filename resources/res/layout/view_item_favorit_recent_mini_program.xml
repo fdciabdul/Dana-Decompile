@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center_horizontal"
+    orientation="vertical"
+    id="@+id/lyt_item_miniprogram"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    animateLayoutChanges="true">
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/ivMiniProgramLogo"
+        background="@drawable/bg_circle_rounded_white"
+        padding="4dp"
+        layout_width="40dp"
+        layout_height="40dp"
+        layout_marginTop="4dp"/>
+    <TextView
+        gravity="center_horizontal"
+        id="@+id/tvMiniProgramTitle"
+        paddingLeft="8dp"
+        paddingRight="8dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        maxLines="1"
+        minLines="1"
+        style="@style/2132017439"/>
+</LinearLayout>

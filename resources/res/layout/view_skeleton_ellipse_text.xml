@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <id.dana.richview.EllipseTextView
+        textSize="12sp"
+        id="@+id/etv_skeleton"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        layout_width="100dp"
+        layout_height="wrap_content"
+        NOT_FOUND_0x6="@color/2131099987"
+        NOT_FOUND_0x7="100"
+        NOT_FOUND_0x8="@color/2131099987"
+        NOT_FOUND_0x9="2"/>
+</LinearLayout>

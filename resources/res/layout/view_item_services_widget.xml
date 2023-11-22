@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.richview.servicescard.ServiceCardV2View xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/serviceCardView"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    minHeight="222dp"/>

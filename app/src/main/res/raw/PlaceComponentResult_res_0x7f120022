@@ -1,0 +1,73 @@
+{
+  "merchantInfoList": [
+    {
+      "merchantName": "Bukalapak",
+      "merchantLogo": "",
+      "merchantPCLogo": "",
+      "merchantBoundDate": 1586945225,
+      "merchantId": "1",
+      "divisionId": "1",
+      "clientId": "1",
+    },
+    {
+      "merchantName": "Tix ID",
+      "merchantLogo": "",
+      "merchantPCLogo": "",
+      "merchantBoundDate": 1586945225,
+      "merchantId": "2",
+      "divisionId": "2",
+      "clientId": "2"
+    },
+    {
+      "merchantName": "Lazada",
+      "merchantLogo": "",
+      "merchantPCLogo": "",
+      "merchantBoundDate": 1586945225,
+      "merchantId": "216620000002993622833",
+      "clientId": "3",
+      "regId": "081111111111",
+      "userBoundId": "AAA"
+    },
+    {
+      "merchantName": "Lazada",
+      "merchantLogo": "",
+      "merchantPCLogo": "",
+      "merchantBoundDate": 1586945225,
+      "merchantId": "216620000002993622833",
+      "clientId": "3",
+      "regId": "082222222222",
+      "userBoundId": "BBB"
+    },
+    {
+      "merchantName": "Lazada",
+      "merchantLogo": "",
+      "merchantPCLogo": "",
+      "merchantBoundDate": 1586945225,
+      "merchantId": "216620000002993622833",
+      "clientId": "3",
+      "regId": "083333333333",
+      "userBoundId": "CCC"
+    },
+    {
+      "merchantName": "KFC",
+      "merchantLogo": "",
+      "merchantPCLogo": "",
+      "merchantBoundDate": 1586945225,
+      "merchantId": "4",
+      "divisionId": "4",
+      "clientId": "4"
+    },
+    {
+      "merchantName": "Kita Bisa",
+      "merchantLogo": "",
+      "merchantPCLogo": "",
+      "merchantBoundDate": 1586945225,
+      "merchantId": "5",
+      "divisionId": "5",
+      "clientId": "5"
+    }
+  ],
+  "success": true,
+  "totalPageNumber": 1,
+  "currentPage": 0
+}

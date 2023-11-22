@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.griver.ui.ant.layout.AURelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="0dp"
+    layout_height="match_parent">
+    <com.alibaba.griver.ui.ant.layout.AURelativeLayout
+        id="@+id/tab_inner"
+        layout_width="match_parent"
+        layout_height="match_parent">
+        <com.alibaba.griver.ui.ant.text.AUTextView
+            textSize="16dp"
+            textColor="@drawable/griver_ui_switch_tab_text_color"
+            ellipsize="middle"
+            id="@+id/tab_tv"
+            background="@android:color/transparent"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            singleLine="true"
+            layout_centerInParent="true"/>
+    </com.alibaba.griver.ui.ant.layout.AURelativeLayout>
+</com.alibaba.griver.ui.ant.layout.AURelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_friend_list_bottom_sheet_coordinator"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <FrameLayout
+        id="@+id/cvFriendListContainer"
+        background="@drawable/rounded_top_background"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        NOT_FOUND_0x4="@string/bottom_sheet_behavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

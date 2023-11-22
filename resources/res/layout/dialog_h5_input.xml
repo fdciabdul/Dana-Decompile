@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    padding="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        textSize="16sp"
+        textColor="#616161"
+        layout_gravity="center_horizontal"
+        id="@+id/tv_title"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"/>
+    <EditText
+        id="@+id/et_inputUrl"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        inputType="textUri"
+        NOT_FOUND_0xd="@+id/tv_title"/>
+    <TextView
+        textSize="16sp"
+        id="@+id/tv_go"
+        layout_margin="15dp"
+        text="@string/go"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/et_inputUrl"
+        style="@style/2132017655"/>
+    <TextView
+        textSize="16sp"
+        id="@+id/tv_cancel"
+        layout_margin="15dp"
+        text="@string/option_cancel"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/tv_go"
+        style="@style/2132017658"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

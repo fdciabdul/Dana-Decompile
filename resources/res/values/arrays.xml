@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="balance_menu">
+        <item>@string/balance_topup</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="default_supported_cards">
+        <item>Mastercard</item>
+        <item>Visa</item>
+        <item>JCB</item>
+        <item>AMEX</item>
+        <item>GPN</item>
+    </array>
+    <array name="default_supported_cards_image_url">
+        <item>https://a.m.dana.id/resource/icons/mastw7id.png</item>
+        <item>https://a.m.dana.id/resource/icons/visaw7id.png</item>
+        <item>https://a.m.dana.id/resource/icons/jcbw7id.png</item>
+        <item>https://a.m.dana.id/resource/icons/amexw7id.png</item>
+        <item>https://a.m.dana.id/resource/icons/gpn.png</item>
+    </array>
+    <array name="domicile_array">
+        <item>Sama</item>
+        <item>Tidak Sama</item>
+    </array>
+    <array name="family_relation_array">
+        <item>Keluarga</item>
+        <item>Teman</item>
+        <item>Teman Kerja</item>
+        <item>Lainnya</item>
+    </array>
+    <array name="forced_update_menu">
+        <item>@string/install</item>
+    </array>
+    <array name="google_app_action_request_money">
+        <item>@string/google_assistant_keyword_request_money</item>
+        <item>@string/google_assistant_keyword_request</item>
+        <item>@string/google_assistant_keyword_receive_money</item>
+        <item>@string/google_assistant_keyword_receive</item>
+    </array>
+    <array name="google_app_action_scan_qr">
+        <item>@string/google_assistant_keyword_scan_qr</item>
+        <item>@string/google_assistant_keyword_scan_qr_code</item>
+        <item>@string/google_assistant_keyword_scan</item>
+        <item>@string/google_assistant_keyword_scanner</item>
+        <item>@string/google_assistant_keyword_qr_code</item>
+        <item>@string/google_assistant_keyword_pay</item>
+        <item>@string/google_assistant_keyword_qr</item>
+    </array>
+    <array name="google_app_action_send_money">
+        <item>@string/google_assistant_keyword_send_money</item>
+        <item>@string/google_assistant_keyword_send</item>
+        <item>@string/google_assistant_keyword_transfer</item>
+    </array>
+    <array name="google_app_action_top_up">
+        <item>@string/google_assistant_keyword_top_up</item>
+        <item>@string/google_assistant_keyword_balance</item>
+    </array>
+    <array name="griverSegmentItemArray">
+        <item>@id/griver_segment_item1</item>
+        <item>@id/griver_segment_item2</item>
+        <item>@id/griver_segment_item3</item>
+        <item>@id/griver_segment_item4</item>
+    </array>
+    <array name="information_brizzi_top_up">
+        <item>Tap activate balance after top up BRIZZI card.</item>
+        <item>If there is a problem during checking &amp; activating card balance, you can check in the nearest BRI ATM/Alfamart/Indomaret.</item>
+    </array>
+    <array name="merchant_category_title">
+        <item>@string/all</item>
+        <item>@string/promo</item>
+        <item>@string/food_beverages</item>
+        <item>@string/grocery</item>
+        <item>@string/fashion</item>
+        <item>@string/electronics_goods</item>
+        <item>@string/entertaiment</item>
+        <item>@string/travel_agent</item>
+    </array>
+    <array name="notes_hint_feed_send_money">
+        <item>@string/notes_1</item>
+        <item>@string/notes_2</item>
+        <item>@string/notes_3</item>
+    </array>
+    <array name="optional_update_menu">
+        <item>@string/later</item>
+        <item>@string/install</item>
+    </array>
+    <array name="profile_menu_kyc">
+        <item>@string/my_payment_card</item>
+        <item>@string/change_phone_number</item>
+        <item>@string/change_pin</item>
+        <item>@string/trusted_device</item>
+        <item>@string/change_profile_picture</item>
+    </array>
+    <array name="profile_menu_kyc_kba">
+        <item>@string/my_payment_card</item>
+        <item>@string/change_phone_number</item>
+        <item>@string/change_pin</item>
+        <item>@string/security_setting</item>
+        <item>@string/trusted_device</item>
+        <item>@string/change_profile_picture</item>
+    </array>
+    <array name="profile_menu_non_kyc">
+        <item>@string/change_name</item>
+    </array>
+    <array name="second_profile_menu">
+        <item>@string/tutorial</item>
+        <item>@string/faq</item>
+        <item>@string/t_n_c</item>
+        <item>@string/privacy_policy</item>
+    </array>
+    <array name="second_profile_menu_kyu">
+        <item>@string/tutorial</item>
+        <item>@string/faq</item>
+        <item>@string/help</item>
+        <item>@string/t_n_c</item>
+        <item>@string/privacy_policy</item>
+    </array>
+    <array name="spinner_dynamic_qr">
+        <item>DANA Balance</item>
+    </array>
+    <array name="spinner_static_qr">
+        <item>Share</item>
+    </array>
+    <array name="warning_reversal_error">
+        <item>Update Balance via other phone NFC, Mandiri ATM, or retail store.</item>
+    </array>
+</resources>

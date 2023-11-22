@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#00000000"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_margin="16dp"
+        NOT_FOUND_0x15="@color/2131100508"
+        NOT_FOUND_0x16="10dp"
+        NOT_FOUND_0x17="0dp">
+        <LinearLayout
+            orientation="horizontal"
+            background="@drawable/rounded_popup_white"
+            paddingLeft="16dp"
+            paddingTop="12dp"
+            paddingRight="16dp"
+            paddingBottom="12dp"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            layout_margin="1dp"
+            weightSum="1"
+            paddingStart="16dp"
+            paddingEnd="16dp">
+            <ImageView
+                layout_gravity="center"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                src="@drawable/ic_warning_orange"/>
+            <TextView
+                textSize="12sp"
+                textColor="#1b1b1b"
+                layout_gravity="center"
+                layout_width="0dp"
+                layout_height="wrap_content"
+                layout_marginLeft="8dp"
+                text="@string/referral_already_dana_user"
+                maxLines="2"
+                layout_weight="1"
+                layout_marginStart="8dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

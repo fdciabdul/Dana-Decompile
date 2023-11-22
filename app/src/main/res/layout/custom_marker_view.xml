@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/setValuePrefixBytes_res_0x7f0a0361"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_pointer"
+        layout_width="24dp"
+        layout_height="24dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@drawable/ic_pointer"/>
+    <LinearLayout
+        orientation="horizontal"
+        id="@+id/res_0x7f0a0d0f_splitmerchantconfigentity_getmerchantdetailpromoconfigentity_1"
+        background="@drawable/rounded_marker_bg"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@+id/iv_pointer">
+        <ImageView
+            layout_gravity="center"
+            id="@+id/iv_marker_label_icon"
+            padding="4dp"
+            layout_width="16dp"
+            layout_height="16dp"
+            layout_margin="2dp"/>
+        <TextView
+            textSize="12sp"
+            textColor="#108ee9"
+            gravity="center_horizontal"
+            id="@+id/tv_marker_label"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_marginLeft="2dp"
+            layout_marginTop="2dp"
+            layout_marginRight="8dp"
+            lineSpacingExtra="4sp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

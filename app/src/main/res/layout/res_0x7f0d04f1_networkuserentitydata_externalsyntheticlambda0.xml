@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="center"
+    style="@style/2132018187">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ic_image"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        contentDescription="@null"
+        NOT_FOUND_0xa="@drawable/ic_loading_bg"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ic_image_fg"
+        padding="8dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_alignTop="@+id/ic_image"
+        layout_alignBottom="@+id/ic_image"
+        contentDescription="@null"
+        layout_alignStart="@+id/ic_image"
+        layout_alignEnd="@+id/ic_image"
+        NOT_FOUND_0xa="@drawable/loading_spinner"/>
+</RelativeLayout>

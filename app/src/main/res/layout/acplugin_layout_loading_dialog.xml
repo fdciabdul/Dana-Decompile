@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/acplugin_popup_bg"
+    layout_width="140dp"
+    layout_height="140dp">
+    <LinearLayout
+        gravity="center_horizontal"
+        layout_gravity="center_vertical"
+        orientation="vertical"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="10dp"
+        layout_marginRight="10dp">
+        <com.iap.ac.android.acs.plugin.ui.view.ACPluginLoadingView
+            id="@+id/loading_view"
+            layout_width="wrap_content"
+            layout_height="22dp"/>
+        <TextView
+            textSize="14dp"
+            textColor="@android:color/white"
+            gravity="center"
+            id="@+id/desc_text"
+            visibility="gone"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            layout_marginTop="12dp"/>
+    </LinearLayout>
+</FrameLayout>

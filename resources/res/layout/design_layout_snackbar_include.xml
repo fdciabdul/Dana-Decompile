@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    theme="@style/2132017846"
+    layout_gravity="bottom"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    class="com.google.android.material.snackbar.SnackbarContentLayout">
+    <TextView
+        textAppearance="@style/2132017738"
+        ellipsize="end"
+        layout_gravity="start|center_vertical"
+        id="@+id/snackbar_text"
+        paddingLeft="12dp"
+        paddingTop="14dp"
+        paddingRight="12dp"
+        paddingBottom="14dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        maxLines="@integer/2131427339"
+        layout_weight="1"
+        textAlignment="viewStart"/>
+    <Button
+        textColor="?attr/2130968955"
+        layout_gravity="end|center_vertical"
+        id="@+id/snackbar_action"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginLeft="@dimen/2131165401"
+        minWidth="48dp"
+        layout_marginStart="@dimen/2131165401"
+        style="?attr/2130968738"/>
+</view>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_root"
+    background="@drawable/bg_blue_rounded_transparent"
+    paddingTop="12dp"
+    paddingBottom="12dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    paddingVertical="12dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ic_icon"
+        layout_width="24dp"
+        layout_height="28dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xb="@+id/tv_info"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_info"
+        NOT_FOUND_0x11="@drawable/ic_dice_tooltip"/>
+    <TextView
+        textColor="#ffffff"
+        id="@+id/tv_info"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        text="@string/board_info"
+        layout_marginStart="8dp"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xd="@+id/ic_close"
+        NOT_FOUND_0xe="@+id/ic_icon"
+        NOT_FOUND_0x10="0"
+        style="@style/2132017899"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ic_close"
+        layout_width="24dp"
+        layout_height="28dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xb="@+id/tv_info"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="@+id/tv_info"
+        NOT_FOUND_0x11="@drawable/ic_close_white_circle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

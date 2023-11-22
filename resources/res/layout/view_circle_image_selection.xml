@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/fl_container"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <ImageView
+        layout_gravity="center"
+        id="@+id/iv_photo"
+        layout_width="48dp"
+        layout_height="48dp"
+        scaleType="fitXY"/>
+    <ImageView
+        layout_gravity="center"
+        id="@+id/iv_photo_circle"
+        background="@drawable/bg_blue_circle"
+        visibility="gone"
+        layout_width="48dp"
+        layout_height="48dp"
+        scaleType="fitXY"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="end|top"
+        id="@+id/iv_checklist_top"
+        visibility="gone"
+        layout_width="16dp"
+        layout_height="16dp"
+        NOT_FOUND_0x9="@drawable/ic_checked_blue"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="end|bottom"
+        id="@+id/iv_checklist"
+        visibility="gone"
+        layout_width="16dp"
+        layout_height="16dp"
+        NOT_FOUND_0x9="@drawable/ic_checklist"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="start|top"
+        id="@+id/BannerEntityDataFactory_Factory_res_0x7f0a0c11"
+        visibility="gone"
+        layout_width="16dp"
+        layout_height="16dp"
+        src="@drawable/cancel"
+        contentDescription="@string/btnExcludeMe"/>
+</FrameLayout>

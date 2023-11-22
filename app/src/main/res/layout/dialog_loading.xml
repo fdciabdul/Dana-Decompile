@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    padding="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <ProgressBar
+        id="@+id/progress_bar"
+        indeterminate="true"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        style="@style/2132018187"/>
+    <TextView
+        id="@+id/tv_title"
+        padding="16dp"
+        text="@string/loading_msg"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@+id/progress_bar"
+        NOT_FOUND_0x9="0"
+        style="@style/2132018187"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

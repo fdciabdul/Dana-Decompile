@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="2131820544">
+        <item quantity="zero">%d Card</item>
+        <item quantity="one">%d Card</item>
+        <item quantity="other">%d Cards</item>
+    </plurals>
+    <plurals name="2131820545">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="res_0x7f110002_kclassimpl_data_declarednonstaticmembers_2">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="2131820547">
+        <item quantity="one">Expires in %d day</item>
+        <item quantity="other">Expires in %d days</item>
+    </plurals>
+    <plurals name="2131820548">
+        <item quantity="one">Expires in %d hour</item>
+        <item quantity="other">Expires in %d hours</item>
+    </plurals>
+    <plurals name="2131820549">
+        <item quantity="zero">%d Review</item>
+        <item quantity="one">%d Review</item>
+        <item quantity="other">%d Reviews</item>
+    </plurals>
+    <plurals name="2131820550">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="PlaceComponentResult">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="2131820552">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="getAuthRequestContext">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="2131820554">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="2131820555">
+        <item quantity="one">%d Bill</item>
+        <item quantity="other">%d Bills</item>
+    </plurals>
+    <plurals name="2131820556">
+        <item quantity="one">%1$d review</item>
+        <item quantity="other">%1$d reviews</item>
+    </plurals>
+    <plurals name="2131820557">
+        <item quantity="one">%d Participant</item>
+        <item quantity="other">%d Participants</item>
+    </plurals>
+    <plurals name="2131820558">
+        <item quantity="one">%d NEW CARD</item>
+        <item quantity="other">%d NEW CARDS</item>
+    </plurals>
+    <plurals name="2131820559">
+        <item quantity="one">%d CARD</item>
+        <item quantity="other">%d CARDS</item>
+    </plurals>
+    <plurals name="2131820560">
+        <item quantity="zero">%d response</item>
+        <item quantity="one">%d response</item>
+        <item quantity="other">%d responses</item>
+    </plurals>
+    <plurals name="2131820561">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="2131820562">
+        <item quantity="one">%d Comment</item>
+        <item quantity="other">%d Comments</item>
+    </plurals>
+    <plurals name="2131820563">
+        <item quantity="one">%d Saymoji</item>
+        <item quantity="other">%d Saymojis</item>
+    </plurals>
+    <plurals name="2131820564">
+        <item quantity="one">%d NEW ITEM</item>
+        <item quantity="other">%d NEW ITEMS</item>
+    </plurals>
+    <plurals name="2131820565">
+        <item quantity="one">%d ITEM</item>
+        <item quantity="other">%d ITEMS</item>
+    </plurals>
+    <plurals name="2131820566">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="2131820567">
+        <item quantity="one">Your Quest</item>
+        <item quantity="other">Your Quests</item>
+    </plurals>
+</resources>

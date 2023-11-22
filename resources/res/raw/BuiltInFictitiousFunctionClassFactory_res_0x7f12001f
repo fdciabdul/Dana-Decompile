@@ -1,0 +1,103 @@
+{
+  "feeAmount": {
+    "amount":"50.000",
+    "currency":"Rp"
+  },
+  "maxAmount": {
+    "amount":"50.000.000",
+    "currency":"Rp"
+  },
+  "minAmount": {
+    "amount":"50.000",
+    "currency":"Rp"
+  },
+  "payerUserInfo": {
+    "userId":"216610000202277769932",
+    "maskedLoginId":"****1006",
+    "maskedNickName":"TEN**",
+    "nickName":"TENDI",
+    "kycLevel":"02",
+    "internalKycLevel":"02",
+    "certified":true,
+    "balanceAmount": {
+      "amount":"25.000",
+      "currency":"Rp"
+    },
+    "maxBalanceAmount":null,
+    "maxMonthFundInAmount":null,
+    "monthFundInConsumedAmount":null,
+    "avatar":"",
+    "name":null,
+    "phoneNumber":"****",
+    "instId":null,
+    "instName":null,
+    "maskedAccountNo":null,
+    "userFrozen":null,
+    "accountFrozen":null
+  },
+  "payeeUserInfo":null,
+  "subTransferMethodInfos": [
+    {
+      "rateAmount": {
+        "sourceAmount": {
+          "amount":"10.000",
+          "currency":"Rp"
+        },
+        "destinationAmount": {
+          "amount":"1",
+          "currency":"SGD"
+        }
+      },
+      "subTransferMethodType":"CARD",
+      "payChannelApi":"VISAW5US_GLOBAL_REMITTANCE_WITHDRAW",
+      "instId":"VISAW5US",
+      "payMethod":"WITHDRAW_REMITTANCE",
+      "payOption":"WITHDRAW_REMITTANCE_VISA",
+      "payerMaxAmount":null,
+      "payerMinAmount":null
+    },
+    {
+      "rateAmount": {
+        "sourceAmount": {
+          "amount":"11.000",
+          "currency":"Rp"
+        },
+        "destinationAmount": {
+          "amount":"1",
+          "currency":"SGD"
+        }
+      },
+      "subTransferMethodType":"BANK",
+      "payChannelApi":"VISAW5US_GLOBAL_REMITTANCE_WITHDRAW",
+      "instId":"VISAW5US",
+      "payMethod":"WITHDRAW_REMITTANCE",
+      "payOption":"WITHDRAW_REMITTANCE_VISA",
+      "payerMaxAmount":null,
+      "payerMinAmount":null
+    },
+    {
+      "rateAmount": {
+        "sourceAmount": {
+          "amount":"10.500",
+          "currency":"Rp"
+        },
+        "destinationAmount": {
+          "amount":"1",
+          "currency":"SGD"
+        }
+      },
+      "subTransferMethodType":"E_WALLET",
+      "payChannelApi":"VISAW5US_GLOBAL_REMITTANCE_WITHDRAW",
+      "instId":"VISAW5US",
+      "payMethod":"WITHDRAW_REMITTANCE",
+      "payOption":"WITHDRAW_REMITTANCE_VISA",
+      "payerMaxAmount":null,
+      "payerMinAmount":null
+    }
+  ],
+  "success":true,
+  "errorCode":null,
+  "errorMsg":null,
+  "location":null,
+  "errorMessage":null
+}

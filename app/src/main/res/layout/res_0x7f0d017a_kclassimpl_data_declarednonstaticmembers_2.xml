@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    NOT_FOUND_0x4="0"
+    NOT_FOUND_0x5="0"
+    NOT_FOUND_0x6="0">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/res_0x7f0a099c_networkuserentitydata_externalsyntheticlambda8"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        src="@drawable/ic_success_64"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="?attr/2130969992"
+    layout_width="50dp"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ConfirmUpdateBalanceEmoney"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@drawable/ic_dana_points"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/res_0x7f0a0782_completablecache_innercompletablecache"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/fourKingTitle"
+        style="@style/2132017905"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="#727272"
+        id="@+id/fourKingTitle"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        text="DANA Points"
+        maxLines="2"
+        textAlignment="center"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/ConfirmUpdateBalanceEmoney"
+        style="@style/2132017439"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/addAllCpuMetricReadings"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xa="@+id/ConfirmUpdateBalanceEmoney"
+        NOT_FOUND_0xd="@+id/ConfirmUpdateBalanceEmoney"
+        NOT_FOUND_0xe="@drawable/ic_red_dot_with_outline"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

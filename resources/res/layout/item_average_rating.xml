@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/clAverageRatingSection"
+    background="@android:color/white"
+    paddingTop="4dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    paddingStart="16dp"
+    paddingEnd="16dp">
+    <TextView
+        id="@+id/res_0x7f0a1530_getindosubdivisionsnamebylocation_lambda_3"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        style="@style/2132017964"/>
+    <id.dana.drawable.view.RatingStarView
+        id="@+id/setKybResponse"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x9="@+id/res_0x7f0a1530_getindosubdivisionsnamebylocation_lambda_3"
+        NOT_FOUND_0xb="@+id/res_0x7f0a1548_newwalletpresenter_getinvestmentcardassets_1"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/res_0x7f0a1530_getindosubdivisionsnamebylocation_lambda_3"
+        NOT_FOUND_0x10="@+id/res_0x7f0a1530_getindosubdivisionsnamebylocation_lambda_3"
+        NOT_FOUND_0x11="26dp"
+        NOT_FOUND_0x12="24dp"/>
+    <TextView
+        id="@+id/res_0x7f0a1548_newwalletpresenter_getinvestmentcardassets_1"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        paddingStart="8dp"
+        paddingEnd="8dp"
+        NOT_FOUND_0x9="@+id/res_0x7f0a1530_getindosubdivisionsnamebylocation_lambda_3"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0x10="@+id/res_0x7f0a1530_getindosubdivisionsnamebylocation_lambda_3"/>
+    <View
+        background="#d1d1d1"
+        layout_width="match_parent"
+        layout_height="0.5dp"
+        layout_marginTop="13dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/res_0x7f0a1530_getindosubdivisionsnamebylocation_lambda_3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

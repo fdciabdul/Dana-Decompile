@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/clMerchantPreviewPhoto"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_margin="8dp"
+    NOT_FOUND_0xa="@dimen/MyBillsEntityDataFactory_res_0x7f07005f"
+    NOT_FOUND_0xb="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        orientation="horizontal"
+        layout_width="match_parent"
+        layout_height="match_parent">
+        <ImageView
+            id="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"
+            layout_width="match_parent"
+            layout_height="112dp"
+            scaleType="centerCrop"
+            adjustViewBounds="true"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"/>
+        <ImageView
+            id="@+id/ivBackground"
+            background="@drawable/bg_rectangle_alpha_black"
+            visibility="gone"
+            layout_width="match_parent"
+            layout_height="0dp"
+            scaleType="centerCrop"
+            adjustViewBounds="true"
+            NOT_FOUND_0xc="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"
+            NOT_FOUND_0xd="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"
+            NOT_FOUND_0xe="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"
+            NOT_FOUND_0xf="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"/>
+        <TextView
+            id="@+id/res_0x7f0a155d_paymentcardsview_1"
+            visibility="gone"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            text="@string/view_photos"
+            NOT_FOUND_0xc="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"
+            NOT_FOUND_0xd="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"
+            NOT_FOUND_0xe="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"
+            NOT_FOUND_0xf="@+id/res_0x7f0a0a13_audiomanager_onmodechangedlistener"
+            style="@style/2132017899"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

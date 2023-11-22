@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="center"
+    id="@+id/material_clock_face"
+    layout_width="256dp"
+    layout_height="256dp">
+    <com.google.android.material.timepicker.ClockHandView
+        id="@+id/material_clock_hand"
+        tag="skip"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="24dp"/>
+</merge>

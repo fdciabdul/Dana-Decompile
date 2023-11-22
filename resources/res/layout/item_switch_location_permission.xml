@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.myprofile.mepagerevamp.securitysettings.view.SwitchLocationPermissionView xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/res_0x7f0a1b60_com_alibaba_ariver_engine_api_extopt_8"
+    layout_width="match_parent"
+    layout_height="wrap_content"/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        background="@drawable/square_skeleton"
+        layout_width="match_parent"
+        layout_height="18dp"/>
+    <View
+        background="@drawable/square_skeleton"
+        layout_width="match_parent"
+        layout_height="18dp"
+        layout_marginTop="6dp"/>
+    <View
+        background="@drawable/square_skeleton"
+        layout_width="match_parent"
+        layout_height="18dp"
+        layout_marginTop="6dp"/>
+</LinearLayout>

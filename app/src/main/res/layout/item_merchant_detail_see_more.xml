@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/roundToPowerOfTwo"
+    background="@android:color/white"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <id.dana.component.buttoncomponent.DanaButtonSecondaryView
+        id="@+id/shouldRecycleViewType_res_0x7f0a018f"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_marginBottom="12dp"
+        contentDescription="@string/btnViewMore"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@string/view_more_btn"
+        NOT_FOUND_0xe="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_card_send_money"
+    paddingBottom="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/res_0x7f0a1050_linkedtreemap_linkedtreemapiterator"
+        paddingLeft="16dp"
+        paddingTop="16dp"
+        paddingRight="16dp"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        overScrollMode="never"
+        NOT_FOUND_0xd="@+id/showMoreItem"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"/>
+    <id.dana.sendmoney_v2.landing.view.ShowMoreView
+        id="@+id/showMoreItem"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        contentDescription="@string/lblExpandX2X"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/res_0x7f0a1050_linkedtreemap_linkedtreemapiterator"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

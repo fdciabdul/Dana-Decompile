@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/2132017531">
+    <include
+        id="@+id/layoutToolbar"
+        NOT_FOUND_0x3="0"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x6="0"
+        layout="@layout/layout_toolbar"/>
+    <id.dana.familyaccount.view.statusinformation.StatusInformationView
+        id="@+id/viewFamilyStatusInformation"
+        visibility="visible"
+        NOT_FOUND_0x2="0"
+        NOT_FOUND_0x3="0"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="@+id/layoutToolbar"
+        style="@style/2132017531"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

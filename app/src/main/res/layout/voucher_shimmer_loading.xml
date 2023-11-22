@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center_horizontal"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginBottom="12dp">
+    <com.google.android.material.card.MaterialCardView
+        id="@+id/cv_loading_skeleton"
+        layout_width="0dp"
+        layout_height="157dp"
+        NOT_FOUND_0x6="@color/res_0x7f060353_networkuserentitydata_externalsyntheticlambda0"
+        NOT_FOUND_0x7="@dimen/2131166188"
+        NOT_FOUND_0x8="0dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            id="@+id/cl_pocket_voucher_card"
+            background="@drawable/bg_voucher_shimmer_loading"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="0"/>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

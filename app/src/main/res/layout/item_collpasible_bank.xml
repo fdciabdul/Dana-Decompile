@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textSize="12sp"
+    textColor="#108ee9"
+    id="@+id/tv_collapsible_bank"
+    background="?android:attr/selectableItemBackground"
+    paddingTop="16dp"
+    paddingBottom="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    text="@string/see_more_inbox"
+    layout_centerVertical="true"
+    fontFamily="@font/2131296266"
+    textAlignment="center"/>

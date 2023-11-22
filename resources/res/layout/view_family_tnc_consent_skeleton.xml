@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    padding="16dp"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <View
+        id="@+id/rectangleSectionOne"
+        background="@drawable/square_rounded_skeleton_4dp_grey20"
+        layout_width="match_parent"
+        layout_height="60dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"/>
+    <View
+        id="@+id/rectangleSectionTwo"
+        background="@drawable/square_rounded_skeleton_4dp_grey20"
+        layout_width="match_parent"
+        layout_height="240dp"
+        layout_marginTop="16dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/rectangleSectionOne"/>
+    <View
+        id="@+id/rectangleSectionThree"
+        background="@drawable/square_rounded_skeleton_4dp_grey20"
+        layout_width="match_parent"
+        layout_height="240dp"
+        layout_marginTop="16dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/rectangleSectionTwo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

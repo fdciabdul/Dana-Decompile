@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    background="#f5f5f5"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <ScrollView
+        id="@+id/sv_statement_feeds"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        fillViewport="true">
+        <RelativeLayout
+            id="@+id/rl_feeds_tab"
+            background="#108ee9"
+            clipToPadding="false"
+            layout_width="match_parent"
+            layout_height="wrap_content">
+            <include
+                id="@+id/SecurityGuardProfileProvider"
+                layout="@layout/layout_toolbar"/>
+            <id.dana.richview.statement.StatementChartView
+                id="@+id/SQLiteDatabaseCorruptException"
+                layout_width="match_parent"
+                layout_height="200dp"
+                layout_below="@+id/SecurityGuardProfileProvider"
+                NOT_FOUND_0x8="false"
+                NOT_FOUND_0x9="@color/2131100201"
+                NOT_FOUND_0xa="@color/2131100200"
+                NOT_FOUND_0xb="@color/getAuthRequestContext_res_0x7f060068"
+                NOT_FOUND_0xc="@color/2131100492"
+                NOT_FOUND_0xd="0"
+                NOT_FOUND_0xe="0"
+                NOT_FOUND_0xf="0"
+                NOT_FOUND_0x10="0"
+                NOT_FOUND_0x11="true"/>
+            <include
+                id="@+id/layout_statement_download"
+                layout_width="match_parent"
+                layout_height="wrap_content"
+                layout_below="@+id/SQLiteDatabaseCorruptException"
+                layout="@layout/layout_statement_download_summary"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

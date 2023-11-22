@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#f5f5f5"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/res_0x7f0a110a_daggermerchantdetailreviewcomponent_merchantdetailreviewcomponentimpl_merchantinforepositoryprovider"
+        paddingBottom="40dp"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        overScrollMode="never"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"/>
+    <include
+        id="@+id/FamilyDashboardPresenter_Factory_res_0x7f0a0376"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        layout="@layout/view_error_merchant_detail"/>
+    <include
+        visibility="gone"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        layout="@layout/view_back_to_top"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

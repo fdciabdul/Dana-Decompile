@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <ImageView
+        id="@+id/SendMoneyHomePresenter"
+        layout_width="59dp"
+        layout_height="32dp"
+        layout_marginLeft="12dp"
+        layout_marginRight="12dp"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

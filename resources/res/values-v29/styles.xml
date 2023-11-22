@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132017168" parent="@style/2132017828">
+        <item name="android:fontFamily">@font/2131296265</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="2130968955">@color/colorAccent</item>
+        <item name="2130968968">@color/2131099816</item>
+        <item name="2130968969">@color/2131099816</item>
+        <item name="2130969685">@android:color/white</item>
+        <item name="2130969688">@color/2131099753</item>
+        <item name="2130969694">8dp</item>
+        <item name="2130969697">@font/2131296266</item>
+        <item name="2130969974">@color/2131100304</item>
+        <item name="2130970172">@style/2132017742</item>
+        <item name="2130970173">@style/2132017743</item>
+        <item name="2130970174">@style/2132017744</item>
+        <item name="2130970175">@style/2132017745</item>
+        <item name="2130970176">@style/2132017747</item>
+        <item name="2130970177">@style/2132017748</item>
+        <item name="2130970178">@style/2132017749</item>
+        <item name="2130970179">@style/2132017750</item>
+        <item name="2130970180">@style/2132017751</item>
+        <item name="2130970181">@style/2132017752</item>
+        <item name="2130970187">@style/2132017753</item>
+        <item name="2130970192">@style/2132017754</item>
+        <item name="2130970193">@style/2132017755</item>
+    </style>
+    <style name="2132017175" parent="@style/2132017785">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="2130968969">@color/2131099733</item>
+        <item name="2130969685">@android:color/white</item>
+        <item name="2130969688">@color/2131099753</item>
+        <item name="2130969689">@android:color/tab_indicator_text</item>
+        <item name="2130969691">@android:color/black</item>
+        <item name="2130969694">8dp</item>
+        <item name="2130969697">@font/2131296266</item>
+        <item name="2130970365">false</item>
+        <item name="2130970374">true</item>
+    </style>
+</resources>

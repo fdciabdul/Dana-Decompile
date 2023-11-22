@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    orientation="vertical"
+    paddingLeft="24dp"
+    paddingRight="24dp"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    paddingHorizontal="@dimen/2131165271">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/res_0x7f0a09ae_contactscontract_datacolumnswithjoins"
+        layout_width="160dp"
+        layout_height="160dp"
+        contentDescription="@string/imgNotFound"/>
+    <TextView
+        id="@+id/tvErrorTitleGlobalSearch"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        contentDescription="@string/lblNotFoundTitle"
+        textAlignment="center"
+        style="@style/2132017932"/>
+    <TextView
+        id="@+id/res_0x7f0a1459_getcashieraddon_lambda_2"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        contentDescription="@string/lblNotFoundDescription"
+        textAlignment="center"
+        style="@style/2132017414"/>
+    <id.dana.component.buttoncomponent.DanaButtonPrimaryView
+        layout_gravity="center"
+        id="@+id/btnTryAgainGlobalSearch"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        NOT_FOUND_0xd="@string/try_again"
+        NOT_FOUND_0xe="1"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="horizontal"
+    id="@+id/res_0x7f0a0d64_animatorkt_addlistener_2"
+    visibility="gone"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    weightSum="1">
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/SavingSummary"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        text="@string/sendmoney_summary_min_amount_warning"
+        layout_weight="1"
+        style="@style/2132017435"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_icon_warning"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x9="@drawable/ic_warning_16"/>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputLayout
+        id="@+id/tilEktp"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        hint="@string/ektp_number"
+        layout_alignParentTop="true"
+        layout_alignParentStart="true"
+        NOT_FOUND_0x17="0dp"
+        NOT_FOUND_0x18="2"
+        NOT_FOUND_0x19="true"
+        NOT_FOUND_0x1b="true"
+        NOT_FOUND_0x1c="@string/ektp_number"
+        style="@style/2132018047">
+        <com.google.android.material.textfield.TextInputEditText
+            id="@+id/etEktp"
+            background="@drawable/selector_et_yellow"
+            paddingTop="8dp"
+            focusableInTouchMode="true"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            maxLines="1"
+            includeFontPadding="false"
+            android:maxLength="16"
+            digits="1234567890"
+            inputType="number"
+            imeOptions="actionNext"
+            contentDescription="@string/txt_ktp"
+            textCursorDrawable="@drawable/cursor_tangerine"
+            paddingStart="0dp"
+            paddingEnd="0dp"
+            NOT_FOUND_0x14="@dimen/res_0x7f07011f_kclassimpl_data_declarednonstaticmembers_2"
+            NOT_FOUND_0x15="@dimen/2131165468"
+            NOT_FOUND_0x16="1"
+            NOT_FOUND_0x1a="@null"
+            style="@style/2132017413"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

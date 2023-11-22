@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    paddingBottom="8dp"
+    style="@style/2132017490">
+    <FrameLayout
+        layout_gravity="center"
+        id="@+id/card_view_feed"
+        background="@drawable/home_component_border"
+        style="@style/2132017490">
+        <RelativeLayout
+            id="@+id/news_wrapper"
+            padding="12dp"
+            style="@style/2132017490">
+            <ImageView
+                id="@+id/news_icon"
+                layout_width="56dp"
+                layout_height="56dp"
+                src="@drawable/res_0x7f080891_networkuserentitydata_externalsyntheticlambda7"
+                scaleType="centerCrop"
+                layout_alignParentLeft="true"
+                layout_centerVertical="true"/>
+            <ImageView
+                id="@+id/news_arrow"
+                layout_width="20dp"
+                layout_height="20dp"
+                scaleType="centerCrop"
+                layout_alignParentRight="true"
+                layout_centerInParent="true"
+                NOT_FOUND_0x1b="@drawable/ic_news"/>
+            <TextView
+                textSize="16sp"
+                textStyle="bold"
+                textColor="#4a4a4a"
+                ellipsize="end"
+                id="@+id/news_title"
+                paddingTop="3dp"
+                layout_marginLeft="8dp"
+                layout_marginRight="8dp"
+                text="Nicholaz baru saja membeli tiket di TIX.ID! "
+                maxLines="1"
+                layout_toLeftOf="@+id/news_arrow"
+                layout_toRightOf="@+id/news_icon"
+                fontFamily="@font/2131296266"
+                style="@style/2132018187"/>
+            <TextView
+                textSize="14sp"
+                textStyle="normal"
+                textColor="#4a4a4a"
+                ellipsize="end"
+                id="@+id/news_content"
+                paddingTop="3dp"
+                layout_marginLeft="8dp"
+                layout_marginRight="8dp"
+                text="Nicholaz baru saja membeli tiket di TIX.ID! "
+                maxLines="1"
+                layout_toLeftOf="@+id/news_arrow"
+                layout_toRightOf="@+id/news_icon"
+                layout_below="@+id/news_title"
+                fontFamily="@font/2131296265"
+                style="@style/2132018187"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

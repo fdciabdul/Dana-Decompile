@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    orientation="vertical"
+    id="@+id/llErrorStateBill"
+    background="#ffffff"
+    paddingLeft="16dp"
+    paddingRight="16dp"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    NOT_FOUND_0xb="0"
+    NOT_FOUND_0xc="@+id/res_0x7f0a135c_basesocialfeedcontract_presenter">
+    <ImageView
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        src="@drawable/ic_error_my_bills"/>
+    <TextView
+        gravity="center"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/mybills_error_title"
+        style="@style/2132017932"/>
+    <TextView
+        gravity="center"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        text="@string/mybills_error_message"
+        style="@style/2132017407"/>
+    <id.dana.component.buttoncomponent.DanaButtonPrimaryView
+        id="@+id/btnTryAgain"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        NOT_FOUND_0xd="@string/try_again"
+        NOT_FOUND_0xe="1"/>
+</LinearLayout>

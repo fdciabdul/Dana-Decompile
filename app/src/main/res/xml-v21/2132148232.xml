@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@+id/cs_initial"/>
+    <ConstraintSet android:id="@+id/cs_expand_to_search">
+        <Constraint
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tab_icon"
+            android:layout_width="56dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="8dp"
+            android:translationZ="2dp"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toTopOf="0"/>
+        <Constraint
+            android:id="@+id/wsv_investment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="@+id/tab_icon"/>
+        <Constraint
+            android:id="@+id/btn_cancel"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textAllCaps="true"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/wsv_investment"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toEndOf="@+id/wsv_investment"
+            app:layout_constraintTop_toTopOf="@+id/wsv_investment"/>
+        <Constraint
+            android:id="@+id/ptr_card_investment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="0"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toBottomOf="0"/>
+    </ConstraintSet>
+    <Transition
+        android:id="@+id/expand_to_search"
+        app:constraintSetEnd="@+id/cs_expand_to_search"
+        app:constraintSetStart="@+id/cs_initial"
+        app:duration="150"/>
+    <Transition
+        android:id="@+id/collapse_from_search"
+        app:constraintSetEnd="@+id/cs_initial"
+        app:constraintSetStart="@+id/cs_expand_to_search"
+        app:duration="250"/>
+</MotionScene>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/fl_container"
+    background="#ffffff"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    NOT_FOUND_0xf="@string/bottom_sheet_behavior">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/res_0x7f0a041b_fontscontractcompat_fontrequestcallback"
+        paddingLeft="16dp"
+        paddingTop="26dp"
+        paddingRight="16dp"
+        paddingBottom="16dp"
+        layout_width="match_parent"
+        layout_height="wrap_content">
+        <TextView
+            id="@+id/tvShareReceiptTitle"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            text="@string/share_transaction_receipt"
+            drawablePadding="8dp"
+            NOT_FOUND_0xb="@drawable/ic_split_bill_filled_blue"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="0"
+            NOT_FOUND_0x13="0"
+            style="@style/2132017916"/>
+        <ScrollView
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            layout_marginTop="12dp"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="0"
+            NOT_FOUND_0x12="@+id/tvShareReceiptTitle">
+            <LinearLayout
+                layout_width="match_parent"
+                layout_height="wrap_content">
+                <id.dana.richview.socialshare.SocialImageShareView
+                    id="@+id/getUUIDFromString"
+                    background="@drawable/bg_rounded_8dp_grey10"
+                    NOT_FOUND_0xc="false"
+                    NOT_FOUND_0xd="48dp"
+                    NOT_FOUND_0xe="48dp"
+                    style="@style/2132017490"/>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

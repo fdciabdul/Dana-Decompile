@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="horizontal"
+    id="@+id/material_clock_display"
+    background="?attr/2130968975"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    layout_marginTop="8dp"
+    baselineAligned="false"
+    layoutDirection="ltr"
+    NOT_FOUND_0x8="0"
+    NOT_FOUND_0x9="0"
+    NOT_FOUND_0xa="0">
+    <include
+        id="@+id/material_hour_tv"
+        layout="@layout/material_time_chip"/>
+    <include layout="@layout/material_clock_display_divider"/>
+    <include
+        id="@+id/material_minute_tv"
+        layout="@layout/material_time_chip"/>
+</LinearLayout>

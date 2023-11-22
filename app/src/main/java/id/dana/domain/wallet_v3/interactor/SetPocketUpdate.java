@@ -1,0 +1,27 @@
+package id.dana.domain.wallet_v3.interactor;
+
+import id.dana.domain.core.usecase.BaseUseCase;
+import id.dana.domain.wallet_v3.model.PocketUpdateModel;
+import id.dana.domain.wallet_v3.repository.WalletV3Repository;
+import io.reactivex.Observable;
+import javax.inject.Inject;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+
+@Metadata(d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\u0018\u00002\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00030\u0001B\u0011\b\u0007\u0012\u0006\u0010\t\u001a\u00020\b¢\u0006\u0004\b\u000b\u0010\fJ\u001d\u0010\u0006\u001a\b\u0012\u0004\u0012\u00020\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u0003H\u0016¢\u0006\u0004\b\u0006\u0010\u0007R\u0014\u0010\t\u001a\u00020\b8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\t\u0010\n"}, d2 = {"Lid/dana/domain/wallet_v3/interactor/SetPocketUpdate;", "Lid/dana/domain/core/usecase/BaseUseCase;", "Lid/dana/domain/wallet_v3/model/PocketUpdateModel;", "", "params", "Lio/reactivex/Observable;", "buildUseCase", "(Ljava/lang/String;)Lio/reactivex/Observable;", "Lid/dana/domain/wallet_v3/repository/WalletV3Repository;", "walletV3Repository", "Lid/dana/domain/wallet_v3/repository/WalletV3Repository;", "<init>", "(Lid/dana/domain/wallet_v3/repository/WalletV3Repository;)V"}, k = 1, mv = {1, 6, 0}, xi = 48)
+/* loaded from: classes4.dex */
+public final class SetPocketUpdate extends BaseUseCase<PocketUpdateModel, String> {
+    private final WalletV3Repository walletV3Repository;
+
+    @Inject
+    public SetPocketUpdate(WalletV3Repository walletV3Repository) {
+        Intrinsics.checkNotNullParameter(walletV3Repository, "");
+        this.walletV3Repository = walletV3Repository;
+    }
+
+    @Override // id.dana.domain.core.usecase.BaseUseCase
+    public final Observable<PocketUpdateModel> buildUseCase(String params) {
+        Intrinsics.checkNotNullParameter(params, "");
+        return this.walletV3Repository.updateUserPocketAssets(params);
+    }
+}

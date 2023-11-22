@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#ffffff"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        background="@drawable/bg_rounded_8dp_border_grey20"
+        paddingLeft="12dp"
+        paddingTop="8dp"
+        paddingRight="12dp"
+        paddingBottom="8dp"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="16dp"
+        layout_marginHorizontal="16dp"
+        paddingHorizontal="12dp"
+        paddingVertical="8dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0">
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/ivToolTip"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            NOT_FOUND_0x13="0"
+            NOT_FOUND_0x14="0"
+            NOT_FOUND_0x15="@drawable/ic_info_filled_16_grey50"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            id="@+id/getArrayElementList"
+            layout_width="0dp"
+            layout_height="wrap_content"
+            includeFontPadding="false"
+            layout_marginStart="8dp"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="0"
+            NOT_FOUND_0x12="@+id/ivToolTip"
+            NOT_FOUND_0x14="@+id/ivToolTip"
+            style="@style/2132017440"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

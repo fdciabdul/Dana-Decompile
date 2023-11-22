@@ -1,0 +1,105 @@
+package com.alibaba.griver.h5.jsapi;
+
+import android.text.TextUtils;
+import com.alibaba.ariver.app.api.Page;
+import com.alibaba.ariver.app.api.ui.titlebar.TitleBar;
+import com.alibaba.ariver.engine.api.bridge.extension.BridgeCallback;
+import com.alibaba.ariver.engine.api.bridge.extension.BridgeResponse;
+import com.alibaba.ariver.engine.api.bridge.extension.annotation.BindingApiContext;
+import com.alibaba.ariver.engine.api.bridge.extension.annotation.BindingCallback;
+import com.alibaba.ariver.engine.api.bridge.extension.annotation.BindingNode;
+import com.alibaba.ariver.engine.api.bridge.extension.annotation.BindingParam;
+import com.alibaba.ariver.engine.api.bridge.model.ApiContext;
+import com.alibaba.ariver.kernel.api.annotation.ActionFilter;
+import com.alibaba.ariver.kernel.api.annotation.ThreadType;
+import com.alibaba.ariver.kernel.api.extension.bridge.SimpleBridgeExtension;
+import com.alibaba.ariver.kernel.common.service.executor.ExecutorType;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.griver.api.common.config.GriverConfigConstants;
+import com.alibaba.griver.api.ui.titlebar.GVTitleBar;
+import com.alibaba.griver.base.common.logger.GriverLogger;
+import com.alibaba.griver.base.common.utils.AppInfoUtils;
+import com.iap.ac.android.common.container.provider.ui.ContainerUIProvider;
+
+/* loaded from: classes2.dex */
+public class TitleBarBridgeExtension extends SimpleBridgeExtension {
+    @ThreadType(ExecutorType.UI)
+    @ActionFilter
+    public void setBackButton(@BindingApiContext(required = true) ApiContext apiContext, @BindingNode(Page.class) Page page, @BindingParam(name = {"action"}) String str, @BindingCallback BridgeCallback bridgeCallback) {
+        if (page == null || page.getPageContext() == null) {
+            bridgeCallback.sendBridgeResponse(BridgeResponse.UNKNOWN_ERROR);
+        } else if (page.isUseForEmbed() || AppInfoUtils.isEmbeddedApp(page)) {
+            bridgeCallback.sendBridgeResponse(BridgeResponse.newError(4, "cannot operate TitleBar in EmbedView!"));
+        } else {
+            TitleBar titleBar = page.getPageContext().getTitleBar();
+            GVTitleBar gVTitleBar = titleBar instanceof GVTitleBar ? (GVTitleBar) titleBar : null;
+            if (gVTitleBar == null) {
+                GriverLogger.w("TitleBarBridgeExtension", "GVTitleBar should be implemented");
+                bridgeCallback.sendBridgeResponse(BridgeResponse.UNKNOWN_ERROR);
+                return;
+            }
+            if (TextUtils.equals(str, GriverConfigConstants.KEY_PRESET_APP_CONFIG_DISABLE)) {
+                gVTitleBar.enableBackButton(false);
+            } else if (TextUtils.equals(str, "enable")) {
+                gVTitleBar.enableBackButton(true);
+            } else if (TextUtils.equals(str, "hide")) {
+                gVTitleBar.showBackButton(false);
+            } else if (TextUtils.equals(str, ContainerUIProvider.KEY_SHOW)) {
+                gVTitleBar.showBackButton(true);
+            }
+            bridgeCallback.sendBridgeResponse(BridgeResponse.SUCCESS);
+        }
+    }
+
+    @ThreadType(ExecutorType.UI)
+    @ActionFilter
+    public void setCloseButton(@BindingApiContext(required = true) ApiContext apiContext, @BindingNode(Page.class) Page page, @BindingParam(name = {"action"}) String str, @BindingCallback BridgeCallback bridgeCallback) {
+        if (page == null || page.getPageContext() == null) {
+            bridgeCallback.sendBridgeResponse(BridgeResponse.UNKNOWN_ERROR);
+        } else if (page.isUseForEmbed() || AppInfoUtils.isEmbeddedApp(page)) {
+            bridgeCallback.sendBridgeResponse(BridgeResponse.newError(4, "cannot operate TitleBar in EmbedView!"));
+        } else {
+            TitleBar titleBar = page.getPageContext().getTitleBar();
+            GVTitleBar gVTitleBar = titleBar instanceof GVTitleBar ? (GVTitleBar) titleBar : null;
+            if (gVTitleBar == null) {
+                GriverLogger.w("TitleBarBridgeExtension", "GVTitleBar should be implemented");
+                bridgeCallback.sendBridgeResponse(BridgeResponse.UNKNOWN_ERROR);
+                return;
+            }
+            if (TextUtils.equals(str, GriverConfigConstants.KEY_PRESET_APP_CONFIG_DISABLE)) {
+                gVTitleBar.enableCloseButton(false);
+            } else if (TextUtils.equals(str, "enable")) {
+                gVTitleBar.enableCloseButton(true);
+            } else if (TextUtils.equals(str, "hide")) {
+                gVTitleBar.showCloseButton(false);
+            } else if (TextUtils.equals(str, ContainerUIProvider.KEY_SHOW)) {
+                gVTitleBar.showCloseButton(true);
+            }
+            bridgeCallback.sendBridgeResponse(BridgeResponse.SUCCESS);
+        }
+    }
+
+    @ThreadType(ExecutorType.UI)
+    @ActionFilter
+    public void setToolbarMenu(@BindingParam(required = true, value = {"menus"}) JSONArray jSONArray, @BindingParam({"override"}) boolean z, @BindingParam({"reset"}) boolean z2, @BindingNode(Page.class) Page page, @BindingCallback BridgeCallback bridgeCallback) {
+        if (page != null && page.isUseForEmbed()) {
+            bridgeCallback.sendBridgeResponse(BridgeResponse.SUCCESS);
+        }
+        TitleBar a2 = a(page);
+        GVTitleBar gVTitleBar = a2 instanceof GVTitleBar ? (GVTitleBar) a2 : null;
+        if (gVTitleBar == null) {
+            GriverLogger.w("TitleBarBridgeExtension", "GVTitleBar should be implemented");
+            bridgeCallback.sendBridgeResponse(BridgeResponse.UNKNOWN_ERROR);
+            return;
+        }
+        gVTitleBar.setToolbarMenu(jSONArray, z, z2);
+        bridgeCallback.sendBridgeResponse(BridgeResponse.SUCCESS);
+    }
+
+    private TitleBar a(Page page) {
+        if (page == null || page.getPageContext() == null) {
+            return null;
+        }
+        return page.getPageContext().getTitleBar();
+    }
+}

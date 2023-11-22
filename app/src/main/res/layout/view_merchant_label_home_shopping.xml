@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    orientation="horizontal"
+    background="@drawable/bg_rounded_4dp_grey20"
+    padding="4dp"
+    layout_width="wrap_content"
+    layout_height="24dp"
+    layout_margin="4dp">
+    <ImageView
+        layout_gravity="center"
+        padding="0dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_margin="0dp"
+        NOT_FOUND_0xd="@drawable/ic_home_shopping_blue_filled"/>
+    <TextView
+        textColor="#108ee9"
+        layout_gravity="center"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_margin="1dp"
+        text="@string/merchant_label_order_online"
+        includeFontPadding="false"
+        textAllCaps="true"
+        layout_marginStart="4dp"
+        style="@style/2132017553"/>
+</LinearLayout>

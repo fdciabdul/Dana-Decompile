@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        id="@+id/back_progress"
+        background="@drawable/res_0x7f080578_networkuserentitydata_externalsyntheticlambda0"
+        layout_width="match_parent"
+        layout_height="3dp"/>
+    <View
+        id="@+id/front_progress"
+        background="@drawable/rounded_white_border"
+        visibility="invisible"
+        layout_width="match_parent"
+        layout_height="3dp"/>
+    <View
+        id="@+id/res_0x7f0a0e66_verifypinstatemanager_executeriskchallenge_2_1"
+        background="@drawable/rounded_white_border"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="3dp"/>
+</FrameLayout>

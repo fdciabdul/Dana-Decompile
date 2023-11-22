@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/acplugin_popup_bg"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <LinearLayout
+        gravity="center"
+        orientation="vertical"
+        id="@+id/inner_layout"
+        padding="10dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <ImageView
+            id="@+id/tip_image"
+            layout_width="40dp"
+            layout_height="40dp"/>
+        <TextView
+            textSize="14dp"
+            textColor="@android:color/white"
+            gravity="center"
+            id="@+id/tip_text"
+            visibility="gone"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            layout_marginTop="8dp"/>
+    </LinearLayout>
+</FrameLayout>

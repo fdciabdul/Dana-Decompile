@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.danapoly.ui.board.view.DanapolyPromptInfoView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/allowedTargets"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    NOT_FOUND_0x3="@drawable/ic_info_white_filled"
+    NOT_FOUND_0x4="@string/cards_prompt_info"/>

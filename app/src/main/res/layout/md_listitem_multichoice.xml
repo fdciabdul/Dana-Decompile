@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/2132017526">
+    <androidx.appcompat.widget.AppCompatCheckBox
+        id="@+id/md_control"
+        style="@style/2132017529"/>
+    <com.afollestad.materialdialogs.internal.rtl.RtlTextView
+        id="@+id/md_title"
+        style="@style/2132017528"/>
+</LinearLayout>

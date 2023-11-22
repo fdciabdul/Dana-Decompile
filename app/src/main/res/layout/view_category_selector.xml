@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#ffffff"
+    paddingBottom="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        id="@+id/tv_select_category"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        text="@string/select_category"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        style="@style/2132017908"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/res_0x7f0a1144_rxconvertkt_ascompletable_1"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xd="@+id/tv_select_category"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

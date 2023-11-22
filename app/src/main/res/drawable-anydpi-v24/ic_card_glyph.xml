@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="28dp"
+    android:width="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M14,0.5L14,0.5A13.5,13.5 0,0 1,27.5 14L27.5,14A13.5,13.5 0,0 1,14 27.5L14,27.5A13.5,13.5 0,0 1,0.5 14L0.5,14A13.5,13.5 0,0 1,14 0.5z"/>
+    <path
+        android:fillColor="@drawable/res_0x7f08006a_ic_card_glyph__0"
+        android:pathData="M20.667,7.333C21.587,7.333 22.333,8.079 22.333,9V19C22.333,19.92 21.587,20.666 20.667,20.666H7.333C6.413,20.666 5.667,19.92 5.667,19V9C5.667,8.079 6.413,7.333 7.333,7.333H20.667ZM13.167,16.5H9C8.54,16.5 8.167,16.873 8.167,17.333C8.167,17.76 8.488,18.113 8.903,18.161L9,18.166H13.167C13.627,18.166 14,17.793 14,17.333C14,16.873 13.627,16.5 13.167,16.5ZM21.5,10.666H6.5V14H21.5V10.666Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M14,0.5L14,0.5A13.5,13.5 0,0 1,27.5 14L27.5,14A13.5,13.5 0,0 1,14 27.5L14,27.5A13.5,13.5 0,0 1,0.5 14L0.5,14A13.5,13.5 0,0 1,14 0.5z"
+        android:strokeColor="#e3e3e3"
+        android:strokeWidth="1"/>
+</vector>

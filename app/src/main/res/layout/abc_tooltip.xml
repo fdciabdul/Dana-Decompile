@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <TextView
+        textAppearance="@style/2132017700"
+        textColor="?attr/2130970267"
+        ellipsize="end"
+        id="@+id/message"
+        background="?attr/2130970268"
+        paddingLeft="16dp"
+        paddingTop="6.5dp"
+        paddingRight="16dp"
+        paddingBottom="6.5dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_margin="8dp"
+        maxWidth="256dp"
+        maxLines="3"
+        paddingStart="16dp"
+        paddingEnd="16dp"/>
+</LinearLayout>

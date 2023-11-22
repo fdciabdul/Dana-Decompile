@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.srain.cube.views.ptr.PtrClassicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+    id="@+id/ptr_frame_layout"
+    clipToPadding="false"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    NOT_FOUND_0x4="300"
+    NOT_FOUND_0x5="300"
+    NOT_FOUND_0x6="true"
+    NOT_FOUND_0x7="false"
+    NOT_FOUND_0x8="1.2"
+    NOT_FOUND_0x9="1.7">
+    <FrameLayout
+        id="@+id/fl_container"
+        layout_width="match_parent"
+        layout_height="match_parent"/>
+</in.srain.cube.views.ptr.PtrClassicFrameLayout>

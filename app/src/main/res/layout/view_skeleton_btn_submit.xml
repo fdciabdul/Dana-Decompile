@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/vw_skleton_left"
+    background="@drawable/square_rounded_skeleton"
+    paddingTop="10dp"
+    paddingBottom="10dp"
+    style="@style/2132017490">
+    <TextView
+        textColor="#ffffff"
+        textAllCaps="true"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        style="@style/2132018187"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

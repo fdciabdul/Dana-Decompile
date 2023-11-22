@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/ll_item_auto_complete"
+    layout_marginTop="16dp"
+    style="@style/2132017490">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivRecentSearch"
+        layout_width="28dp"
+        layout_height="28dp"
+        contentDescription="@string/iconClock"
+        NOT_FOUND_0xd="@drawable/ic_recent_search"/>
+    <TextView
+        textColor="#313131"
+        ellipsize="end"
+        id="@+id/PolystarContent"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        maxLines="1"
+        layout_centerVertical="true"
+        contentDescription="@string/btnHistory"
+        layout_marginStart="12dp"
+        layout_marginEnd="32dp"
+        layout_toEndOf="@+id/ivRecentSearch"
+        style="@style/2132017407"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/isValidRowNumber"
+        layout_width="28dp"
+        layout_height="28dp"
+        layout_centerVertical="true"
+        contentDescription="@string/btnX"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0xd="@drawable/MyBillsEntityDataFactory"/>
+</RelativeLayout>

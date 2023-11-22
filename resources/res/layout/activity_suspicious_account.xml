@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#052d4a"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <id.dana.core.ui.richview.StoryProgressBar
+        id="@+id/spbSuspiciousAccount"
+        layout_width="match_parent"
+        layout_height="8dp"
+        layout_marginLeft="8dp"
+        layout_marginTop="16dp"
+        layout_marginRight="8dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"/>
+    <ImageView
+        id="@+id/NewMerchantCategoryAdapter_res_0x7f0a0996"
+        layout_width="20dp"
+        layout_height="20dp"
+        layout_marginTop="10dp"
+        src="@drawable/ic_dana_white"
+        layout_marginStart="10dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/spbSuspiciousAccount"/>
+    <TextView
+        textColor="#ffffff"
+        id="@+id/tvSuspiciousTitle"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="Informasi Penipuan Online"
+        layout_marginStart="10dp"
+        NOT_FOUND_0xf="@+id/NewMerchantCategoryAdapter_res_0x7f0a0996"
+        NOT_FOUND_0x12="@+id/NewMerchantCategoryAdapter_res_0x7f0a0996"
+        style="@style/2132017902"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivClose"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="10dp"
+        contentDescription="@string/btn_close_input_amount"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x11="@+id/spbSuspiciousAccount"
+        NOT_FOUND_0x13="@drawable/MyBillsEntityDataFactory"/>
+    <androidx.viewpager2.widget.ViewPager2
+        id="@+id/res_0x7f0a1bbe_spansuppressionstrategy_1"
+        layout_width="match_parent"
+        layout_height="0dp"
+        layout_marginTop="10dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/tvSuspiciousTitle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

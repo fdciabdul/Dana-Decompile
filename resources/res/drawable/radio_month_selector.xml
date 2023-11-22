@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_checked="false"
+        drawable="@drawable/radio_month_normal"/>
+    <item
+        state_checked="true"
+        drawable="@drawable/radio_month_selected"/>
+</selector>

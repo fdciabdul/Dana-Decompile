@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.richview.KybCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto"
+    id="@+id/cardview_kyb"
+    background="#fafafa"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    NOT_FOUND_0x4="@string/kyb_apply_body"
+    NOT_FOUND_0x5="@string/kyb_apply_header"
+    NOT_FOUND_0x6="@drawable/ic_arrow_right_me_page"
+    NOT_FOUND_0x7="@drawable/ic_kyb"/>

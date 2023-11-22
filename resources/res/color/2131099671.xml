@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        state_enabled="false"
+        color="?attr/2130968958"
+        NOT_FOUND_0x2="?android:attr/disabledAlpha"/>
+    <item color="?attr/2130968958"/>
+</selector>

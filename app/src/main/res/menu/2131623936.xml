@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        id="@+id/option_delete"
+        title="@string/option_delete_comment"
+        contentDescription="@string/btn_delete_comment"/>
+</menu>

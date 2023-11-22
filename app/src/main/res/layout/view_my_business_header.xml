@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <include
+        id="@+id/my_business_header_other"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x4="0"
+        layout="@layout/view_my_business_header_other"/>
+    <include
+        id="@+id/my_business_header_unregistered"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x4="0"
+        layout="@layout/view_my_business_header_unregistered"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    ellipsize="marquee"
+    id="@android:id/text1"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    singleLine="true"
+    textAlignment="inherit"
+    style="@style/2132017408"/>

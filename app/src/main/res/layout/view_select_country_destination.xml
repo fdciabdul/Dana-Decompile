@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/llSelectCountry"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <id.dana.sendmoney.ui.groupsend.recipient.view.SearchView
+        id="@+id/getSavingConfigPresenter_res_0x7f0a11d6"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_margin="16dp"
+        contentDescription="@string/txt_search_country"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/res_0x7f0a111d_access_getfeaturedbanklistadapter_p"
+        layout_width="match_parent"
+        layout_height="match_parent"/>
+    <id.dana.sendmoney.ui.common.EmptyStateView
+        id="@+id/emptyCountryList"
+        visibility="gone"
+        NOT_FOUND_0x7="@string/lbl_search_not_found_description"
+        NOT_FOUND_0x8="@string/desc_empty_search_country"
+        NOT_FOUND_0x9="@drawable/ic_illustration_search_empty"
+        NOT_FOUND_0xa="@string/title_empty_search_country"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@string/lbl_search_not_found_title"
+        style="@style/2132017531"/>
+</LinearLayout>

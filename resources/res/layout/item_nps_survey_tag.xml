@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/chip"
+    paddingTop="8dp"
+    paddingBottom="8dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    checked="false"
+    maxEms="15"
+    NOT_FOUND_0x7="@android:color/transparent"
+    style="@style/2132017458"/>

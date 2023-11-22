@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition
+        motion:autoTransition="4"
+        motion:constraintSetEnd="@+id/endBoard"
+        motion:constraintSetStart="@+id/startBoard"
+        motion:duration="1000"/>
+    <ConstraintSet android:id="@+id/startBoard"/>
+    <ConstraintSet android:id="@+id/endBoard">
+        <Constraint
+            android:id="@+id/res_0x7f0a00ed_networkuserentitydata_externalsyntheticlambda5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            motion:layout_constraintBottom_toBottomOf="0"
+            motion:layout_constraintEnd_toEndOf="0"
+            motion:layout_constraintStart_toStartOf="0"
+            motion:layout_constraintTop_toTopOf="0"/>
+        <Constraint
+            android:id="@+id/view_danapoly_board_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginHorizontal="16dp"
+            motion:layout_constraintStart_toStartOf="0"
+            motion:layout_constraintTop_toBottomOf="@+id/view_danapoly_point_info"/>
+        <Constraint
+            android:id="@+id/view_danapoly_point_info"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            motion:layout_constraintEnd_toStartOf="@+id/fl_check_in"
+            motion:layout_constraintStart_toStartOf="0"
+            motion:layout_constraintTop_toBottomOf="@+id/toolbar_danapoly"/>
+        <Constraint
+            android:id="@+id/res_0x7f0a00d6_kclassimpl_data_declarednonstaticmembers_2"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            motion:layout_constraintBottom_toBottomOf="0"
+            motion:layout_constraintEnd_toEndOf="0"
+            motion:layout_constraintStart_toStartOf="0"
+            motion:layout_constraintTop_toBottomOf="@+id/toolbar_danapoly"/>
+    </ConstraintSet>
+</MotionScene>

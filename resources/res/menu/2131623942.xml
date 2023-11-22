@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        id="@+id/option_retry"
+        title="@string/try_again"/>
+    <item
+        id="@+id/option_delete"
+        title="Delete Feed"/>
+</menu>

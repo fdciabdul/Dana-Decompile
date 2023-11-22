@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    visibility="gone"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <TextView
+        id="@+id/res_0x7f0a1305_networkuserentitydata_externalsyntheticlambda8"
+        text="100°"
+        style="@style/2132018233"/>
+    <com.yalantis.ucrop.view.widget.HorizontalProgressWheelView
+        id="@+id/res_0x7f0a10cd_networkuserentitydata_externalsyntheticlambda1"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_toLeftOf="@+id/res_0x7f0a1bf3_networkuserentitydata_externalsyntheticlambda3"
+        layout_toRightOf="@+id/res_0x7f0a1bf2_networkuserentitydata_externalsyntheticlambda4"
+        layout_below="@+id/res_0x7f0a1305_networkuserentitydata_externalsyntheticlambda8"
+        layout_toStartOf="@+id/res_0x7f0a1bf3_networkuserentitydata_externalsyntheticlambda3"
+        layout_toEndOf="@+id/res_0x7f0a1bf2_networkuserentitydata_externalsyntheticlambda4"/>
+    <FrameLayout
+        id="@+id/res_0x7f0a1bf2_networkuserentitydata_externalsyntheticlambda4"
+        layout_centerVertical="true"
+        style="@style/2132018235">
+        <ImageView
+            src="@drawable/ucrop_ic_reset"
+            style="@style/2132018231"/>
+    </FrameLayout>
+    <FrameLayout
+        id="@+id/res_0x7f0a1bf3_networkuserentitydata_externalsyntheticlambda3"
+        layout_alignParentRight="true"
+        layout_centerVertical="true"
+        layout_alignParentEnd="true"
+        style="@style/2132018235">
+        <ImageView
+            src="@drawable/ucrop_ic_angle"
+            style="@style/2132018231"/>
+    </FrameLayout>
+</RelativeLayout>

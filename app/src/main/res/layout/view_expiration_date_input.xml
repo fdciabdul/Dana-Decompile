@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    clipToPadding="false"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputLayout
+        id="@+id/tilExpirationDate"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        hint="@string/input_card_expire_date_title"
+        layout_alignParentTop="true"
+        layout_alignParentStart="true"
+        NOT_FOUND_0x15="0dp"
+        NOT_FOUND_0x16="true"
+        NOT_FOUND_0x18="true"
+        NOT_FOUND_0x19="true"
+        NOT_FOUND_0x1a="@string/input_card_expired_date_placeholder"
+        style="@style/2132018047">
+        <com.google.android.material.textfield.TextInputEditText
+            id="@+id/etExpireDate"
+            background="@drawable/selector_et_yellow"
+            paddingTop="8dp"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            maxLines="1"
+            includeFontPadding="false"
+            android:maxLength="4"
+            digits="0123456789"
+            inputType="number"
+            imeOptions="actionNext"
+            textCursorDrawable="@drawable/cursor_yellow_50"
+            paddingStart="0dp"
+            paddingEnd="0dp"
+            NOT_FOUND_0x12="@dimen/res_0x7f07011f_kclassimpl_data_declarednonstaticmembers_2"
+            NOT_FOUND_0x13="@dimen/2131165468"
+            NOT_FOUND_0x14="1"
+            NOT_FOUND_0x17="@null"
+            style="@style/2132017413"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

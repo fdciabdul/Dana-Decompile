@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="24dp"
+    paddingBottom="24dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    paddingVertical="24dp">
+    <ProgressBar
+        id="@+id/res_0x7f0a0f9b_promocategorypresenter_1"
+        layout_width="32dp"
+        layout_height="32dp"
+        indeterminate="true"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

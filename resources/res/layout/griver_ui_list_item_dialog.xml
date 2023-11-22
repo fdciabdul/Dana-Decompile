@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.alibaba.griver.ui.ant.text.AUIconView
+        id="@+id/item_icon"
+        visibility="gone"
+        layout_width="24dp"
+        layout_height="24dp"
+        layout_marginRight="12dp"
+        NOT_FOUND_0xe="#797979"
+        NOT_FOUND_0xf="@dimen/2131165506"/>
+    <com.alibaba.griver.ui.ant.text.AUTextView
+        textSize="16dp"
+        textColor="#333333"
+        ellipsize="end"
+        gravity="left"
+        id="@+id/item_name"
+        clickable="false"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        maxLines="1"
+        layout_toRightOf="@+id/item_icon"
+        layout_centerVertical="true"/>
+    <com.alibaba.griver.ui.ant.badge.AUBadgeView
+        id="@+id/item_badge"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginLeft="8dp"
+        layout_toRightOf="@+id/item_name"/>
+</merge>

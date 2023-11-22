@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/rounded_popup"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        textSize="16sp"
+        textColor="#000000"
+        gravity="center_horizontal"
+        id="@+id/getChildHorizontalGravity"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="28dp"
+        layout_marginRight="16dp"
+        lineSpacingExtra="4sp"
+        fontFamily="@font/2131296266"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x14="0"/>
+    <id.dana.richview.HelpListView
+        id="@+id/enableMergePathsForKitKatAndAbove"
+        paddingTop="4dp"
+        paddingBottom="4dp"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xe="@string/bottom_on_boarding_viewpager_dimens_ratio"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/getChildHorizontalGravity"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

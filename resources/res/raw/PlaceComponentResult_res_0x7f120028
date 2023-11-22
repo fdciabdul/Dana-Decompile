@@ -1,0 +1,11 @@
+{
+    "requestId": "A69784A8-10E1-4A17-969C-A3540B17A028",
+    "fundOrderId": "2023031410121410010100166797482639347",
+    "fundAmount": {
+      "amount": "100.000",
+      "currency": "Rp"
+    },
+    "checkoutUrl": "https://m.test01.dana.id/m/portal/cashier/checkout?bizNo=20230329111212800100166782703185365&timestamp=1680057245022&originSourcePlatform=MAIN_APP&mid=216620000000320187842&addOn=true&sign=FFBG5SWTvyIkchAuvlR0bgUN%2BI6gzdp9hGChT8U9NRB0wbAm7FbSqCtBiHqfRJAzYb%2F2JnzNfmn0Da8VW31DJinazxqm1kl1xd95jCT5Q5K8VyXPJZ%2FzohhMPMp2S1P5bM7UT7Tl1SS7cPSqkxLDA0D5AWzvneG4u7f0T9cGivpjxcLO8XsQQBm981U1lyjVMEWA8fmAGYyPhRqx6TEpTFyqEqZ27W4tQJ3%2B8302dSNFg2bXiSLYo%2FjusGrwYGMCuJowHNowPv83k6xvbdGVt%2BRzOFXHcvH1VaMtA2jyYcGMKiBBTI2FSBLyINJCQ0L0MEhOvniFnfqC%2B2qey1RmTA%3D%3D&forceToH5=false",
+    "orderTitle": "JOHN DOE・VISA | ****1281",
+    "success": true
+}

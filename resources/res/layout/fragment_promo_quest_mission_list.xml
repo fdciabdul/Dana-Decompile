@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/2132017531">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        id="@+id/res_0x7f0a1057_splitgroupsendentitydata_geteditmemberswitch_1"
+        style="@style/2132017531">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/res_0x7f0a116a_deletecolumn_entries"
+            style="@style/2132017531"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <include layout="@layout/layout_mission_list_warning"/>
+</RelativeLayout>

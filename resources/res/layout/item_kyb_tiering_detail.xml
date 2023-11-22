@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <View
+        id="@+id/bg_kyb_tiering_detail"
+        background="@drawable/bg_kyb_tiering_detail"
+        layout_width="36dp"
+        layout_height="36dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"/>
+    <ImageView
+        id="@+id/iv_kyb_tiering_detail"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x9="@+id/bg_kyb_tiering_detail"
+        NOT_FOUND_0xa="@+id/bg_kyb_tiering_detail"
+        NOT_FOUND_0xb="@+id/bg_kyb_tiering_detail"
+        NOT_FOUND_0xd="@+id/bg_kyb_tiering_detail"/>
+    <TextView
+        textSize="10sp"
+        textColor="#313131"
+        id="@+id/tv_kyb_tiering_detail"
+        layout_width="98dp"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        fontFamily="@font/sf_pro_regular"
+        textAlignment="center"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/bg_kyb_tiering_detail"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

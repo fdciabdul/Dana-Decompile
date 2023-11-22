@@ -1,0 +1,5 @@
+{
+  "redirectUrl":"https://h5-staging-emas.innov8.id",
+  "clientId":"2020060201899528117838",
+  "scopes":"QUERY_BALANCE,DEFAULT_BASIC_PROFILE,MINI_DANA,PUBLIC_ID,KYC_INFO,TRANSFER_MONEY,CASHIER"
+}

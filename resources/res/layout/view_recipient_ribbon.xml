@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="center_horizontal"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/bg"
+        layout_width="0dp"
+        layout_height="0dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@drawable/bg_rounded_4dp_solid_yellow_50"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tvTitle"
+        paddingTop="1dp"
+        paddingBottom="1dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/sendmoney_bank_promo_title_v2"
+        paddingStart="4dp"
+        paddingEnd="2dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="@+id/res_0x7f0a1406_r8_lambda_igamusprxlzpm8ju6atxwqx6eok"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        style="@style/2132017966"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/res_0x7f0a1406_r8_lambda_igamusprxlzpm8ju6atxwqx6eok"
+        paddingTop="1dp"
+        paddingBottom="1dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/sendmoney_bank_promo_desc_v2"
+        fontFamily="@font/open_sans_extrabold"
+        paddingStart="0dp"
+        paddingEnd="4dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="@+id/tvTitle"
+        NOT_FOUND_0xf="0"
+        style="@style/2132017966"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

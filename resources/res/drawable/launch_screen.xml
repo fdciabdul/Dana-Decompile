@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" opacity="opaque">
+    <item drawable="@color/2131099816"/>
+    <item>
+        <bitmap
+            gravity="center"
+            src="@drawable/logo_dana_typography"/>
+    </item>
+</layer-list>

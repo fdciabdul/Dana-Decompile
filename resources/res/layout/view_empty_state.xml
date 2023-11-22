@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    orientation="vertical"
+    style="@style/2132017531">
+    <ImageView
+        id="@+id/iv_image_emptystate"
+        NOT_FOUND_0xb="@drawable/dana_logo_blue_png"
+        style="@style/2132018187"/>
+    <TextView
+        textColor="#4a4a4a"
+        gravity="center"
+        id="@+id/tv_title_emptystate"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        style="@style/2132017932"/>
+    <TextView
+        textColor="#727272"
+        gravity="center"
+        id="@+id/tv_message_emptystate"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        style="@style/2132017413"/>
+    <Button
+        textColor="#ffffff"
+        id="@+id/btn_action_emptystate"
+        background="@drawable/btn_topup_blue"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        visibility="gone"
+        layout_marginTop="16dp"
+        style="@style/2132018187"/>
+</LinearLayout>

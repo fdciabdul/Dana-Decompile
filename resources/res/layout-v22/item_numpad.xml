@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/res_0x7f0a03af_r8_lambda_zxhmsujxtx99vyz6bmhxqp1wkc8"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="7dp"
+    NOT_FOUND_0xd="H,3:1">
+    <TextView
+        gravity="center"
+        id="@+id/tvNumber"
+        background="@drawable/bg_numpad_selector"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        maxLines="1"
+        paddingVertical="8dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        style="@style/2132017940"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/res_0x7f0a099a_networkuserentitydata_externalsyntheticlambda7"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        scaleType="center"
+        paddingVertical="8dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@drawable/ic_numpad_delete_grey"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

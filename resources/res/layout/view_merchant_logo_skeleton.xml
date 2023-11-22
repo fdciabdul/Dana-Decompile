@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/2132017490">
+    <View
+        gravity="center_horizontal"
+        id="@+id/vw_skeleton_icon"
+        background="@drawable/square_rounded_skeleton"
+        layout_width="60dp"
+        layout_height="60dp"
+        layout_centerInParent="true"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

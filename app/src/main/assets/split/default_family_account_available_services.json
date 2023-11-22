@@ -1,0 +1,14 @@
+[
+  {
+    "icon": "https://a.m.dana.id/resource/icons/family-account/service_payment.png",
+    "useCase": "PAYMENT",
+    "serviceName": "Payment",
+    "defaultAvailability": true
+  },
+  {
+    "icon": "https://a.m.dana.id/resource/icons/family-account/service_send_money.png",
+    "useCase": "SEND_MONEY",
+    "serviceName": "Send Money",
+    "defaultAvailability": true
+  }
+]

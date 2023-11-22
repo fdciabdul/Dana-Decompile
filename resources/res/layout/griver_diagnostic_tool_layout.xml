@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.griver.base.ui.widget.MovableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="@drawable/griver_core_tool_background"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <TextView
+        textSize="18dp"
+        textColor="#ffffffff"
+        gravity="center"
+        layout_gravity="center"
+        id="@+id/tv_diagnostic_tool"
+        clickable="true"
+        layout_width="wrap_content"
+        layout_height="32dp"
+        maxWidth="44dp"
+        text=""/>
+</com.alibaba.griver.base.ui.widget.MovableFrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="center"
+    background="@drawable/simple_toast_bg"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <LinearLayout
+        orientation="horizontal"
+        id="@+id/body"
+        padding="15dp"
+        layout_width="wrap_content"
+        layout_height="match_parent"
+        baselineAligned="false">
+        <ImageView
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            src="@drawable/icon_success"/>
+    </LinearLayout>
+</FrameLayout>

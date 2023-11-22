@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<badge xmlns:app="http://schemas.android.com/apk/res-auto"
+    NOT_FOUND_0x0="10dp"
+    NOT_FOUND_0x1="2"
+    NOT_FOUND_0x2="5dp"/>

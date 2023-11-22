@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        id="@+id/getGnBenefitEntityDanaProtection_res_0x7f0a1535"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        text="@string/title_recent_transactions"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        style="@style/2132017924"/>
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="horizontal"
+        id="@+id/WrappedDrawableState_res_0x7f0a111b"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        paddingEnd="12dp"
+        NOT_FOUND_0x8="androidx.recyclerview.widget.LinearLayoutManager"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/getGnBenefitEntityDanaProtection_res_0x7f0a1535"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

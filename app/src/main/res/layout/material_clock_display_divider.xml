@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="?attr/2130970178"
+    textSize="56dp"
+    textColor="?attr/2130968967"
+    gravity="center"
+    layout_width="24dp"
+    layout_height="wrap_content"
+    layout_marginTop="4dp"
+    text="@string/material_clock_display_divider"
+    maxEms="1"
+    includeFontPadding="false"
+    lineSpacingExtra="0dp"
+    importantForAccessibility="no"/>

@@ -1,0 +1,207 @@
+{
+  "setting_balance": {
+    "iconUrl": "",
+    "title": "Balance",
+    "subtitle": "BALANCE",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#108ee9",
+    "action": "redirect",
+    "enable": true,
+    "redirectUrl": "/m/portal/topup"
+  },
+  "setting_my_payment_cards": {
+    "iconUrl": "",
+    "title": "Saved Cards",
+    "subtitle": "PAYMENT_CARDS",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#108ee9",
+    "action": "redirect",
+    "enable": true,
+    "redirectUrl": "/m/portal/bankcardlist"
+  },
+  "setting_my_bills": {
+    "title": "My Bills",
+    "redirectUrl": "/i/dana-my-bills/lifestyle-subscription-list",
+    "action": "redirect",
+    "enable": true,
+    "iconUrl": "https://a.m.dana.id/resource/services/icon_bills_new.png"
+  },
+  "setting_aku": {
+    "enable": false
+  },
+  "setting_kyb": {
+    "iconUrl": "",
+    "title": "DANA Bisnis",
+    "action": "redirect",
+    "enable": true,
+    "redirectUrl": "/m/kyb?entryPoint=profile"
+  },
+  "setting_referral": {
+    "iconUrl": "",
+    "title": "Referral Code",
+    "action": "referral",
+    "subtitle": "Undang teman ke DANA & dapatkan Rp15.000",
+    "subtitleIsBelow": true,
+    "enable": true
+  },
+  "setting_promo_quest": {
+    "iconUrl": "",
+    "title": "Promo Quest",
+    "action": "promo_quest",
+    "enable": true
+  },
+  "setting_promo_code": {
+    "iconUrl": "",
+    "title": "Enter Promo Code",
+    "action": "promo_code",
+    "enable": true
+  },
+  "setting_help": {
+    "enable":false
+  },
+  "setting_tutorial": {
+    "name": "setting_tutorial",
+    "title": "Tutorial",
+    "redirectUrl": "/i/tutorial/index",
+    "action": "redirect",
+    "enable": true
+  },
+  "setting_tnc": {
+    "title": "Terms And Conditions",
+    "action": "redirect",
+    "enable": true,
+    "redirectUrl": "/m/standalone/tnc"
+  },
+  "setting_privacy_policy": {
+    "title": "Privacy Policy",
+    "redirectUrl": "/m/standalone/policy",
+    "action": "redirect",
+    "enable": true
+  },
+  "setting_more": {
+    "title": "Profile Settings",
+    "action": "collection",
+    "collection": "setting_collection_settings",
+    "enable": true
+  },
+  "setting_app_version": {
+    "title": "App Version",
+    "subtitle": "APP_VERSION",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#bfbfbf",
+    "action": "app_version",
+    "enable": true
+  },
+  "setting_logout": {
+    "name": "setting_logout",
+    "title": "Logout",
+    "action": "logout",
+    "enable": true
+  },
+  "setting_account_type": {
+    "title": "Account Type",
+    "subtitle": "ACCOUNT_TYPE",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#108ee9",
+    "action": "redirect",
+    "enable": true,
+    "redirectUrl": "/m/kyc/landingPage?entryPoint=profile"
+  },
+  "setting_change_mobile_number": {
+    "title": "Mobile Number",
+    "redirectUrl": "/m/portal/changePhoneNo",
+    "action": "redirect",
+    "enable": true,
+    "subtitle": "MOBILE_NUMBER",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#108ee9"
+  },
+  "setting_change_profile_picture": {
+    "title": "Profile Picture",
+    "action": "change_profile_picture",
+    "enable": true,
+    "subtitle": "AVATAR",
+    "subtitleType": "IMAGE"
+  },
+  "setting_change_name": {
+    "title": "Change Name",
+    "redirectUrl": "/m/portal/settings/editNickname",
+    "action": "redirect",
+    "enable": true,
+    "subtitle": "REAL_NAME",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#bfbfbf"
+  },
+  "setting_change_email": {
+    "title": "Email Address",
+    "redirectUrl": "/m/portal/emailSettings",
+    "action": "redirect",
+    "enable": true,
+    "subtitle": "EMAIL",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#108ee9"
+  },
+  "setting_change_pin": {
+    "name": "setting_change_pin",
+    "title": "Change PIN",
+    "redirectUrl": "/m/portal/security/resetPin?mode=modify",
+    "action": "redirect",
+    "enable": true
+  },
+  "setting_security_questions": {
+    "title": "Security Questions",
+    "subtitle": "SECURITY_QUESTIONS",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#108ee9",
+    "action": "setting_security_questions",
+    "enable": true,
+    "redirectUrl": ""
+  },
+  "setting_feedback": {
+    "enable": false
+  },
+  "setting_payment_authentication": {
+    "title": "PIN Verification",
+    "action": "payment_authentication",
+    "enable": true
+  },
+  "setting_share_feed": {
+    "title": "Share Feed to Friends",
+    "action": "setting_share_feed",
+    "enable": false
+  },
+  "setting_feed_sharing": {
+    "title": "Feed Sharing",
+    "action": "setting_feed_sharing",
+    "enable": true,
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#108ee9",
+    "subtitle": "FEED_SHARING",
+    "collection": "setting_collection_feed_sharing"
+  },
+  "setting_statement": {
+    "title": "Statement",
+    "action": "setting_statement",
+    "enable": false
+  },
+  "setting_goals": {
+    "iconUrl": "https://a.m.dana.id/resource/services/icon_goals_new.png",
+    "title": "DANA Goals",
+    "subtitle": "SAVINGS",
+    "subtitleType": "DYNAMIC_TEXT",
+    "subtitleColor": "#108ee9",
+    "action": "savings",
+    "enable": true,
+    "redirectUrl": "https://link.dana.id/goals"
+  },
+  "setting_restricted_contact": {
+    "title": "Restricted Contacts",
+    "action": "setting_restricted_contact",
+    "enable": true
+  },
+  "setting_autoroute": {
+    "title": "Auto Redirect Payment",
+    "action": "setting_autoroute",
+    "enable": true
+  }
+}

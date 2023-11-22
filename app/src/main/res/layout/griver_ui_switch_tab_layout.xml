@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aui="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <LinearLayout
+        gravity="center_horizontal"
+        orientation="horizontal"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        minHeight="40dp">
+        <LinearLayout
+            gravity="center_horizontal"
+            orientation="horizontal"
+            id="@+id/tabs"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            minHeight="40dp"
+            layout_weight="1"/>
+        <com.alibaba.griver.ui.ant.text.AUIconView
+            gravity="center"
+            id="@+id/addIcon"
+            background="#fff"
+            visibility="gone"
+            layout_width="48dp"
+            layout_height="match_parent"
+            layout_weight="0"
+            NOT_FOUND_0xc="@color/2131100025"
+            NOT_FOUND_0xd="@dimen/2131165509"
+            NOT_FOUND_0xe="@string/griver_iconfont_add"/>
+    </LinearLayout>
+    <View
+        id="@+id/bottomLine"
+        background="#eeeeee"
+        layout_width="match_parent"
+        layout_height="1px"
+        layout_alignParentBottom="true"/>
+    <com.alibaba.griver.ui.ant.AUImageView
+        id="@+id/tabLine"
+        background="@android:color/transparent"
+        layout_width="match_parent"
+        layout_height="2dp"
+        scaleType="matrix"
+        layout_alignParentBottom="true"
+        contentDescription="@null"/>
+</merge>

@@ -1,0 +1,23 @@
+{
+  "nearby_detail_reserve": {
+    "enable": false
+  },
+  "nearby_detail_pickup": {
+    "enable": false
+  },
+  "nearby_detail_call": {
+    "enable": true
+  },
+  "nearby_detail_direction": {
+    "enable": true
+  },
+  "nearby_detail_topup": {
+    "enable": true
+  },
+  "nearby_detail_home_shopping": {
+    "enable": false
+  },
+  "nearby_detail_share": {
+    "enable": true
+  }
+}

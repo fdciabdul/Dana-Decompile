@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="63dp"
+    android:width="63dp"
+    android:viewportWidth="63"
+    android:viewportHeight="63">
+    <path
+        android:fillColor="@drawable/res_0x7f0802e8_ic_ribbon_card_popup_bottom_left__0"
+        android:pathData="M2.574,6.052C1.523,3.425 3.458,0.567 6.288,0.567L58.567,0.567C60.776,0.567 62.567,2.358 62.567,4.567L62.567,58.754C62.567,60.963 60.776,62.754 58.567,62.754L6.288,62.754C3.458,62.754 1.523,59.896 2.574,57.268L12.223,33.146C12.605,32.192 12.605,31.128 12.223,30.175L2.574,6.052Z"/>
+    <group>
+        <clip-path android:pathData="M2.574,6.052C1.523,3.425 3.458,0.567 6.288,0.567L58.567,0.567C60.776,0.567 62.567,2.358 62.567,4.567L62.567,58.754C62.567,60.963 60.776,62.754 58.567,62.754L6.288,62.754C3.458,62.754 1.523,59.896 2.574,57.268L12.223,33.146C12.605,32.192 12.605,31.128 12.223,30.175L2.574,6.052Z"/>
+        <path
+            android:fillColor="#000000"
+            android:pathData="M62.567,35.928H38.18L50.374,49.341L62.567,62.754V35.928Z"
+            android:fillAlpha="0.4"/>
+    </group>
+</vector>

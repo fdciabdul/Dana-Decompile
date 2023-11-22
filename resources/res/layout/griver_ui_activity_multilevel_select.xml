@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.griver.ui.ant.layout.AULinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/container"
+    background="#60000000"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <com.alibaba.griver.ui.ant.AUImageView
+        layout_width="match_parent"
+        layout_height="0dp"
+        layout_weight="1"/>
+    <com.alibaba.griver.ui.ant.AUTitleBar
+        id="@+id/title_bar"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xa="@string/griver_iconfont_cancel"/>
+    <com.alibaba.griver.ui.ant.AUSegment
+        id="@+id/segment"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x9="true"/>
+    <com.alibaba.griver.ui.ant.listview.AUListView
+        id="@+id/listview"
+        background="#ffffff"
+        layout_width="match_parent"
+        layout_height="270dp"
+        cacheColorHint="@null"
+        divider="@null"
+        dividerHeight="0dp"/>
+</com.alibaba.griver.ui.ant.layout.AULinearLayout>

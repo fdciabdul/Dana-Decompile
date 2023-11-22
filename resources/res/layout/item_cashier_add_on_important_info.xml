@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/ivImportantInfo"
+        layout_width="20dp"
+        layout_height="20dp"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        ellipsize="end"
+        id="@+id/tvImportantInfo"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        maxLines="2"
+        layout_marginStart="14dp"
+        NOT_FOUND_0x8="@+id/ivImportantInfo"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/ivImportantInfo"
+        NOT_FOUND_0xc="@+id/ivImportantInfo"
+        style="@style/2132017406"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

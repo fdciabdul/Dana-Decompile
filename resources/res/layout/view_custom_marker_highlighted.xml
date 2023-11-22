@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="220dp"
+    layout_height="48dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_custom_marker_icon_highlight"
+        background="@drawable/ic_highlight_merchant_normal"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tv_custom_marker_highlight"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        maxLines="2"
+        layout_marginStart="12dp"
+        layout_marginEnd="32dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="@+id/iv_custom_marker_highlight_loadable"
+        NOT_FOUND_0xd="@+id/iv_custom_marker_icon_highlight"
+        NOT_FOUND_0xe="0"
+        style="@style/2132017907"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/iv_custom_marker_highlight_loadable"
+        background="@drawable/bg_circle_white"
+        padding="3dp"
+        layout_width="40dp"
+        layout_height="40dp"
+        layout_marginTop="7dp"
+        layout_marginBottom="4dp"
+        layout_marginStart="4dp"
+        layout_marginEnd="7dp"
+        NOT_FOUND_0xa="@+id/iv_custom_marker_icon_highlight"
+        NOT_FOUND_0xb="@+id/iv_custom_marker_icon_highlight"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

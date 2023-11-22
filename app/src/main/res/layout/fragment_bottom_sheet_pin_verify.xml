@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="top"
+    id="@+id/container"
+    background="@drawable/bg_rounded_bottom_sheet"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    minHeight="330dp"
+    NOT_FOUND_0x9="@string/bottom_sheet_behavior">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        orientation="vertical"
+        fitsSystemWindows="true"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_marginTop="12dp">
+        <include
+            id="@+id/toolbar"
+            layout="@layout/view_toolbar_bottom_sheet"/>
+        <include
+            id="@+id/res_0x7f0a1bb0_summaryvoucherview_externalsyntheticlambda1"
+            layout="@layout/layout_pin_verify"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

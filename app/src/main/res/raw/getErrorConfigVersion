@@ -1,0 +1,21 @@
+{
+  "allowedContent": "",
+  "cdpContents": [],
+  "contentNumLimit": 0,
+  "contentTextLimit": 0,
+  "defaultLang": "",
+  "displayStrategy": "",
+  "gmtCreate": 1591062994000,
+  "gmtModified": 1591063008000,
+  "marqueeTime": 0,
+  "platform": "",
+  "spaceCode": "kyb_banner_homepage_en_US",
+  "spaceName": "KYB Banner Homepage - EN",
+  "spaceType": "",
+  "spm": "",
+  "status": "active",
+  "success": true,
+  "tenantId": "ID",
+  "traceId": "0a04157a1645633018217315918480",
+  "whiteList": ""
+}

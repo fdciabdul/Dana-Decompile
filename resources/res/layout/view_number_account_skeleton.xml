@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/viewSubBottomSkeleton"
+    background="@drawable/square_rounded_skeleton"
+    layout_width="wrap_content"
+    layout_height="16dp"
+    NOT_FOUND_0x4="0"
+    NOT_FOUND_0x5="@+id/ivIconLeftSkeleton"
+    NOT_FOUND_0x6="@+id/viewSubTopSkeleton"/>

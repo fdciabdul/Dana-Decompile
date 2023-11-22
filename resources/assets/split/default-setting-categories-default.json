@@ -1,0 +1,48 @@
+{
+  "setting_category_user_service": [
+    "setting_statement",
+    "setting_balance",
+    "setting_goals",
+    "setting_my_payment_cards",
+    "setting_emas",
+    "setting_aku"
+  ],
+  "setting_category_features": [
+    "setting_my_bills",
+    "setting_kyb"
+  ],
+  "setting_category_general_info": [
+    "setting_help",
+    "setting_resolution_center",
+    "setting_tnc",
+    "setting_privacy_policy"
+  ],
+  "setting_category_app_settings": [
+    "setting_more",
+    "setting_new_security_settings",
+    "setting_merchant_management",
+    "setting_new_smartpay"
+  ],
+  "setting_profile_settings": [
+    "setting_account_type",
+    "setting_change_profile_picture",
+    "setting_change_name",
+    "setting_username_change"
+  ],
+  "setting_security_settings": [
+    "setting_change_mobile_number",
+    "setting_change_email",
+    "setting_change_pin",
+    "setting_security_questions",
+    "setting_twilio_enrollment",
+    "setting_account_deactivate"
+  ],
+  "setting_privacy_settings": [
+    "setting_feed_sharing"
+  ],
+  "setting_payment_settings": [
+    "setting_face_verification",
+    "setting_autoroute",
+    "setting_payment_authentication"
+  ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="start"
+    background="@drawable/bg_rounded_4dp_grey30"
+    layout_width="130dp"
+    layout_height="18dp"/>

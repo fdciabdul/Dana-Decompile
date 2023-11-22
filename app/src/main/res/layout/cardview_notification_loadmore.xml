@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center_horizontal"
+    orientation="horizontal"
+    paddingTop="15dp"
+    paddingBottom="15dp"
+    style="@style/2132017490">
+    <LinearLayout
+        id="@+id/notification_more_wrapper"
+        style="@style/2132018187">
+        <TextView
+            textSize="16sp"
+            textColor="#108ee9"
+            layout_gravity="center"
+            text="@string/see_more_inbox"
+            style="@style/2132018187"/>
+        <ImageView
+            layout_gravity="center"
+            layout_width="17dp"
+            layout_height="12dp"
+            layout_marginLeft="5dp"
+            layout_marginTop="2dp"
+            NOT_FOUND_0xd="@drawable/arrow"/>
+    </LinearLayout>
+</LinearLayout>

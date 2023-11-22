@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/fl_merchant_photo"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    layout_margin="6dp">
+    <ImageView
+        layout_gravity="center"
+        id="@+id/iv_merchant_photo"
+        background="@drawable/bg_rounded_grey_20_4dp"
+        layout_width="120dp"
+        layout_height="120dp"
+        scaleType="centerCrop"
+        adjustViewBounds="true"/>
+</FrameLayout>

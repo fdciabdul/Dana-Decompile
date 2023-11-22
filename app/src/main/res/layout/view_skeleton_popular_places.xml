@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    NOT_FOUND_0x6="@color/2131100488"
+    NOT_FOUND_0x7="@dimen/2131165359"
+    NOT_FOUND_0x8="0dp">
+    <View
+        background="@drawable/skeleton_popular_places"
+        layout_width="64dp"
+        layout_height="64dp"
+        layout_margin="12dp"
+        layout_below="@+id/vw_skleton_right"
+        layout_toEndOf="@+id/vw_skleton_left"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    background="#f5f5f5"
+    focusable="true"
+    focusableInTouchMode="true"
+    clickable="true"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <id.dana.richview.ToolbarSearchView
+        id="@+id/tsv_online_merchant"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"/>
+    <id.dana.onlinemerchant.view.OnlineMerchantView
+        id="@+id/fl_online_merchant_view"
+        focusable="true"
+        focusableInTouchMode="true"
+        clickable="true"
+        layout_width="match_parent"
+        layout_height="0dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/tsv_online_merchant"/>
+    <id.dana.onlinemerchant.view.OnlineMerchantView
+        id="@+id/fl_online_merchant_search_view"
+        focusable="true"
+        focusableInTouchMode="true"
+        visibility="gone"
+        clickable="true"
+        layout_width="match_parent"
+        layout_height="0dp"
+        NOT_FOUND_0x8="true"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/tsv_online_merchant"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

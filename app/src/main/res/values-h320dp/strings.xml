@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottom_on_boarding_viewpager_dimens_ratio">H,2:1.60</string>
+    <string name="card_pay_view_constraint_ratio">H,1:1.5</string>
+    <string name="card_pay_view_height_ratio">1.5</string>
+</resources>

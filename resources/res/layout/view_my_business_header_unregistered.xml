@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingBottom="30dp"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <TextView
+        textSize="18sp"
+        textColor="#ffffff"
+        id="@+id/my_business_header_unregistered_title"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="27dp"
+        text="@string/header_unregistered_title"
+        contentDescription="@string/lbl_unregister_page_title"
+        fontFamily="@font/2131296266"
+        layout_marginStart="148dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"/>
+    <TextView
+        textSize="12sp"
+        textColor="#ffffff"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/header_unregistered_content"
+        fontFamily="@font/sf_pro_regular"
+        layout_marginStart="148dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/my_business_header_unregistered_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

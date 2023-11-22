@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/cv_explore_promo_item"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    layout_marginEnd="8dp"
+    NOT_FOUND_0x6="8dp"
+    NOT_FOUND_0x7="0dp"
+    NOT_FOUND_0xd="@color/2131099990"
+    NOT_FOUND_0xe="1dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/cl_explore_promo_item"
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <ImageView
+            id="@+id/iv_explore_promo"
+            layout_width="112.5dp"
+            layout_height="159dp"
+            scaleType="centerInside"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="@color/2131099990"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

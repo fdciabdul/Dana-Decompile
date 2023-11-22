@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureView xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center"
+    layout_gravity="center"
+    id="@+id/MyBillsEntityDataFactory_res_0x7f0a130e"
+    background="@null"
+    layout_width="match_parent"
+    layout_height="match_parent"/>

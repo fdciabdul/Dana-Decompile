@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@android:color/white"
+    style="@style/2132017531">
+    <include
+        id="@+id/split_bill_toolbar"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        layout="@layout/layout_toolbar"/>
+    <androidx.core.widget.NestedScrollView
+        id="@+id/nsv_split_bill_summary"
+        layout_width="match_parent"
+        layout_height="0dp"
+        NOT_FOUND_0xb="@+id/view_pay_button"
+        NOT_FOUND_0xc="@+id/view_pay_button"
+        NOT_FOUND_0xd="@+id/view_pay_button"
+        NOT_FOUND_0xe="@+id/split_bill_toolbar">
+        <include layout="@layout/view_split_bill_details"/>
+    </androidx.core.widget.NestedScrollView>
+    <include
+        id="@+id/view_split_bill_not_payer"
+        visibility="gone"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/split_bill_toolbar"
+        layout="@layout/view_split_bill_not_payer"/>
+    <include
+        id="@+id/view_pay_button"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="52dp"
+        layout_marginLeft="16dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="16dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xa="0"
+        layout="@layout/view_split_bill_pay_button"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

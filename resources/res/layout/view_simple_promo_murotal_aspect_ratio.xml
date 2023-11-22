@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    id="@+id/container"
+    background="@drawable/bg_rounded_8dp_border_grey20"
+    padding="1dp"
+    layout_width="321dp"
+    layout_height="129dp">
+    <ImageView
+        id="@+id/promotion_image"
+        layout_width="320dp"
+        layout_height="128dp"
+        contentDescription="@string/promotion"/>
+    <ImageView
+        id="@+id/shimmer_view"
+        visibility="gone"
+        layout_width="320dp"
+        layout_height="128dp"
+        contentDescription="@string/promotion"/>
+</LinearLayout>

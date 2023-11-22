@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="horizontal"
+    id="@+id/clCountdown"
+    background="@drawable/bg_blue60_rounded_100dp"
+    paddingLeft="8dp"
+    paddingTop="12dp"
+    paddingRight="8dp"
+    paddingBottom="12dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivCountdown"
+        layout_width="16dp"
+        layout_height="16dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@drawable/ic_pending"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/checkMarmotConfig_res_0x7f0a140b"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/event_countdown"
+        layout_marginStart="4dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="@+id/PrefetchDownloadStatus_res_0x7f0a140a"
+        NOT_FOUND_0xe="@+id/ivCountdown"
+        NOT_FOUND_0x10="0"
+        style="@style/2132017438"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/PrefetchDownloadStatus_res_0x7f0a140a"
+        background="@drawable/bg_white_transparent_rounded_100dp"
+        paddingLeft="8dp"
+        paddingTop="4dp"
+        paddingRight="8dp"
+        paddingBottom="4dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginStart="4dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="@+id/checkMarmotConfig_res_0x7f0a140b"
+        NOT_FOUND_0x10="0"
+        style="@style/2132017899"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

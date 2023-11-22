@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#ffffff"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        textStyle="bold"
+        id="@+id/tv_title"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/my_bills_quick_buy_title"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        style="Title14.Secondary"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_quick_buy"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        layout_marginBottom="24dp"
+        paddingStart="16dp"
+        paddingEnd="16dp"
+        NOT_FOUND_0xd="@+id/view_divider"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_title"/>
+    <View
+        id="@+id/view_divider"
+        background="#d1d1d1"
+        layout_width="match_parent"
+        layout_height="0.5dp"
+        NOT_FOUND_0xc="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

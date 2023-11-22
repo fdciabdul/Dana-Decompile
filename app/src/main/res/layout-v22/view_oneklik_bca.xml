@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        id="@+id/tvOneKlikHeader"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginLeft="32dp"
+        layout_marginTop="16dp"
+        layout_marginRight="32dp"
+        text="@string/card_binding_oneklik_header"
+        contentDescription="@string/cardbind_bca_one_klik_title"
+        textAlignment="center"
+        layout_marginHorizontal="@dimen/PlaceComponentResult_res_0x7f070059"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/ivPoweredBy"
+        style="@style/2132017908"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/DeviceLimitErrorKey"
+        layout_width="110sp"
+        layout_height="35sp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@drawable/ic_oneclick_bca"/>
+    <ImageView
+        id="@+id/ivPoweredBy"
+        layout_width="110sp"
+        layout_height="16sp"
+        layout_marginTop="9dp"
+        src="@drawable/ic_bca_card_binding"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/DeviceLimitErrorKey"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

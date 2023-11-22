@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/cl_container_dana_button_ghost_view"
+    background="?attr/2130969991"
+    paddingLeft="16dp"
+    paddingRight="16dp"
+    layout_width="match_parent"
+    layout_height="44dp">
+    <ImageView
+        id="@+id/iv_icon_center"
+        visibility="invisible"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        tint="#108ee9"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+    <TextView
+        textColor="#108ee9"
+        id="@+id/res_0x7f0a1919_summaryvoucherview_externalsyntheticlambda1"
+        visibility="invisible"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        textAllCaps="true"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        style="@style/2132017910"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

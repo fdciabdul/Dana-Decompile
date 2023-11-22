@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.sendmoney.ui.common.EmptyStateView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/emptyStateView"
+    NOT_FOUND_0x1="@string/allow_read_contact"
+    NOT_FOUND_0x2="@string/no_contact_permission_message"
+    NOT_FOUND_0x3="@drawable/res_0x7f0808e8_networkuserentitydata_externalsyntheticlambda5"
+    NOT_FOUND_0x4="@string/no_contact_permission"
+    NOT_FOUND_0x5="true"
+    style="@style/2132017531"/>

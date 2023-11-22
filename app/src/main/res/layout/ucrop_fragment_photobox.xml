@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/res_0x7f0a198b_networkuserentitydata_externalsyntheticlambda5"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <FrameLayout
+        id="@+id/FragmentBottomSheetPaymentSettingBinding_res_0x7f0a198a"
+        background="#000"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_above="@+id/wrapper_controls">
+        <ImageView
+            layout_gravity="center"
+            id="@+id/image_view_logo"
+            layout_width="200dp"
+            layout_height="200dp"
+            NOT_FOUND_0x7="@drawable/ucrop_vector_ic_crop"/>
+        <com.yalantis.ucrop.view.UCropView
+            id="@+id/res_0x7f0a1989_networkuserentitydata_externalsyntheticlambda7"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            alpha="0"/>
+    </FrameLayout>
+</RelativeLayout>

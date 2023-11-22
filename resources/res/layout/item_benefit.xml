@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/res_0x7f0a0d7d_configurationconstants_logsourcename_1"
+    background="@drawable/bg_rounded_white_with_border"
+    paddingBottom="8dp"
+    clipChildren="false"
+    clipToPadding="false"
+    layout_width="165dp"
+    layout_height="wrap_content"
+    layout_marginTop="32dp"
+    layout_marginRight="8dp"
+    paddingStart="8dp"
+    paddingEnd="8dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_benefit_icon"
+        layout_width="64dp"
+        layout_height="64dp"
+        layout_marginTop="-32dp"
+        layout_marginBottom="8dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="20dp"
+        NOT_FOUND_0x10="@drawable/res_0x7f080633_networkuserentitydata_externalsyntheticlambda2"/>
+    <TextView
+        id="@+id/tv_benefit_title"
+        layout_width="150dp"
+        layout_height="wrap_content"
+        style="@style/2132017908"/>
+    <TextView
+        id="@+id/tv_benefit_desc"
+        layout_width="150dp"
+        layout_height="wrap_content"
+        layout_marginTop="2dp"
+        lineSpacingMultiplier="1.1"
+        style="@style/2132017440"/>
+</LinearLayout>

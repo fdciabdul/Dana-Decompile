@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_expired_voucher"
+    background="#f5f5f5"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginBottom="24dp">
+    <androidx.recyclerview.widget.RecyclerView
+        orientation="horizontal"
+        id="@+id/res_0x7f0a114b_unlinkpasskeystatemanager_unlinkpasskeystate_canceled"
+        paddingLeft="16dp"
+        paddingRight="16dp"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        minHeight="220dp"
+        paddingHorizontal="@dimen/BuiltInFictitiousFunctionClassFactory_res_0x7f070055"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="@+id/res_0x7f0a11fc_observablepublishalt_innerdisposable"/>
+    <id.dana.promodiscovery.richview.PromoDiscoverySectionHeaderView
+        id="@+id/res_0x7f0a11fc_observablepublishalt_innerdisposable"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xc="@drawable/ic_expired"
+        NOT_FOUND_0xd="@string/expired_voucher_header"
+        NOT_FOUND_0xf="@+id/res_0x7f0a114b_unlinkpasskeystatemanager_unlinkpasskeystate_canceled"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x15="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

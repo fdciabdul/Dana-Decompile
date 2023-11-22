@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center_horizontal"
+    orientation="vertical"
+    background="@drawable/griver_ui_loading_dialog_bg"
+    paddingLeft="14dp"
+    paddingTop="10dp"
+    paddingRight="14dp"
+    paddingBottom="10dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    baselineAligned="false">
+    <ProgressBar
+        id="@+id/h5_loading_progress"
+        layout_width="36dp"
+        layout_height="36dp"/>
+    <TextView
+        textSize="12dp"
+        textColor="#ffffff"
+        id="@+id/h5_loading_message"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/griver_ui_loading"/>
+</LinearLayout>

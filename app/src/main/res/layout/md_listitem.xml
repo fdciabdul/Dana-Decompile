@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/2132017525">
+    <com.afollestad.materialdialogs.internal.rtl.RtlTextView
+        id="@+id/md_title"
+        style="@style/2132017527"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="information_brizzi_top_up">
+        <item>Tap aktifkan saldo kartumu setelah isi saldo BRIZZI.</item>
+        <item>Jika ada kendala saat cek &amp; aktifkan saldo, kamu bisa cek di ATM BRI/Alfamart/Indomaret terdekat.</item>
+    </array>
+    <array name="spinner_dynamic_qr">
+        <item>Saldo DANA</item>
+    </array>
+    <array name="spinner_static_qr">
+        <item>Bagikan</item>
+    </array>
+    <array name="warning_reversal_error">
+        <item>Update Saldo kartumu melalui NFC ponsel lain, mesin ATM Mandiri, atau gerai retail terdekat.</item>
+    </array>
+</resources>

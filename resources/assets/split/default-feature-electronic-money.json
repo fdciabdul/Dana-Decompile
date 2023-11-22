@@ -1,0 +1,10 @@
+{
+  "emoney":{
+    "enable":false,
+    "name":"E-Money"
+  },
+  "brizzi":{
+    "enable":false,
+    "name":"Brizzi"
+  }
+}

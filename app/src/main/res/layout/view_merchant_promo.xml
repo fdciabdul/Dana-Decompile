@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_promo"
+    background="@drawable/bg_rounded_8dp_yellow_10"
+    layout_width="match_parent"
+    layout_height="44dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_promo"
+        layout_width="28dp"
+        layout_height="28dp"
+        layout_marginStart="12dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@drawable/ic_orange_promo"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/res_0x7f0a1860_getlistsuggestedlocations_params"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginStart="12dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="@+id/iv_promo"
+        NOT_FOUND_0xc="0"
+        style="@style/2132017908"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/getEnvironmentInfoFromCollector"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/see_details"
+        textAllCaps="true"
+        layout_marginEnd="12dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xc="0"
+        style="@style/2132017895"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

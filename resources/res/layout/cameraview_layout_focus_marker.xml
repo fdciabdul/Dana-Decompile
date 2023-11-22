@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/BuiltInFictitiousFunctionClassFactory_res_0x7f0a0775"
+    layout_width="55dp"
+    layout_height="55dp"
+    alpha="0">
+    <ImageView
+        id="@+id/PlaceComponentResult_res_0x7f0a0776"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        src="@drawable/cameraview_focus_marker_fill"/>
+    <ImageView
+        layout_width="match_parent"
+        layout_height="match_parent"
+        src="@drawable/cameraview_focus_marker_outline"/>
+</FrameLayout>

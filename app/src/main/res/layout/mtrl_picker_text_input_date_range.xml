@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="horizontal"
+    paddingLeft="12dp"
+    paddingTop="16dp"
+    paddingRight="12dp"
+    paddingBottom="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputLayout
+        id="@+id/mtrl_picker_text_input_range_start"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_weight="1">
+        <com.google.android.material.textfield.TextInputEditText
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            hint="@string/mtrl_picker_text_input_date_range_start_hint"
+            inputType="date"
+            imeOptions="flagNoExtractUi"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Space
+        layout_width="8dp"
+        layout_height="0dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        id="@+id/mtrl_picker_text_input_range_end"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_weight="1">
+        <com.google.android.material.textfield.TextInputEditText
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            hint="@string/mtrl_picker_text_input_date_range_end_hint"
+            inputType="date"
+            imeOptions="flagNoExtractUi"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

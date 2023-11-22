@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        icon="@drawable/ic_settings_blue"
+        id="@+id/option_feed_settings"
+        title="@string/feed_setting"/>
+    <item
+        icon="@drawable/ic_help_blue"
+        id="@+id/option_feed_about"
+        title="@string/feed_about"/>
+</menu>

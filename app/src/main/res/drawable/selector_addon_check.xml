@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_enabled="true"
+        state_checked="true"
+        drawable="@drawable/ic_dana_checkbox_active"/>
+    <item
+        state_enabled="true"
+        state_checked="false"
+        drawable="@drawable/ic_dana_checkbox_inactive_grey"/>
+    <item
+        state_enabled="false"
+        drawable="@drawable/ic_dana_checkbox_disabled_unchecked"/>
+</selector>

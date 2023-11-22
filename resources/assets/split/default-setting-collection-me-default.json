@@ -1,0 +1,13 @@
+{
+  "setting_collection_me": [
+    "setting_category_user_service",
+    "setting_category_features",
+    "setting_category_rewards",
+    "setting_category_app_settings",
+    "setting_category_general_info"
+  ],
+  "setting_collection_settings": [
+    "setting_profile_settings",
+    "setting_privacy_settings"
+  ]
+}

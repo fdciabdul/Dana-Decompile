@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <LinearLayout
+        id="@+id/res_0x7f0a0d88_verifypinstatemanager_executeriskchallenge_2_1"
+        background="@drawable/bg_dana_button_secondary_active"
+        layout_width="32dp"
+        layout_height="32dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xb="0">
+        <ImageView
+            layout_width="wrap_content"
+            layout_height="match_parent"
+            layout_margin="8dp"
+            NOT_FOUND_0xc="@drawable/ic_ico_minus"/>
+    </LinearLayout>
+    <TextView
+        id="@+id/tv_text_counter"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="@+id/res_0x7f0a0d88_verifypinstatemanager_executeriskchallenge_2_1"
+        NOT_FOUND_0xa="@+id/ll_button_plus"
+        NOT_FOUND_0xb="0"
+        style="@style/2132017413"/>
+    <LinearLayout
+        id="@+id/ll_button_plus"
+        background="@drawable/bg_dana_button_secondary_active"
+        layout_width="32dp"
+        layout_height="32dp"
+        layout_marginLeft="68dp"
+        NOT_FOUND_0x9="@+id/res_0x7f0a0d88_verifypinstatemanager_executeriskchallenge_2_1"
+        NOT_FOUND_0xb="0">
+        <ImageView
+            layout_width="wrap_content"
+            layout_height="match_parent"
+            layout_margin="8dp"
+            NOT_FOUND_0xc="@drawable/ic_ico_plus"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

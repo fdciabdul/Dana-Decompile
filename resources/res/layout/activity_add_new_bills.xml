@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <include
+        id="@+id/layoutToolbar"
+        layout="@layout/layout_toolbar"/>
+    <ScrollView
+        paddingTop="16dp"
+        paddingBottom="16dp"
+        layout_width="match_parent"
+        layout_height="0dp"
+        fillViewport="true"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/layoutToolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            layout_width="match_parent"
+            layout_height="wrap_content">
+            <include
+                id="@+id/view_bills_recent_transaction"
+                layout_width="match_parent"
+                layout_height="wrap_content"
+                NOT_FOUND_0x9="0"
+                NOT_FOUND_0xa="0"
+                NOT_FOUND_0xc="0"
+                layout="@layout/view_bills_recent_transaction"/>
+            <include
+                id="@+id/view_discover_bills_service"
+                layout_width="match_parent"
+                layout_height="wrap_content"
+                layout_marginLeft="12dp"
+                layout_marginTop="16dp"
+                layout_marginRight="12dp"
+                NOT_FOUND_0x9="0"
+                NOT_FOUND_0xa="0"
+                NOT_FOUND_0xb="@+id/view_bills_recent_transaction"
+                layout="@layout/view_discover_bills_service"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

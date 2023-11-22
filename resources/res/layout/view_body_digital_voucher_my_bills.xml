@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <id.dana.mybills.ui.customview.CustomEditTextView
+        id="@+id/TypeProjectionImpl_res_0x7f0a0689"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        NOT_FOUND_0x7="@string/mybills_detail_product_name"
+        NOT_FOUND_0x8="1"/>
+    <id.dana.mybills.ui.customview.CustomDropdownView
+        id="@+id/dropdownAmount"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        NOT_FOUND_0x9="@string/my_bills_label_amount"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

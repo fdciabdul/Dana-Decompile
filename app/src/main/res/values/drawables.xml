@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="alipay_template_channel_bg">#e5e5e5</drawable>
+    <drawable name="griver_image_bucket_item_bg_normal">#ffffffff</drawable>
+    <drawable name="griver_image_bucket_item_bg_press">#ececec</drawable>
+    <drawable name="inter_mini_keyboard_bg">#282931</drawable>
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="safepay_fp_btn_bg_normal">#ffffff</drawable>
+    <drawable name="safepay_fp_btn_bg_press">#e3e3e3</drawable>
+    <drawable name="safepay_fp_dialog_bg">#ffffff</drawable>
+    <drawable name="safepay_wear_dialog_bg">#ffffff</drawable>
+</resources>

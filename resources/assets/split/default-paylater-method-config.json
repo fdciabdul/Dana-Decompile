@@ -1,0 +1,5 @@
+{
+  "paymethod_description_payconfirmation": "paylater_method_description",
+  "additional_info_payconfirmation": "paylater_checkout_additional_info",
+  "additional_info_installment_selection": "paylater_checkout_additional_info_installment_selection"
+}

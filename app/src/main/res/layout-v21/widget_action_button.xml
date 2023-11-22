@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center_horizontal"
+    background="@drawable/bg_rounded_blue_40_33dp"
+    layout_width="match_parent"
+    layout_height="44dp"
+    elevation="4dp">
+    <ImageView
+        id="@+id/iv_action_icon"
+        layout_width="24dp"
+        layout_height="24dp"
+        src="@drawable/ic_nav_pay"
+        layout_centerVertical="true"/>
+    <TextView
+        textStyle="bold"
+        id="@+id/tv_action_label"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/widget_quick_action_pay_button"
+        layout_centerVertical="true"
+        textAllCaps="true"
+        layout_marginStart="4dp"
+        layout_toEndOf="@+id/iv_action_icon"
+        style="@style/2132017907"/>
+</RelativeLayout>

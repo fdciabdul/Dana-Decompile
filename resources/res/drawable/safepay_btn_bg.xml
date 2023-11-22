@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_focused="false"
+        state_enabled="true"
+        state_selected="false"
+        state_pressed="false"
+        drawable="@drawable/safepay_fp_btn_bg_normal"/>
+    <item
+        state_focused="false"
+        state_enabled="true"
+        state_selected="true"
+        state_pressed="false"
+        drawable="@drawable/safepay_fp_btn_bg_normal"/>
+    <item
+        state_enabled="true"
+        state_pressed="true"
+        drawable="@drawable/safepay_fp_btn_bg_press"/>
+</selector>

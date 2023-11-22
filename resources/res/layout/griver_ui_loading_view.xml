@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alibaba.griver.ui.ant.layout.AURelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.alibaba.griver.ui.ant.layout.AURelativeLayout
+        gravity="center"
+        id="@+id/progress_layout"
+        layout_width="match_parent"
+        layout_height="wrap_content">
+        <ProgressBar
+            layout_width="48dp"
+            layout_height="48dp"
+            indeterminateDrawable="@drawable/griver_ui_pullrefresh_progress"
+            layout_centerInParent="true"/>
+        <com.alibaba.griver.ui.ant.text.AUTextView
+            textSize="12dp"
+            textColor="#1b82d2"
+            id="@+id/progress_current_text"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_centerInParent="true"/>
+    </com.alibaba.griver.ui.ant.layout.AURelativeLayout>
+    <com.alibaba.griver.ui.ant.dialog.AUEmptyGoneTextView
+        textSize="16dp"
+        textColor="#999999"
+        gravity="center"
+        id="@+id/progress_loading_text"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        text="loading..."
+        layout_below="@+id/progress_layout"/>
+</com.alibaba.griver.ui.ant.layout.AURelativeLayout>

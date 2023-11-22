@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#f5f5f5"
+    style="@style/2132017531">
+    <View
+        background="#108ee9"
+        layout_width="match_parent"
+        layout_height="0dp"
+        layout_marginBottom="20dp"
+        NOT_FOUND_0xf="@+id/civManageFamilyAvatar"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"/>
+    <id.dana.richview.CircleImageSelectionView
+        id="@+id/civManageFamilyAvatar"
+        layout_width="96dp"
+        layout_height="96dp"
+        layout_marginTop="32dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/ivMemberStatusIndicator"
+        visibility="gone"
+        layout_width="28dp"
+        layout_height="28dp"
+        src="@drawable/ic_organizer_mark_family_account"
+        NOT_FOUND_0xf="@+id/civManageFamilyAvatar"
+        NOT_FOUND_0x10="@+id/civManageFamilyAvatar"/>
+    <TextView
+        ellipsize="end"
+        gravity="start"
+        id="@+id/tvManageFamilyName"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        maxLines="1"
+        layout_marginStart="20dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xf="@+id/civManageFamilyAvatar"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/civManageFamilyAvatar"
+        NOT_FOUND_0x13="@+id/civManageFamilyAvatar"
+        style="@style/2132017915"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

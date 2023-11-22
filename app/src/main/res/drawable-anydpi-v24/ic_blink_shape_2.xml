@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="181dp"
+    android:width="281dp"
+    android:viewportWidth="281"
+    android:viewportHeight="181">
+    <path
+        android:fillColor="@drawable/res_0x7f080054_ic_blink_shape_2__0"
+        android:pathData="M141.95,102.84V100.24L143.82,89.15L147.34,93.5L141.95,102.84ZM141.95,102.84L148.43,94.83L151.51,98.65L141.95,102.84ZM141.95,105.21V102.84L153.62,101.24L204.27,202.84H287.65L159.1,100.49L305.82,80.39V6.84L154.91,97.16L149.82,93.11L266.15,-37.16H222.76L148.28,91.88L143.94,88.43L173.55,-87.16H141.95H141.07H109.47L139.54,88.76L135.62,91.88L72.61,-37.16H16.43L134.08,93.11L128.68,97.41L-23.07,30.84V93.11L124.67,100.6L-3.76,202.84H73.05L130.19,101.35L141.07,102.84V105.21L98.94,218.84H141.07H141.95H184.08L141.95,105.21ZM141.51,104.03L141.95,102.84L141.73,101.55L141.61,102.25L141.95,102.84L141.59,102.39L141.51,102.84L141.51,102.3L135.47,94.83L132.15,98.93L141.07,102.84L141.51,104.03ZM141.51,100.24L139.69,89.63L136.56,93.5L141.51,102.08L141.51,100.24Z"
+        android:strokeAlpha="0.75"
+        android:fillAlpha="0.1875"
+        android:fillType="evenOdd"/>
+</vector>

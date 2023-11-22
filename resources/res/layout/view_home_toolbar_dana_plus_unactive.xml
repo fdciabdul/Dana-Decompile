@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="horizontal"
+    layout_width="wrap_content"
+    layout_height="?attr/2130968583">
+    <LinearLayout
+        layout_gravity="center_vertical"
+        orientation="horizontal"
+        id="@+id/ll_dana_plus_area_unactive"
+        focusable="true"
+        clickable="true"
+        layout_width="wrap_content"
+        layout_height="match_parent">
+        <ImageView
+            id="@+id/iv_dana_plus_menu"
+            layout_width="wrap_content"
+            layout_height="match_parent"
+            contentDescription="@string/dana_string"
+            layout_marginStart="12dp"
+            NOT_FOUND_0x17="@drawable/ic_dana_plus_unactive"/>
+        <TextView
+            textSize="16sp"
+            textColor="#ffffff"
+            gravity="center_vertical"
+            id="@+id/tv_dana_plus_message"
+            visibility="visible"
+            layout_width="wrap_content"
+            layout_height="match_parent"
+            text="@string/home_dana_plus_unactive"
+            lineSpacingExtra="0sp"
+            fontFamily="@font/2131296266"
+            layout_marginStart="6dp"/>
+    </LinearLayout>
+    <id.dana.animation.view.SavedCardIndicatorLottieAnimationView
+        layout_gravity="center_vertical"
+        id="@+id/sci_dana_plus_unactive"
+        layout_width="wrap_content"
+        layout_height="match_parent"
+        rotation="-90"
+        paddingStart="8dp"
+        paddingEnd="8dp"
+        NOT_FOUND_0x13="true"
+        NOT_FOUND_0x14="true"
+        NOT_FOUND_0x15="true"
+        NOT_FOUND_0x16="1"/>
+</LinearLayout>

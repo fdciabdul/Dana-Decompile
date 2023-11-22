@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_enabled="false"
+        drawable="@drawable/griver_image_show_origin_pressed"/>
+    <item
+        state_pressed="true"
+        drawable="@drawable/griver_image_show_origin_pressed"/>
+    <item
+        state_focused="true"
+        drawable="@drawable/griver_image_show_origin_pressed"/>
+    <item drawable="@drawable/griver_image_show_origin_normal"/>
+</selector>

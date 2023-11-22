@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    padding="12dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        id="@+id/view_section_shimmer"
+        background="@drawable/square_skeleton"
+        layout_width="100dp"
+        layout_height="10dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/civ_shimmer"
+        layout_width="40dp"
+        layout_height="40dp"
+        layout_marginTop="12dp"
+        src="@drawable/square_skeleton"
+        NOT_FOUND_0xb="@+id/view_section_shimmer"
+        NOT_FOUND_0xc="@+id/view_section_shimmer"/>
+    <View
+        id="@+id/view_shimmer_desc"
+        background="@drawable/square_skeleton"
+        layout_width="100dp"
+        layout_height="10dp"
+        NOT_FOUND_0xa="@+id/iv_bubble_pointer"
+        NOT_FOUND_0xd="@+id/civ_shimmer"/>
+    <ImageView
+        id="@+id/iv_bubble_pointer"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        scaleY="-1"
+        layout_marginEnd="2dp"
+        NOT_FOUND_0xa="@+id/civ_shimmer"
+        NOT_FOUND_0xc="@+id/view_shimmer_desc"
+        NOT_FOUND_0xe="@drawable/right_triangle"/>
+    <View
+        background="@drawable/bg_social_feed_skeleton"
+        layout_width="0dp"
+        layout_height="54dp"
+        layout_marginTop="6.5dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/iv_bubble_pointer"
+        NOT_FOUND_0xd="@+id/iv_bubble_pointer"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

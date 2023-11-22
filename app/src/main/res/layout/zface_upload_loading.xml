@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/zface_upload_loading_root_view"
+    background="#87000000"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <RelativeLayout
+        id="@+id/zoloz_container"
+        layout_width="28dp"
+        layout_height="28dp"
+        layout_marginTop="240dp"
+        layout_centerHorizontal="true">
+        <com.alipay.zoloz.zface.ui.widget.UploadProgressBar
+            id="@+id/zface_upload_loading_progress"
+            layout_width="28dp"
+            layout_height="28dp"
+            layout_centerInParent="true"
+            NOT_FOUND_0xc="360"
+            NOT_FOUND_0xd="3600"
+            NOT_FOUND_0xe="#e2e2e2"
+            NOT_FOUND_0xf="#108ee9"
+            NOT_FOUND_0x10="2dp"
+            NOT_FOUND_0x11="0"
+            NOT_FOUND_0x12="#9a32cd"
+            NOT_FOUND_0x13="false"
+            NOT_FOUND_0x14="18sp"/>
+    </RelativeLayout>
+    <zoloz.ap.com.toolkit.ui.CustomTextView
+        textSize="14dp"
+        textColor="#e4e4e4"
+        id="@+id/zface_upload_loading_process_text"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="10dp"
+        text="@string/zface_processing"
+        layout_below="@+id/zoloz_container"
+        layout_centerHorizontal="true"
+        NOT_FOUND_0xb="true"/>
+</RelativeLayout>

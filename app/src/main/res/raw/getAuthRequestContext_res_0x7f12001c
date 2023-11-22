@@ -1,0 +1,10 @@
+{
+  "authenticationSettingOptions": [
+    {
+      "authenticationType": "PASSWORD"
+    }
+  ],
+  "autorouteConfigEnable": false,
+  "autorouteFeatureEnable": false,
+  "success": true
+}

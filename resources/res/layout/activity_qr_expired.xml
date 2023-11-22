@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <include
+        NOT_FOUND_0x2="0"
+        NOT_FOUND_0x3="0"
+        NOT_FOUND_0x5="0"
+        layout="@layout/layout_toolbar"/>
+    <include
+        NOT_FOUND_0x2="0"
+        NOT_FOUND_0x3="0"
+        NOT_FOUND_0x4="@+id/toolbar_layout"
+        layout="@layout/layout_general_empty_state"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

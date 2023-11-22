@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_marginStart="22dp"
+    layout_marginEnd="22dp"
+    style="@style/2132017531">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        style="@style/2132018187">
+        <ImageView
+            id="@+id/iv_empty_merchant_list"
+            src="@drawable/no_binding"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xd="0"
+            style="@style/2132018187"/>
+        <TextView
+            id="@+id/tv_empty_merchant_list_title"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_marginTop="24dp"
+            text="@string/empty_merchant_list_title"
+            textAlignment="center"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="@+id/iv_empty_merchant_list"
+            style="@style/2132017924"/>
+        <TextView
+            id="@+id/tv_empty_merchant_list_desc"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_marginTop="8dp"
+            text="@string/empty_merchant_list_desc"
+            textAlignment="center"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="@+id/tv_empty_merchant_list_title"
+            style="@style/2132017406"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

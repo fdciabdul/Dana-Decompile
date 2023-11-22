@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cvServiceContainer"
+    layout_width="20dp"
+    layout_height="20dp"
+    NOT_FOUND_0x4="100dp"
+    NOT_FOUND_0x5="0dp">
+    <ImageView
+        layout_gravity="center"
+        id="@+id/ivService"
+        layout_width="12dp"
+        layout_height="12dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+</androidx.cardview.widget.CardView>

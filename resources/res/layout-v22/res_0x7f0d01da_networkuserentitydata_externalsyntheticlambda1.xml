@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#108ee9"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <include
+        id="@+id/toolbar_danapoly"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        layout="@layout/view_base_toolbar"/>
+    <id.dana.danapoly.ui.leaderboard.view.CountDownView
+        id="@+id/getTypeMappings_res_0x7f0a1a7a"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/toolbar_danapoly"/>
+    <androidx.constraintlayout.widget.Barrier
+        id="@+id/BuiltInFictitiousFunctionClassFactory_res_0x7f0a00c3"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x9="3"
+        NOT_FOUND_0xa="viewCountdown, toolbar_danapoly"/>
+    <id.dana.danapoly.ui.leaderboard.view.LeaderboardTopThreeView
+        id="@+id/viewTopThree"
+        layout_width="match_parent"
+        layout_height="194dp"
+        NOT_FOUND_0x10="@+id/BuiltInFictitiousFunctionClassFactory_res_0x7f0a00c3"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/res_0x7f0a10ff_securitysettingsactivity_createpinlauncher_2_2"
+        background="@drawable/bg_rounded_white_8dp"
+        layout_width="match_parent"
+        layout_height="0dp"
+        layout_marginLeft="16dp"
+        layout_marginTop="4dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="28dp"
+        layout_marginHorizontal="16dp"
+        NOT_FOUND_0xb="androidx.recyclerview.widget.LinearLayoutManager"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="-4"
+        NOT_FOUND_0x10="@+id/viewTopThree"
+        NOT_FOUND_0x12="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

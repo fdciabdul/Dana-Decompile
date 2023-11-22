@@ -1,0 +1,24 @@
+{
+  "main_empty_state": {
+    "icon": "ic_saving_main_empty_state",
+    "title": "title_saving_main_empty_state",
+    "subtitle": "subtitle_saving_main_empty_state"
+  },
+  "benefit_list": [
+    {
+      "icon": "ic_saving_benefit_1",
+      "title": "title_saving_benefit_1",
+      "subtitle": "subtitle_saving_benefit_1"
+    },
+    {
+      "icon": "ic_saving_benefit_2",
+      "title": "title_saving_benefit_2",
+      "subtitle": "subtitle_saving_benefit_2"
+    },
+    {
+      "icon": "ic_saving_benefit_3",
+      "title": "title_saving_benefit_3",
+      "subtitle": "subtitle_saving_benefit_3"
+    }
+  ]
+}

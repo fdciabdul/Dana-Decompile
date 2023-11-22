@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_dana_deals_tag"
+    paddingLeft="12dp"
+    paddingTop="8dp"
+    paddingRight="12dp"
+    paddingBottom="8dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_status"
+        layout_width="18dp"
+        layout_height="18dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="#313131"
+        id="@+id/res_0x7f0a18fe_activityverificationstatemanager_activityverificationstate_canceled"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        textAllCaps="true"
+        layout_marginStart="6dp"
+        NOT_FOUND_0xb="@+id/iv_status"
+        NOT_FOUND_0xc="@+id/iv_status"
+        NOT_FOUND_0xe="@+id/iv_status"
+        style="@style/2132017902"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

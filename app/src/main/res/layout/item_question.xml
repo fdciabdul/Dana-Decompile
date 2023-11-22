@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    background="@android:color/white"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        textSize="15sp"
+        textColor="@android:color/black"
+        gravity="center"
+        id="@+id/tv_content"
+        padding="15dp"
+        layout_width="match_parent"
+        layout_height="wrap_content"/>
+</LinearLayout>

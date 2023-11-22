@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/layout_parent"
+    background="#ffffff"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <ImageView
+        id="@+id/imagePromotion"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        scaleType="fitXY"
+        adjustViewBounds="true"
+        layout_centerInParent="true"/>
+</RelativeLayout>

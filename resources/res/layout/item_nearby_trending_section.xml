@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="16dp"
+    layout_marginStart="16dp"
+    layout_marginEnd="16dp">
+    <TextView
+        id="@+id/tvHeader"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/trending_section_title"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="0"
+        style="@style/2132017898"/>
+    <id.dana.drawable.view.MaxHeightRecyclerView
+        id="@+id/rvTrendingKeyword"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        overScrollMode="never"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="@+id/tvHeader"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

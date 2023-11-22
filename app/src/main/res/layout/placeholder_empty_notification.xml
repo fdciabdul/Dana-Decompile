@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/2132017531">
+    <RelativeLayout
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_centerInParent="true">
+        <ImageView
+            id="@+id/placeholder_notification"
+            layout_width="100dp"
+            layout_height="100dp"
+            src="@drawable/no_notification"
+            layout_centerHorizontal="true"/>
+        <TextView
+            textSize="12sp"
+            textColor="#b6b6b6"
+            layout_gravity="center"
+            layout_marginTop="45dp"
+            text="@string/feeds_empty"
+            layout_below="@+id/placeholder_notification"
+            layout_centerHorizontal="true"
+            style="@style/2132018187"/>
+    </RelativeLayout>
+</RelativeLayout>

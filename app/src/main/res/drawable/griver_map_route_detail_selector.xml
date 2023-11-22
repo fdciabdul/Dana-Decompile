@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_pressed="true"
+        drawable="@drawable/griver_map_route_detail_press"/>
+    <item
+        state_focused="true"
+        drawable="@drawable/griver_map_route_detail_press"/>
+    <item
+        state_selected="true"
+        drawable="@drawable/griver_map_route_detail_press"/>
+    <item drawable="@drawable/griver_map_route_detail_normal"/>
+</selector>

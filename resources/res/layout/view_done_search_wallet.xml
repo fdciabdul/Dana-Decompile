@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="horizontal"
+    background="@drawable/bg_capsule_transparent_black_radius_64dp"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="#ffffff"
+        layout_gravity="center"
+        id="@+id/tv_close"
+        paddingTop="6dp"
+        paddingBottom="6dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/chip_done_search"
+        paddingStart="12dp"
+        paddingEnd="12dp"
+        style="@style/2132017413"/>
+</FrameLayout>

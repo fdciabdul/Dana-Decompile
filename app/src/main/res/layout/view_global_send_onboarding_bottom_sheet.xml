@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <FrameLayout
+        layout_gravity="top"
+        id="@+id/res_0x7f0a0730_otpregistrationpresenter_input_2"
+        background="@drawable/bg_rounded_bottom_sheet"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xb="@string/bottom_sheet_behavior">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            background="@drawable/bg_rounded_bottom_sheet"
+            padding="16dp"
+            layout_width="match_parent"
+            layout_height="match_parent">
+            <TextView
+                textColor="#313131"
+                gravity="center"
+                id="@+id/GifDrawableTransformation_res_0x7f0a15ac"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                text="@string/text_landing_title_global_send"
+                NOT_FOUND_0xd="0"
+                NOT_FOUND_0xe="0"
+                NOT_FOUND_0x10="0"
+                style="@style/2132017926"/>
+            <include
+                id="@+id/res_0x7f0a1a79_quickbuybillsadapter_onquickbuyitemclicklistener_1"
+                layout_width="match_parent"
+                layout_height="0dp"
+                layout_marginTop="26dp"
+                NOT_FOUND_0xf="@+id/GifDrawableTransformation_res_0x7f0a15ac"
+                layout="@layout/view_content_onboarding"/>
+            <id.dana.component.buttoncomponent.DanaButtonPrimaryView
+                id="@+id/res_0x7f0a0156_networkuserentitydata_externalsyntheticlambda0"
+                layout_width="match_parent"
+                layout_height="wrap_content"
+                layout_marginTop="28dp"
+                contentDescription="@string/btn_got_it_landing_global"
+                NOT_FOUND_0xc="0"
+                NOT_FOUND_0xf="@+id/res_0x7f0a1a79_quickbuybillsadapter_onquickbuyitemclicklistener_1"
+                NOT_FOUND_0x11="@string/res_0x7f130398_verifypinstatemanager_executeriskchallenge_2_1"
+                NOT_FOUND_0x12="1"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

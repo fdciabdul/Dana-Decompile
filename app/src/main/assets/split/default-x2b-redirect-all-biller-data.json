@@ -1,0 +1,40 @@
+{
+  "x2b_redirect_all_biller_100_1": [
+    {
+      "billerName": "GoPay",
+      "instId": "CIMBC1ID",
+      "prefix": "284908",
+      "clientId": "2020031137204373152202",
+      "redirectUrl": "https://stag-ampera.innov8.id/binding/callback?redirect_url=https://h5-staging-billers.innov8.id/biller/BILL-064aca7b",
+      "scopes": "PUBLIC_ID,DEFAULT_BASIC_PROFILE,TRANSFER_MONEY",
+      "agreed": true
+    },
+    {
+      "billerName": "OVO",
+      "instId": "CIMBC1ID",
+      "prefix": "809908",
+      "clientId": "2020031137204373152202",
+      "redirectUrl": "https://stag-ampera.innov8.id/binding/callback?redirect_url=https://h5-staging-billers.innov8.id/biller/BILL-213e4bbf",
+      "scopes": "PUBLIC_ID,DEFAULT_BASIC_PROFILE,TRANSFER_MONEY",
+      "agreed": true
+    },
+    {
+      "billerName": "Shopee Pay",
+      "instId": "BNIC1ID",
+      "prefix": "111",
+      "clientId": "2020031137204373152202",
+      "redirectUrl": "https://stag-ampera.innov8.id/binding/callback?redirect_url=https://h5-staging-billers.innov8.id/biller/BILL-f35adfc4",
+      "scopes": "PUBLIC_ID,DEFAULT_BASIC_PROFILE,TRANSFER_MONEY",
+      "agreed": true
+    },
+    {
+      "billerName": "Link Aja!",
+      "instId": "MDRIC1ID",
+      "prefix": "001",
+      "clientId": "2020031137204373152202",
+      "redirectUrl": "https://stag-ampera.innov8.id/binding/callback?redirect_url=https://h5-staging-billers.innov8.id/biller/BILL-1474cda7",
+      "scopes": "PUBLIC_ID,DEFAULT_BASIC_PROFILE,TRANSFER_MONEY",
+      "agreed": true
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivContent"
+        layout_width="160dp"
+        layout_height="160dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0.497"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0.337"/>
+    <TextView
+        gravity="center"
+        id="@+id/tvTitleContent"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="24dp"
+        layout_marginRight="16dp"
+        NOT_FOUND_0x8="@dimen/2131165474"
+        NOT_FOUND_0x9="@dimen/res_0x7f07011f_kclassimpl_data_declarednonstaticmembers_2"
+        NOT_FOUND_0xa="1"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/ivContent"
+        style="@style/2132017932"/>
+    <TextView
+        gravity="center"
+        id="@+id/tvDescContent"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        layout_marginBottom="8dp"
+        NOT_FOUND_0x8="@dimen/res_0x7f07011f_kclassimpl_data_declarednonstaticmembers_2"
+        NOT_FOUND_0x9="@dimen/2131165468"
+        NOT_FOUND_0xa="1"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/tvTitleContent"
+        style="@style/2132017414"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

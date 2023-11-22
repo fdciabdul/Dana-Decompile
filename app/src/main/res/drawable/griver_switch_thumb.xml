@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_checked="true"
+        drawable="@drawable/griver_switch_thumb_on"/>
+    <item
+        state_checked="false"
+        drawable="@drawable/griver_switch_thumb_off"/>
+    <item drawable="@drawable/griver_switch_thumb_off"/>
+</selector>

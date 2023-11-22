@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <FrameLayout
+        id="@+id/layout_pop_up_content"
+        clickable="true"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_alignParentBottom="true"/>
+    <TextView
+        id="@+id/tv_empty_text"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_above="@+id/layout_pop_up_content"/>
+</RelativeLayout>

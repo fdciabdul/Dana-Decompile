@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    id="@+id/view_auto_switch"
+    style="@style/2132017490">
+    <RelativeLayout
+        orientation="horizontal"
+        id="@+id/LayoutAddBankBinding"
+        background="#ffffff"
+        paddingLeft="12dp"
+        paddingTop="20dp"
+        paddingRight="12dp"
+        paddingBottom="20dp"
+        style="@style/2132017490">
+        <TextView
+            id="@+id/tv_title"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_centerInParent="true"
+            layout_marginStart="4dp"
+            layout_alignParentStart="true"
+            style="@style/2132017413"/>
+        <androidx.appcompat.widget.SwitchCompat
+            id="@+id/switch_button"
+            checked="false"
+            layout_centerInParent="true"
+            contentDescription="@string/toggle_auto_redirect_payment"
+            layout_alignParentEnd="true"
+            style="@style/2132017659"/>
+    </RelativeLayout>
+    <View
+        id="@+id/res_0x7f0a1a0b_filter_jgv0xpq"
+        style="@style/2132017967"/>
+</LinearLayout>

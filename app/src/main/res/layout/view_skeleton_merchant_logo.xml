@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/iv_merchant_logo"
+    background="@drawable/square_rounded_skeleton"
+    layout_width="64dp"
+    layout_height="64dp"/>

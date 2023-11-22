@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/cl_home"
+    fitsSystemWindows="false"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    NOT_FOUND_0xa="@xml/2132148228">
+    <com.google.android.material.appbar.AppBarLayout
+        theme="@style/2132017847"
+        id="@+id/appbar"
+        fitsSystemWindows="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x9="0dp">
+        <include
+            id="@+id/include_view_home_toolbar_menu"
+            layout="@layout/view_home_toolbar_menu"/>
+        <id.dana.richview.MaintenanceBroadcastView
+            id="@+id/view_home_widget_ticker"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            layout_marginStart="12dp"
+            layout_marginEnd="12dp"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        id="@+id/ptr_home"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        NOT_FOUND_0xe="300"
+        NOT_FOUND_0xf="300"
+        NOT_FOUND_0x10="true"
+        NOT_FOUND_0x11="false"
+        NOT_FOUND_0x12="1.2"
+        NOT_FOUND_0x13="1.7">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rv_main_content"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="0"
+            NOT_FOUND_0xd="0"/>
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+</LinearLayout>

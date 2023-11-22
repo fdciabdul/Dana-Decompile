@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingLeft="8dp"
+    paddingRight="8dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        layout_gravity="center_horizontal"
+        id="@+id/res_0x7f0a0a5c_nearbyplaceentityrepository_externalsyntheticlambda0"
+        layout_width="48dp"
+        layout_height="48dp"
+        contentDescription="@string/imgHighlightProfileAvatar"
+        NOT_FOUND_0x7="@color/MyBillsEntityDataFactory_res_0x7f060157"
+        NOT_FOUND_0x8="1dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivOwnProfileIcon"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x9="@+id/res_0x7f0a0a5c_nearbyplaceentityrepository_externalsyntheticlambda0"
+        NOT_FOUND_0xa="@+id/res_0x7f0a0a5c_nearbyplaceentityrepository_externalsyntheticlambda0"
+        NOT_FOUND_0xb="@+id/res_0x7f0a0a5c_nearbyplaceentityrepository_externalsyntheticlambda0"
+        NOT_FOUND_0xc="@+id/res_0x7f0a0a5c_nearbyplaceentityrepository_externalsyntheticlambda0"
+        NOT_FOUND_0xd="@drawable/ic_profile_icon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/rl_user_service"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        id="@+id/cv_user_service"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        minHeight="80dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xe="@color/2131100488"
+        NOT_FOUND_0xf="6dp"
+        NOT_FOUND_0x10="0dp"
+        NOT_FOUND_0x13="@color/2131100475"
+        NOT_FOUND_0x14="1dp">
+        <LinearLayout
+            orientation="vertical"
+            layout_width="match_parent"
+            layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                id="@+id/KeyBizExceptionLog"
+                paddingLeft="2dp"
+                paddingTop="4dp"
+                paddingRight="2dp"
+                paddingBottom="4dp"
+                clipToPadding="false"
+                layout_width="match_parent"
+                layout_height="wrap_content"
+                overScrollMode="never"
+                NOT_FOUND_0x11="0"
+                NOT_FOUND_0x12="0"/>
+            <include
+                id="@+id/res_0x7f0a1b85_gettopupuserconsult_externalsyntheticlambda0"
+                visibility="gone"
+                layout_width="match_parent"
+                layout_height="wrap_content"
+                layout="@layout/view_profile_new_setting_statement"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

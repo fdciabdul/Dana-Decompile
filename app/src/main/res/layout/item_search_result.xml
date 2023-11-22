@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    style="@style/2132017490">
+    <id.dana.richview.imageview.ImageWithHorizontalDescriptionView
+        id="@+id/res_0x7f0a0c78_callerimpl_method_jvmstaticinobject"
+        paddingTop="12dp"
+        paddingBottom="12dp"
+        style="@style/2132017490"/>
+</LinearLayout>

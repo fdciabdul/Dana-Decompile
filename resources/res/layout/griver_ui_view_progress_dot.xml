@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="horizontal"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <View
+        id="@+id/progress_dot1"
+        background="@drawable/griver_ui_progress_view_bg"
+        layout_width="8dp"
+        layout_height="8dp"
+        layout_marginRight="8dp"/>
+    <View
+        id="@+id/progress_dot2"
+        background="@drawable/griver_ui_progress_view_bg"
+        layout_width="8dp"
+        layout_height="8dp"
+        layout_marginRight="8dp"/>
+    <View
+        id="@+id/progress_dot3"
+        background="@drawable/griver_ui_progress_view_bg"
+        layout_width="8dp"
+        layout_height="8dp"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        left="3dp"
+        top="3dp"
+        right="3dp"
+        bottom="3dp">
+        <shape shape="rectangle">
+            <solid color="#ebebeb"/>
+            <corners radius="2dp"/>
+            <padding
+                left="50dp"
+                top="8dp"
+                right="11dp"
+                bottom="7dp"/>
+        </shape>
+    </item>
+    <item left="-36dp">
+        <bitmap
+            gravity="center"
+            src="@drawable/googleg_disabled_color_18"/>
+    </item>
+</layer-list>

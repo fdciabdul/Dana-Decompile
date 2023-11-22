@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center"
+    layout_gravity="center"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <android.opengl.GLSurfaceView
+        id="@+id/gl_surface_view"
+        layout_width="match_parent"
+        layout_height="match_parent"/>
+</FrameLayout>

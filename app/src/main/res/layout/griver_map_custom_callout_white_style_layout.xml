@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="horizontal"
+    background="#00000000"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <LinearLayout
+        gravity="center"
+        orientation="horizontal"
+        id="@+id/custom_callout_container"
+        background="@drawable/griver_map_white_bg"
+        paddingTop="1dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginBottom="3dp">
+        <TextView
+            textSize="14sp"
+            ellipsize="end"
+            id="@+id/custom_callout_desc"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_marginLeft="8dp"
+            layout_marginRight="8dp"
+            text=""
+            maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

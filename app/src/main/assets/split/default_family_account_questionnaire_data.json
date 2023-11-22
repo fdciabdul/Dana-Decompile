@@ -1,0 +1,12 @@
+{
+  "relation": [
+    "Keluarga",
+    "Teman Kerja",
+    "Teman",
+    "Lainnya"
+  ],
+  "address": [
+    "Sama",
+    "Tidak sama"
+  ]
+}

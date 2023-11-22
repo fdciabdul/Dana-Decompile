@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="?android:attr/selectableItemBackground"
+    focusable="true"
+    clickable="true"
+    style="@style/2132017490">
+    <ImageView
+        id="@+id/avatar"
+        layout_width="32dp"
+        layout_height="32dp"
+        layout_marginLeft="16dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xd="@+id/tv_add_number_msg"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="@+id/tv_account_number"
+        NOT_FOUND_0x12="@drawable/ic_bank_placeholder"/>
+    <TextView
+        textSize="16sp"
+        textColor="#4a4a4a"
+        id="@+id/tv_account_number"
+        layout_marginLeft="16dp"
+        layout_marginTop="10dp"
+        fontFamily="@font/2131296265"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xe="@+id/avatar"
+        NOT_FOUND_0x11="0"
+        style="@style/2132018187"/>
+    <TextView
+        textSize="12sp"
+        textColor="#b8b8b8"
+        id="@+id/tv_add_number_msg"
+        layout_marginLeft="16dp"
+        text="@string/add_recipient_by_bank_account"
+        fontFamily="@font/2131296265"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xe="@+id/avatar"
+        NOT_FOUND_0x10="@+id/tv_account_number"
+        style="@style/2132018187"/>
+    <View
+        background="#b8b8b8"
+        layout_width="match_parent"
+        layout_height="0.5dp"
+        layout_marginTop="10dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_add_number_msg"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

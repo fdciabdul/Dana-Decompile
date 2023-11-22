@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    fromDegrees="120"
+    toDegrees="140"
+    pivotX="50%"
+    pivotY="50%">
+    <item id="@android:id/background">
+        <shape
+            shape="ring"
+            innerRadiusRatio="2.2"
+            thicknessRatio="22"
+            useLevel="false"
+            angle="0"
+            type="radial">
+            <gradient
+                startColor="#32d4f1"
+                endColor="#108ee9"
+                angle="270"/>
+        </shape>
+    </item>
+</layer-list>

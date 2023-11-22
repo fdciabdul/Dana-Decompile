@@ -1,0 +1,14 @@
+{
+  "name": "EAZY Eats",
+  "icon": "https://a.m.dana.id/resource/imgs/entrance/icon_service_dana_food.png",
+  "userAction": "",
+  "clientId": "2020071340720393189611",
+  "redirectUrl": "https://userapp.food.dana.id/",
+  "action": "POST",
+  "scopes": "PUBLIC_ID,CASHIER,QUERY_BALANCE,DEFAULT_BASIC_PROFILE,MINI_DANA",
+  "operationType": "alipayplus.mobilewallet.oauth.authcode.apply.json",
+  "enable": true,
+  "description": "danafood_description",
+  "buttonTitle": "danafood_button_title",
+  "keyword": "food, dana food, eat, makanan, makan, eatzy, dana eatzy, restaurant, resto, shop, shopping"
+}

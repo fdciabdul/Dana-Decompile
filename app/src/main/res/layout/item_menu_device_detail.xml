@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    background="@android:color/white"
+    style="@style/2132017490">
+    <View
+        id="@+id/v_line_top"
+        visibility="gone"
+        style="@style/2132017967"/>
+    <LinearLayout
+        orientation="horizontal"
+        background="?attr/2130969991"
+        paddingTop="20dp"
+        paddingBottom="20dp"
+        weightSum="3"
+        style="@style/2132017490">
+        <TextView
+            id="@+id/tv_title"
+            layout_width="0dp"
+            layout_height="wrap_content"
+            layout_weight="1"
+            layout_marginStart="16dp"
+            style="@style/2132017413"/>
+        <TextView
+            gravity="end"
+            id="@+id/tv_subtitle"
+            layout_width="0dp"
+            layout_height="wrap_content"
+            layout_weight="2"
+            layout_marginEnd="16dp"
+            style="@style/2132017414"/>
+    </LinearLayout>
+    <View
+        id="@+id/DanaQuickActionWidgetProvider_MembersInjector"
+        style="@style/2132017967"/>
+    <View
+        id="@+id/v_line_bottom_right"
+        visibility="gone"
+        layout_marginStart="16dp"
+        style="@style/2132017967"/>
+</LinearLayout>

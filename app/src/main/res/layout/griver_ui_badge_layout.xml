@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <ImageView
+        layout_gravity="center"
+        id="@+id/redPoint"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        src="@drawable/griver_ui_shock_point_small"
+        scaleType="center"
+        contentDescription="@null"/>
+    <com.alibaba.griver.ui.ant.text.AUTextView
+        textSize="10dp"
+        textColor="@android:color/white"
+        ellipsize="end"
+        gravity="center"
+        layout_gravity="center"
+        id="@+id/msgText"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        maxLines="1"
+        maxEms="6"
+        includeFontPadding="false"/>
+</merge>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    insetLeft="4dp"
+    insetRight="4dp"
+    insetTop="6dp"
+    insetBottom="6dp">
+    <ripple color="?android:attr/colorControlHighlight">
+        <item>
+            <selector>
+                <item state_enabled="false">
+                    <shape shape="rectangle">
+                        <corners radius="2dp"/>
+                        <solid color="?android:attr/colorButtonNormal"/>
+                        <padding
+                            left="8dp"
+                            top="4dp"
+                            right="8dp"
+                            bottom="4dp"/>
+                    </shape>
+                </item>
+                <item>
+                    <shape shape="rectangle">
+                        <corners radius="2dp"/>
+                        <solid color="?android:attr/colorAccent"/>
+                        <padding
+                            left="8dp"
+                            top="4dp"
+                            right="8dp"
+                            bottom="4dp"/>
+                    </shape>
+                </item>
+            </selector>
+        </item>
+    </ripple>
+</inset>

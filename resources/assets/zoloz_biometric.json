@@ -1,0 +1,41 @@
+{
+  "meta_info": [
+    "com.alipay.zoloz.toyger.bean.ZFaceMetaInfo",
+    "com.zoloz.android.phone.zdoc.bean.ZdocMetaInfo",
+    "com.alipay.zoloz.zface.bean.MultiActionMetaInfo",
+    "com.alipay.zoloz.zface.beans.ZFaceMetaInfo",
+    "com.alipay.zoloz.zface.bean.GarfieldCherryMetaInfo"
+  ],
+  "local_services": [
+    {
+      "interface": "com.alipay.mobile.security.bio.service.local.rpc.BioRPCService",
+      "essential": true,
+      "class": "com.zoloz.builder.service.RpcServiceProxy",
+      "lazy": true
+    },
+    {
+      "interface": "com.alipay.mobile.security.bio.service.local.monitorlog.MonitorLogService",
+      "essential": true,
+      "class": "com.zoloz.builder.service.LogServiceProxy",
+      "lazy": true
+    },
+    {
+      "interface": "com.alipay.mobile.security.bio.service.local.apsecurity.ApSecurityService",
+      "essential": true,
+      "class": "com.zoloz.builder.service.DfpServiceProxy",
+      "lazy": true
+    },
+    {
+      "interface": "com.ap.zoloz.hot.reload.ViewLoadService",
+      "essential": true,
+      "class": "com.ap.zoloz.hot.reload.BasicViewLoadService",
+      "lazy": true
+    },
+    {
+      "interface": "com.alipay.mobile.security.bio.service.local.web.BioWebService",
+      "essential": true,
+      "class": "com.zoloz.builder.service.WebServiceProxy",
+      "lazy": true
+    }
+  ]
+}

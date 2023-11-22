@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" exitFadeDuration="@android:integer/config_shortAnimTime">
+    <item
+        drawable="@drawable/md_item_selected"
+        state_activated="true"/>
+    <item
+        state_focused="true"
+        drawable="@drawable/md_item_selected"/>
+    <item
+        state_pressed="true"
+        drawable="@drawable/md_item_selected"/>
+    <item drawable="@drawable/md_transparent"/>
+</selector>

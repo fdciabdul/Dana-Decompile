@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/clPromoSelected"
+    layout_width="match_parent"
+    layout_height="48dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tvPromoNotEligible"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginBottom="16dp"
+        text="@string/promo_is_unavailable"
+        layout_marginStart="12dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="@+id/appCompatImageView"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/ivPromoNotEligible"
+        NOT_FOUND_0xe="0"
+        style="@style/2132017432"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ivPromoNotEligible"
+        layout_width="30dp"
+        layout_height="30dp"
+        layout_marginTop="9dp"
+        layout_marginBottom="9dp"
+        layout_marginStart="12dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@drawable/ic_cashier_promo"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/appCompatImageView"
+        layout_width="24dp"
+        layout_height="24dp"
+        layout_marginTop="12dp"
+        layout_marginBottom="12dp"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@drawable/ic_arrow_right_me_page"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

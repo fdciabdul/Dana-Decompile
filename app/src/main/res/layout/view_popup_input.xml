@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container_view"
+    background="@android:color/transparent"
+    clickable="true"
+    style="@style/2132017490">
+    <RelativeLayout
+        background="@drawable/rounded_popup"
+        layout_width="wrap_content"
+        layout_alignParentBottom="true"
+        style="@style/2132017490">
+        <ImageButton
+            id="@+id/forEach"
+            background="#00000000"
+            layout_width="20dp"
+            layout_height="20dp"
+            layout_margin="10dp"
+            layout_alignParentTop="true"
+            contentDescription="@string/btn_close_otp"
+            layout_alignParentEnd="true"
+            NOT_FOUND_0xb="@drawable/MyBillsEntityDataFactory"/>
+        <id.dana.popup.LockableViewPager
+            id="@+id/popup_view"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            layout_below="@+id/forEach"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    style="@style/2132017531">
+    <id.dana.component.cellcomponent.DanaCellSimpleView
+        id="@+id/CreateRemoteWorkerExtension_res_0x7f0a03d7"
+        style="@style/2132017531"/>
+</LinearLayout>

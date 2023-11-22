@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_rounded_8dp_border_grey20_nofill"
+    paddingTop="30dp"
+    paddingBottom="30dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="8dp"
+    paddingStart="20dp"
+    paddingEnd="20dp"
+    layout_marginStart="12dp"
+    layout_marginEnd="12dp">
+    <TextView
+        id="@+id/tv_error_description"
+        tag="@string/error_message_tag"
+        layout_width="182dp"
+        layout_height="wrap_content"
+        text="@string/nearby_no_location_permission"
+        layout_alignParentTop="true"
+        contentDescription="@string/lblAllowLocation"
+        layout_marginEnd="50dp"
+        layout_toStartOf="@+id/iv_error_image"
+        NOT_FOUND_0x15="0.5"
+        style="@style/2132017908"/>
+    <Button
+        id="@+id/btn_action_emptystate"
+        layout_width="120dp"
+        layout_marginTop="16dp"
+        text="@string/PlaceComponentResult"
+        layout_below="@+id/tv_error_description"
+        contentDescription="@string/btnAllowLocation"
+        layout_alignStart="@+id/tv_error_description"
+        NOT_FOUND_0x15="0"
+        style="@style/2132017482"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_error_image"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_centerVertical="true"
+        contentDescription="@string/imgAllowLocation"
+        layout_marginEnd="30dp"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0.5"
+        NOT_FOUND_0x16="@drawable/ic_error_location_not_found"/>
+</RelativeLayout>

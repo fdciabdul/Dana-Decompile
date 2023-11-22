@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <RelativeLayout
+        paddingLeft="16dp"
+        paddingTop="8dp"
+        paddingRight="16dp"
+        paddingBottom="8dp"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xf="0">
+        <TextView
+            id="@+id/tv_bank_name"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_alignParentLeft="true"
+            layout_centerVertical="true"
+            layout_alignParentStart="true"/>
+        <ImageView
+            id="@+id/iv_bank_logo"
+            layout_width="40dp"
+            layout_height="40dp"
+            scaleType="fitXY"
+            layout_alignParentRight="true"
+            layout_centerVertical="true"
+            layout_alignParentEnd="true"
+            NOT_FOUND_0x10="@drawable/ic_bank_placeholder"/>
+    </RelativeLayout>
+    <View
+        id="@+id/tv_divider"
+        background="#b8b8b8"
+        layout_width="match_parent"
+        layout_height="0.5dp"
+        NOT_FOUND_0xe="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

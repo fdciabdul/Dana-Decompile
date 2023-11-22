@@ -1,0 +1,25 @@
+{
+  "result": {
+    "beneficiary": {
+      "beneficiaryId":"121313131",
+      "firstName":"Derayan Bima",
+      "lastName":"Alamsyah",
+      "country":"IDR",
+      "phoneNumber":"085836353536",
+      "bankName":"VISA",
+      "bankCode":"1VISA",
+      "cardIndexNo": "13919139131",
+      "maskedCardNo": "139****131",
+      "formattedHolderName": null,
+      "accountType": null,
+      "routingNo": null,
+      "externalSystemId": null,
+      "payMethod": "DANA_BALANCE",
+      "payOption": null,
+      "instLocalName": null,
+      "withdrawInstId": null
+    },
+    "success": true
+  },
+  "resultStatus": 1000
+}

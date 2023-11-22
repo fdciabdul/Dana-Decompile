@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        id="@+id/civProfileAvatar"
+        layout_width="28dp"
+        layout_height="28dp"
+        src="@drawable/avatar_placeholder"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@style/2132018200"
+        NOT_FOUND_0x13="@color/2131099990"
+        NOT_FOUND_0x14="1dp"/>
+    <TextView
+        textSize="14sp"
+        textColor="#313131"
+        ellipsize="end"
+        id="@+id/tvName"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        maxWidth="124dp"
+        maxLines="1"
+        fontFamily="@font/2131296266"
+        layout_marginStart="8dp"
+        NOT_FOUND_0xb="@+id/civProfileAvatar"
+        NOT_FOUND_0xd="@+id/loadSvgImageToIconImageView"
+        NOT_FOUND_0xe="2"
+        NOT_FOUND_0xf="@+id/civProfileAvatar"
+        NOT_FOUND_0x11="@+id/civProfileAvatar"/>
+    <TextView
+        ellipsize="end"
+        id="@+id/loadSvgImageToIconImageView"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        maxLines="1"
+        layout_marginStart="4dp"
+        NOT_FOUND_0xb="@+id/civProfileAvatar"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="2"
+        NOT_FOUND_0xf="@+id/tvName"
+        NOT_FOUND_0x11="@+id/civProfileAvatar"
+        style="@style/2132017405"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

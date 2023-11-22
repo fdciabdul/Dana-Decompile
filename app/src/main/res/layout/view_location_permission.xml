@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    padding="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_margin="16dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ic_permission_location"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="@drawable/ic_request_location"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        gravity="center_horizontal"
+        id="@+id/tv_title_permission_location"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/globalsearch_permission_location_request"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/ic_permission_location"
+        style="@style/2132017406"/>
+    <id.dana.component.buttoncomponent.DanaButtonPrimaryView
+        id="@+id/btn_permission_location"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="@+id/tv_title_permission_location"
+        NOT_FOUND_0xc="@string/allow_access"
+        NOT_FOUND_0xd="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

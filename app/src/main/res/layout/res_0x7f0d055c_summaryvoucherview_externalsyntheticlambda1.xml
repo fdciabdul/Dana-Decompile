@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#ffffff"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        id="@+id/ContentDeliveryCacheEntityDataFactory"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        text="@string/send_amount"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"
+        style="@style/2132017901"/>
+    <TextView
+        id="@+id/tvError"
+        visibility="invisible"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        NOT_FOUND_0x10="@drawable/ic_warning_red"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@+id/ContentDeliveryCacheEntityDataFactory"
+        NOT_FOUND_0x13="@+id/etAmount"
+        style="@style/2132017435"/>
+    <id.dana.core.ui.richview.CurrencyEditText
+        enabled="true"
+        textSize="27sp"
+        textStyle="bold"
+        id="@+id/etAmount"
+        paddingTop="4dp"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        maxLines="1"
+        android:maxLength="12"
+        inputType="numberPassword"
+        imeOptions="actionDone"
+        contentDescription="@string/txt_input_amount"
+        textCursorDrawable="@drawable/cursor_tangerine"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/ContentDeliveryCacheEntityDataFactory"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_item_all_cards"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        id="@+id/view_dummy_card"
+        background="@drawable/square_rounded_skeleton"
+        visibility="invisible"
+        layout_width="114dp"
+        layout_height="72.25dp"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="8:5"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        ellipsize="end"
+        id="@+id/tv_card_title"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        maxLines="2"
+        layout_marginStart="24dp"
+        NOT_FOUND_0xb="@+id/tv_card_balance"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0.5"
+        NOT_FOUND_0xf="@+id/view_dummy_card"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="2"
+        style="@style/2132017407"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tv_card_balance"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        layout_marginStart="24dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0.5"
+        NOT_FOUND_0xf="@+id/view_dummy_card"
+        NOT_FOUND_0x11="@+id/tv_card_title"
+        style="@style/2132017924"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

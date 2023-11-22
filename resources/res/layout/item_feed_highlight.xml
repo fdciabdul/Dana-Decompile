@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_rounded_8dp"
+    layout_width="287dp"
+    layout_height="80dp"
+    layout_marginTop="4dp"
+    layout_marginBottom="4dp"
+    layout_marginStart="8dp"
+    layout_marginEnd="4dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_avatar"
+        layout_width="32dp"
+        layout_height="32dp"
+        layout_marginTop="12dp"
+        layout_marginStart="12dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_unread_badge"
+        visibility="gone"
+        layout_width="11dp"
+        layout_height="11dp"
+        layout_marginTop="12dp"
+        layout_marginStart="12dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@drawable/unread_badge"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        ellipsize="end"
+        id="@+id/tv_description"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        maxLines="3"
+        layout_marginStart="12dp"
+        layout_marginEnd="12dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/iv_avatar"
+        NOT_FOUND_0xe="0"
+        style="@style/2132017405"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

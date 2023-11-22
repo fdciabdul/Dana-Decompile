@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/vg_see_all_header_root"
+    background="?attr/2130969992"
+    layout_width="80dp"
+    layout_height="wrap_content"
+    layout_marginLeft="2dp"
+    layout_marginRight="2dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="center_horizontal"
+        id="@+id/iv_profile_avatar"
+        background="@drawable/bg_friends_widget"
+        layout_width="52dp"
+        layout_height="52dp"
+        scaleType="center"
+        adjustViewBounds="true"
+        contentDescription="@string/btnAllFriends"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="@drawable/ic_friends"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="10sp"
+        textColor="@android:color/white"
+        ellipsize="end"
+        id="@+id/tv_name"
+        layout_width="wrap_content"
+        layout_height="14dp"
+        layout_marginTop="6dp"
+        maxWidth="76dp"
+        text="@string/all_friend"
+        maxLines="1"
+        fontFamily="@font/2131296265"
+        NOT_FOUND_0x12="@+id/iv_profile_avatar"
+        NOT_FOUND_0x13="@+id/iv_profile_avatar"
+        NOT_FOUND_0x14="@+id/iv_profile_avatar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

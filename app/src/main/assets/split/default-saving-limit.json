@@ -1,0 +1,5 @@
+{
+  "max_saving_count_non_kyc": "10",
+  "max_saving_amount_non_kyc": "1.500.000",
+  "max_saving_amount_kyc": "16.000.000"
+}

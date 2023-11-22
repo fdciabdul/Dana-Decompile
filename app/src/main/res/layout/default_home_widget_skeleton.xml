@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_promo_center_entry"
+    paddingBottom="12dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    NOT_FOUND_0xc="0"
+    NOT_FOUND_0xe="0">
+    <TextView
+        id="@+id/tv_promo_center_title"
+        background="@drawable/square_rounded_skeleton_grey_30_radius_4"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginStart="16dp"
+        layout_marginEnd="20dp"
+        NOT_FOUND_0xa="@+id/btn_view_all"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        style="@style/2132017924"/>
+    <TextView
+        ellipsize="end"
+        id="@+id/tv_promo_center_description"
+        background="@drawable/square_rounded_skeleton_grey_30_radius_4"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="2dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="20dp"
+        NOT_FOUND_0xa="@+id/btn_view_all"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/tv_promo_center_title"
+        style="@style/2132017440"/>
+    <View
+        id="@+id/btn_view_all"
+        background="@drawable/square_rounded_skeleton_grey_30_radius_4"
+        layout_width="80dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x9="@+id/tv_promo_center_description"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="@+id/tv_promo_center_title"
+        style="@style/2132017482"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

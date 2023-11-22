@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.button.DialogActionButtonLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/md_button_layout"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatCheckBox
+        id="@+id/md_checkbox_prompt"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        style="@style/2132017519"/>
+    <com.afollestad.materialdialogs.internal.button.DialogActionButton
+        id="@+id/md_button_positive"
+        style="@style/2132017517"/>
+    <com.afollestad.materialdialogs.internal.button.DialogActionButton
+        id="@+id/md_button_negative"
+        style="@style/2132017517"/>
+    <com.afollestad.materialdialogs.internal.button.DialogActionButton
+        id="@+id/md_button_neutral"
+        style="@style/2132017517"/>
+</com.afollestad.materialdialogs.internal.button.DialogActionButtonLayout>

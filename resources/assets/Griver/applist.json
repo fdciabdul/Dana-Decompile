@@ -1,0 +1,40 @@
+{
+  "apps": {
+    "danalib": {
+      "identifier": "danalib",
+      "subappId": "danalib",
+      "version": "1.19.3",
+      "type": "resource",
+      "remoteURLPrefix": "",
+      "index": "",
+      "updatePolicy": "loadRemote",
+      "shouldLoadRemote": false,
+      "downloadURL": "https://a.m.dana.id/marmot/offline/packages/danalib/danalib_1.19.1_aa58cba.amr"
+    },
+    "dana-tutorial": {
+      "identifier": "dana-tutorial",
+      "subappId": "dana-tutorial",
+      "version": "1.28.2",
+      "type": "spa",
+      "remoteURLPrefix": "https://m.dana.id/i/tutorial/",
+      "index": "m/index.html",
+      "updatePolicy": "loadPrevious",
+      "shouldLoadRemote": false,
+      "downloadURL": "https://a.m.dana.id/marmot/offline/packages/dana-tutorial/dana-tutorial_1.28.0.amr"
+    },
+    "dana-promotion": {
+      "identifier": "dana-promotion",
+      "subappId": "dana-promotion",
+      "version": "1.11.1",
+      "type": "spa",
+      "remoteURLPrefix": "https://m.dana.id/i/dana-promotion/",
+      "index": "index.html",
+      "updatePolicy": "loadRemote",
+      "shouldLoadRemote": false,
+      "downloadURL": "https://a.m.dana.id/marmot/resource/dana-promotion/dana-promotion_1.11.0_9da9a36.amr"
+    }
+  },
+  "sharedPackages": [
+    "danalib"
+  ]
+}

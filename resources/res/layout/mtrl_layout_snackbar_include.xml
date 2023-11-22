@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="bottom"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    class="com.google.android.material.snackbar.SnackbarContentLayout">
+    <TextView
+        layout_gravity="start|center_vertical"
+        id="@+id/snackbar_text"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_weight="1"
+        style="?attr/2130970059"/>
+    <Button
+        layout_gravity="end|center_vertical"
+        id="@+id/snackbar_action"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        minWidth="48dp"
+        style="?attr/2130970057"/>
+</view>

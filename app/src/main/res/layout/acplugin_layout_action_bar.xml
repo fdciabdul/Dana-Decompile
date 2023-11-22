@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center_vertical"
+    orientation="horizontal"
+    background="@android:color/white"
+    paddingRight="8dp"
+    layout_width="match_parent"
+    layout_height="40dp">
+    <ImageView
+        layout_gravity="center"
+        id="@+id/back_view"
+        padding="5dp"
+        layout_width="29dp"
+        layout_height="29dp"
+        layout_marginLeft="7dp"
+        src="@drawable/acplugin_back_icon"
+        scaleType="fitCenter"/>
+    <TextView
+        textSize="18dp"
+        textColor="#333"
+        id="@+id/title_text"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginLeft="3dp"
+        includeFontPadding="false"/>
+</LinearLayout>

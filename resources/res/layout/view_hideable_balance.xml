@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <TextView
+        ellipsize="end"
+        id="@+id/res_0x7f0a1618_snapshotcontroller_1"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="2dp"
+        maxLines="1"
+        layout_toEndOf="@+id/tv_currency"
+        style="@style/2132017947"/>
+    <TextView
+        ellipsize="end"
+        id="@+id/tv_amount_hide"
+        visibility="visible"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="2dp"
+        text="•••"
+        maxLines="1"
+        layout_toEndOf="@+id/tv_currency"
+        style="@style/2132017947"/>
+    <TextView
+        id="@+id/tv_currency"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="2dp"
+        text="@string/currency_indonesia"
+        maxLines="1"
+        paddingStart="0dp"
+        paddingEnd="0dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        style="@style/2132017947"/>
+</RelativeLayout>

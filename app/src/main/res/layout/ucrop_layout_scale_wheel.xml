@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <TextView
+        id="@+id/text_view_scale"
+        text="100%"
+        style="@style/2132018233"/>
+    <com.yalantis.ucrop.view.widget.HorizontalProgressWheelView
+        id="@+id/scale_scroll_wheel"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_below="@+id/text_view_scale"/>
+</RelativeLayout>

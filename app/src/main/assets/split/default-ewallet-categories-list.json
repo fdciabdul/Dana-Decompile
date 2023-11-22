@@ -1,0 +1,38 @@
+{
+  "ewallet_809908": {
+    "instId": "CIMBC1ID",
+    "bank_name": "CIMB Niaga",
+    "ewallet_name": "OVO",
+    "identifier": "BILL-5d0a2c88"
+  },
+  "ewallet_8408": {
+    "instId": "BNLIC1ID",
+    "bank_name": "Permata",
+    "ewallet_name": "OVO",
+    "identifier": "BILL-5d0a2c88"
+  },
+  "ewallet_89808": {
+    "instId": "BNLIC1ID",
+    "bank_name": "Permata",
+    "ewallet_name": "GoPay",
+    "identifier": "BILL-09bb60a2"
+  },
+  "ewallet_9900008": {
+    "instId": "BTNC1ID",
+    "bank_name": "BTN",
+    "ewallet_name": "GoPay",
+    "identifier": "BILL-09bb60a2"
+  },
+  "ewallet_284908": {
+    "instId": "CIMBC1ID",
+    "bank_name": "CIMB Niaga",
+    "ewallet_name": "GoPay",
+    "identifier": "BILL-09bb60a2"
+  },
+  "ewallet_89308": {
+    "instId": "MDRIC1ID",
+    "bank_name": "Mandiri",
+    "ewallet_name": "ShopeePay",
+    "identifier": "BILL-cd160eed"
+  }
+}

@@ -1,0 +1,2269 @@
+{
+  "attributes": {},
+  "needSenderName": false,
+  "payeeUserInfo": {
+    "avatar": "",
+    "certified": false,
+    "kycLevel": "02",
+    "maskedLoginId": "****7375",
+    "maskedNickName": "Jac*",
+    "userId": "216610000001366890890"
+  },
+  "payerUserInfo": {
+    "avatar": "",
+    "balanceAmount": {
+      "amount": "647.048",
+      "currency": "Rp"
+    },
+    "certified": true,
+    "kycLevel": "02",
+    "maskedLoginId": "****5008",
+    "maskedNickName": "Nan**",
+    "nickName": "Nandi",
+    "userId": "216610000000729040219"
+  },
+  "success": true,
+  "traceId": "0ba2ecf11572342386215707047703",
+  "transferMethodInfo": [
+    {
+      "chargeAmount": {
+        "amount": "4.500",
+        "currency": "Rp"
+      },
+      "freeRemainingTimes": 0,
+      "freeTimes": 0,
+      "payMethodInfos": [
+        {
+          "fundType": "TRANSFER_P2B",
+          "payMethod": "BALANCE",
+          "payMethodView": {
+            "defaultOption": "BALANCE",
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "balanceChannelInfos": [
+                  {
+                    "accountBalance": {
+                      "amount": 647048,
+                      "cent": 64704800,
+                      "centFactor": 100,
+                      "currency": "IDR",
+                      "currencyCode": "IDR",
+                      "currencyValue": "360"
+                    },
+                    "payerAccountNo": "20070000000100576218"
+                  }
+                ],
+                "enableStatus": true,
+                "extendInfo": {},
+                "instId": "DANAW3ID",
+                "instLocalName": "",
+                "instName": "",
+                "payMethod": "BALANCE",
+                "payOption": "BALANCE"
+              }
+            ],
+            "payMethod": "BALANCE"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "642.548",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "50.000",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2B",
+          "payMethod": "NET_BANKING",
+          "payMethodView": {
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "BCAC1ID01",
+                "instLocalName": "BCA",
+                "instName": "BCA BANK CENTRAL ASIA",
+                "payMethod": "NET_BANKING",
+                "payOption": "NET_BANKING_BCA",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "NET_BANKING"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "1.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "50.000",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2B",
+          "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+          "payMethodView": {
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "BRIC1ID",
+                "instLocalName": "BRI",
+                "instName": "BRI BANK RAKYAT INDONESIA",
+                "maxAmount": {
+                  "amount": "10.000.000",
+                  "currency": "Rp"
+                },
+                "minAmount": {
+                  "amount": "50.000",
+                  "currency": "Rp"
+                },
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_BRI",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "MDRIC1ID",
+                "instLocalName": "Mandiri",
+                "instName": "MANDIRI",
+                "maxAmount": {
+                  "amount": "10.000.000",
+                  "currency": "Rp"
+                },
+                "minAmount": {
+                  "amount": "50.000",
+                  "currency": "Rp"
+                },
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_MDRIC1ID",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "PANIC1ID",
+                "instLocalName": "Panin",
+                "instName": "PANIN BANK",
+                "maxAmount": {
+                  "amount": "1.000.000",
+                  "currency": "Rp"
+                },
+                "minAmount": {
+                  "amount": "50.000",
+                  "currency": "Rp"
+                },
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_PANI",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "DIRECT_DEBIT_DEBIT_CARD"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "10.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "50.000",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2B",
+          "payMethod": "DEBIT_CARD",
+          "payMethodView": {
+            "payCardOptionViews": [
+              {
+                "assetType": "DEBIT_CARD",
+                "bindingId": "120300000004535891214",
+                "cardBin": "526422",
+                "cardIndexNo": "201804155015006709a05aaa2a24b649c4f90ffc01130",
+                "cardNoLength": 16,
+                "cardScheme": "MASTW7ID",
+                "defaultCard": false,
+                "directDebit": false,
+                "enableStatus": true,
+                "expiryMonth": "02",
+                "expiryYear": "2021",
+                "extendInfo": {
+                  "CARD_BIN": "526422",
+                  "CARD_CACHE_TOKEN": "2019020601151b1bf4fe13020b252e3d8c1529ce3995a",
+                  "bizProcessId": "a7e93119f660641b7fc8708500bd030a",
+                  "interbankSupport": ""
+                },
+                "holderName": {},
+                "instId": "BNIC1ID",
+                "instLocalName": "BNI",
+                "instName": "BNI BANK NEGARA INDONESIA",
+                "lastPayTime": 1549436656609,
+                "maskedCardNo": "526422******3963",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "payWithoutCVV": true
+              },
+              {
+                "assetType": "DEBIT_CARD",
+                "bindingId": "120300000001001321213",
+                "cardBin": "515291",
+                "cardIndexNo": "20180404192703629c0df4d796a6f152d2da3a3cdf3e2",
+                "cardNoLength": 16,
+                "cardScheme": "MASTW7ID",
+                "defaultCard": false,
+                "directDebit": false,
+                "enableStatus": true,
+                "expiryMonth": "12",
+                "expiryYear": "2024",
+                "extendInfo": {
+                  "CARD_BIN": "515291",
+                  "interbankSupport": ""
+                },
+                "holderName": {},
+                "instId": "BCAC1ID",
+                "instLocalName": "BCA",
+                "instName": "BCA BANK CENTRAL ASIA",
+                "lastPayTime": 1548425817880,
+                "maskedCardNo": "515291******3531",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "payWithoutCVV": true
+              }
+            ],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "MASTW7ID",
+                "instLocalName": "",
+                "instName": "MasterCard Inc.",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "VISAW7ID",
+                "instLocalName": "",
+                "instName": "Visa Inc.",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_VISA",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "DEBIT_CARD"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "50.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "50.000",
+            "currency": "Rp"
+          }
+        }
+      ],
+      "transferMethod": "BANK_TRANSFER",
+      "withdrawMethodViews": [
+        {
+          "payMethod": "WITHDRAW_BANKCARD",
+          "recommendedChannelOptionViews": [],
+          "withdrawCardOptionViews": [],
+          "withdrawChannelOptionViews": [
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BJTC1ID",
+              "instLocalName": "BPD JATIM",
+              "instName": "BPD JAWA TIMUR",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_JATIM"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "VICSC1ID",
+              "instLocalName": "Victoria Syariah",
+              "instName": "BANK VICTORIA SYARIAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_VICSYARIAH"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BINAC1ID",
+              "instLocalName": "Ina Perdana",
+              "instName": "BANK INA PERDANA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_INAPERDANA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "ANZC1ID",
+              "instLocalName": "ANZ",
+              "instName": "BANK ANZ INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_ANZ"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BKEC1ID",
+              "instLocalName": "Kesejahteraan Ekonomi",
+              "instName": "BANK KESEJAHTERAAN EKONOMI",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BKE"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BACAC1ID",
+              "instLocalName": "Capital Indonesia",
+              "instName": "BANK CAPITAL INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_CAPITAL"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MAYAC1ID",
+              "instLocalName": "Mayapada",
+              "instName": "BANK MAYAPADA INTERNATIONAL",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MAYAPADA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BPDPC1ID",
+              "instLocalName": "BPD PAPUA",
+              "instName": "BPD PAPUA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_PAPUA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "SCBKC1ID",
+              "instLocalName": "Standard Charter",
+              "instName": "STANDARD CHARTERED BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SC"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "AGIC1ID",
+              "instLocalName": "AG INT",
+              "instName": "BANK ARTHA GRAHA INTERNASIONAL",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_ARTHAGRAHA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "CITIC1ID",
+              "instLocalName": "CITIBANK",
+              "instName": "CITIBANK N.A.",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_CITIBANK"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "LMPGC1ID",
+              "instLocalName": "BPD LAMPUNG",
+              "instName": "BPD LAMPUNG",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_LAMPUNG"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "PMBC1ID",
+              "instLocalName": "Prima Master",
+              "instName": "PRIMA MASTER BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_PRIMAMASTER"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "SHBC1ID",
+              "instLocalName": "MANTAP",
+              "instName": "BANK MANDIRI TASPEN POS",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SINARMANTAP"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "DBAGC1ID",
+              "instLocalName": "Deutsche",
+              "instName": "DEUTSCHE BANK AG",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_DEUTSCHE"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BJBC1ID",
+              "instLocalName": "BPD JABAR BANTEN",
+              "instName": "BPD JAWA BARAT DAN BANTEN,",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_JABARBANTEN"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MLKUC1ID",
+              "instLocalName": "BPD MALUKU",
+              "instName": "BPD MALUKU",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MALUKU"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BBAC1ID",
+              "instLocalName": "Bumi Arta",
+              "instName": "BANK BUMI ARTA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BUMIARTA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BBYBC1ID",
+              "instLocalName": "Yudha Bhakti",
+              "instName": "BANK YUDHA BHAKTI",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_YUDHABHAKTI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "ARTOC1ID",
+              "instLocalName": "ARTOS",
+              "instName": "BANK ARTOS INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_ARTOS"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "HANAC1ID",
+              "instLocalName": "HANA",
+              "instName": "BANK HANA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_HANA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BISC1ID",
+              "instLocalName": "Index Selindo",
+              "instName": "BANK INDEX SELINDO",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_INDEX"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BSWDC1ID",
+              "instLocalName": "BOII",
+              "instName": "BANK OF INDIA INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BANKOFINDIA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BNLIC1ID",
+              "instLocalName": "Permata",
+              "instName": "PERMATA BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BNLI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MDRIC1ID",
+              "instLocalName": "Mandiri",
+              "instName": "MANDIRI",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MANDIRI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BNIC1ID",
+              "instLocalName": "BNI",
+              "instName": "BNI BANK NEGARA INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BNI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "CNBC1ID",
+              "instLocalName": "Centratama",
+              "instName": "CENTRATAMA NASIONAL BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_CENTRATAMA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "ANDAC1ID",
+              "instLocalName": "Antar Daerah",
+              "instName": "BANK ANTARDAERAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_ANTARDAERAH"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "NOBUC1ID",
+              "instLocalName": "NOBU",
+              "instName": "BANK NATIONAL NOBU",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_NOBU"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MYORC1ID",
+              "instLocalName": "MAYORA",
+              "instName": "BANK MAYORA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MAYORA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BALIC1ID",
+              "instLocalName": "BPD BALI",
+              "instName": "BPD BALI",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BALI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BCTIC1ID",
+              "instLocalName": "CHINATRUST",
+              "instName": "BANK CHINATRUST INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_CHINATRUST"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MUFGC1ID",
+              "instLocalName": "Tokyo MUFJ",
+              "instName": "MUFJ THE BANK OF TOKYO MITSUBISHI UFJ LTD",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MUFJ"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BEKSC1ID",
+              "instLocalName": "BPD Banten",
+              "instName": "BPD BANTEN",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_PUNDI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BMGSC1ID",
+              "instLocalName": "Mega Syariah",
+              "instName": "MEGA SYARIAH BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MEGASYARIAH"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BBNPC1ID",
+              "instLocalName": "BNP",
+              "instName": "BANK NUSANTARA PARAHYANGAN",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BNP"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BWSC1ID",
+              "instLocalName": "BWS",
+              "instName": "BANK WOORI SAUDARA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_WOORI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BOCC1ID",
+              "instLocalName": "CHINA LTD",
+              "instName": "BANK OF CHINA LIMITED",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BOC"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BNISC1ID",
+              "instLocalName": "BNI",
+              "instName": "BNI SYARIAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BNISYARIAH"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BKTGC1ID",
+              "instLocalName": "KALTENG",
+              "instName": "BANK KALIMANTAN TENGAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_KALTENG"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BNPRC1ID",
+              "instLocalName": "BNP Paribas",
+              "instName": "BANK BNP PARIBAS INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BNPPARIBAS"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "PANIC1ID",
+              "instLocalName": "Panin",
+              "instName": "PANIN BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_PANIN"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "UOBC1ID",
+              "instLocalName": "UOB",
+              "instName": "UOB INDONESIA BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_UOB"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BKTC1ID",
+              "instLocalName": "BPD KALTIM",
+              "instName": "BPD KALIMANTAN TIMUR",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_KALTIM"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MASC1ID",
+              "instLocalName": "Multiarta",
+              "instName": "BANK MULTIARTA SENTOSA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MULTIARTA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BMASC1ID",
+              "instLocalName": "Maspion",
+              "instName": "BANK MASPION INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MASPION"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BGTGC1ID",
+              "instLocalName": "GANESHA",
+              "instName": "BANK GANESHA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_GANESHA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BRISC1ID",
+              "instLocalName": "BRI Syariah",
+              "instName": "BANK BRI SYARIAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BRISYARIAH"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "CTBAC1ID",
+              "instLocalName": "Commonwealth",
+              "instName": "COMMONWEALTH BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_COMMBANK"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "AGROC1ID",
+              "instLocalName": "BRI AGRO",
+              "instName": "BRI AGRONIAGA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BRIAGRO"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "DBSC1ID",
+              "instLocalName": "DBS",
+              "instName": "DBS INDONESIA BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_DBS"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BMGC1ID",
+              "instLocalName": "Mega",
+              "instName": "MEGA BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MEGA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BCASC1ID",
+              "instLocalName": "BCA Syariah",
+              "instName": "BCA SYARIAH BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BCASYARIAH"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BKBC1ID",
+              "instLocalName": "BPD KALBAR",
+              "instName": "BPD KALIMANTAN BARAT",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_KALBAR"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BSMUC1ID",
+              "instLocalName": "BPD SUMUT",
+              "instName": "BPD SUMATERA UTARA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SUMUT"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "RBIC1ID",
+              "instLocalName": "ROYAL",
+              "instName": "BANK ROYAL INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_ROYAL"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BTPNC1ID",
+              "instLocalName": "BTPN",
+              "instName": "BTPN BANK TABUNGAN PENSIUNAN NASIONAL",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BTPN"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BSIMC1ID",
+              "instLocalName": "Sinarmas",
+              "instName": "SINARMAS BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BSIM"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "CIMBC1ID",
+              "instLocalName": "CIMB Niaga",
+              "instName": "CIMB NIAGA BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_CIMBNIAGA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BGKLC1ID",
+              "instLocalName": "BPD BENGKULU",
+              "instName": "BPD BENGKULU",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BENGKULU"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "SSBBC1ID",
+              "instLocalName": "BPD SUMSEL BABEL",
+              "instName": "BPD SUMATERA SELATAN DAN BANGKA BELITUNG",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SUMSELBABEL"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "DDIYC1ID",
+              "instLocalName": "BPD Yogyakarta",
+              "instName": "BPD YOGYAKARTA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_YOGYA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "PNBSC1ID",
+              "instLocalName": "Panin Syariah",
+              "instName": "PANIN SYARIAH BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_PANINSYARI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "ACEHC1ID",
+              "instLocalName": "ACEH",
+              "instName": "BANK ACEH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_ACEH"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "JMBIC1ID",
+              "instLocalName": "BPD JAMBI",
+              "instName": "BPD JAMBI",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_JAMBI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "CCBIC1ID",
+              "instLocalName": "CCB Indonesia",
+              "instName": "BANK CCB INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_CCB"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BBMDC1ID",
+              "instLocalName": "MESTIKA DHARMA",
+              "instName": "BANK MESTIKA DHARMA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MESTIKA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BRKC1ID",
+              "instLocalName": "BPD RIAU KEPRI",
+              "instName": "BPD RIAU KEPRI",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_RIAUKEPRI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "HSBCC1ID",
+              "instLocalName": "HSBC",
+              "instName": "HSBC THE HONGKONG & SHANGHAI BANKING CORP",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_HSBC"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "DNARC1ID",
+              "instLocalName": "Dinar",
+              "instName": "BANK DINAR INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_DINAR"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BMNCC1ID",
+              "instLocalName": "MNC",
+              "instName": "BANK MNC INTERNASIONAL",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MNC"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BSLUC1ID",
+              "instLocalName": "BPD SulutGo",
+              "instName": "BPD SULAWESI UTARA SULUTGO",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SULUT"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BJTGC1ID",
+              "instLocalName": "BPD JATENG",
+              "instName": "BPD JAWA TENGAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_JATENG"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "AGRSC1ID",
+              "instLocalName": "Agris",
+              "instName": "BANK AGRIS",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_AGRIS"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "OCBCC1ID",
+              "instLocalName": "OCBC",
+              "instName": "OCBC NISP BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_OCBCNISP"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BJJC1ID",
+              "instLocalName": "JASA JAKARTA",
+              "instName": "BANK JASA JAKARTA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_JASAJAKARTA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MMLTC1ID",
+              "instLocalName": "Muamalat",
+              "instName": "BANK MUAMALAT INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MUAMALAT"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BNTBC1ID",
+              "instLocalName": "BPD NTB",
+              "instName": "BPD NUSA TENGGARA BARAT",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_NTB"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BBIC1ID",
+              "instLocalName": "Bisnis Internasional",
+              "instName": "BANK BISNIS INTERNASIONAL",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BISNISINTL"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BTNC1ID",
+              "instLocalName": "BTN",
+              "instName": "BTN BANK TABUNGAN NEGARA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BTN"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MDRSC1ID",
+              "instLocalName": "Syariah Mandiri",
+              "instName": "SYARIAH MANDIRI BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BSM"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BBKPC1ID",
+              "instLocalName": "Bukopin",
+              "instName": "BUKOPIN",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BUKOPIN"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "RABOC1ID",
+              "instLocalName": "Rabobank",
+              "instName": "BANK RABOBANK INTERNATIONAL INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_RABOBANK"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BRIC1ID",
+              "instLocalName": "BRI",
+              "instName": "BRI BANK RAKYAT INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BRI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BJBSC1ID",
+              "instLocalName": "BJB Syariah",
+              "instName": "BANK JABAR BANTEN SYARIAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BJBSYARIAH"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "SSBC1ID",
+              "instLocalName": "BPD SULSEL SELBAR",
+              "instName": "BPD SULAWESI SELATAN DAN SULAWESI BARAT",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SULSELBAR"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BNTTC1ID",
+              "instLocalName": "BPD NTT",
+              "instName": "BPD NUSA TENGGARA TIMUR",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_NTT"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "ICBCC1ID",
+              "instLocalName": "ICBC",
+              "instName": "BANK ICBC INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_ICBC"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BSSC1ID",
+              "instLocalName": "SA. Sampoerna",
+              "instName": "BANK SAHABAT SAMPOERNA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SAMPOERNA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "SLTRC1ID",
+              "instLocalName": "BPD SULTENG",
+              "instName": "BPD SULAWESI TENGGARA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SULTRA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BAEKC1ID",
+              "instLocalName": "Ekonomi Raharja",
+              "instName": "BANK EKONOMI RAHARJA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_EKONOMI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BKSC1ID",
+              "instLocalName": "BALI KALSEL",
+              "instName": "BPD KALIMANTAN SELATAN",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_KALSEL"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "MABKC1ID",
+              "instLocalName": "Maybank",
+              "instName": "MAYBANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_MAYBANK"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "TPNSC1ID",
+              "instLocalName": "BTPN SYARIAH",
+              "instName": "BTPN SYARIAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SHBTPURBA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BDSBC1ID",
+              "instLocalName": "BPD SUMBAR",
+              "instName": "BPD SUMATERA BARAT",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SUMBAR"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BSTGC1ID",
+              "instLocalName": "BPD SULTENG",
+              "instName": "BPD SULAWESI TENGAH",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SULTENG"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "JTRBC1ID",
+              "instLocalName": "J-TRUST",
+              "instName": "J-TRUST BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_JTRUST"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "QNBC1ID",
+              "instLocalName": "QNB",
+              "instName": "BANK QNB INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_QNB"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BHIC1ID",
+              "instLocalName": "Harda Internasional",
+              "instName": "BANK HARDA INTERNASIONAL",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_HARDA"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "SBIC1ID",
+              "instLocalName": "SBI",
+              "instName": "BANK SBI INDONESIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_SBI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "VICC1ID",
+              "instLocalName": "Victoria",
+              "instName": "BANK VICTORIA INTERNATIONAL",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_VIC"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BDMNC1ID",
+              "instLocalName": "Danamon",
+              "instName": "DANAMON BANK",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BDMN"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BDKIC1ID",
+              "instLocalName": "DKI",
+              "instName": "BANK DKI",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_DKI"
+            },
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "BCAC1ID",
+              "instLocalName": "BCA",
+              "instName": "BCA BANK CENTRAL ASIA",
+              "payMethod": "WITHDRAW_BANKCARD",
+              "payOption": "WITHDRAW_BANKCARD_BCA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chargeAmount": {
+        "amount": "0",
+        "currency": "Rp"
+      },
+      "freeRemainingTimes": 0,
+      "freeTimes": 0,
+      "payMethodInfos": [
+        {
+          "fundType": "TRANSFER_P2L",
+          "payMethod": "BALANCE",
+          "payMethodView": {
+            "defaultOption": "BALANCE",
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "balanceChannelInfos": [
+                  {
+                    "accountBalance": {
+                      "amount": 647048,
+                      "cent": 64704800,
+                      "centFactor": 100,
+                      "currency": "IDR",
+                      "currencyCode": "IDR",
+                      "currencyValue": "360"
+                    },
+                    "payerAccountNo": "20070000000100576218"
+                  }
+                ],
+                "enableStatus": true,
+                "extendInfo": {},
+                "instId": "DANAW3ID",
+                "instLocalName": "",
+                "instName": "",
+                "payMethod": "BALANCE",
+                "payOption": "BALANCE"
+              }
+            ],
+            "payMethod": "BALANCE"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "647.048",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "1",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2L",
+          "payMethod": "NET_BANKING",
+          "payMethodView": {
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "BCAC1ID01",
+                "instLocalName": "BCA",
+                "instName": "BCA BANK CENTRAL ASIA",
+                "payMethod": "NET_BANKING",
+                "payOption": "NET_BANKING_BCA",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "NET_BANKING"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "1.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "10.000",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2L",
+          "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+          "payMethodView": {
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "BRIC1ID",
+                "instLocalName": "BRI",
+                "instName": "BRI BANK RAKYAT INDONESIA",
+                "maxAmount": {
+                  "amount": "2.000.000",
+                  "currency": "Rp"
+                },
+                "minAmount": {
+                  "amount": "10.000",
+                  "currency": "Rp"
+                },
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_BRI",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "MDRIC1ID",
+                "instLocalName": "Mandiri",
+                "instName": "MANDIRI",
+                "maxAmount": {
+                  "amount": "2.000.000",
+                  "currency": "Rp"
+                },
+                "minAmount": {
+                  "amount": "10.000",
+                  "currency": "Rp"
+                },
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_MDRIC1ID",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "PANIC1ID",
+                "instLocalName": "Panin",
+                "instName": "PANIN BANK",
+                "maxAmount": {
+                  "amount": "1.000.000",
+                  "currency": "Rp"
+                },
+                "minAmount": {
+                  "amount": "10.000",
+                  "currency": "Rp"
+                },
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_PANI",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "DIRECT_DEBIT_DEBIT_CARD"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "2.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "10.000",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2L",
+          "payMethod": "DEBIT_CARD",
+          "payMethodView": {
+            "payCardOptionViews": [
+              {
+                "assetType": "DEBIT_CARD",
+                "bindingId": "120300000004535891214",
+                "cardBin": "526422",
+                "cardIndexNo": "201804155015006709a05aaa2a24b649c4f90ffc01130",
+                "cardNoLength": 16,
+                "cardScheme": "MASTW7ID",
+                "defaultCard": false,
+                "directDebit": false,
+                "enableStatus": true,
+                "expiryMonth": "02",
+                "expiryYear": "2021",
+                "extendInfo": {
+                  "CARD_BIN": "526422",
+                  "CARD_CACHE_TOKEN": "2019020601151b1bf4fe13020b252e3d8c1529ce3995a",
+                  "bizProcessId": "a7e93119f660641b7fc8708500bd030a",
+                  "interbankSupport": ""
+                },
+                "holderName": {},
+                "instId": "BNIC1ID",
+                "instLocalName": "BNI",
+                "instName": "BNI BANK NEGARA INDONESIA",
+                "lastPayTime": 1549436656609,
+                "maskedCardNo": "526422******3963",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "payWithoutCVV": true
+              },
+              {
+                "assetType": "DEBIT_CARD",
+                "bindingId": "120300000001001321213",
+                "cardBin": "515291",
+                "cardIndexNo": "20180404192703629c0df4d796a6f152d2da3a3cdf3e2",
+                "cardNoLength": 16,
+                "cardScheme": "MASTW7ID",
+                "defaultCard": false,
+                "directDebit": false,
+                "enableStatus": true,
+                "expiryMonth": "12",
+                "expiryYear": "2024",
+                "extendInfo": {
+                  "CARD_BIN": "515291",
+                  "interbankSupport": ""
+                },
+                "holderName": {},
+                "instId": "BCAC1ID",
+                "instLocalName": "BCA",
+                "instName": "BCA BANK CENTRAL ASIA",
+                "lastPayTime": 1548425817880,
+                "maskedCardNo": "515291******3531",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "payWithoutCVV": true
+              }
+            ],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "MASTW7ID",
+                "instLocalName": "",
+                "instName": "MasterCard Inc.",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "VISAW7ID",
+                "instLocalName": "",
+                "instName": "Visa Inc.",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_VISA",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "DEBIT_CARD"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "2.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "10.000",
+            "currency": "Rp"
+          }
+        }
+      ],
+      "transferMethod": "LINK"
+    },
+    {
+      "chargeAmount": {
+        "amount": "0",
+        "currency": "Rp"
+      },
+      "freeRemainingTimes": 0,
+      "freeTimes": 0,
+      "payMethodInfos": [
+        {
+          "fundType": "TRANSFER_P2P",
+          "payMethod": "BALANCE",
+          "payMethodView": {
+            "defaultOption": "BALANCE",
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "balanceChannelInfos": [
+                  {
+                    "accountBalance": {
+                      "amount": 647048,
+                      "cent": 64704800,
+                      "centFactor": 100,
+                      "currency": "IDR",
+                      "currencyCode": "IDR",
+                      "currencyValue": "360"
+                    },
+                    "payerAccountNo": "20070000000100576218"
+                  }
+                ],
+                "enableStatus": true,
+                "extendInfo": {},
+                "instId": "DANAW3ID",
+                "instLocalName": "",
+                "instName": "",
+                "payMethod": "BALANCE",
+                "payOption": "BALANCE"
+              }
+            ],
+            "payMethod": "BALANCE"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "647.048",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "1",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2P",
+          "payMethod": "NET_BANKING",
+          "payMethodView": {
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "BCAC1ID01",
+                "instLocalName": "BCA",
+                "instName": "BCA BANK CENTRAL ASIA",
+                "payMethod": "NET_BANKING",
+                "payOption": "NET_BANKING_BCA",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "NET_BANKING"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "1.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "10.000",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2P",
+          "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+          "payMethodView": {
+            "payCardOptionViews": [],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "BRIC1ID",
+                "instLocalName": "BRI",
+                "instName": "BRI BANK RAKYAT INDONESIA",
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_BRI",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "MDRIC1ID",
+                "instLocalName": "Mandiri",
+                "instName": "MANDIRI",
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_MDRIC1ID",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "PANIC1ID",
+                "instLocalName": "Panin",
+                "instName": "PANIN BANK",
+                "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                "payOption": "DD_DEBIT_CARD_PANI",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "DIRECT_DEBIT_DEBIT_CARD"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "10.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "10.000",
+            "currency": "Rp"
+          }
+        },
+        {
+          "fundType": "TRANSFER_B2P",
+          "payMethod": "DEBIT_CARD",
+          "payMethodView": {
+            "payCardOptionViews": [
+              {
+                "assetType": "DEBIT_CARD",
+                "bindingId": "120300000004535891214",
+                "cardBin": "526422",
+                "cardIndexNo": "201804155015006709a05aaa2a24b649c4f90ffc01130",
+                "cardNoLength": 16,
+                "cardScheme": "MASTW7ID",
+                "defaultCard": false,
+                "directDebit": false,
+                "enableStatus": true,
+                "expiryMonth": "02",
+                "expiryYear": "2021",
+                "extendInfo": {
+                  "CARD_BIN": "526422",
+                  "CARD_CACHE_TOKEN": "2019020601151b1bf4fe13020b252e3d8c1529ce3995a",
+                  "bizProcessId": "a7e93119f660641b7fc8708500bd030a",
+                  "interbankSupport": ""
+                },
+                "holderName": {},
+                "instId": "BNIC1ID",
+                "instLocalName": "BNI",
+                "instName": "BNI BANK NEGARA INDONESIA",
+                "lastPayTime": 1549436656609,
+                "maskedCardNo": "526422******3963",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "payWithoutCVV": true
+              },
+              {
+                "assetType": "DEBIT_CARD",
+                "bindingId": "120300000001001321213",
+                "cardBin": "515291",
+                "cardIndexNo": "20180404192703629c0df4d796a6f152d2da3a3cdf3e2",
+                "cardNoLength": 16,
+                "cardScheme": "MASTW7ID",
+                "defaultCard": false,
+                "directDebit": false,
+                "enableStatus": true,
+                "expiryMonth": "12",
+                "expiryYear": "2024",
+                "extendInfo": {
+                  "CARD_BIN": "515291",
+                  "interbankSupport": ""
+                },
+                "holderName": {},
+                "instId": "BCAC1ID",
+                "instLocalName": "BCA",
+                "instName": "BCA BANK CENTRAL ASIA",
+                "lastPayTime": 1548425817880,
+                "maskedCardNo": "515291******3531",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "payWithoutCVV": true
+              }
+            ],
+            "payChannelOptionViews": [
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "MASTW7ID",
+                "instLocalName": "",
+                "instName": "MasterCard Inc.",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_MASTER",
+                "supportCountries": [
+                  "ID"
+                ]
+              },
+              {
+                "enableStatus": true,
+                "extendInfo": {
+                  "interbankSupport": ""
+                },
+                "instId": "VISAW7ID",
+                "instLocalName": "",
+                "instName": "Visa Inc.",
+                "payMethod": "DEBIT_CARD",
+                "payOption": "DEBIT_CARD_VISA",
+                "supportCountries": [
+                  "ID"
+                ]
+              }
+            ],
+            "payMethod": "DEBIT_CARD"
+          },
+          "payeeMaxAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payeeMinAmount": {
+            "amount": "0",
+            "currency": "Rp"
+          },
+          "payerMaxAmount": {
+            "amount": "10.000.000",
+            "currency": "Rp"
+          },
+          "payerMinAmount": {
+            "amount": "10.000",
+            "currency": "Rp"
+          }
+        }
+      ],
+      "transferMethod": "BALANCE"
+    },
+    {
+      "chargeAmount": {
+        "amount": "5.000",
+        "currency": "Rp"
+      },
+      "freeRemainingTimes": 0,
+      "freeTimes": 0,
+      "payMethodInfos": [],
+      "transferMethod": "OTC",
+      "withdrawMethodViews": [
+        {
+          "payMethod": "WITHDRAW_OTC",
+          "recommendedChannelOptionViews": [],
+          "withdrawCardOptionViews": [],
+          "withdrawChannelOptionViews": [
+            {
+              "enableStatus": true,
+              "extendInfo": {},
+              "instId": "AFMW5ID",
+              "instLocalName": "Alfamart",
+              "instName": "ALFAMART",
+              "payMethod": "WITHDRAW_OTC",
+              "payMethodInfos": [
+                {
+                  "fundType": "TRANSFER_P2C",
+                  "payMethod": "BALANCE",
+                  "payMethodView": {
+                    "defaultOption": "BALANCE",
+                    "payCardOptionViews": [],
+                    "payChannelOptionViews": [
+                      {
+                        "balanceChannelInfos": [
+                          {
+                            "accountBalance": {
+                              "amount": 647048,
+                              "cent": 64704800,
+                              "centFactor": 100,
+                              "currency": "IDR",
+                              "currencyCode": "IDR",
+                              "currencyValue": "360"
+                            },
+                            "payerAccountNo": "20070000000100576218"
+                          }
+                        ],
+                        "enableStatus": true,
+                        "extendInfo": {},
+                        "instId": "DANAW3ID",
+                        "instLocalName": "",
+                        "instName": "",
+                        "payMethod": "BALANCE",
+                        "payOption": "BALANCE"
+                      }
+                    ],
+                    "payMethod": "BALANCE"
+                  },
+                  "payerMaxAmount": {
+                    "amount": 642048,
+                    "cent": 64204800,
+                    "centFactor": 100,
+                    "currency": "IDR",
+                    "currencyCode": "IDR",
+                    "currencyValue": "360"
+                  },
+                  "payerMinAmount": {
+                    "amount": 50000,
+                    "cent": 5000000,
+                    "centFactor": 100,
+                    "currency": "IDR",
+                    "currencyCode": "IDR",
+                    "currencyValue": "360"
+                  }
+                },
+                {
+                  "fundType": "TRANSFER_B2C",
+                  "payMethod": "NET_BANKING",
+                  "payMethodView": {
+                    "payCardOptionViews": [],
+                    "payChannelOptionViews": [
+                      {
+                        "amountRange": {
+                          "from": {
+                            "amount": 10000,
+                            "cent": 1000000,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "fromClose": true,
+                          "to": {
+                            "amount": 92233720368547760,
+                            "cent": 9223372036854776000,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "toClose": false
+                        },
+                        "enableStatus": true,
+                        "extendInfo": {
+                          "interbankSupport": ""
+                        },
+                        "instId": "BCAC1ID01",
+                        "instLocalName": "BCA",
+                        "instName": "BCA BANK CENTRAL ASIA",
+                        "payMethod": "NET_BANKING",
+                        "payOption": "NET_BANKING_BCA",
+                        "supportCountries": [
+                          "ID"
+                        ]
+                      }
+                    ],
+                    "payMethod": "NET_BANKING"
+                  },
+                  "payerMaxAmount": {
+                    "amount": 1000000,
+                    "cent": 100000000,
+                    "centFactor": 100,
+                    "currency": "IDR",
+                    "currencyCode": "IDR",
+                    "currencyValue": "360"
+                  },
+                  "payerMinAmount": {
+                    "amount": 50000,
+                    "cent": 5000000,
+                    "centFactor": 100,
+                    "currency": "IDR",
+                    "currencyCode": "IDR",
+                    "currencyValue": "360"
+                  }
+                },
+                {
+                  "fundType": "TRANSFER_B2C",
+                  "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                  "payMethodView": {
+                    "payCardOptionViews": [],
+                    "payChannelOptionViews": [
+                      {
+                        "amountRange": {
+                          "from": {
+                            "amount": 0,
+                            "cent": 0,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "fromClose": true,
+                          "to": {
+                            "amount": 92233720368547760,
+                            "cent": 9223372036854776000,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "toClose": false
+                        },
+                        "enableStatus": true,
+                        "extendInfo": {
+                          "interbankSupport": ""
+                        },
+                        "instId": "BRIC1ID",
+                        "instLocalName": "BRI",
+                        "instName": "BRI BANK RAKYAT INDONESIA",
+                        "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                        "payOption": "DD_DEBIT_CARD_BRI",
+                        "supportCountries": [
+                          "ID"
+                        ]
+                      },
+                      {
+                        "amountRange": {
+                          "from": {
+                            "amount": 0,
+                            "cent": 0,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "fromClose": true,
+                          "to": {
+                            "amount": 92233720368547760,
+                            "cent": 9223372036854776000,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "toClose": false
+                        },
+                        "enableStatus": true,
+                        "extendInfo": {
+                          "interbankSupport": ""
+                        },
+                        "instId": "MDRIC1ID",
+                        "instLocalName": "Mandiri",
+                        "instName": "MANDIRI",
+                        "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                        "payOption": "DD_DEBIT_CARD_MDRIC1ID",
+                        "supportCountries": [
+                          "ID"
+                        ]
+                      },
+                      {
+                        "amountRange": {
+                          "from": {
+                            "amount": 0,
+                            "cent": 0,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "fromClose": true,
+                          "to": {
+                            "amount": 92233720368547760,
+                            "cent": 9223372036854776000,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "toClose": false
+                        },
+                        "enableStatus": true,
+                        "extendInfo": {
+                          "interbankSupport": ""
+                        },
+                        "instId": "PANIC1ID",
+                        "instLocalName": "Panin",
+                        "instName": "PANIN BANK",
+                        "payMethod": "DIRECT_DEBIT_DEBIT_CARD",
+                        "payOption": "DD_DEBIT_CARD_PANI",
+                        "supportCountries": [
+                          "ID"
+                        ]
+                      }
+                    ],
+                    "payMethod": "DIRECT_DEBIT_DEBIT_CARD"
+                  },
+                  "payerMaxAmount": {
+                    "amount": 5000000,
+                    "cent": 500000000,
+                    "centFactor": 100,
+                    "currency": "IDR",
+                    "currencyCode": "IDR",
+                    "currencyValue": "360"
+                  },
+                  "payerMinAmount": {
+                    "amount": 50000,
+                    "cent": 5000000,
+                    "centFactor": 100,
+                    "currency": "IDR",
+                    "currencyCode": "IDR",
+                    "currencyValue": "360"
+                  }
+                },
+                {
+                  "fundType": "TRANSFER_B2C",
+                  "payMethod": "DEBIT_CARD",
+                  "payMethodView": {
+                    "payCardOptionViews": [
+                      {
+                        "assetType": "DEBIT_CARD",
+                        "bindingId": "120300000004535891214",
+                        "cardBin": "526422",
+                        "cardIndexNo": "201804155015006709a05aaa2a24b649c4f90ffc01130",
+                        "cardNoLength": 16,
+                        "cardScheme": "MASTW7ID",
+                        "defaultCard": false,
+                        "directDebit": false,
+                        "enableStatus": true,
+                        "expiryMonth": "02",
+                        "expiryYear": "2021",
+                        "extendInfo": {
+                          "CARD_BIN": "526422",
+                          "CARD_CACHE_TOKEN": "2019020601151b1bf4fe13020b252e3d8c1529ce3995a",
+                          "bizProcessId": "a7e93119f660641b7fc8708500bd030a",
+                          "interbankSupport": ""
+                        },
+                        "holderName": {},
+                        "instId": "BNIC1ID",
+                        "instLocalName": "BNI",
+                        "instName": "BNI BANK NEGARA INDONESIA",
+                        "lastPayTime": 1549436656609,
+                        "maskedCardNo": "526422******3963",
+                        "payMethod": "DEBIT_CARD",
+                        "payOption": "DEBIT_CARD_MASTER",
+                        "payWithoutCVV": true
+                      },
+                      {
+                        "assetType": "DEBIT_CARD",
+                        "bindingId": "120300000001001321213",
+                        "cardBin": "515291",
+                        "cardIndexNo": "20180404192703629c0df4d796a6f152d2da3a3cdf3e2",
+                        "cardNoLength": 16,
+                        "cardScheme": "MASTW7ID",
+                        "defaultCard": false,
+                        "directDebit": false,
+                        "enableStatus": true,
+                        "expiryMonth": "12",
+                        "expiryYear": "2024",
+                        "extendInfo": {
+                          "CARD_BIN": "515291",
+                          "interbankSupport": ""
+                        },
+                        "holderName": {},
+                        "instId": "BCAC1ID",
+                        "instLocalName": "BCA",
+                        "instName": "BCA BANK CENTRAL ASIA",
+                        "lastPayTime": 1548425817880,
+                        "maskedCardNo": "515291******3531",
+                        "payMethod": "DEBIT_CARD",
+                        "payOption": "DEBIT_CARD_MASTER",
+                        "payWithoutCVV": true
+                      }
+                    ],
+                    "payChannelOptionViews": [
+                      {
+                        "amountRange": {
+                          "from": {
+                            "amount": 0,
+                            "cent": 0,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "fromClose": true,
+                          "to": {
+                            "amount": 92233720368547760,
+                            "cent": 9223372036854776000,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "toClose": false
+                        },
+                        "enableStatus": true,
+                        "extendInfo": {
+                          "interbankSupport": ""
+                        },
+                        "instId": "MASTW7ID",
+                        "instLocalName": "",
+                        "instName": "MasterCard Inc.",
+                        "payMethod": "DEBIT_CARD",
+                        "payOption": "DEBIT_CARD_MASTER",
+                        "supportCountries": [
+                          "ID"
+                        ]
+                      },
+                      {
+                        "amountRange": {
+                          "from": {
+                            "amount": 0,
+                            "cent": 0,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "fromClose": true,
+                          "to": {
+                            "amount": 92233720368547760,
+                            "cent": 9223372036854776000,
+                            "centFactor": 100,
+                            "currency": "IDR",
+                            "currencyCode": "IDR",
+                            "currencyValue": "360"
+                          },
+                          "toClose": false
+                        },
+                        "enableStatus": true,
+                        "extendInfo": {
+                          "interbankSupport": ""
+                        },
+                        "instId": "VISAW7ID",
+                        "instLocalName": "",
+                        "instName": "Visa Inc.",
+                        "payMethod": "DEBIT_CARD",
+                        "payOption": "DEBIT_CARD_VISA",
+                        "supportCountries": [
+                          "ID"
+                        ]
+                      }
+                    ],
+                    "payMethod": "DEBIT_CARD"
+                  },
+                  "payerMaxAmount": {
+                    "amount": 5000000,
+                    "cent": 500000000,
+                    "centFactor": 100,
+                    "currency": "IDR",
+                    "currencyCode": "IDR",
+                    "currencyValue": "360"
+                  },
+                  "payerMinAmount": {
+                    "amount": 50000,
+                    "cent": 5000000,
+                    "centFactor": 100,
+                    "currency": "IDR",
+                    "currencyCode": "IDR",
+                    "currencyValue": "360"
+                  }
+                }
+              ],
+              "payOption": "WITHDRAW_OTC_AFMW5ID"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

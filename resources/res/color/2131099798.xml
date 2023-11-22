@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_enabled="false"
+        color="@color/MyBillsEntityDataFactory_res_0x7f060157"/>
+    <item
+        state_enabled="true"
+        state_checked="false"
+        color="@color/2131099993"/>
+    <item
+        state_enabled="true"
+        state_checked="true"
+        color="@color/2131099816"/>
+</selector>

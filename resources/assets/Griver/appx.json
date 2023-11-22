@@ -1,0 +1,61 @@
+{
+  "mini":{
+    "66666692": {
+      "appInfo": {
+        "appId": "66666692",
+        "deployVersion": "1.24.8",
+        "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+        "packageUrl": "https://cdn.marmot-cloud.com/storage/gmpop/5b39bcb7-85be-471c-aeaf-55ee5c4437a5/66666692_1.24.8.amr",
+        "mainUrl": "/index.html#pages/index/index",
+        "name": "appx framework",
+        "desc": "appx framework",
+        "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+      },
+      "container": {
+        "downloadType": 1
+      },
+      "extendInfo": {
+        "appType": 2
+      },
+      "permissions": ""
+    },
+    "66666693": {
+      "appInfo": {
+        "appId": "66666693",
+        "deployVersion": "2.0.7",
+        "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+        "packageUrl": "https://cdn.marmot-cloud.com/storage/gmpop/3df2716f-7e19-45cb-9083-c23cd88d8240/66666693_2.0.7.amr",
+        "mainUrl": "/index.html#pages/index/index",
+        "name": "h5 embedded app",
+        "desc": "h5 embedded app",
+        "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+      },
+      "container": {
+        "downloadType": 1
+      },
+      "extendInfo": {
+        "appType": 2
+      },
+      "permissions": ""
+    },
+    "68687209": {
+      "appInfo": {
+        "appId": "68687209",
+        "deployVersion": "2.8.0.2",
+        "fallbackBaseUrl": "https://gw.alipayobjects.com/os/nebulamng/AP_66666692/cik5rhl0yxt/",
+        "packageUrl": "https://oss-local-nightly.marmot-cloud.com/storage/marmot-cli/appx-griver/2022/11/15/871ff330-f915-4c64-aad0-68fe9548df2e/68687209_2.8.0.2.amr",
+        "mainUrl": "/index.html#pages/index/index",
+        "name": "appx ng framework",
+        "desc": "appx ng framework",
+        "logo": "http://alipay-rmsdeploy-image.cn-hangzhou.alipay.aliyun-inc.com/nebulamng/tiny/wws7wcwjj.jpg"
+      },
+      "container": {
+        "downloadType": 1
+      },
+      "extendInfo": {
+        "appType": 2
+      },
+      "permissions": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Delivery",
+  "icon": "https://a.m.dana.id/resource/imgs/entrance/icon-shipper.png",
+  "userAction": "delivery",
+  "clientId": "2020030615072407440743",
+  "redirectUrl": "https://prod-ampera.innov8.id/binding/callback?redirect_url=https://delivery.m.dana.id",
+  "action": "POST",
+  "scopes": "PUBLIC_ID",
+  "operationType": "alipayplus.mobilewallet.oauth.authcode.apply.json",
+  "enable": true,
+  "description": "delivery services",
+  "buttonTitle": "inno_dana_delivery",
+  "keyword": "dana, delivery, sameday"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    layout_marginLeft="2dp"
+    layout_marginRight="4dp">
+    <View
+        background="@drawable/square_rounded_skeleton_grey_30_radius_4"
+        layout_width="76dp"
+        layout_height="76dp"/>
+    <View
+        background="@drawable/square_rounded_skeleton_grey_30_radius_4"
+        layout_width="76dp"
+        layout_height="16dp"
+        layout_marginTop="4dp"/>
+    <View
+        background="@drawable/square_rounded_skeleton_grey_30_radius_4"
+        layout_width="76dp"
+        layout_height="32dp"
+        layout_marginTop="4dp"/>
+    <View
+        background="@drawable/square_rounded_skeleton_grey_30_radius_4"
+        layout_width="60dp"
+        layout_height="14dp"
+        layout_marginTop="4dp"/>
+</LinearLayout>

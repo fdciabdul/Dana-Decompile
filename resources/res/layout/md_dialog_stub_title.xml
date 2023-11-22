@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.main.DialogTitleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/md_title_layout"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <ImageView
+        id="@+id/md_icon_title"
+        style="@style/2132017520"/>
+    <com.afollestad.materialdialogs.internal.rtl.RtlTextView
+        id="@+id/md_text_title"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        style="@style/2132017523"/>
+</com.afollestad.materialdialogs.internal.main.DialogTitleLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    clipToPadding="false"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="8dp">
+    <com.google.android.material.textfield.TextInputLayout
+        id="@+id/tilBankPhoneNumber"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        hint="@string/registered_phone_number_in_bank"
+        layout_alignParentTop="true"
+        layout_alignParentStart="true"
+        NOT_FOUND_0x18="0dp"
+        NOT_FOUND_0x1a="false"
+        NOT_FOUND_0x1b="true"
+        NOT_FOUND_0x1c="@string/registered_phone_number_in_bank"
+        style="@style/2132018047">
+        <com.google.android.material.textfield.TextInputEditText
+            id="@+id/etBankPhoneNumber"
+            background="@drawable/selector_et_yellow"
+            paddingTop="8dp"
+            focusableInTouchMode="true"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            maxLines="1"
+            includeFontPadding="false"
+            android:maxLength="15"
+            digits="1234567890"
+            inputType="number"
+            imeOptions="actionDone"
+            contentDescription="@string/txt_phone_number"
+            textCursorDrawable="@drawable/cursor_tangerine"
+            paddingStart="0dp"
+            paddingEnd="0dp"
+            NOT_FOUND_0x15="@dimen/res_0x7f07011f_kclassimpl_data_declarednonstaticmembers_2"
+            NOT_FOUND_0x16="@dimen/2131165468"
+            NOT_FOUND_0x17="1"
+            NOT_FOUND_0x19="@null"
+            style="@style/2132017413"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

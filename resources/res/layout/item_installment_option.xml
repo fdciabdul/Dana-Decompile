@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    padding="8dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tv_installment_period"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        fontFamily="@font/sf_pro_regular"
+        textAlignment="center"
+        style="@style/2132017406"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tv_installment_amount"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        fontFamily="@font/sf_pro_regular"
+        textAlignment="center"
+        style="@style/2132017406"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+    <path
+        android:fillColor="#fdd199"
+        android:pathData="M28,28m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M21,13.16L35,13.16A6.72,6.72 0,0 1,41.72 19.88L41.72,37.24A6.72,6.72 0,0 1,35 43.96L21,43.96A6.72,6.72 0,0 1,14.28 37.24L14.28,19.88A6.72,6.72 0,0 1,21 13.16z"
+        android:strokeColor="#fb8b01"
+        android:strokeWidth="1.68"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#fff"
+        android:pathData="M20.16,16.8L35.84,16.8A2.24,2.24 0,0 1,38.08 19.04L38.08,38.08A2.24,2.24 0,0 1,35.84 40.32L20.16,40.32A2.24,2.24 0,0 1,17.92 38.08L17.92,19.04A2.24,2.24 0,0 1,20.16 16.8z"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#fb8b01"
+        android:pathData="M22.4,21.28m-2.24,0a2.24,2.24 0,1 1,4.48 0a2.24,2.24 0,1 1,-4.48 0"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#fb8b01"
+        android:pathData="M22.4,28m-2.24,0a2.24,2.24 0,1 1,4.48 0a2.24,2.24 0,1 1,-4.48 0"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#fb8b01"
+        android:pathData="M22.4,34.72m-2.24,0a2.24,2.24 0,1 1,4.48 0a2.24,2.24 0,1 1,-4.48 0"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M26.88,21.28h7.302M26.88,28h7.302M26.88,34.72h7.302"
+        android:strokeColor="#fb8b01"
+        android:strokeWidth="1.68"
+        android:strokeLineCap="round"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#fff"
+        android:pathData="M23.257,10.08h9.486a2.24,2.24 0,0 1,2.222 1.962l0.56,4.48a2.24,2.24 0,0 1,-2.222 2.518H22.697a2.24,2.24 0,0 1,-2.222 -2.518l0.56,-4.48a2.24,2.24 0,0 1,2.222 -1.962z"
+        android:fillType="nonZero"/>
+</vector>

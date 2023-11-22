@@ -1,0 +1,10 @@
+package com.alibaba.griver.api.stauts;
+
+/* loaded from: classes3.dex */
+public class PageStatus {
+    public static int ERROR = 3;
+    public static int FINISHED = 4;
+    public static int LOADING = 1;
+    public static int NONE = 0;
+    public static int READY = 2;
+}

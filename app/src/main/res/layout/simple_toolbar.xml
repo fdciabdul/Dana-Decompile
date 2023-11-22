@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    theme="@style/2132017847"
+    id="@+id/toolbar"
+    background="#108ee9"
+    layout_width="match_parent"
+    layout_height="?attr/2130968583"
+    NOT_FOUND_0x7="@style/2132017852"
+    NOT_FOUND_0x8="@style/2132017544">
+    <TextView
+        gravity="center"
+        id="@+id/toolbar_title"
+        layout_width="match_parent"
+        layout_marginEnd="16dp"
+        style="@style/2132017544"/>
+</androidx.appcompat.widget.Toolbar>

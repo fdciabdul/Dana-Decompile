@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    focusable="true"
+    focusableInTouchMode="true"
+    clickable="true"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginLeft="16dp"
+    layout_marginTop="8dp"
+    layout_marginRight="16dp"
+    layout_marginBottom="8dp">
+    <androidx.appcompat.widget.AppCompatEditText
+        gravity="top"
+        id="@+id/res_0x7f0a069f_spansuppressionstrategy_3"
+        background="@drawable/bg_review_normal"
+        paddingTop="10dp"
+        paddingBottom="10dp"
+        scrollbars="vertical"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        hint="@string/merchant_review_main_hint"
+        android:maxLength="150"
+        inputType="textMultiLine"
+        paddingStart="12dp"
+        paddingEnd="12dp"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x16="0"
+        style="@style/2132017413"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

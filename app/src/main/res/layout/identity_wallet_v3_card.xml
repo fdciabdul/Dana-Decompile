@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/res_0x7f0a0402_r8_lambda_7jse_jj0etbd9voomli6zmuqla0"
+    focusable="true"
+    clickable="true"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        id="@+id/cv_personal_ktp"
+        layout_width="match_parent"
+        layout_height="0dp"
+        NOT_FOUND_0x8="@color/res_0x7f060353_networkuserentitydata_externalsyntheticlambda0"
+        NOT_FOUND_0x9="16dp"
+        NOT_FOUND_0xa="0dp"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="8:5"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@color/2131099990"
+        NOT_FOUND_0x11="1dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/iv_personal_ktp_background"
+            background="@drawable/bg_ktp_back_holo"
+            focusableInTouchMode="true"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            contentDescription="@string/wallet_img_ktp_card_identity"/>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@android:color/white"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        id="@+id/vTopSeparator"
+        background="#e3e3e3"
+        layout_width="match_parent"
+        layout_height="1dp"
+        layout_marginTop="12dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"/>
+    <id.dana.drawable.view.MerchantActionListView
+        id="@+id/clMerchantActionInfo"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/vTopSeparator"/>
+    <View
+        id="@+id/vBasicInfoSeparator"
+        background="#f5f5f5"
+        layout_width="match_parent"
+        layout_height="8dp"
+        layout_marginTop="12dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="@+id/clMerchantActionInfo"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

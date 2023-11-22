@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#0060ae"
+        android:pathData="M4.8,0L31.2,0A4.8,4.8 0,0 1,36 4.8L36,19.2A4.8,4.8 0,0 1,31.2 24L4.8,24A4.8,4.8 0,0 1,0 19.2L0,4.8A4.8,4.8 0,0 1,4.8 0z"
+        android:fillType="evenOdd"/>
+    <group>
+        <clip-path android:pathData="M4.8,0L31.2,0A4.8,4.8 0,0 1,36 4.8L36,19.2A4.8,4.8 0,0 1,31.2 24L4.8,24A4.8,4.8 0,0 1,0 19.2L0,4.8A4.8,4.8 0,0 1,4.8 0z"/>
+        <path
+            android:fillColor="#e4e4e4"
+            android:pathData="M1.679,0L34.321,0A1.679,1.679 0,0 1,36 1.679L36,22.321A1.679,1.679 0,0 1,34.321 24L1.679,24A1.679,1.679 0,0 1,0 22.321L0,1.679A1.679,1.679 0,0 1,1.679 0z"
+            android:fillType="nonZero"/>
+        <group>
+            <clip-path android:pathData="M34.321,0L1.679,0A1.679,1.679 0,0 0,0 1.679L0,22.321A1.679,1.679 0,0 0,1.679 24L34.321,24A1.679,1.679 0,0 0,36 22.321L36,1.679A1.679,1.679 0,0 0,34.321 0z"/>
+            <path
+                android:fillColor="@drawable/res_0x7f080079_ic_card_payment_hsbc__0"
+                android:pathData="M36,14.296c-14.312,-8.861 -16.977,9.452 -36,2.504l-0,7.246L36,24.046l-0,-9.75z"
+                android:fillType="nonZero"/>
+        </group>
+        <group>
+            <clip-path android:pathData="M54.7567,8.4262L22.1147,8.4262A1.679,1.679 0,0 1,20.4357 6.7472L20.4357,-13.8948A1.679,1.679 0,0 1,22.1147 -15.5738L54.7567,-15.5738A1.679,1.679 0,0 1,56.4357 -13.8948L56.4357,6.7472A1.679,1.679 0,0 1,54.7567 8.4262z"/>
+            <path
+                android:fillColor="@drawable/res_0x7f08007a_ic_card_payment_hsbc__1"
+                android:pathData="M35.9997,8.4262c-0.702,-2.81 -2.167,-4.8 -4.392,-5.968C29.3817,1.2902 25.6577,0.4702 20.4357,0.0002L35.9997,0.0002L35.9997,8.4262z"
+                android:fillType="nonZero"/>
+        </group>
+    </group>
+    <path
+        android:fillColor="#db0011"
+        android:pathData="M25.204,4.8l7.196,7.208 -7.196,7.192L25.204,4.8zM10.813,4.8v14.4L3.6,12.008 10.813,4.8zM18.008,12.008l7.196,7.192L10.813,19.2l7.195,-7.192zM25.204,4.8l-7.196,7.208L10.813,4.8h14.391z"
+        android:fillType="nonZero"/>
+</vector>

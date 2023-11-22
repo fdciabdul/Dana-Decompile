@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    orientation="horizontal"
+    background="@drawable/bg_rounded_8dp_border_grey20"
+    paddingLeft="20dp"
+    paddingTop="30dp"
+    paddingRight="20dp"
+    paddingBottom="30dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="14dp"
+    layout_marginStart="12dp"
+    layout_marginEnd="12dp">
+    <TextView
+        id="@+id/tv_error_description"
+        tag="@string/error_message_tag"
+        layout_width="182dp"
+        layout_height="wrap_content"
+        text="@string/nearby_no_merchant_available"
+        layout_marginEnd="25dp"
+        style="@style/2132017908"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_error_image"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xf="@drawable/ic_empty_merchant"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_rounded_4dp_grey30"
+    layout_width="76dp"
+    layout_height="32dp"
+    NOT_FOUND_0x3="1"
+    NOT_FOUND_0x4="0x11"/>

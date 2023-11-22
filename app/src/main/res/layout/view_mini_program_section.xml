@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    background="@android:color/white"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        id="@android:id/title"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        style="@style/2132017908"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/res_0x7f0a1050_linkedtreemap_linkedtreemapiterator"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"/>
+    <View
+        id="@+id/viewSeparator"
+        background="#f5f5f5"
+        layout_width="match_parent"
+        layout_height="8dp"
+        layout_marginTop="16dp"/>
+</LinearLayout>

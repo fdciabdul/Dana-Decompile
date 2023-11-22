@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/ll_simple_dialog"
+    padding="12dp"
+    style="@style/2132017490">
+    <RelativeLayout style="@style/2132017490">
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="center"
+            id="@+id/ic_image"
+            layout_width="25dp"
+            layout_height="25dp"
+            layout_marginBottom="10dp"
+            layout_centerInParent="true"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            layout_gravity="center"
+            id="@+id/ic_image_fg"
+            visibility="invisible"
+            layout_width="19dp"
+            layout_height="19dp"
+            layout_marginBottom="10dp"
+            layout_centerInParent="true"
+            NOT_FOUND_0xe="@drawable/loading_spinner"/>
+    </RelativeLayout>
+    <TextView
+        textSize="16sp"
+        textStyle="bold"
+        textColor="#000000"
+        gravity="center"
+        id="@+id/tv_title_dialog"
+        layout_marginBottom="8dp"
+        fontFamily="@font/2131296265"
+        style="@style/2132017490"/>
+    <TextView
+        textColor="#4a4a4a"
+        gravity="center"
+        id="@+id/tv_message"
+        fontFamily="@font/2131296265"
+        style="@style/2132017490"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+{
+    "userId": [
+      "https?:\\/\\/.*\\.dana.*together-we-strong.*",
+      "https?:\\/\\/.*\\.dana.*credit.*",
+      "https?:\\/\\/.*\\.*food.*dana.*",
+      "https?:\\/\\/.*\\.*loyalty.*dana.*",
+      "https?:\\/\\/.*\\.*homeshopping.*dana.*"
+    ],
+    "utdId": [
+      "https?:\\/\\/.*\\.dana.*together-we-strong.*",
+      "https?:\\/\\/.*\\.dana.*credit.*",
+      "https?:\\/\\/.*\\.*food.*dana.*",
+      "https?:\\/\\/.*\\.*loyalty.*dana.*",
+      "https?:\\/\\/.*\\.*homeshopping.*dana.*"
+    ]
+}

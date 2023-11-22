@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@android:color/white"
+    padding="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <TextView
+        id="@+id/tv_address_label"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        text="@string/merchant_address_label"
+        textAllCaps="true"
+        NOT_FOUND_0xf="@+id/res_0x7f0a01da_daggeruserbankcardcomponent_userbankcardcomponentimpl_postexecutionthreadprovider"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        style="@style/2132017900"/>
+    <TextView
+        ellipsize="end"
+        id="@+id/tv_address_value"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        lines="3"
+        fontFamily="@font/MyBillsEntityDataFactory"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="@+id/res_0x7f0a01da_daggeruserbankcardcomponent_userbankcardcomponentimpl_postexecutionthreadprovider"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="@+id/tv_address_label"
+        style="@style/2132017405"/>
+    <Button
+        textColor="#108ee9"
+        id="@+id/res_0x7f0a01da_daggeruserbankcardcomponent_userbankcardcomponentimpl_postexecutionthreadprovider"
+        layout_width="96dp"
+        text="@string/merchant_direction_button_label"
+        textAllCaps="true"
+        fontFamily="@font/2131296266"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x12="0"
+        style="@style/2132017482"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

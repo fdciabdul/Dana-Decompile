@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    style="@style/2132017490">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        background="@android:color/white"
+        paddingTop="20dp"
+        paddingBottom="20dp"
+        paddingStart="12dp"
+        paddingEnd="8dp"
+        style="@style/2132017490">
+        <TextView
+            id="@+id/tv_title"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            text="@string/merchant_management"
+            layout_centerInParent="true"
+            layout_marginStart="4dp"
+            layout_alignParentStart="true"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="0"
+            style="@style/2132017413"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/appCompatImageView"
+            layout_width="24dp"
+            layout_height="24dp"
+            scaleType="center"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x11="0"
+            NOT_FOUND_0x12="@drawable/ic_arrow_right_me_page"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        id="@+id/res_0x7f0a1a0b_filter_jgv0xpq"
+        style="@style/2132017967"/>
+</LinearLayout>

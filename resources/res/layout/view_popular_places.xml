@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cv_popular_places"
+    background="@drawable/bg_home_widget_white_rounded"
+    clipToPadding="false"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    animateLayoutChanges="true">
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tv_title_popular_places"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        text="@string/popular_places_title"
+        contentDescription="@string/lbl_popular_places_title"
+        layout_marginStart="12dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        style="@style/2132017924"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="#727272"
+        id="@+id/tv_desc_popular_places"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="2dp"
+        text="@string/popular_places_desc"
+        contentDescription="@string/lbl_popular_places_description"
+        fontFamily="@font/sf_pro_regular"
+        layout_marginStart="12dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_title_popular_places"
+        style="@style/2132017440"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_popular_places"
+        paddingBottom="12dp"
+        clipToPadding="false"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        paddingStart="12dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/tv_desc_popular_places"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_online_merchant_list_section"
+    background="#ffffff"
+    focusable="true"
+    focusableInTouchMode="true"
+    clickable="true"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="12dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        id="@+id/tv_title_online_merchant"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        text="@string/all_merchant"
+        layout_marginStart="12dp"
+        layout_marginEnd="12dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="0"
+        style="@style/2132017916"/>
+    <View
+        id="@+id/separator"
+        background="#e3e3e3"
+        layout_width="0dp"
+        layout_height="1dp"
+        layout_marginLeft="12dp"
+        layout_marginTop="4dp"
+        layout_marginRight="12dp"
+        layout_marginHorizontal="12dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@+id/tv_title_online_merchant"/>
+    <id.dana.onlinemerchant.view.OnlineMerchantListView
+        id="@+id/rv_list_online_merchant"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/separator"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

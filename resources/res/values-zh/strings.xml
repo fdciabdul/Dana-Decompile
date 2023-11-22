@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cube_ptr_hours_ago"> 小时之前</string>
+    <string name="cube_ptr_last_update">上次更新: </string>
+    <string name="cube_ptr_minutes_ago"> 分钟之前</string>
+    <string name="cube_ptr_pull_down">下拉</string>
+    <string name="cube_ptr_pull_down_to_refresh">下拉刷新</string>
+    <string name="cube_ptr_refresh_complete">更新完成.</string>
+    <string name="cube_ptr_refreshing">加载中...</string>
+    <string name="cube_ptr_release_to_refresh">释放刷新</string>
+    <string name="cube_ptr_seconds_ago"> 秒之前</string>
+    <string name="iap_f2fpay_mediator_code_refresh_fialure">生成付款码失败</string>
+    <string name="iap_f2fpay_mediator_code_refresh_tip">付款码每隔%1$d秒自动更新</string>
+    <string name="ucrop_label_edit_photo">裁剪</string>
+    <string name="res_0x7f131846_kclassimpl_data_declarednonstaticmembers_2">原始比例</string>
+    <string name="ucrop_menu_crop">裁剪</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputLayout
+        id="@+id/tilAmountDaily"
+        background="#ffffff"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        contentDescription="@string/txtAmount"
+        NOT_FOUND_0xf="2"
+        NOT_FOUND_0x10="@color/2131099993"
+        NOT_FOUND_0x11="false"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="Rp"
+        NOT_FOUND_0x16="@style/2132017413">
+        <id.dana.component.edittextcomponent.DanaTextBoxView
+            textColorHint="#d1d1d1"
+            id="@+id/etAmountDaily"
+            layout_width="match_parent"
+            layout_height="41dp"
+            hint="@string/daily_limit_title_cashier"
+            maxLines="1"
+            drawablePadding="-2dp"
+            inputType="numberDecimal"
+            NOT_FOUND_0xe="1"
+            style="@style/2132017413"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        id="@+id/tvErrorHelper"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        text="@string/daily_limit_description_helper"
+        NOT_FOUND_0xd="@drawable/ic_info_grey_40"
+        style="@style/2132017440"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatCheckBox
+        textSize="16sp"
+        textColor="#313131"
+        id="@+id/cb_option"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        fontFamily="@font/2131296265"
+        buttonTint="@color/2131099799"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

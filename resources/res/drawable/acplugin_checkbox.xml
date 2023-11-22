@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_checked="true"
+        drawable="@drawable/acplugin_checkbox_checked"/>
+    <item
+        state_checked="false"
+        drawable="@drawable/acplugin_checkbox_unchecked"/>
+    <item drawable="@drawable/acplugin_checkbox_unchecked"/>
+</selector>

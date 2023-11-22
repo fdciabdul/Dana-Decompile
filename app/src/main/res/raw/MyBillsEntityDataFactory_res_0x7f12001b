@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "announcements": {
+    "recurringAnnouncement": [
+      {
+        "subscriptionId": "20200908111315800000DANAW3ID722700188116",
+        "userId": "216610000000002900029",
+        "subMerchantId": "216650000000002900079",
+        "gmtCreate": "2022-11-25 13:24:39.143876",
+        "expirationDate": "2020-11-26 00:42:46.687470",
+        "title": "Pengigat Tagihan",
+        "goodsName": "Apple Music",
+        "subtitle": "Kamu memiliki 3 tagihan apple dan 5 tagihan lainnya besok",
+        "widgetType": "PRE",
+        "extInfo": {
+          "EN_DESC_MULTIPLE": "1 Apple services transaction & other bills are due tomorrow. Let’s check it out!",
+          "EN_DESC_SINGLE": "1 Apple services transaction is due tomorrow. Let’s check it out!",
+          "ID_DESC_MULTIPLE": "1 transaksi Apple services & tagihan lainnya besok jatuh tempo. Cek dulu yuk!",
+          "EN_TITLE": "Reminder",
+          "ID_TITLE": "Pengingat",
+          "ID_DESC_SINGLE": "1 transaksi Apple services besok jatuh tempo. Cek dulu yuk!"
+        }
+      },
+      {
+        "subscriptionId": "20200908111315800000DANAW3ID722700188116",
+        "userId": "216610000000002900029",
+        "subMerchantId": "216650000000002900079",
+        "gmtCreate": "2020-11-25 13:24:39.143876",
+        "expirationDate": "2022-11-26 00:42:46.687470",
+        "title": "Gagal Bayar Tagihan",
+        "goodsName": "Apple Music",
+        "subtitle": "Pembayaran tagihan apple mu gagal karena saldo tidak cukup",
+        "widgetType": "POST",
+        "extInfo": {
+          "EN_DESC_MULTIPLE": "1 Apple services transaction & other bills are due tomorrow. Let’s check it out!",
+          "EN_DESC_SINGLE": "1 Apple services transaction is due tomorrow. Let’s check it out!",
+          "ID_DESC_MULTIPLE": "1 transaksi Apple services & tagihan lainnya besok jatuh tempo. Cek dulu yuk!",
+          "EN_TITLE": "Reminder",
+          "ID_TITLE": "Pengingat",
+          "ID_DESC_SINGLE": "1 transaksi Apple services besok jatuh tempo. Cek dulu yuk!"
+        }
+      },
+      {
+        "subscriptionId": "20200908114315800000DANAW3ID722700188123",
+        "userId": "216610000000002900029",
+        "subMerchantId": "216650000000002900079",
+        "gmtCreate": "2020-11-25 13:24:39.143876",
+        "expirationDate": "2022-11-26 00:42:46.687470",
+        "title": "PDAM",
+        "goodsName": "Water",
+        "subtitle": "",
+        "widgetType": "SUBSCRIPTION_SUMMARY",
+        "subscriptionDueDate": "2021-08-09 00:42:46.687470",
+        "paymentStatus": "FAILED",
+        "totalAmount": "Rp10.000",
+        "extInfo": {}
+      },
+      {
+        "subscriptionId": "20200908111315800000DANAW3ID722700188126",
+        "userId": "216610000000002900029",
+        "subMerchantId": "216650000000002900079",
+        "gmtCreate": "2020-11-25 13:24:39.143876",
+        "expirationDate": "2022-11-26 00:42:46.687470",
+        "title": "Listrik",
+        "goodsName": "Electricity",
+        "subtitle": "",
+        "widgetType": "SUBSCRIPTION_PAY_STATUS",
+        "subscriptionDueDate": "2021-08-10 00:42:46.687470",
+        "paymentStatus": "SUCCESS",
+        "totalAmount": "Rp10.000",
+        "extInfo": {}
+      },
+      {
+        "subscriptionId": "20200908111315845000DANAW3ID722740188126",
+        "userId": "216610000000002900029",
+        "subMerchantId": "216650000000002900079",
+        "gmtCreate": "2020-11-25 13:24:39.143876",
+        "expirationDate": "2022-11-26 00:42:46.687470",
+        "title": "Listrik",
+        "goodsName": "Electricity",
+        "subtitle": "",
+        "widgetType": "SUBSCRIPTION_PAY_STATUS",
+        "subscriptionDueDate": "2021-08-11 00:42:46.687470",
+        "paymentStatus": "SUCCESS",
+        "totalAmount": "Rp10.000",
+        "extInfo": {}
+      }
+    ],
+    "pushVerifyAnnouncement": [
+      {
+        "tokenPair": "4471abb011",
+        "verificationDetail": {
+          "merchantId": "216620182758392847362",
+          "merchantName" : "Lazada",
+          "requestTime": "5 Oct 2022, 12:00 WIB",
+          "requestType": "LOGIN",
+          "logoUrl": "https://a.m.dana.id/abc.jpg",
+          "verificationStatus": "INIT",
+          "expiryTime": 120,
+          "trxId": "trxIdXXX",
+          "token": "tokenValue",
+          "cacheKey": "userId_bizType_mid_did_sid_platform_device"
+        }
+      }
+    ],
+    "xxxxxxxAnnouncement": []
+  }
+}

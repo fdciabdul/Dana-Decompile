@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="64dp">
+    <TextView
+        textSize="16dp"
+        textColor="#131314"
+        layout_gravity="center_vertical"
+        id="@+id/phone_num_text"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginLeft="19dp"
+        includeFontPadding="false"/>
+    <ImageView
+        layout_gravity="center"
+        id="@+id/selected_flag"
+        layout_width="20dp"
+        layout_height="20dp"
+        layout_marginRight="23dp"
+        src="@drawable/acplugin_phone_num_selected_flag"/>
+    <TextView
+        textSize="16dp"
+        textColor="@android:color/white"
+        gravity="center"
+        layout_gravity="right"
+        id="@+id/delete_text"
+        background="#de2910"
+        visibility="gone"
+        layout_width="87.5dp"
+        layout_height="match_parent"/>
+</FrameLayout>

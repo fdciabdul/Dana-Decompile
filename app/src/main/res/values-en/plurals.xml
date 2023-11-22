@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="2131820549">
+        <item quantity="one">%d Review</item>
+        <item quantity="other">%d Reviews</item>
+    </plurals>
+    <plurals name="2131820556">
+        <item quantity="one">%1$d review</item>
+        <item quantity="other">%1$d reviews</item>
+    </plurals>
+    <plurals name="2131820558">
+        <item quantity="one">%d NEW CARD</item>
+        <item quantity="other">%d NEW CARDS</item>
+    </plurals>
+    <plurals name="2131820559">
+        <item quantity="one">%d CARD</item>
+        <item quantity="other">%d CARDS</item>
+    </plurals>
+    <plurals name="2131820564">
+        <item quantity="one">%d NEW ITEM</item>
+        <item quantity="other">%d NEW ITEMS</item>
+    </plurals>
+    <plurals name="2131820565">
+        <item quantity="one">%d ITEM</item>
+        <item quantity="other">%d ITEMS</item>
+    </plurals>
+</resources>

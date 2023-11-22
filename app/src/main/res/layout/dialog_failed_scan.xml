@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    background="#00ffffff"
+    style="@style/2132017490">
+    <RelativeLayout
+        background="@android:color/white"
+        layout_width="311dp"
+        layout_height="352dp"
+        layout_centerInParent="true">
+        <ImageView
+            id="@+id/img_failed_scan"
+            layout_marginTop="80dp"
+            src="@drawable/qr_code_failed"
+            layout_centerHorizontal="true"
+            style="@style/2132018187"/>
+        <TextView
+            textColor="#4a4a4a"
+            id="@+id/tv_error_msg"
+            paddingLeft="15dp"
+            paddingRight="15dp"
+            paddingBottom="5dp"
+            text="@string/failed_scan_message"
+            layout_above="@+id/tv_submit"
+            layout_centerHorizontal="true"
+            fontFamily="@font/2131296265"
+            textAlignment="center"
+            style="@style/2132018187"/>
+        <TextView
+            textSize="16sp"
+            id="@+id/tv_submit"
+            layout_margin="15dp"
+            text="@android:string/ok"
+            layout_alignParentBottom="true"
+            fontFamily="@font/2131296265"
+            style="@style/2132017655"/>
+    </RelativeLayout>
+</RelativeLayout>

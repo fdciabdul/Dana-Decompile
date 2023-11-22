@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        height="24dp"
+        width="24dp">
+        <shape shape="oval">
+            <solid color="#1677ff"/>
+        </shape>
+    </item>
+    <item
+        gravity="center"
+        height="16dp"
+        width="16dp">
+        <bitmap src="@drawable/griver_check_box_ok"/>
+    </item>
+</layer-list>

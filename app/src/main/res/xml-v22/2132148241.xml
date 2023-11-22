@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <capability android:name="actions.intent.CREATE_MONEY_TRANSFER">
+        <intent>
+            <parameter
+                android:name="moneyTransfer.transferMode"
+                android:key="transferMode"/>
+            <url-template android:value="dana://google.assistant/{?transferMode}"/>
+        </intent>
+    </capability>
+    <capability android:name="actions.intent.OPEN_APP_FEATURE">
+        <intent>
+            <parameter
+                android:name="feature"
+                android:key="featureName"/>
+            <url-template android:value="dana://google.assistant/{?featureName}"/>
+        </intent>
+    </capability>
+    <capability android:name="actions.intent.GET_THING">
+        <intent>
+            <parameter
+                android:name="thing.name"
+                android:key="searchQuery"/>
+            <url-template android:value="dana://google.assistant/{?searchQuery}"/>
+        </intent>
+    </capability>
+    <capability android:name="actions.intent.GET_BARCODE">
+        <intent>
+            <url-template android:value="dana://google.assistant/scan_qr"/>
+        </intent>
+    </capability>
+    <shortcut
+        android:shortcutId="send_money"
+        android:shortcutShortLabel="@string/google_assistant_keyword_send_money">
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding
+                android:value="@array/google_app_action_send_money"
+                android:key="feature"/>
+        </capability-binding>
+    </shortcut>
+    <shortcut
+        android:shortcutId="request_money"
+        android:shortcutShortLabel="@string/google_assistant_keyword_request_money">
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding
+                android:value="@array/google_app_action_request_money"
+                android:key="feature"/>
+        </capability-binding>
+    </shortcut>
+    <shortcut
+        android:shortcutId="scan_qr"
+        android:shortcutShortLabel="@string/google_assistant_keyword_scan_qr">
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding
+                android:value="@array/google_app_action_scan_qr"
+                android:key="feature"/>
+        </capability-binding>
+    </shortcut>
+    <shortcut
+        android:shortcutId="top_up"
+        android:shortcutShortLabel="@string/google_assistant_keyword_top_up">
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding
+                android:value="@array/google_app_action_top_up"
+                android:key="feature"/>
+        </capability-binding>
+    </shortcut>
+</shortcuts>

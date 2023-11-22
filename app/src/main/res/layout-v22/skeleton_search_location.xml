@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="12dp"
+    paddingBottom="12dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    paddingVertical="12dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/ll_icon"
+        layout_width="36dp"
+        layout_height="36dp"
+        layout_alignTop="@+id/viewSkeleton"
+        layout_alignBottom="@+id/viewSkeleton"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xa="@drawable/bg_circle"/>
+    <include
+        id="@+id/viewSkeleton"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_toEndOf="@+id/ll_icon"
+        layout="@layout/skeleton_3_small_rows"/>
+</RelativeLayout>

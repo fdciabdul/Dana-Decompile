@@ -1,0 +1,32 @@
+package id.dana.base;
+
+/* loaded from: classes4.dex */
+public class BaseResponse {
+    private String errorCode;
+    private String errorMessage;
+    private boolean success;
+
+    public boolean isSuccess() {
+        return this.success;
+    }
+
+    public void setSuccess(boolean z) {
+        this.success = z;
+    }
+
+    public String getErrorCode() {
+        return this.errorCode;
+    }
+
+    public void setErrorCode(String str) {
+        this.errorCode = str;
+    }
+
+    public String getErrorMessage() {
+        return this.errorMessage;
+    }
+
+    public void setErrorMessage(String str) {
+        this.errorMessage = str;
+    }
+}

@@ -1,0 +1,656 @@
+{
+  "stat": "ok",
+  "shops": [
+    {
+      "contactAddresses": [
+        {
+          "address1": "Capital Place Level B2 Jl. Gatot Subroto, RT.6/RW.1, Kuningan Bar, Mampang Prapatan, Jakarta 12710",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000016472490584",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "MA0E0009",
+      "gmtCreate": 1550325712244,
+      "gmtModified": 1562492786249,
+      "latitude": "-6.232278",
+      "logoUrl": "https://a.m.dana.id/resource/imgs/merchant/logo-morbaru.png",
+      "logoUrlMap": {
+        "PC_LOGO": "mor.jpg",
+        "LOGO": "https://a.m.dana.id/resource/imgs/merchant/logo-morbaru.png"
+      },
+      "longtitude": "106.820359",
+      "mainName": "MOR Capital Place Kecamatan Mampang Prapatan, Kelurahan Kuningan Barat, Kota Administrasi Jakarta Selatan, DKI Jakarta",
+      "mccCodes": [
+        5411,
+        5813,
+        5814,
+        9999
+      ],
+      "merchantId": "216620000020928274717",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000016099260581",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.5",
+      "reviewNumber": "11"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Jalan Jend. Gatot Subroto Kav 18, Kelurahan Kuningan Barat, Kecamatan Mampang Prapatan, RT.6/RW.1, Kuningan Bar., Mampang Prpt., Kota Jakarta Selatan, DKI Jakarta 12710, Indonesia - UNIT C3 / T2, Lantai 3",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta Selatan",
+          "contactAddressId": "120100000011107923628",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "DKI Jakarta",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "14KK_CPTAL",
+      "gmtCreate": 1544423365897,
+      "gmtModified": 1560556328320,
+      "latitude": "-6.232080",
+      "logoUrl": "http://a.m.dana.id/resource/imgs/merchant/kopi-kenangan.jpg",
+      "logoUrlMap": {
+        "PC_LOGO": "KopiKenangan.jpg",
+        "LOGO": "http://a.m.dana.id/resource/imgs/merchant/kopi-kenangan.jpg"
+      },
+      "longtitude": "106.820369",
+      "mainName": "KOPI KENANGAN CAPITAL PLACE KECAMATAN MAMPANG PRAPATAN, KELURAHAN KUNINGAN BARAT, KOTA ADMINISTRASI JAKARTA SELATAN, DKI JAKARTA",
+      "mccCodes": [
+        5813,
+        5812
+      ],
+      "merchantId": "216620000010295979623",
+      "promoInfos": [
+        {
+          "activityId": "ACTIVITY_display_consult_payment_20191104000025659496",
+          "beginDate": 1572796800000,
+          "endDate": 1575043200000,
+          "limitRule": [
+            {
+              "limitCount": "5",
+              "limitRangeType": "DC",
+              "limitType": "IP_ROLE_ID"
+            }
+          ],
+          "maxAmount": {
+            "amount": "10.000",
+            "currency": "Rp"
+          },
+          "minTransactionAmount": {
+            "amount": "20.000",
+            "currency": "Rp"
+          },
+          "paymentMethods": [
+            "[BALANCE",
+            " CREDIT_CARD]"
+          ],
+          "prizeType": "CASHBACK",
+          "promoBizType": "DIRECTDISCOUNT",
+          "promoDescription": "Test 1",
+          "promoType": "PERCENTAGE",
+          "promoValue": "10%"
+        }
+      ],
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000010899997625",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.0",
+      "reviewNumber": "20"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Jl. Jenderal Gatot Subroto No.Kav 18, RT.6/RW.1, West Kuningan, Mampang Prapatan, South Jakarta City, Jakarta 12710",
+          "address2": "",
+          "area": "",
+          "city": "",
+          "contactAddressId": "120100000026210701939",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "DKI Jakarta",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "KPT-CAP",
+      "gmtCreate": 1558009337194,
+      "gmtModified": 1562384571437,
+      "latitude": "-6.232032",
+      "logoUrl": "https://a.m.dana.id/resource/imgs/merchant/logo-kopitiam.png",
+      "logoUrlMap": {
+        "PC_LOGO": "Kopi.jpg",
+        "LOGO": "https://a.m.dana.id/resource/imgs/merchant/logo-kopitiam.png"
+      },
+      "longtitude": "106.820060",
+      "mainName": "Kopitiam Capital Place",
+      "mccCodes": [
+        5812,
+        9999
+      ],
+      "merchantId": "216620000020928274717",
+      "promoInfos": [
+        {
+          "activityId": "ACTIVITY_display_consult_payment_20191104000025659496",
+          "beginDate": 1572796800000,
+          "endDate": 1575043200000,
+          "limitRule": [
+            {
+              "limitCount": "5",
+              "limitRangeType": "DC",
+              "limitType": "IP_ROLE_ID"
+            }
+          ],
+          "maxAmount": {
+            "amount": "10.000",
+            "currency": "Rp"
+          },
+          "minTransactionAmount": {
+            "amount": "20.000",
+            "currency": "Rp"
+          },
+          "paymentMethods": [
+            "[BALANCE",
+            " CREDIT_CARD]"
+          ],
+          "prizeType": "CASHBACK",
+          "promoBizType": "DIRECTDISCOUNT",
+          "promoDescription": "Test 1",
+          "promoType": "AMOUNT",
+          "promoValue": "13500"
+        }
+      ],
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000025065604939",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "1.4",
+      "reviewNumber": "22"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Jalan Jend. Gatot Subroto Kav 18, Kuningan Barat, Mampang Prapatan, RT.6/RW.1, Kuningan Bar., Mampang Prpt., Kota Jakarta Selatan, DKI Jakarta 12710, Indonesia - UNIT C5 / T4, Lantai 3",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000019776884064",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "FORE_21",
+      "gmtCreate": 1553124377416,
+      "gmtModified": 1562371175588,
+      "latitude": "-6.231884",
+      "logoUrl": "https://a.m.dana.id/resource/imgs/merchant/logo-fore-coffee.png",
+      "logoUrlMap": {
+        "PC_LOGO": "Fore.jpg",
+        "LOGO": "https://a.m.dana.id/resource/imgs/merchant/logo-fore-coffee.png"
+      },
+      "longtitude": "106.820275",
+      "mainName": "Fore Coffee Capital Place",
+      "mccCodes": [
+        5813
+      ],
+      "merchantId": "216620000016421629060",
+      "promoInfos": [
+        {
+          "activityId": "ACTIVITY_display_consult_payment_20191104000025659496",
+          "beginDate": 1572796800000,
+          "endDate": 1575043200000,
+          "limitRule": [
+            {
+              "limitCount": "5",
+              "limitRangeType": "DC",
+              "limitType": "IP_ROLE_ID"
+            }
+          ],
+          "maxAmount": {
+            "amount": "30.000",
+            "currency": "Rp"
+          },
+          "minTransactionAmount": {
+            "amount": "15.000",
+            "currency": "Rp"
+          },
+          "paymentMethods": [
+            "[BALANCE",
+            " CREDIT_CARD]"
+          ],
+          "prizeType": "CASHBACK",
+          "promoBizType": "DIRECTDISCOUNT",
+          "promoDescription": "Test 3",
+          "promoType": "AMOUNT",
+          "promoValue": "130000"
+        }
+      ],
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000019099431063",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.5",
+      "reviewNumber": "11"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Jalan Gatot Subroto no. 38 Mampang Prapatan Jakarta Selatan",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000016494947581",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "MA0E0003",
+      "gmtCreate": 1550325711522,
+      "gmtModified": 1562492833030,
+      "latitude": "-6.233830",
+      "logoUrl": "https://a.m.dana.id/resource/imgs/merchant/logo-morbaru.png",
+      "logoUrlMap": {
+        "PC_LOGO": "mor.jpg",
+        "LOGO": "https://a.m.dana.id/resource/imgs/merchant/logo-morbaru.png"
+      },
+      "longtitude": "106.821195",
+      "mainName": "MOR Menara Jamsostek",
+      "mccCodes": [
+        5411
+      ],
+      "merchantId": "216620000020928274717",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000016129582580",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.4",
+      "reviewNumber": "11"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Gedung Menara Jamsostek lantai 11 Unit No 2. Rooftop Eleven. Jalan Gatot Subroto Kav 38",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000022603182738",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "KMTJAM",
+      "gmtCreate": 1555396838452,
+      "gmtModified": 1560575812685,
+      "latitude": "-6.233534",
+      "logoUrl": "http://a.m.dana.id/resource/imgs/merchant/logo-king-mango.jpg",
+      "logoUrlMap": {
+        "LOGO": "http://a.m.dana.id/resource/imgs/merchant/logo-king-mango.jpg",
+        "MOBILE_LOGO": "KINGMANGO.jpg"
+      },
+      "longtitude": "106.821575",
+      "mainName": "Gedung Menara Jamsostek",
+      "mccCodes": [
+        5813,
+        9999
+      ],
+      "merchantId": "216620000019693004735",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000021639803735",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "2.0",
+      "reviewNumber": "11"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Gedung Parkir Menara Jamsostek, Lantai 1, Jl. Jendral Gatot Subroto No.Kav.38, Mampang Prapatan, Jakarta Selatan 12710",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta Pusat",
+          "contactAddressId": "120100000022879537621",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "60KK_MJS",
+      "gmtCreate": 1555574548940,
+      "gmtModified": 1560936423368,
+      "latitude": "-6.233740",
+      "logoUrl": "http://a.m.dana.id/resource/imgs/merchant/kopi-kenangan.jpg",
+      "logoUrlMap": {
+        "PC_LOGO": "KopiKenangan.jpg",
+        "LOGO": "http://a.m.dana.id/resource/imgs/merchant/kopi-kenangan.jpg"
+      },
+      "longtitude": "106.821693",
+      "mainName": "Kopi Kenangan Menara Jamsostek",
+      "mccCodes": [
+        5813
+      ],
+      "merchantId": "216620000010295979623",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000021884674623",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "3.5",
+      "reviewNumber": "11"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Jl.Jendral Gatot Subroto Kav. 24-25 Jakarta 12930",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000016878157230",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "prijaji001",
+      "gmtCreate": 1550757313066,
+      "gmtModified": 1560584492192,
+      "latitude": "-6.230104",
+      "logoUrl": "https://a.m.dana.id/resource/imgs/merchant/logo-kopi-oey.png",
+      "logoUrlMap": {
+        "PC_LOGO": "kopioey.jpg",
+        "LOGO": "https://a.m.dana.id/resource/imgs/merchant/logo-kopi-oey.png"
+      },
+      "longtitude": "106.820975",
+      "mainName": "Kopi Oey Prijaji",
+      "mccCodes": [
+        5813
+      ],
+      "merchantId": "216620000015896277231",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000016489484234",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "2.5",
+      "reviewNumber": "2"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Patra Jasa Office Tower Jl. Gatot Subroto Kav 32-34 #GF, Jak-sel 12950",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000014997115674",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "CC-PJ-009",
+      "gmtCreate": 1548598804112,
+      "gmtModified": 1560569454123,
+      "latitude": "-6.233485",
+      "logoUrl": "https://a.m.dana.id/resource/imgs/merchant/cuppa-coffee.jpg",
+      "logoUrlMap": {
+        "PC_LOGO": "cuppaCoffee.jpg",
+        "LOGO": "https://a.m.dana.id/resource/imgs/merchant/cuppa-coffee.jpg"
+      },
+      "longtitude": "106.823406",
+      "mainName": "Cuppa Coffee Patra Jasa",
+      "mccCodes": [
+        5813,
+        9999
+      ],
+      "merchantId": "216620000013486518674",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000014675467670",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.5",
+      "reviewNumber": "11"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Jalan Taman Widya Chandra, RT.6/RW.1, Kuningan Barat, Mampang Prapatan,Kota Jakarta Selatan, DKI Jakarta 12710",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000012309654639",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "1074",
+      "gmtCreate": 1545543084473,
+      "gmtModified": 1560745863474,
+      "latitude": "-6.230839",
+      "logoUrl": "http://a.m.dana.id/resource/imgs/merchant/coffee-bean-and-tea-leaf.jpg",
+      "logoUrlMap": {
+        "PC_LOGO": "CoffeeBean.jpg",
+        "LOGO": "http://a.m.dana.id/resource/imgs/merchant/coffee-bean-and-tea-leaf.jpg"
+      },
+      "longtitude": "106.817540",
+      "mainName": "Telkomsel Landmark Tower",
+      "mccCodes": [
+        5810,
+        9999
+      ],
+      "merchantId": "216620000010199055634",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000012046964630",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.5",
+      "reviewNumber": "50"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "LT. Ground, Jl Mega kuningan Barat 3 RT 5 / RW 5, Kuningan Timur, Jakarta Selatan",
+          "address2": "",
+          "area": "",
+          "city": "DKI Jakarta",
+          "contactAddressId": "120100000015754970620",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "31KK_SDT",
+      "gmtCreate": 1549532168061,
+      "gmtModified": 1560556830373,
+      "latitude": "-6.230849",
+      "logoUrl": "http://a.m.dana.id/resource/imgs/merchant/kopi-kenangan.jpg",
+      "logoUrlMap": {
+        "PC_LOGO": "KopiKenangan.jpg",
+        "LOGO": "http://a.m.dana.id/resource/imgs/merchant/kopi-kenangan.jpg"
+      },
+      "longtitude": "106.823738",
+      "mainName": "KOPI KENANGAN SOPO DEL TOWER",
+      "mccCodes": [
+        5813
+      ],
+      "merchantId": "216620000010295979623",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000015376566622",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.5",
+      "reviewNumber": "91"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Wisma Mulia Lt. Ground  Jl. Gatot Subroto No.42 Kuningan, Jakarta",
+          "address2": "",
+          "area": "",
+          "city": "DKI Jakarta",
+          "contactAddressId": "120100000011764316627",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "04KK_WISML",
+      "gmtCreate": 1545101938486,
+      "gmtModified": 1560556058541,
+      "latitude": "-6.235108",
+      "logoUrl": "http://a.m.dana.id/resource/imgs/merchant/kopi-kenangan.jpg",
+      "logoUrlMap": {
+        "PC_LOGO": "KopiKenangan.jpg",
+        "LOGO": "http://a.m.dana.id/resource/imgs/merchant/kopi-kenangan.jpg"
+      },
+      "longtitude": "106.823459",
+      "mainName": "KOPI KENANGAN WISMA MULIA",
+      "mccCodes": [
+        5813,
+        9999
+      ],
+      "merchantId": "216620000010295979623",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000011595579623",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "3.5",
+      "reviewNumber": "11"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Hotel Kartika Chandra Jl. Gatot Subroto Kav.21, Jakarta Selatan",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000012089693644",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "504-KC",
+      "gmtCreate": 1545364784808,
+      "gmtModified": 1562377451199,
+      "latitude": "-6.227947",
+      "logoUrl": "http://a.m.dana.id/resource/imgs/merchant/hokben.png",
+      "logoUrlMap": {
+        "PC_LOGO": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-g3tW-ILo24WEtkN1NqEWE-WLdikKm2rWlKhdmh4SavKlD-A6UA.jpg",
+        "LOGO": "http://a.m.dana.id/resource/imgs/merchant/hokben.png"
+      },
+      "longtitude": "106.819705",
+      "mainName": "HokBen Kartika Chandra",
+      "mccCodes": [
+        5812
+      ],
+      "merchantId": "216620000009461719646",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000011904298649",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.5",
+      "reviewNumber": "1"
+    },
+    {
+      "contactAddresses": [
+        {
+          "address1": "Jl Prof Dr Satrio Kav E 4 No 3 Mega Kuningan Barat 12950",
+          "address2": "",
+          "area": "",
+          "city": "Jakarta",
+          "contactAddressId": "120100000015094277944",
+          "contactAddressType": "OFFICE_ADD",
+          "country": "Indonesia",
+          "defaultAddress": false,
+          "province": "",
+          "verified": true,
+          "zipcode": ""
+        }
+      ],
+      "externalShopId": "PD49",
+      "gmtCreate": 1548760658800,
+      "gmtModified": 1561258439144,
+      "latitude": "-6.227508",
+      "logoUrl": "http://a.m.dana.id/resource/imgs/merchant/Domino%27s%20Pizza.png",
+      "logoUrlMap": {
+        "PC_LOGO": "domino.jpg",
+        "LOGO": "http://a.m.dana.id/resource/imgs/merchant/Domino%27s%20Pizza.png"
+      },
+      "longtitude": "106.824197",
+      "mainName": "Bellagio Kuningan",
+      "mccCodes": [
+        5991,
+        9999
+      ],
+      "merchantId": "216620000034831097626",
+      "registerSource": "BACKOFFICE",
+      "shopId": "216660000014784776940",
+      "shopStatus": "ACTIVE",
+      "shopType": "STANDARD_SHOP",
+      "tntInstId": "DANAW3ID",
+      "rating": "4.5",
+      "reviewNumber": "11"
+    }
+  ],
+  "success": true,
+  "traceId": "0a01572a156353285553835329954"
+}

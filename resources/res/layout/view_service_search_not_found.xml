@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@android:color/white"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <ImageView
+        id="@+id/iv_search_not_found"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginBottom="4dp"
+        src="@drawable/service_search_not_found"
+        NOT_FOUND_0xf="@+id/tv_search_not_found"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"/>
+    <TextView
+        textSize="12sp"
+        textColor="#727272"
+        id="@+id/tv_search_not_found"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginBottom="4dp"
+        text="@string/search_not_found"
+        fontFamily="@font/2131296265"
+        NOT_FOUND_0xf="@+id/btn_try_another_keyword"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"/>
+    <Button
+        textSize="12sp"
+        id="@+id/btn_try_another_keyword"
+        paddingLeft="12sp"
+        paddingRight="12sp"
+        layout_width="wrap_content"
+        layout_height="32dp"
+        text="@string/try_another_keyword"
+        paddingStart="12sp"
+        paddingEnd="12sp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        style="@style/2132017655"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

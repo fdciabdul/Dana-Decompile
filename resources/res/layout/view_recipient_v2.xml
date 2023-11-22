@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/2132017531">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        id="@+id/clRecipientContent"
+        layout_width="match_parent"
+        layout_height="0dp"
+        NOT_FOUND_0x13="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x16="@+id/layoutSectionSendMoney">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/rvRecipient"
+            paddingBottom="82dp"
+            clipToPadding="false"
+            overScrollMode="never"
+            NOT_FOUND_0x12="@string/appbar_scrolling_view_behavior"
+            style="@style/2132017531"/>
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            layout_gravity="bottom|center_horizontal"
+            id="@+id/fabBackToTop"
+            paddingLeft="12dp"
+            paddingTop="8dp"
+            paddingRight="12dp"
+            paddingBottom="8dp"
+            visibility="gone"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_margin="24dp"
+            minWidth="124dp"
+            minHeight="32dp"
+            text="@string/fab_back_to_Top"
+            contentDescription="@string/btnBackToTop"
+            NOT_FOUND_0x11="@drawable/ic_up"
+            style="@style/2132017484"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include
+        id="@+id/layoutEnterNewRecipient"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x15="0"
+        NOT_FOUND_0x17="0"
+        layout="@layout/layout_enter_new_recipient"
+        style="@style/2132017490"/>
+    <include
+        id="@+id/layoutSectionSendMoney"
+        visibility="gone"
+        NOT_FOUND_0x16="@+id/layoutEnterNewRecipient"
+        layout="@layout/send_money_recipient_section"
+        style="@style/2132017490"/>
+    <androidx.constraintlayout.widget.Group
+        id="@+id/viewGroupRecipientContent"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        NOT_FOUND_0x10="clRecipientContent, layoutEnterNewRecipient"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="42dp"
+    layout_marginBottom="12dp">
+    <androidx.emoji.widget.EmojiAppCompatTextView
+        textAppearance="?attr/2130970180"
+        textSize="30sp"
+        textStyle="bold"
+        gravity="end"
+        id="@+id/res_0x7f0a16d3_typeutilskt_requirestypealiasexpansion_1"
+        background="?attr/2130969992"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        minWidth="32dp"
+        minHeight="32dp"
+        includeFontPadding="false"
+        android:maxLength="2"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

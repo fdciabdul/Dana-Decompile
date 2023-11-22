@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.richview.EmptyState xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/es_contact"
+    padding="16dp"
+    layout_marginTop="8dp"
+    NOT_FOUND_0x3="@drawable/ic_no_contact"
+    NOT_FOUND_0x4="0"
+    NOT_FOUND_0x5="0"
+    NOT_FOUND_0x6="0"
+    NOT_FOUND_0x7="@string/contact_not_found_message"
+    NOT_FOUND_0x8="@string/contact_not_found"
+    style="@style/2132017490"/>

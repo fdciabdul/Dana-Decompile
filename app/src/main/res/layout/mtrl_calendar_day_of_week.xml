@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    textAppearance="?attr/2130970173"
+    gravity="center"
+    layout_width="@dimen/2131165826"
+    layout_height="@dimen/2131165827"/>

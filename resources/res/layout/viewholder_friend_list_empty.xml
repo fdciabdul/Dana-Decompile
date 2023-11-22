@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    layout_gravity="center"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="center"
+        id="@+id/iv_empty_relationship"
+        layout_width="160dp"
+        layout_height="160dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@drawable/illustration_negative_state_empty_contact"/>
+    <TextView
+        id="@+id/tv_title_empty_relationship"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        text="@string/empty_relationship_title"
+        textAlignment="center"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/iv_empty_relationship"
+        style="@style/2132017932"/>
+    <TextView
+        id="@+id/tv_subtitle_empty_relationship"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        text="@string/empty_relationship_subtitle"
+        textAlignment="center"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/tv_title_empty_relationship"
+        style="@style/2132017414"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        id="@+id/vw_skleton_top"
+        background="@drawable/square_rounded_skeleton"
+        layout_width="match_parent"
+        layout_height="16dp"
+        layout_marginEnd="20dp"/>
+    <View
+        id="@+id/vw_skleton_bottom"
+        background="@drawable/square_rounded_skeleton"
+        layout_width="match_parent"
+        layout_height="16dp"
+        layout_marginTop="16dp"
+        layout_marginEnd="131dp"/>
+</LinearLayout>

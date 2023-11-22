@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_checked="true"
+        drawable="@drawable/mtrl_ic_arrow_drop_up"/>
+    <item drawable="@drawable/mtrl_ic_arrow_drop_down"/>
+</selector>

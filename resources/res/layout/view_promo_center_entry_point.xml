@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <View
+        id="@+id/view_bg_promo_center"
+        background="@drawable/bg_promo_center"
+        layout_width="0dp"
+        layout_height="0dp"
+        layout_margin="1dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+    <View
+        background="@drawable/bg_rounded_blue_transparent"
+        layout_width="0dp"
+        layout_height="0dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"/>
+    <ImageView
+        id="@+id/setH5OptionMenuTextFlag"
+        layout_width="29dp"
+        layout_height="27dp"
+        layout_margin="2dp"
+        NOT_FOUND_0xa="@+id/view_bg_promo_center"
+        NOT_FOUND_0xd="@+id/view_bg_promo_center"
+        NOT_FOUND_0xe="@+id/view_bg_promo_center"
+        NOT_FOUND_0xf="@drawable/ic_gift_promo_center"/>
+    <TextView
+        textSize="12sp"
+        textColor="#108ee9"
+        id="@+id/tvTitle"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/view_promos"
+        fontFamily="@font/2131296266"
+        layout_marginEnd="6dp"
+        NOT_FOUND_0xa="@+id/view_bg_promo_center"
+        NOT_FOUND_0xb="@+id/view_bg_promo_center"
+        NOT_FOUND_0xc="@+id/setH5OptionMenuTextFlag"
+        NOT_FOUND_0xe="@+id/view_bg_promo_center"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

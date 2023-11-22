@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    orientation="horizontal"
+    background="@drawable/bg_rounded_blue_50_4dp"
+    layout_width="69dp"
+    layout_height="24dp"
+    layout_margin="4dp">
+    <ImageView
+        layout_gravity="center"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xd="@drawable/ic_top_up"/>
+    <TextView
+        textSize="9sp"
+        textColor="#ffffff"
+        layout_gravity="center"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/merchant_label_top_up"
+        textAllCaps="true"
+        fontFamily="@font/open_sans_bold"
+        layout_marginStart="4dp"/>
+</LinearLayout>

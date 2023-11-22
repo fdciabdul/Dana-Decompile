@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/res_0x7f0a0da5_access_getnativepattern_p"
+    paddingBottom="4dp"
+    clipToPadding="false"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    paddingEnd="4dp">
+    <id.dana.richview.EllipseTextView
+        textSize="14sp"
+        gravity="center"
+        id="@+id/CreateFamilyAccountEntity"
+        paddingLeft="16dp"
+        paddingTop="8dp"
+        paddingRight="16dp"
+        paddingBottom="8dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xb="64"
+        NOT_FOUND_0xc="2"/>
+</LinearLayout>

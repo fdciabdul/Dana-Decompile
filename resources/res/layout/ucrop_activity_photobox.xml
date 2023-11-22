@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/res_0x7f0a198b_networkuserentitydata_externalsyntheticlambda5"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        id="@+id/toolbar"
+        background="#ff6e40"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        minHeight="?attr/2130968583">
+        <TextView
+            textColor="#fff"
+            layout_gravity="center"
+            id="@+id/toolbar_title"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            text="@string/ucrop_label_edit_photo"
+            style="@style/2132017760"/>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout
+        id="@+id/FragmentBottomSheetPaymentSettingBinding_res_0x7f0a198a"
+        background="#000"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_above="@+id/wrapper_controls"
+        layout_below="@+id/toolbar">
+        <ImageView
+            layout_gravity="center"
+            id="@+id/image_view_logo"
+            layout_width="200dp"
+            layout_height="200dp"
+            NOT_FOUND_0xb="@drawable/ucrop_vector_ic_crop"/>
+        <com.yalantis.ucrop.view.UCropView
+            id="@+id/res_0x7f0a1989_networkuserentitydata_externalsyntheticlambda7"
+            layout_width="match_parent"
+            layout_height="match_parent"
+            alpha="0"/>
+    </FrameLayout>
+</RelativeLayout>

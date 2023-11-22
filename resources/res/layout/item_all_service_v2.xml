@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    theme="@style/2132017823"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    NOT_FOUND_0x7="@color/2131100488"
+    NOT_FOUND_0x8="8dp"
+    NOT_FOUND_0xd="@color/2131099990"
+    NOT_FOUND_0xe="1dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        padding="8dp"
+        layout_width="match_parent"
+        layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/res_0x7f0a0c2f_flowablereduce_reducesubscriber"
+            layout_width="24dp"
+            layout_height="24dp"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xc="0"/>
+        <TextView
+            id="@+id/res_0x7f0a18d2_navigationmenupresenter_headerviewholder"
+            layout_width="0dp"
+            layout_height="wrap_content"
+            layout_marginTop="8dp"
+            singleLine="true"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="@+id/res_0x7f0a0c2f_flowablereduce_reducesubscriber"
+            style="@style/2132017908"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,7 @@
+{
+  "clientId": "2020030615072407440743",
+  "redirectUrlDev": "https://develop.d1kewp5muiaiib.amplifyapp.com/biller/",
+  "redirectUrlProd": "https://prod-ampera.innov8.id/binding/callback?redirect_url=https://billers.m.dana.id/biller/",
+  "scopes": "PUBLIC_ID,DEFAULT_BASIC_PROFILE,TRANSFER_MONEY",
+  "agreed": true
+}

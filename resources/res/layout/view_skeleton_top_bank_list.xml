@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cv_top_bank_item_skeleton"
+    NOT_FOUND_0x6="8dp"
+    NOT_FOUND_0x7="true"
+    style="@style/2132017490">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        id="@+id/cl_top_bank_skeleton"
+        background="#d1d1d1"
+        layout_width="match_parent"
+        layout_height="match_parent">
+        <View
+            gravity="center"
+            orientation="vertical"
+            layout_width="match_parent"
+            layout_height="0dp"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="H,1:1"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

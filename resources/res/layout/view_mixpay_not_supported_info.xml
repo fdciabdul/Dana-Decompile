@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/clMixPayNotSupportedInfo"
+    background="@drawable/bg_rounded_8dp_border_grey30"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        layout_gravity="center_vertical"
+        id="@+id/ivMixpayNotSupportedLogo"
+        layout_width="16dp"
+        layout_height="17dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@drawable/ic_info_grey_inverted"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        layout_marginBottom="4dp"
+        text="@string/mix_pay_some_card_not_support_warning"
+        layout_marginStart="8dp"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/ivMixpayNotSupportedLogo"
+        NOT_FOUND_0xe="0"
+        style="@style/2132017440"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

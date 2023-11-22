@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    id="@+id/ll_home_widget_base"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <RelativeLayout
+        id="@+id/cl_base_home_widget"
+        layout_width="match_parent"
+        layout_height="match_parent">
+        <TextView
+            id="@+id/tv_widget_title"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_alignParentTop="true"
+            layout_marginStart="12dp"
+            layout_alignParentStart="true"
+            style="@style/2132017916"/>
+        <TextView
+            id="@+id/tv_widget_description"
+            layout_width="0dp"
+            layout_height="wrap_content"
+            layout_toLeftOf="@+id/ReferralMapper_Factory_res_0x7f0a024f"
+            layout_below="@+id/tv_widget_title"
+            layout_marginStart="12dp"
+            layout_alignParentStart="true"
+            style="@style/2132017439"/>
+        <id.dana.component.buttoncomponent.DanaButtonSecondaryView
+            id="@+id/ReferralMapper_Factory_res_0x7f0a024f"
+            layout_width="90dp"
+            layout_height="wrap_content"
+            layout_alignParentTop="true"
+            layout_marginEnd="12dp"
+            layout_alignParentEnd="true"
+            NOT_FOUND_0xb="10"
+            NOT_FOUND_0xc="1"/>
+    </RelativeLayout>
+</LinearLayout>

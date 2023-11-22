@@ -1,0 +1,17 @@
+package com.alibaba.griver.base.api;
+
+import com.alibaba.ariver.kernel.common.Proxiable;
+import com.alibaba.fastjson.JSONObject;
+
+/* loaded from: classes3.dex */
+public interface GriverAsyncUpdateManager extends Proxiable {
+    String getAppId();
+
+    void onDownloadResult(boolean z);
+
+    void onUpdateResult(boolean z);
+
+    void sendToRender(String str, JSONObject jSONObject);
+
+    void setAppId(String str);
+}

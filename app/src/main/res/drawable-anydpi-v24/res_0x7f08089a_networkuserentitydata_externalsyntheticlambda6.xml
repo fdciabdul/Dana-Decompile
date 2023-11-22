@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="32dp"
+    android:width="33dp"
+    android:viewportWidth="33"
+    android:viewportHeight="32">
+    <path
+        android:fillColor="@drawable/res_0x7f0800c7_ic_dana_point_collected__0"
+        android:pathData="M16.5,16m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0800c8_ic_dana_point_collected__1"
+        android:pathData="M16.5,16m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"/>
+    <group>
+        <clip-path android:pathData="M16.5,16m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"/>
+        <path
+            android:fillColor="@drawable/res_0x7f0800c9_ic_dana_point_collected__2"
+            android:pathData="M-0.668,1.987l7.746,-6.273l26.843,33.148l-7.746,6.273z"
+            android:fillAlpha="0.92"/>
+    </group>
+    <path
+        android:fillColor="@drawable/res_0x7f0800ca_ic_dana_point_collected__3"
+        android:pathData="M16.5,16m-13.034,0a13.034,13.034 0,1 1,26.068 0a13.034,13.034 0,1 1,-26.068 0"
+        android:fillAlpha="0.34"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0800cb_ic_dana_point_collected__4"
+        android:pathData="M16.5,16m-12.651,0a12.651,12.651 0,1 1,25.301 0a12.651,12.651 0,1 1,-25.301 0"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0800cc_ic_dana_point_collected__5"
+        android:pathData="M16.5,16m-12.651,0a12.651,12.651 0,1 1,25.301 0a12.651,12.651 0,1 1,-25.301 0"/>
+    <group>
+        <clip-path android:pathData="M16.5,16m-12.651,0a12.651,12.651 0,1 1,25.301 0a12.651,12.651 0,1 1,-25.301 0"/>
+        <path
+            android:fillColor="@drawable/res_0x7f0800cd_ic_dana_point_collected__6"
+            android:pathData="M-1.663,1.208l8.185,-6.628l28.392,35.061l-8.185,6.628z"/>
+    </group>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M23.5,11L13.875,21L9.5,16.455"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0800ce_ic_dana_point_collected__7"
+        android:pathData="M18.576,27.615C18.052,27.594 17.592,27.075 17.552,26.576C17.5,25.92 17.982,25.484 18.579,25.372C20.785,24.957 22.754,23.633 24.09,21.834C24.45,21.349 25.241,21.352 25.67,21.727C26.156,22.151 26.139,22.818 25.777,23.305C24.079,25.591 21.542,27.078 18.758,27.601C18.7,27.612 18.642,27.617 18.584,27.615L18.576,27.615"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/res_0x7f0800cf_ic_dana_point_collected__8"
+        android:pathData="M1.478,12.635C1.526,13.157 2.068,13.59 2.569,13.604C3.227,13.622 3.637,13.117 3.718,12.516C4.017,10.29 5.236,8.255 6.962,6.827C7.428,6.442 7.383,5.652 6.986,5.243C6.538,4.78 5.872,4.832 5.404,5.218C3.21,7.034 1.858,9.645 1.482,12.453C1.474,12.512 1.472,12.57 1.477,12.627L1.478,12.635"
+        android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/material_timepicker_container"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <androidx.constraintlayout.widget.Guideline
+        orientation="horizontal"
+        id="@+id/guideline"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x8="16dp"/>
+    <include
+        id="@+id/material_clock_display"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        NOT_FOUND_0x7="@+id/material_clock_period_toggle"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xd="@+id/guideline"
+        NOT_FOUND_0xe="2"
+        layout="@layout/material_clock_display"/>
+    <include
+        id="@+id/material_clock_period_toggle"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="12dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x9="@+id/material_clock_display"
+        NOT_FOUND_0xa="@+id/material_clock_display"
+        NOT_FOUND_0xc="@+id/material_clock_display"
+        NOT_FOUND_0xe="2"
+        layout="@layout/material_clock_period_toggle_land"/>
+    <com.google.android.material.timepicker.ClockFaceView
+        id="@+id/material_clock_face"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginStart="@dimen/2131165336"
+        NOT_FOUND_0xb="@+id/material_clock_display"
+        NOT_FOUND_0xd="0"/>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/constraint_menu"
+    background="#108ee9"
+    layout_width="match_parent"
+    layout_height="?attr/2130968583">
+    <ImageView
+        id="@+id/menubar_inbox"
+        layout_width="32dp"
+        layout_height="32dp"
+        layout_marginLeft="11dp"
+        layout_marginRight="11dp"
+        layout_alignParentTop="true"
+        layout_alignParentBottom="true"
+        contentDescription="@string/btnFeeds"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0xb="@drawable/ic_inbox_bar"/>
+    <include
+        id="@+id/view_dana_balance"
+        layout="@layout/view_home_toolbar_dana_balance"/>
+    <include
+        id="@+id/view_dana_plus_unactive"
+        visibility="gone"
+        layout="@layout/view_home_toolbar_dana_plus_unactive"/>
+    <include
+        id="@+id/view_dana_plus_active"
+        visibility="gone"
+        layout="@layout/view_home_toolbar_dana_plus_active"/>
+</RelativeLayout>

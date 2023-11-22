@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132018056" parent="@style/2132017383">
+        <item name="2130970135">center</item>
+        <item name="2130970150">fixed</item>
+    </style>
+    <style name="2132018123" parent="@style/2132018041">
+        <item name="android:textAppearance">?attr/2130970181</item>
+        <item name="android:textColor">?attr/2130968964</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/2131427359</item>
+    </style>
+</resources>

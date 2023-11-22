@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.expresspurchase.view.OfferProductView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/container"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <FrameLayout
+        id="@+id/flContent"
+        background="#108ee9"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x7="@+id/cta_express_purchase_offer"/>
+    <id.dana.richview.PromptCTAView
+        id="@+id/cta_express_purchase_offer"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x8="This purchase will be deducted from your balance."
+        NOT_FOUND_0x9="Lewati"
+        NOT_FOUND_0xa="Beli Sekarang"/>
+    <FrameLayout
+        id="@+id/flDanaLoading"
+        background="#80ffffff"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="490dp"
+        NOT_FOUND_0x6="0">
+        <id.dana.richview.LogoProgressView
+            layout_gravity="center"
+            id="@+id/lpvLoading"
+            layout_width="wrap_content"
+            layout_height="wrap_content"/>
+    </FrameLayout>
+</id.dana.expresspurchase.view.OfferProductView>

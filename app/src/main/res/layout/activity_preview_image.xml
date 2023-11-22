@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="bottom"
+    background="@android:color/black"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    keepScreenOn="true">
+    <id.dana.richview.imageview.ZoomableImageView
+        id="@+id/image_preview"
+        layout_width="match_parent"
+        layout_height="match_parent"/>
+    <id.dana.ocr.preview.BottomSheetPromptView
+        id="@+id/res_0x7f0a0100_networkuserentitydata_externalsyntheticlambda2"
+        layout_width="match_parent"
+        layout_height="match_parent"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_gravity="center"
+        layout_width="wrap_content"
+        layout_height="wrap_content">
+        <id.dana.richview.LogoProgressView
+            id="@+id/progress_view"
+            visibility="gone"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_margin="16dp"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xb="0"
+            NOT_FOUND_0xc="0"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="@dimen/2131165665"
+            NOT_FOUND_0x10="@dimen/2131165666"/>
+        <TextView
+            textSize="14sp"
+            id="@+id/tv_progress"
+            visibility="gone"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_marginTop="4dp"
+            NOT_FOUND_0xb="@+id/progress_view"
+            NOT_FOUND_0xc="@+id/progress_view"
+            NOT_FOUND_0xd="@+id/progress_view"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

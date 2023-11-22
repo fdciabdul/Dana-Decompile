@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <include layout="@layout/view_component_merchant_list_item_skeleton"/>
+    <View
+        id="@+id/view_first_line"
+        background="#d1d1d1"
+        layout_width="match_parent"
+        layout_height="1dp"/>
+    <include layout="@layout/view_component_merchant_list_item_skeleton"/>
+    <View
+        id="@+id/view_second_line"
+        background="#d1d1d1"
+        layout_width="match_parent"
+        layout_height="1dp"/>
+    <include layout="@layout/view_component_merchant_list_item_skeleton"/>
+    <View
+        id="@+id/view_third_line"
+        background="#d1d1d1"
+        layout_width="match_parent"
+        layout_height="1dp"/>
+    <include layout="@layout/view_component_merchant_list_item_skeleton"/>
+</LinearLayout>

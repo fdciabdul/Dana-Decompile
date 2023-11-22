@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="horizontal"
+    id="@+id/ll_item_auto_complete"
+    background="#ffffff"
+    paddingTop="12dp"
+    paddingStart="16dp"
+    paddingEnd="16dp"
+    style="@style/2132017490">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_search_auto_complete"
+        layout_width="28dp"
+        layout_height="28dp"
+        tint="#a4a4a4"/>
+    <TextView
+        textColor="#313131"
+        layout_gravity="center_vertical"
+        id="@+id/tv_result_auto_complete"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginStart="12dp"
+        style="@style/2132017407"/>
+</LinearLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="bottom"
+    orientation="vertical"
+    id="@+id/ll_key_area"
+    background="#e3e7ee"
+    paddingLeft="1.5dp"
+    paddingRight="1.5dp"
+    clickable="false"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <LinearLayout
+        layout_gravity="center_horizontal"
+        orientation="horizontal"
+        id="@+id/row1_frame"
+        layout_width="match_parent"
+        layout_height="46dp"
+        layout_marginTop="9dp">
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="q"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="w"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="e"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="r"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="t"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="y"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="u"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="i"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="o"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="p"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        gravity="center_horizontal"
+        orientation="horizontal"
+        id="@+id/row2_frame"
+        layout_width="match_parent"
+        layout_height="46dp">
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="a"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="s"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="d"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="f"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="g"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="h"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="j"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="k"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="l"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        layout_gravity="center_horizontal"
+        orientation="horizontal"
+        id="@+id/row3_frame"
+        layout_width="match_parent"
+        layout_height="46dp">
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout
+            id="@+id/key_ABC"
+            background="@drawable/keyboard_key_123_bg"
+            clickable="true"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_marginLeft="4.5dp"
+            layout_marginTop="9dp"
+            layout_marginRight="4.5dp"
+            layout_marginBottom="9dp"
+            layout_weight="1">
+            <ImageView
+                textAppearance="?android:attr/textAppearanceMedium"
+                gravity="center"
+                layout_gravity="center"
+                id="@+id/key_fake"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                src="@drawable/keyboard_key_shift_up"
+                style="@style/2132018223"/>
+            <TextView
+                textAppearance="?android:attr/textAppearanceMedium"
+                gravity="center"
+                layout_gravity="center"
+                visibility="gone"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                text="@string/keyboard_more_num"
+                style="@style/2132018219"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="z"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="x"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="c"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="v"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="b"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="n"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="m"
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout
+            gravity="center"
+            id="@+id/key_del1"
+            background="@drawable/keyboard_key_123_bg"
+            clickable="true"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_marginLeft="4.5dp"
+            layout_marginTop="9dp"
+            layout_marginRight="4.5dp"
+            layout_marginBottom="9dp"
+            layout_weight="1">
+            <ImageView
+                textAppearance="?android:attr/textAppearanceMedium"
+                layout_gravity="center"
+                layout_width="wrap_content"
+                layout_height="wrap_content"
+                src="@drawable/keyboard_key_delete_bg"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        layout_gravity="center_horizontal"
+        orientation="horizontal"
+        id="@+id/key_bottom"
+        layout_width="match_parent"
+        layout_height="46dp">
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout
+            gravity="center"
+            id="@+id/key_123"
+            background="@drawable/keyboard_key_123_bg"
+            clickable="true"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_marginLeft="4.5dp"
+            layout_marginTop="9dp"
+            layout_marginRight="4.5dp"
+            layout_marginBottom="9dp"
+            layout_weight="1">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                textAppearance="?android:attr/textAppearanceMedium"
+                gravity="center"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                text="123"
+                style="@style/2132018219"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text=","
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout
+            id="@+id/key_space"
+            style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                textAppearance="?android:attr/textAppearanceMedium"
+                gravity="center"
+                background="@drawable/keyboard_key_bg"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                text="@string/keyboard_space"
+                style="@style/2132018219"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout style="@style/2132018221">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                text="."
+                style="@style/2132018222"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+        <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout
+            gravity="center"
+            id="@+id/key_enter"
+            background="@drawable/keyboard_key_123_bg"
+            clickable="true"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_marginLeft="4.5dp"
+            layout_marginTop="9dp"
+            layout_marginRight="4.5dp"
+            layout_marginBottom="9dp"
+            layout_weight="1">
+            <com.alipay.androidinter.app.safepaybase.alikeyboard.SecureTextView
+                textAppearance="?android:attr/textAppearanceMedium"
+                gravity="center"
+                background="@drawable/keyboard_key_ok_bg"
+                layout_width="match_parent"
+                layout_height="match_parent"
+                text="@string/keyboard_ok"
+                layout_weight="1"
+                style="@style/2132018220"/>
+        </com.alipay.androidinter.app.safepaybase.alikeyboard.SecureFrameLayout>
+    </LinearLayout>
+</LinearLayout>

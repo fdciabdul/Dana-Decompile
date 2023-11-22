@@ -1,0 +1,36 @@
+package com.alibaba.griver.lottie.animation.keyframe;
+
+import android.graphics.Path;
+import com.alibaba.griver.lottie.model.content.Mask;
+import com.alibaba.griver.lottie.model.content.ShapeData;
+import java.util.ArrayList;
+import java.util.List;
+
+/* loaded from: classes6.dex */
+public class MaskKeyframeAnimation {
+    private final List<BaseKeyframeAnimation<ShapeData, Path>> maskAnimations;
+    private final List<Mask> masks;
+    private final List<BaseKeyframeAnimation<Integer, Integer>> opacityAnimations;
+
+    public MaskKeyframeAnimation(List<Mask> list) {
+        this.masks = list;
+        this.maskAnimations = new ArrayList(list.size());
+        this.opacityAnimations = new ArrayList(list.size());
+        for (int i = 0; i < list.size(); i++) {
+            this.maskAnimations.add(list.get(i).getMaskPath().createAnimation());
+            this.opacityAnimations.add(list.get(i).getOpacity().createAnimation());
+        }
+    }
+
+    public List<Mask> getMasks() {
+        return this.masks;
+    }
+
+    public List<BaseKeyframeAnimation<ShapeData, Path>> getMaskAnimations() {
+        return this.maskAnimations;
+    }
+
+    public List<BaseKeyframeAnimation<Integer, Integer>> getOpacityAnimations() {
+        return this.opacityAnimations;
+    }
+}

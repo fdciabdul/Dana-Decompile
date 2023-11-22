@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_enabled="false"
+        color="?attr/2130968960"
+        alpha="?android:attr/disabledAlpha"/>
+    <item
+        state_focused="true"
+        color="?attr/2130968958"/>
+    <item
+        state_pressed="true"
+        color="?attr/2130968958"/>
+    <item
+        color="?attr/2130968958"
+        state_activated="true"/>
+    <item
+        state_selected="true"
+        color="?attr/2130968958"/>
+    <item
+        state_checked="true"
+        color="?attr/2130968958"/>
+    <item color="?attr/2130968960"/>
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    style="@style/2132017531">
+    <include layout="@layout/item_webview"/>
+    <ProgressBar
+        id="@+id/pb_webview"
+        layout_alignParentTop="true"
+        style="@style/2132017970"/>
+</RelativeLayout>

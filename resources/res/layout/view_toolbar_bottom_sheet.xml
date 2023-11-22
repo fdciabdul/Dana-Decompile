@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_left_button"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        tint="#313131"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        style="@style/2132017542"/>
+    <TextView
+        textColor="#313131"
+        ellipsize="end"
+        gravity="center"
+        id="@+id/toolbar_title"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_marginLeft="48dp"
+        layout_marginRight="48dp"
+        contentDescription="@string/lblHeader"
+        textAlignment="center"
+        layout_marginStart="48dp"
+        layout_marginEnd="48dp"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x12="0"
+        style="@style/2132017908"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_right_button"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginEnd="16dp"
+        layout_alignParentEnd="true"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="0"
+        style="@style/2132017542"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

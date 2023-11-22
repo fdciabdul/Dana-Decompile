@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    drawable="@drawable/bio_processing"
+    fromDegrees="0"
+    toDegrees="-360"
+    pivotX="50%"
+    pivotY="50%"/>

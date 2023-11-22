@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    background="@drawable/rounded_top_background"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <ImageView
+        layout_gravity="center_horizontal"
+        layout_width="56dp"
+        layout_height="4dp"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xc="@drawable/ic_flat_dark"/>
+    <TextView
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="20dp"
+        text="@string/opening_hours_bottomsheet_title"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        style="@style/2132017924"/>
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/res_0x7f0a1112_linkspan_resolver"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="8dp"
+        paddingStart="16dp"
+        paddingEnd="16dp"/>
+</LinearLayout>

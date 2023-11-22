@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/dialog_view"
+    padding="8dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <ProgressBar
+        id="@+id/reg_req_code_gif_view"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        indeterminateDrawable="@drawable/bio_dialog_loading_anim_progress"
+        indeterminateBehavior="repeat"/>
+</LinearLayout>

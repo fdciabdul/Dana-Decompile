@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <include layout="@layout/view_component_explore_service_skeleton"/>
+    <View
+        id="@+id/view_first_line"
+        background="#d1d1d1"
+        layout_width="match_parent"
+        layout_height="1dp"
+        layout_marginStart="48dp"/>
+    <include layout="@layout/view_component_explore_service_skeleton"/>
+    <View
+        id="@+id/view_second_line"
+        background="#d1d1d1"
+        layout_width="match_parent"
+        layout_height="1dp"
+        layout_marginStart="48dp"/>
+    <include layout="@layout/view_component_explore_service_skeleton"/>
+</LinearLayout>

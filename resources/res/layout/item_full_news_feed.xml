@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/2132017490">
+    <FrameLayout
+        layout_gravity="center"
+        id="@+id/card_view_feed"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginBottom="8dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0">
+        <ImageView
+            id="@+id/iv_full_news_feeds"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            scaleType="fitXY"
+            NOT_FOUND_0x6="0"
+            NOT_FOUND_0x7="H,4.6:1"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="0"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

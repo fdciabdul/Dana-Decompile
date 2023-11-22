@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/2132017531">
+    <LinearLayout
+        gravity="center"
+        orientation="vertical"
+        id="@+id/ll_page_container"
+        background="@android:color/white"
+        padding="50dp"
+        style="@style/2132017531">
+        <TextView
+            textSize="24sp"
+            textColor="@android:color/black"
+            layout_gravity="center_horizontal"
+            text="@string/split_bill_title"
+            lineSpacingExtra="12sp"
+            fontFamily="@font/2131296266"
+            style="@style/2132018187"/>
+        <TextView
+            textSize="14sp"
+            textColor="#727272"
+            gravity="center"
+            layout_gravity="center_horizontal"
+            id="@+id/tv_remarks"
+            layout_marginTop="18dp"
+            fontFamily="@font/2131296265"
+            style="@style/2132018187"/>
+        <include layout="@layout/view_qr_split_bill"/>
+        <TextView
+            textSize="12sp"
+            textColor="#313131"
+            layout_gravity="center_horizontal"
+            text="@string/split_bill_qr_desc_title"
+            lineSpacingExtra="4sp"
+            fontFamily="@font/2131296265"
+            style="@style/2132018187"/>
+        <TextView
+            textSize="12sp"
+            textColor="#313131"
+            layout_gravity="center_horizontal"
+            text="@string/split_bill_qr_desc_message"
+            lineSpacingExtra="4sp"
+            fontFamily="@font/2131296265"
+            style="@style/2132018187"/>
+    </LinearLayout>
+    <ImageView
+        layout_gravity="end|top"
+        padding="16dp"
+        NOT_FOUND_0xc="@drawable/MyBillsEntityDataFactory"
+        style="@style/2132018187"/>
+</FrameLayout>

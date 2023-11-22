@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="top|center_horizontal"
+    orientation="vertical"
+    id="@+id/topPanel"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <LinearLayout
+        gravity="center_horizontal"
+        orientation="vertical"
+        id="@+id/title_template"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="24dp">
+        <ImageView
+            layout_gravity="center_horizontal"
+            id="@android:id/icon"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            adjustViewBounds="true"
+            maxWidth="24dp"
+            maxHeight="24dp"/>
+        <androidx.appcompat.widget.DialogTitle
+            gravity="center"
+            id="@+id/alertTitle"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            style="?android:attr/windowTitleStyle"/>
+    </LinearLayout>
+    <android.widget.Space
+        id="@+id/titleDividerNoCustom"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="8dp"/>
+</LinearLayout>

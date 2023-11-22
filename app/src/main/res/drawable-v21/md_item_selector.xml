@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" color="?android:attr/colorControlHighlight">
+    <item
+        id="@android:id/mask"
+        drawable="@drawable/md_item_shape"/>
+    <item>
+        <selector>
+            <item state_activated="true">
+                <color color="#33969696"/>
+            </item>
+        </selector>
+    </item>
+</ripple>

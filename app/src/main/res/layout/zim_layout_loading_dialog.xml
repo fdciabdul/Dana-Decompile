@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center_vertical"
+    orientation="horizontal"
+    id="@+id/h5_loading_body"
+    background="@drawable/zim_loading_circular"
+    paddingLeft="8dp"
+    paddingTop="3dp"
+    paddingRight="8dp"
+    paddingBottom="3dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    baselineAligned="false">
+    <ProgressBar
+        id="@+id/h5_loading_progress"
+        layout_width="30dp"
+        layout_height="30dp"/>
+</LinearLayout>

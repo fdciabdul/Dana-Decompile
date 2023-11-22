@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#ffffff"
+    style="@style/2132017531">
+    <include
+        id="@+id/include_toolbar"
+        layout="@layout/layout_toolbar"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        id="@+id/refresh_notification"
+        layout_marginTop="?attr/2130968583"
+        layout_below="@+id/include_toolbar"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        style="@style/2132017531">
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/notication_center_rcview"
+            scrollbars="vertical"
+            style="@style/2132017490"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <ProgressBar
+        id="@+id/progress_bar"
+        visibility="gone"
+        indeterminate="true"
+        layout_centerInParent="true"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        style="@style/2132018187"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

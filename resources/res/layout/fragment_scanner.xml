@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/res_0x7f0a03af_r8_lambda_zxhmsujxtx99vyz6bmhxqp1wkc8"
+    style="@style/2132017531">
+    <include layout="@layout/view_scanner"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

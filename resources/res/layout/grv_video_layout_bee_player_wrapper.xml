@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/fl_bee_player_view_container"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <FrameLayout
+        id="@+id/fl_player_container"
+        background="#000000"
+        layout_width="match_parent"
+        layout_height="match_parent"/>
+    <com.alibaba.griver.video.view.PlayerDownGradeView
+        id="@+id/rl_player_downgrade"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="match_parent"/>
+</FrameLayout>

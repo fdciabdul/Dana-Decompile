@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center_horizontal"
+    orientation="horizontal"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <ImageView
+        background="@drawable/square_skeleton"
+        layout_width="59dp"
+        layout_height="32dp"
+        layout_weight="0.25"/>
+</LinearLayout>

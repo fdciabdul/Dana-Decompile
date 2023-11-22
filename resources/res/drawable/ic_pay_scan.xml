@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_pressed="true"
+        drawable="@drawable/ic_pay_scan_active"/>
+    <item
+        state_selected="false"
+        drawable="@drawable/ic_pay_scan_inactive"/>
+    <item
+        state_selected="true"
+        drawable="@drawable/ic_pay_scan_active"/>
+    <item drawable="@drawable/ic_pay_scan_active"/>
+</selector>

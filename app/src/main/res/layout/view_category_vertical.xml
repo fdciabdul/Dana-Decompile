@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    id="@+id/viewCategory"
+    background="@android:color/white"
+    visibility="gone"
+    style="@style/2132017490">
+    <id.dana.globalsearch.view.widget.CategoryHeaderView
+        id="@+id/categoryVerticalHeader"
+        layout_marginLeft="16dp"
+        layout_marginTop="16dp"
+        layout_marginRight="16dp"
+        style="@style/2132017490"/>
+    <include
+        id="@+id/requestPermissionLocationPrompt"
+        visibility="gone"
+        layout="@layout/view_location_permission"
+        style="@style/2132017490"/>
+    <id.dana.globalsearch.basecategory.SearchResultVerticalView
+        id="@+id/filterExhaustedFatigue"
+        visibility="gone"
+        layout_marginTop="4dp"
+        style="@style/2132017490"/>
+</LinearLayout>

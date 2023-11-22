@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center"
+    orientation="vertical"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <RelativeLayout
+        layout_width="100dp"
+        layout_height="wrap_content">
+        <ImageView
+            id="@+id/icon_from_view_animation"
+            layout_width="100dp"
+            layout_height="20dp"
+            layout_marginTop="20dp"
+            scaleType="fitCenter"
+            layout_centerHorizontal="true"/>
+        <ImageView
+            id="@+id/icon_from_view_icon"
+            layout_width="100dp"
+            layout_height="20dp"
+            scaleType="fitCenter"
+            layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <com.alipay.mobile.zebra.widget.TextBox
+        textStyle="bold"
+        gravity="center"
+        id="@+id/icon_from_view_str"
+        layout_width="100dp"
+        layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center"
+    orientation="vertical"
+    background="@android:color/transparent"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <TextView
+        textSize="18dp"
+        textColor="#ffffff"
+        id="@+id/remote_debug_text"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginBottom="10dp"/>
+    <TextView
+        textSize="15dp"
+        textColor="#ffffff"
+        id="@+id/remote_debug_exit"
+        background="@drawable/remote_debug_exit_btn_bg"
+        paddingLeft="8dp"
+        paddingTop="3dp"
+        paddingRight="8dp"
+        paddingBottom="3dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/remote_debug_exit"/>
+</LinearLayout>

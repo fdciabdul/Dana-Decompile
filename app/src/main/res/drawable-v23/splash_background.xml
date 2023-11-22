@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item drawable="@color/2131099816"/>
+    <item
+        gravity="center"
+        drawable="@drawable/ic_logo_dana_coin_white"/>
+    <item
+        gravity="bottom|center_horizontal"
+        drawable="@drawable/ic_splash_footnotes"
+        bottom="50dp"/>
+</layer-list>

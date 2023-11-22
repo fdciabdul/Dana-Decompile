@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <ImageView
+        id="@+id/iv_photo"
+        background="@drawable/bg_rounded_grey_20_4dp"
+        padding="1dp"
+        layout_width="56dp"
+        layout_height="56dp"
+        layout_marginTop="8dp"
+        src="@drawable/image_broken"
+        layout_marginStart="3dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/iv_delete"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        src="@drawable/res_0x7f08065e_networkuserentitydata_externalsyntheticlambda1"
+        layout_marginStart="43dp"/>
+</FrameLayout>

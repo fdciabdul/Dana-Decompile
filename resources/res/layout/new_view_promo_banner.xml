@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.richview.NewBannerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/bv_banner"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="4dp"
+    NOT_FOUND_0x4="@dimen/2131165622"
+    NOT_FOUND_0x5="8dp"/>

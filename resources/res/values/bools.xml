@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="2131034112">true</bool>
+    <bool name="2131034113">true</bool>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="2131034117">true</bool>
+    <bool name="2131034119">false</bool>
+    <bool name="2131034120">true</bool>
+    <bool name="show_exit_dialog">true</bool>
+    <bool name="title_bar_left">true</bool>
+    <bool name="title_bar_title_center_horizontal">false</bool>
+    <bool name="title_bar_with_line">false</bool>
+    <bool name="BuiltInFictitiousFunctionClassFactory">false</bool>
+    <bool name="zdoc_frame_corner">true</bool>
+    <bool name="zface_page_can_click_back">true</bool>
+</resources>

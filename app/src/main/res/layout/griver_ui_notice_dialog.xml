@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <com.alibaba.griver.ui.ant.text.AUTextView
+        textSize="20dp"
+        textColor="#333333"
+        gravity="left"
+        id="@+id/title"
+        layout_width="wrap_content"
+        layout_height="wrap_content"/>
+    <ScrollView
+        id="@+id/message_content"
+        scrollbars="none"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_weight="1"
+        layout_below="@+id/title">
+        <com.alibaba.griver.ui.ant.text.AUTextView
+            textSize="16dp"
+            textColor="#333333"
+            gravity="left"
+            id="@+id/message"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            minLines="2"
+            lineSpacingMultiplier="1.2"/>
+    </ScrollView>
+</merge>

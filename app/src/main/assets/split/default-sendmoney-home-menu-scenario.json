@@ -1,0 +1,64 @@
+{
+  "send_money_group": {
+    "title": "sendmoney_group_title",
+    "action": "group",
+    "redirectUrl": "",
+    "promoTitle": "",
+    "promoDesc": "",
+    "icon": "https://a.m.dana.id/resource/icons/send_money_group.png",
+    "hasRedDot": false,
+    "promoActive": false,
+    "subTitle": "sendmoney_group_subtitle",
+    "isNew": true
+  },
+  "send_money_phone": {
+    "title": "sendmoney_phone_title",
+    "subTitle": "sendmoney_phone_subtitle",
+    "action": "phonenumber",
+    "redirectUrl": "",
+    "icon": "ic_send_to_phone",
+    "promoActive": false,
+    "promoTitle": "sendmoney_phone_promo_title",
+    "promoDesc": "sendmoney_phone_promo_desc"
+  },
+  "send_money_bank": {
+    "title": "sendmoney_bank_title",
+    "subTitle": "sendmoney_bank_subtitle",
+    "action": "bank",
+    "redirectUrl": "",
+    "icon": "ic_send_to_bank",
+    "promoActive": false,
+    "promoTitle": "sendmoney_bank_promo_title",
+    "promoDesc": "sendmoney_bank_promo_desc"
+  },
+  "send_money_chat": {
+    "title": "sendmoney_chat_title",
+    "subtitle": "sendmoney_chat_subtitle",
+    "action": "chat",
+    "redirectUrl": "",
+    "icon": "ic_send_to_chat",
+    "promoActive": false,
+    "promoTitle": "sendmoney_chat_promo_title",
+    "promoDesc": "sendmoney_chat_promo_desc"
+  },
+  "send_money_outlet": {
+    "title": "sendmoney_outlet_title",
+    "subtitle": "sendmoney_outlet_subtitle",
+    "action": "outlet",
+    "redirectUrl": "",
+    "icon": "ic_send_to_outlet",
+    "promoActive": false,
+    "promoTitle": "sendmoney_outlet_promo_title",
+    "promoDesc": "sendmoney_outlet_promo_desc"
+  },
+  "send_money_external": {
+    "title": "sendmoney_external_title",
+    "subtitle": "sendmoney_external_subtitle",
+    "action": "external",
+    "redirectUrl": "",
+    "icon": "ic_send_to_external",
+    "promoActive": false,
+    "promoTitle": "sendmoney_external_promo_title",
+    "promoDesc": "sendmoney_external_promo_desc"
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    ellipsize="marquee"
+    gravity="center"
+    id="@android:id/text1"
+    paddingLeft="20dp"
+    paddingRight="?attr/2130969085"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    minHeight="?attr/2130969589"
+    drawablePadding="20dp"
+    textAlignment="viewStart"
+    paddingStart="20dp"
+    paddingEnd="?attr/2130969085"
+    NOT_FOUND_0xc="?android:attr/listChoiceIndicatorMultiple"
+    NOT_FOUND_0xd="?android:attr/listChoiceIndicatorMultiple"/>

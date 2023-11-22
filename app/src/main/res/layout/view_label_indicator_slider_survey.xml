@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/clLabel"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/DateRetargetClass"
+        visibility="invisible"
+        layout_width="12dp"
+        layout_height="12dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@drawable/ic_pointer_blue50"/>
+    <TextView
+        gravity="center_horizontal"
+        id="@+id/res_0x7f0a149e_daggersendmoneyexternalcomponent_sendmoneyexternalcomponentimpl_userrepositoryprovider"
+        background="@drawable/ic_label_indicator_start"
+        paddingLeft="8dp"
+        paddingTop="3dp"
+        paddingRight="8dp"
+        paddingBottom="3dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/nps_survey_slider_label_slide_start"
+        translationY="6dp"
+        NOT_FOUND_0xd="@+id/DateRetargetClass"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        style="@style/2132017909"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

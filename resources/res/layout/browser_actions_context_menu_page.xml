@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.browser.browseractions.BrowserActionsFallbackMenuView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_gravity="center"
+    orientation="vertical"
+    id="@+id/browser_actions_menu_view"
+    background="#f5f5f5"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    minWidth="280dp">
+    <TextView
+        textSize="13sp"
+        textStyle="bold"
+        textColor="#646464"
+        ellipsize="end"
+        gravity="center"
+        id="@+id/browser_actions_header_text"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginTop="10dp"
+        layout_marginBottom="10dp"
+        maxLines="1"
+        paddingStart="20dp"
+        paddingEnd="20dp"/>
+    <View
+        background="#1e000000"
+        layout_width="match_parent"
+        layout_height="1dp"/>
+    <ListView
+        id="@+id/browser_actions_menu_items"
+        paddingTop="8dp"
+        paddingBottom="8dp"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        divider="@null"
+        dividerHeight="0dp"/>
+</androidx.browser.browseractions.BrowserActionsFallbackMenuView>

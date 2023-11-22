@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    NOT_FOUND_0xa="@color/2131099989"
+    NOT_FOUND_0xb="8dp"
+    NOT_FOUND_0xc="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="match_parent"
+        layout_height="wrap_content">
+        <TextView
+            textColor="#727272"
+            id="@+id/tvTitleTransferDestination"
+            layout_width="0dp"
+            layout_height="wrap_content"
+            layout_marginStart="8dp"
+            layout_marginEnd="12dp"
+            NOT_FOUND_0xe="@+id/VerifyPasswordFacade"
+            NOT_FOUND_0xf="@+id/WithdrawSavedCardChannelView_res_0x7f0a0a59"
+            NOT_FOUND_0x12="@+id/WithdrawSavedCardChannelView_res_0x7f0a0a59"
+            style="@style/2132017902"/>
+        <TextView
+            textColor="#727272"
+            id="@+id/VerifyPasswordFacade"
+            layout_width="0dp"
+            layout_height="wrap_content"
+            text="@string/disabled_transfer_dest_caption"
+            layout_marginStart="8dp"
+            layout_marginEnd="12dp"
+            NOT_FOUND_0xd="@+id/WithdrawSavedCardChannelView_res_0x7f0a0a59"
+            NOT_FOUND_0xf="@+id/WithdrawSavedCardChannelView_res_0x7f0a0a59"
+            NOT_FOUND_0x11="@+id/tvTitleTransferDestination"
+            style="@style/2132017425"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            id="@+id/WithdrawSavedCardChannelView_res_0x7f0a0a59"
+            layout_width="34dp"
+            layout_height="34dp"
+            layout_marginTop="12dp"
+            layout_marginBottom="12dp"
+            layout_marginStart="12dp"
+            layout_marginVertical="12dp"
+            NOT_FOUND_0xd="0"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x12="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

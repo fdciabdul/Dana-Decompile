@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_pressed="false"
+        drawable="@drawable/griver_button_negative_normal"/>
+    <item
+        state_pressed="true"
+        drawable="@drawable/griver_button_negative_pressed"/>
+    <item drawable="@drawable/griver_button_negative_normal"/>
+</selector>

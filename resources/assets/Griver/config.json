@@ -1,0 +1,9 @@
+{
+  "appId": "DANA_MINIPROGRAM_ID",
+  "workSpaceId": "2166900000011686",
+  "appendUserAgent": "Skywalker",
+  "verifyPackagePublicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzjSV4lw/5Ok23IuFtDFh6ifF1\n+hmnsU8PrQHbOjoTbXzDJ3xWEldUMM3NBAaUKEPnjn8j9i/JNtBaSuDkzwtC3dH3\ncjmIBU+gFuM6XaCVwWaQuBzykmieptOWyJyRBelLlQvz4KhcXTyi8SkttsN2kYUj\nYZFwCZQG4CZG+7rxfwIDAQAB",
+  "useSecurityGuard": "no",
+  "gpSignature": "861d4dd28461268b3288f87aefdf275d",
+  "environment": ""
+}

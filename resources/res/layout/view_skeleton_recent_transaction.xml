@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_rounded_8dp_border_gray20"
+    padding="8dp"
+    layout_width="160dp"
+    layout_height="wrap_content"
+    layout_marginEnd="12dp">
+    <View
+        id="@+id/res_0x7f0a13d8_flowkt__reducekt_firstornull_inlined_collectwhile_2_1"
+        background="@drawable/bg_skeleton_rounded_4dp"
+        layout_width="61dp"
+        layout_height="12dp"
+        layout_marginTop="1dp"
+        NOT_FOUND_0x7="@+id/SchedulerPoolFactory_res_0x7f0a13db"
+        NOT_FOUND_0x8="@+id/SchedulerPoolFactory_res_0x7f0a13db"/>
+    <View
+        id="@+id/SchedulerPoolFactory_res_0x7f0a13db"
+        background="@drawable/bg_skeleton_rounded_4dp"
+        layout_width="72dp"
+        layout_height="12dp"
+        layout_marginTop="14dp"
+        NOT_FOUND_0x7="@+id/civSkeleton"
+        NOT_FOUND_0x8="@+id/civSkeleton"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/civSkeleton"
+        background="@drawable/bg_skeleton_circle"
+        layout_width="28dp"
+        layout_height="28dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

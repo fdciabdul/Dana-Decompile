@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_checked="true"
+        drawable="@drawable/griver_image_origin_selected"/>
+    <item
+        state_checked="false"
+        drawable="@drawable/griver_image_origin_unselect"/>
+    <item drawable="@drawable/griver_image_origin_unselect"/>
+</selector>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="horizontal"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <FrameLayout
+        background="@drawable/bg_rounded_grey_20_4dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginEnd="16dp">
+        <ImageView
+            layout_gravity="center"
+            id="@+id/iv_merchant_logo"
+            layout_width="64dp"
+            layout_height="64dp"/>
+    </FrameLayout>
+    <LinearLayout
+        gravity="center_vertical"
+        layout_gravity="center_vertical"
+        orientation="vertical"
+        layout_width="match_parent"
+        layout_height="match_parent">
+        <TextView
+            ellipsize="end"
+            id="@+id/tv_merchant_name"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            maxLines="2"
+            style="@style/2132017916"/>
+        <TextView
+            id="@+id/tv_merchant_category"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

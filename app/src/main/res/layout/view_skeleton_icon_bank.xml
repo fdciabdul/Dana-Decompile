@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/ivIconLeftSkeleton"
+    background="@drawable/bg_circle_grey_20"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    NOT_FOUND_0x4="0"
+    NOT_FOUND_0x5="0"
+    NOT_FOUND_0x6="0"
+    NOT_FOUND_0x7="0"/>

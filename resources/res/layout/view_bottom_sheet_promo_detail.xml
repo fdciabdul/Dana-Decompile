@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    background="@drawable/rounded_top_background"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <ImageView
+        layout_gravity="center_horizontal"
+        layout_width="56dp"
+        layout_height="4dp"
+        layout_marginTop="8dp"
+        NOT_FOUND_0xa="@drawable/ic_flat_dark"/>
+    <id.dana.drawable.view.NearbyPromoDetailView
+        id="@+id/res_0x7f0a049c_barcodeutil_externalsyntheticlambda1"
+        paddingBottom="24dp"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="@+id/res_0x7f0a1860_getlistsuggestedlocations_params"/>
+</LinearLayout>

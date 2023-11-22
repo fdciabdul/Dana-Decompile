@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.main.DialogLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@+id/md_root"
+    clipChildren="true"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <include layout="@layout/md_dialog_stub_title"/>
+    <com.afollestad.materialdialogs.internal.message.DialogContentLayout
+        id="@+id/md_content_layout"
+        layout_width="match_parent"
+        layout_height="wrap_content"/>
+    <include layout="@layout/md_dialog_stub_buttons"/>
+</com.afollestad.materialdialogs.internal.main.DialogLayout>

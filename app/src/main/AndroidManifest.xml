@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="2470106"
+    versionName="2.47.1"
+    compileSdkVersion="34"
+    compileSdkVersionCodename="14"
+    package="id.dana"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14">
+    <uses-sdk
+        minSdkVersion="19"
+        targetSdkVersion="33"
+        allowBackup="false"/>
+    <uses-permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission name="android.permission.CALL_PHONE"/>
+    <uses-permission name="android.permission.CAMERA"/>
+    <uses-permission name="android.permission.INTERNET"/>
+    <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission name="android.permission.VIBRATE"/>
+    <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission name="android.permission.WAKE_LOCK"/>
+    <uses-permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission name="android.permission.RECORD_AUDIO"/>
+    <uses-permission name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission name="android.permission.READ_CONTACTS"/>
+    <uses-permission name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission name="android.permission.NFC"/>
+    <uses-permission name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission name="android.permission.READ_CALL_LOG"/>
+    <uses-permission name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-feature
+        name="android.hardware.nfc"
+        required="false"/>
+    <uses-feature
+        name="android.hardware.camera"
+        required="false"/>
+    <uses-feature
+        name="android.hardware.camera.autofocus"
+        required="false"/>
+    <uses-feature
+        name="android.hardware.location.gps"
+        required="false"/>
+    <queries>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data
+                android:mimeType="vnd.android.cursor.item/*"
+                android:scheme="content"
+                android:host="com.android.contacts"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="smsto"/>
+        </intent>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="jp.naver.line.android"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="org.telegram.messenger"/>
+        <package android:name="com.Slack"/>
+        <package android:name="com.alibaba.android.rimet"/>
+        <package android:name="com.tencent.mm"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.twitter.android"/>
+        <package android:name="com.zhiliaoapp.musically.go"/>
+        <package android:name="world.social.group.video.share"/>
+        <package android:name="sg.bigo.live"/>
+        <package android:name="video.like"/>
+        <package android:name="instagram.video.downloader.story.saver"/>
+        <package android:name="com.p1.mobile.putong"/>
+        <package android:name="com.yy.hiyo"/>
+        <package android:name="com.litatom.app"/>
+        <package android:name="com.instagram.lite"/>
+        <package android:name="sg.omi"/>
+        <package android:name="statussaver.deleted.messages.savevidieos"/>
+        <package android:name="com.blockchainvault"/>
+        <package android:name="com.nglreactnative"/>
+        <package android:name="com.ss.android.ugc.trill"/>
+        <package android:name="omegle.tv"/>
+        <package android:name="com.shopee.id"/>
+        <package android:name="com.lazada.android"/>
+        <package android:name="com.tokopedia.tkpd"/>
+        <package android:name="com.app.tokobagus.betterb"/>
+        <package android:name="com.alfamart.alfagift"/>
+        <package android:name="com.bukalapak.android"/>
+        <package android:name="com.vivo.website"/>
+        <package android:name="com.indomaret.klikindomaret"/>
+        <package android:name="blibli.mobile.commerce"/>
+        <package android:name="com.zalora.android"/>
+        <package android:name="com.shopback.app"/>
+        <package android:name="com.shell.sitibv.shellgoplusindia"/>
+        <package android:name="com.alibaba.intl.android.apps.twa"/>
+        <package android:name="io.silvrr.installment"/>
+        <package android:name="com.kreditpintar"/>
+        <package android:name="id.co.modalku.investor"/>
+        <package android:name="id.investree"/>
+        <package android:name="com.temantu.tt1215"/>
+        <package android:name="com.kpt.elite"/>
+        <package android:name="id.maucash.app"/>
+        <package android:name="com.koinworks.app"/>
+        <package android:name="com.amartha.investor"/>
+        <package android:name="com.akseleran.crowdfund"/>
+        <package android:name="com.kreditplus.kpm"/>
+        <package android:name="com.tunaikumobile.app"/>
+        <package android:name="com.adakami.dana.kredit.pinjaman"/>
+        <package android:name="danacepat.pinjaman.pinjolnesia"/>
+        <package android:name="com.cashlez.android.garuda"/>
+        <package android:name="com.loan.cash.credit.easy.kilat.cepat.pinjam.uang.dana.rupiah"/>
+        <package android:name="com.finaccel.android"/>
+        <package android:name="id.cashcash.pro.app"/>
+        <package android:name="com.kreditpro.pinjamandana.merapigroup"/>
+        <package android:name="com.fintopia.idnEasycash.google"/>
+        <package android:name="com.tunaikumobile.app"/>
+        <package android:name="com.cmcm.uangme"/>
+        <package android:name="com.stanfordtek.pinjamduit"/>
+        <package android:name="com.ktakilat.loan"/>
+        <package android:name="com.iss.client.cairin"/>
+        <package android:name="com.yinshan.program.banda"/>
+        <package android:name="com.kredit.berlian.new"/>
+        <package android:name="com.smartec.ft"/>
+        <package android:name="com.indosk.sensid"/>
+        <package android:name="com.uang.pintar.smart"/>
+        <package android:name="com.rupiah.kilat.rupee"/>
+        <package android:name="com.finplus.android"/>
+        <package android:name="com.julofinance.juloapp"/>
+        <package android:name="com.asf.singa"/>
+        <package android:name="com.uatas.android"/>
+        <package android:name="com.adamodal.fintech"/>
+        <package android:name="com.kkii"/>
+        <package android:name="com.kredito.fintek"/>
+        <package android:name="com.cash.pro.loan.money"/>
+        <package android:name="com.mintq.gocash"/>
+        <package android:name="id.co.myhomecredit"/>
+        <package android:name="com.myapp.klikkami"/>
+        <package android:name="com.indodana.app"/>
+        <package android:name="id.danafix.mobile"/>
+        <package android:name="com.pinjamango"/>
+        <package android:name="com.finaccel.kredifazz.pinjaman.uang.online.tunai.cepat"/>
+        <package android:name="id.co.cicil"/>
+        <package android:name="com.danabijak2.mobile"/>
+        <package android:name="id.co.bri.ceria"/>
+        <package android:name="com.bca"/>
+        <package android:name="id.co.bri.brimo"/>
+        <package android:name="id.bmri.livin"/>
+        <package android:name="src.com.bni"/>
+        <package android:name="id.co.cimbniaga.mobile.android"/>
+        <package android:name="id.co.danamon.dwallet"/>
+        <package android:name="com.btpn.dc"/>
+        <package android:name="id.co.btn.mobilebanking.android"/>
+        <package android:name="net.myinfosys.PermataMobileX"/>
+        <package android:name="com.panin.mobilepanin"/>
+        <package android:name="id.co.bukopin.newbkpmobile"/>
+        <package android:name="com.uob.id.digitalbank"/>
+        <package android:name="com.simas.mobile.SimobiPlus"/>
+        <package android:name="com.icbc.mobile.abroadbank"/>
+        <package android:name="com.ocbcnisp.onemobileapp"/>
+        <package android:name="com.ptbc.smartapp.mobilebanking"/>
+        <package android:name="id.co.modalku.investor"/>
+        <package android:name="com.koinworks.app"/>
+        <package android:name="com.bibit.bibitid"/>
+        <package android:name="com.mandirisekuritas.most"/>
+        <package android:name="com.bareksa.app"/>
+        <package android:name="com.cashbac"/>
+        <package android:name="com.cashbac"/>
+        <package android:name="id.maucash.app"/>
+        <package android:name="ajaib.co.id"/>
+        <package android:name="com.crowdo.android"/>
+        <package android:name="id.co.bridanareksasekuritas.olt.android"/>
+        <package android:name="com.adiwisista.project"/>
+        <package android:name="com.done.mobile.nextg"/>
+        <package android:name="com.mifxid.app"/>
+        <package android:name="com.simas.siminvest"/>
+        <package android:name="com.volt.valbury"/>
+        <package android:name="com.bcasekuritas.BestMobile"/>
+        <package android:name="com.gojek.app"/>
+        <package android:name="ovo.id"/>
+        <package android:name="com.telkom.mwallet"/>
+        <package android:name="id.dana"/>
+        <package android:name="com.dokuwallet.android"/>
+        <package android:name="com.bca.sakuku"/>
+        <package android:name="com.ada.astrapay"/>
+        <package android:name="id.co.bni.tapcashgo"/>
+        <package android:name="com.bcadigital.blu"/>
+        <package android:name="id.co.cimbniaga.octofriends"/>
+        <package android:name="id.flip"/>
+        <package android:name="com.isaku.app"/>
+        <package android:name="com.cardsapp.android"/>
+        <package android:name="com.spin.app.latest"/>
+        <package android:name="org.telegram.messenger.web"/>
+        <package android:name="com.viber.voip"/>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+        </intent>
+        <intent>
+            <action android:name="android.speech.RecognitionService"/>
+        </intent>
+        <package android:name="com.google.android.apps.maps"/>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+    </queries>
+    <uses-permission
+        name="android.permission.BLUETOOTH_SCAN"
+        NOT_FOUND_0x3a="0x10000"/>
+    <uses-permission name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission
+        name="android.permission.BLUETOOTH"
+        maxSdkVersion="30"/>
+    <uses-permission name="android.permission.READ_BASIC_PHONE_STATE"/>
+    <uses-permission name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-feature
+        glEsVersion="0x20000"
+        required="true"/>
+    <uses-feature
+        name="android.hardware.camera.front"
+        required="false"/>
+    <uses-feature
+        name="android.hardware.camera.flash"
+        required="false"/>
+    <uses-feature
+        name="android.hardware.screen.landscape"
+        required="false"/>
+    <uses-feature
+        name="android.hardware.wifi"
+        required="false"/>
+    <uses-permission name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-feature
+        name="android.hardware.microphone"
+        required="false"/>
+    <permission
+        name="id.dana.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        protectionLevel="signature"/>
+    <uses-permission name="id.dana.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission
+        name="id.dana.permission.PROCESS_PUSH_MSG"
+        protectionLevel="signature"/>
+    <permission
+        name="id.dana.permission.PUSH_PROVIDER"
+        protectionLevel="signature"/>
+    <permission
+        name="id.dana.permission.PUSH_WRITE_PROVIDER"
+        protectionLevel="signature"/>
+    <uses-permission name="id.dana.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission name="id.dana.permission.PUSH_PROVIDER"/>
+    <permission
+        name="id.dana.permission.MIPUSH_RECEIVE"
+        protectionLevel="signature"/>
+    <uses-permission name="id.dana.permission.MIPUSH_RECEIVE"/>
+    <uses-permission name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission name="android.permission.READ_SETTINGS"/>
+    <uses-permission name="android.permission.GET_TASKS"/>
+    <uses-permission name="android.permission.FLASHLIGHT"/>
+    <uses-permission name="android.permission.REORDER_TASKS"/>
+    <uses-permission name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission
+        name="android.permission.BLUETOOTH_ADMIN"
+        maxSdkVersion="30"/>
+    <uses-permission name="android.permission.BLUETOOTH_ADVERTISE"/>
+    <application
+        theme="@style/2132017169"
+        label="@string/app_name"
+        android:icon="@mipmap/ic_dana_launcher"
+        name=".DanaApplication"
+        configChanges="fontScale"
+        allowBackup="false"
+        hardwareAccelerated="true"
+        supportsRtl="true"
+        fullBackupContent="@xml/appsflyer_backup_rules"
+        resizeableActivity="false"
+        networkSecurityConfig="@xml/2132148234"
+        roundIcon="@mipmap/ic_dana_launcher_round"
+        appComponentFactory="androidx.core.app.CoreComponentFactory"
+        requestLegacyExternalStorage="true">
+        <uses-library
+            name="org.apache.http.legacy"
+            required="false"/>
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            resource="@drawable/dana_logo_white_png"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            resource="@color/2131099816"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id"/>
+        <meta-data
+            android:name="CHANNEL"
+            resource="@string/channelName"/>
+        <meta-data
+            android:name="io.branch.sdk.BranchKey"
+            android:value="key_live_maIkM32pF0ULJer3wXep0aihxukdG5Sq"/>
+        <meta-data
+            android:name="io.branch.sdk.TestMode"
+            android:value="false"/>
+        <meta-data
+            android:name="CHANNEL"
+            resource="@string/channelName"/>
+        <meta-data
+            android:name="deeplink_scheme"
+            android:value="danaid"/>
+        <activity
+            theme="@style/2132017645"
+            android:name="id.dana.onboarding.splash.LauncherActivity"
+            android:exported="true"
+            screenOrientation="portrait"
+            configChanges="screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                resource="@xml/2132148241"/>
+        </activity>
+        <activity
+            theme="@style/2132017645"
+            android:name="id.dana.onboarding.splash.LocalConfigSplashActivity"
+            android:exported="true"
+            launchMode="singleTask"
+            screenOrientation="portrait"
+            configChanges="screenSize|keyboardHidden">
+            <intent-filter label="@string/share_dana">
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="danaid"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="dana.onelink.me"
+                    android:pathPrefix="/BpfF"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="link.dana.id"/>
+                <data
+                    android:scheme="https"
+                    android:host="danaindonesia-alternate.app.link"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="dana"
+                    android:host="google.assistant"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="id.dana.splash"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED"/>
+                <action android:name="android.nfc.action.TAG_DISCOVERED"/>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                resource="@xml/2132148237"/>
+        </activity>
+        <activity
+            theme="@style/2132017156"
+            android:name="com.iap.ac.android.gol.google.GolGoogleAuthActivity"/>
+        <activity
+            theme="@style/2132017156"
+            android:name="id.dana.googlebinding.GoogleBindingWaitingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.payments.standard.AUTHENTICATE_V1"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            theme="@style/2132018218"
+            android:name="id.dana.globalnetwork.view.GnMerchantTopUpWaitingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.payments.standard.TOPUP_V1"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="id.dana.maintenance.EmergencyNotifActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:name="id.dana.onboarding.carrieridentification.CarrierIdentificationVerifyActivity"
+            launchMode="singleTop"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:name="id.dana.onboarding.unsafe.UnsafeDeviceActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.onboarding.IntroductionActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.myprofile.EasterEggActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.webview.WebViewActivity"
+            launchMode="singleTask"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.animation.HomeTabActivity"
+            android:exported="false"
+            launchMode="singleTask"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="OPEN_NOTIFICATION_LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="id.dana.onboarding.OnboardingActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017174"
+            android:name="id.dana.challenge.ChallengeActivity"
+            enabled="true"
+            android:exported="true"
+            launchMode="singleTop"
+            windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.whatsapp.otp.OTP_RETRIEVED"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="id.dana.challenge.ChallengePinWithFaceActivity"
+            launchMode="singleTop"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:name="id.dana.onboarding.suspiciousaccount.SuspiciousAccountVerifyActivity"
+            launchMode="singleTop"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustNothing"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.pay.PayActivity"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="id.dana.cashier.CashierRisk3dsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.cashier.CashierPaylaterTnCActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.feeds.views.UserFeedsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017172"
+            android:name="id.dana.service.ServicesActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.scanner.ScannerActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017574"
+            android:name="id.dana.sendmoney.premium.PremiumNoticeActivity"/>
+        <activity
+            theme="@style/2132017461"
+            android:name="id.dana.myprofile.ShareQrDialog"/>
+        <activity
+            theme="@style/2132017461"
+            android:name="id.dana.animation.view.ZoomDialog"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.notification.NotificationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.twilio.trusteddevice.TrustedDeviceActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.interstitial.InterstitialBannerActivity"/>
+        <activity
+            android:name="id.dana.promoquest.activity.MissionListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.promoquest.activity.MissionDetailActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.promocode.views.RedeemPromoCodeActivity"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="id.dana.sendmoney.voucher.VoucherDetailActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017461"
+            android:name="id.dana.playstorereview.PlayStoreReviewActivity"/>
+        <activity
+            theme="@style/2132017461"
+            android:name="id.dana.tncsummary.TncSummaryActivity"/>
+        <activity
+            android:name="id.dana.requestmoney.RequestMoneyActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.bank.BankSelectorActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.bank.BottomSheetBankListActivity"/>
+        <activity
+            android:name="id.dana.splitbill.view.SplitBillIntroductionActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.splitbill.view.SplitBillActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.splitbill.view.SplitBillShareQrActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.requestmoney.AmountCalculatorActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.requestmoney.NoteAmountCalculatorActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.danah5.locationpicker.MiniProgramLocationPickerActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="id.dana.danah5.locationpicker.MapPageActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="id.dana.nearbyme.NearbyMeActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.drawable.NewNearbyMeActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.nearbyme.merchantdetail.mediaviewer.MerchantPhotoGalleryActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.splitbill.view.SplitBillDetailsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.animation.WalletActivity"/>
+        <activity
+            android:name="id.dana.tncagreement.TermsAndConditionsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.myprofile.mepagerevamp.profilesettings.ProfileSettingsActivity"
+            launchMode="singleTask"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.myprofile.mepagerevamp.securitysettings.SecuritySettingsActivity"
+            launchMode="singleTask"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.myprofile.mepagerevamp.smartpay.SmartPayActivity"
+            launchMode="singleTask"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.myprofile.SettingMoreProfileActivity"
+            launchMode="singleTask"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.twilio.onboarding.TwilioIntroductionActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="com.yalantis.ucrop.UCropActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.myprofile.ProfilePictCropActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.splitbill.view.SplitBillSummaryActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.promocenter.views.PromoCenterActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.lazada.LazadaGuideActivity"/>
+        <activity
+            android:name="id.dana.lazada.tncagreement.LazadaTermsAndConditionActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.oauth.activity.OauthGrantActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.usereducation.BottomSheetOnBoardingActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.usereducation.BottomSheetHelpActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.ocr.views.OCRCameraActivity"
+            configChanges="screenLayout|keyboardHidden"
+            hardwareAccelerated="true"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.ocr.views.OCRPreviewImageActivity"
+            configChanges="screenLayout|keyboardHidden"
+            hardwareAccelerated="true"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.social.FriendshipBottomSheetHelpActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.twilio.trusteddevice.TrustedDeviceBottomSheetHelpActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.social.FriendshipBottomSheetOnBoardingActivity"/>
+        <activity
+            android:name="id.dana.social.ContentGroupingDetailActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.social.view.activity.SocialProfileActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.qriscrossborder.view.OnboardingQrisCrossBorderSheetActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.ipg.IpgGuideActivity"/>
+        <activity android:name="id.dana.ipg.tncagreement.IpgTermsAndConditionActivity"/>
+        <activity
+            android:name="id.dana.animation.KycAmlEddActivity"
+            screenOrientation="portrait"/>
+        <activity
+            label="@string/mp_store_title"
+            android:name="id.dana.miniprogram.MiniProgramStoreActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="id.dana.merchantmanagement.view.MerchantManagementActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017784"
+            android:name="id.dana.camera.DanaCameraActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.social.RestrictedContactActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.social.PrivacySettingActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.social.view.activity.ChangeUsernameActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.myprofile.AccountDeactivationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.nearbyme.merchantdetail.MerchantDetailActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.nearbyme.merchantdetail.merchantreviewdetail.MerchantReviewDetailActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.nearbyme.OtherStoreListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney.external.outlet.AddOutletReceiverActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.twilio.identityverification.TwilioIdentityVerificationActivity"
+            launchMode="singleTop"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.globalsearch.view.SeeAllActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.globalsearch.view.GlobalSearchActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.myprofile.ProfileQrisDialogActivity"/>
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true"/>
+        <meta-data
+            android:name="deeplink_scheme"
+            android:value="danaid"/>
+        <activity
+            android:name="id.dana.statement.StatementActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.statement.view.StatementDownloadActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.savings.activity.SavingsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.savings.activity.SavingCreateActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="id.dana.savings.activity.SavingUpdateActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="id.dana.savings.activity.SavingDetailActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.savings.activity.SavingHistoryActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.oauth.activity.InputNameActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.miniprogram.tnc.TncMiniProgramDialogActivity"
+            launchMode="singleTop"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.miniprogram.tnc.EmailNotVerifiedDialogActivity"
+            launchMode="singleTop"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.miniprogram.tnc.TncServiceDialogActivity"
+            launchMode="singleTop"/>
+        <activity
+            android:name="id.dana.miniprogram.tnc.TncDetailMiniProgramActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.miniprogram.tnc.MissingRequiredUserInfoDialogActivity"
+            launchMode="singleTop"/>
+        <activity
+            android:name="id.dana.sendmoney.external.SendMoneyExternalActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney_v2.landing.SendMoneyActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney_v2.recipient.activity.ContactRecipientActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="id.dana.sendmoney_v2.recipient.activity.BankRecipientActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="id.dana.sendmoney_v2.recipient.activity.SearchRecipientActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="id.dana.sendmoney_v2.x2l.SendToLinkActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney.summary.SummaryActivity"
+            launchMode="singleTop"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="id.dana.scanner.QrExpiredActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.social.view.activity.detail.SocialActivityDetail"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.news.NewsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.social.view.activity.notification.FeedNotificationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.oauth.activity.BlockRegistrationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.autoroute.BottomSheetAutoRoutingInfoActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.autoroute.BottomSheetNoAssetInfoActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.sendmoney_v2.recipient.activity.SortBankAccountBottomSheetActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.onlinemerchant.OnlineMerchantActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.expresspurchase.view.ExpressPurchaseActivity"/>
+        <activity
+            android:name="id.dana.expresspurchase.view.ExpressPurchaseTncActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.cancelsurvey.view.BottomSheetCancelSurveyActivity"/>
+        <activity
+            android:name="id.dana.userpersonalization.UserPersonalizationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.referral.MyReferralDetailActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.social.v2.FeedsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.promodiscovery.views.PromoDiscoveryActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.promodiscovery.views.PromoDiscoveryListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.intro.FamilyAccountIntroActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.intro.FamilyAccountRegistrationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.invite.FamilyInviteMemberActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="id.dana.familyaccount.view.dashboard.OrganizerDashboardActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.dashboard.MemberDashboardActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.invite.FamilyTncConsentActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.joininvitation.JoinInvitationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.joininvitation.InvalidJoinInvitationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.joininvitation.SuccessJoinInvitationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.managefamily.ManageOrganizerActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.managefamily.ManageMemberActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.statusinformation.FamilyStatusInformationActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.memberlimit.ManageMemberLimitActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.dashboard.FamilyMembersActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.familyaccount.view.summary.OrganizerSummaryActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.electronicmoney.activity.ElectronicMoneyActivity"
+            launchMode="singleTask"/>
+        <activity
+            android:name="id.dana.wallet_v3.identity.view.KtpDetailActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.mybills.MyBillsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.mybills.ContinualBillsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.nearbyme.merchantreview.MyReviewListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.nearbyme.merchantreview.MyUnReviewedListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.mybills.MyBillsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.mybills.ContinualBillsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.mybills.view.AddNewBillsActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.transferaccount.transferaccountstatus.TransferAccountStatusActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.transferaccount.success.TransferAccountSuccessActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.nearbyme.merchantreview.MyReviewListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.nearbyme.merchantreview.MyUnReviewedListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.wallet_v3.vouchersandtickets.view.VoucherAndTicketExpiredListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.pushverify.view.verificationdetail.PushVerifyActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.pushverify.view.verificationlist.VerificationListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.kybcpm.view.KybCpmInputAmountActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="id.dana.kybcpm.view.KybCpmLoadingActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.danah5.navigator.DanaH5NavigatorActivity"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.deeplink.DeeplinkNavigatorActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.social.adapter.FriendRequestListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.danaviz.DanaVizPromptActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017175"
+            android:name="id.dana.cardbinding.activity.CardBindingCameraActivity"
+            android:exported="false"/>
+        <activity
+            theme="@style/2132017169"
+            android:name="id.dana.cardbinding.activity.OnboardingCardBindingActivity"
+            android:exported="false"/>
+        <activity
+            android:name="id.dana.cardbinding.activity.CardBindingActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="id.dana.animation.ScanQrLoyaltyActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney_v2.x2l.InvalidLinkActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.danah5.imagecapture.ImageCaptureActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney_v2.smartfriction.SuspiciousAccountActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBr8axhuN2K9uREP6j4SjOmbp8OsDnrdC8"/>
+        <provider
+            name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            authorities="id.dana.androidx-startup">
+            <meta-data
+                name="id.dana.DanaAppInitializer"
+                value="androidx.startup"/>
+            <meta-data
+                name="id.dana.EmojiSupportInitializer"
+                value="androidx.startup"/>
+            <meta-data
+                name="id.dana.DanaLogInitializer"
+                value="androidx.startup"/>
+            <meta-data
+                name="androidx.profileinstaller.ProfileInstallerInitializer"
+                value="androidx.startup"/>
+            <meta-data
+                name="androidx.emoji2.text.EmojiCompatInitializer"
+                value="androidx.startup"/>
+            <meta-data
+                name="androidx.lifecycle.ProcessLifecycleInitializer"
+                value="androidx.startup"/>
+        </provider>
+        <provider
+            name="androidx.core.content.FileProvider"
+            android:exported="false"
+            authorities="id.dana.provider"
+            grantUriPermissions="true">
+            <meta-data
+                name="android.support.FILE_PROVIDER_PATHS"
+                resource="@xml/2132148239"/>
+        </provider>
+        <receiver
+            name="com.appsflyer.SingleInstallBroadcastReceiver"
+            permission="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            permission="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="io.branch.referral.InstallListener"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name=".geofence.GeofenceBroadcastReceiver"
+            enabled="true"
+            android:exported="true"/>
+        <service
+            name=".notification.DanaFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service name=".ocr.views.SnapReceiptService"/>
+        <service
+            name=".geofence.GeoFenceTransitionsJobIntentService"
+            permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true"/>
+        <receiver
+            name=".riskChallenges.ui.missedCallOtp.PhoneStateReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name=".challenge.otp.WhatsAppOtpReceiver"
+            enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.whatsapp.otp.OTP_RETRIEVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name=".pushverify.receiver.PushVerifyReceiver"
+            enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.push_verify.VERIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="id.dana.sendmoney.ui.globalsend.form.GlobalSendFormActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney.ui.groupsend.landing.activity.GroupSendLandingActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney.ui.groupsend.recipient.activity.GroupRecipientActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney.ui.groupsend.summary.activity.GroupSendSummaryActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney.ui.groupsend.groupdetail.activity.GroupDetailActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney.ui.groupsend.groupdetail.activity.MemberListActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.sendmoney.ui.globalsend.landing.activity.GlobalSendLandingActivity"
+            android:exported="false"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            theme="@style/2132017174"
+            android:name="id.dana.riskChallenges.ui.RiskChallengeActivity"
+            android:exported="false"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            theme="@style/2132017174"
+            android:name="id.dana.riskChallenges.ui.resetpin.SelfUnfreezeActivity"
+            android:exported="false"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            theme="@style/2132017171"
+            android:name="id.dana.mybills.ui.v2.MyBillsHomeActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.danapoly.ui.board.DanapolyBoardTabActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.danapoly.ui.splash.DanapolySplashActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.danapoly.ui.board.DanapolyNoEventActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="id.dana.danapoly.ui.dailycheck.DailyCheckActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <service name=".danapoly.ui.sound.DanapolyAudioService"/>
+        <receiver
+            name=".data.otp.repository.source.smsreceiver.OtpReceiver"
+            permission="com.google.android.gms.auth.api.phone.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            theme="@style/2132017506"
+            android:name="com.ipification.mobile.sdk.im.ui.IMVerificationActivity"
+            android:exported="true"
+            launchMode="singleInstance"
+            windowSoftInputMode="adjustPan"/>
+        <receiver
+            name=".utils.broadcastreceiver.AudioPlayerReceiver"
+            enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.media.RINGER_MODE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="androidx.profileinstaller.ProfileInstallReceiver"
+            permission="android.permission.DUMP"
+            enabled="true"
+            android:exported="true"
+            directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            theme="@style/2132018191"
+            android:name="com.yellowmessenger.ymchat.YellowBotWebViewActivity"
+            launchMode="singleTask"
+            configChanges="screenSize|orientation"
+            fitsSystemWindows="true"
+            windowSoftInputMode="adjustResize"/>
+        <provider
+            name="com.yellowmessenger.ymchat.YellowChatBotFileProvide"
+            android:exported="false"
+            authorities="id.dana.yellow.chatbot.provider"
+            grantUriPermissions="true">
+            <meta-data
+                name="android.support.FILE_PROVIDER_PATHS"
+                resource="@xml/2132148250"/>
+        </provider>
+        <service
+            name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            directBootAware="true">
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.perf.ktx.FirebasePerfKtxRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider
+            name="com.google.firebase.perf.provider.FirebasePerfProvider"
+            android:exported="false"
+            authorities="id.dana.firebaseperfprovider"
+            initOrder="101"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="12451000"/>
+        <service
+            name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+            enabled="true"
+            android:exported="false">
+            <meta-data
+                name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+                value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+        </service>
+        <activity
+            theme="@style/2132017793"
+            android:name="androidx.credentials.playservices.HiddenActivity"
+            enabled="true"
+            android:exported="false"
+            configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            fitsSystemWindows="true"/>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            excludeFromRecents="true"/>
+        <service
+            name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            visibleToInstantApps="true"/>
+        <activity
+            theme="@style/2132018236"
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            clearTaskOnLaunch="true"
+            stateNotNeeded="true"
+            screenOrientation="sensorLandscape"
+            windowSoftInputMode="stateAlwaysHidden"/>
+        <receiver
+            name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            directBootAware="true">
+            <intent-filter priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <receiver
+            name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            enabled="true"
+            android:exported="false"/>
+        <service
+            name="com.google.android.gms.measurement.AppMeasurementService"
+            enabled="true"
+            android:exported="false"/>
+        <service
+            name="com.google.android.gms.measurement.AppMeasurementJobService"
+            permission="android.permission.BIND_JOB_SERVICE"
+            enabled="true"
+            android:exported="false"/>
+        <provider
+            name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            authorities="id.dana.firebaseinitprovider"
+            initOrder="100"
+            directBootAware="true"/>
+        <service
+            name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            enabled="@bool/2131034117"
+            android:exported="false"
+            directBootAware="false"/>
+        <service
+            name="androidx.work.impl.background.systemjob.SystemJobService"
+            permission="android.permission.BIND_JOB_SERVICE"
+            enabled="@bool/2131034119"
+            android:exported="true"
+            directBootAware="false"/>
+        <service
+            name="androidx.work.impl.foreground.SystemForegroundService"
+            enabled="true"
+            android:exported="false"
+            directBootAware="false"/>
+        <receiver
+            name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            enabled="true"
+            android:exported="false"
+            directBootAware="false"/>
+        <receiver
+            name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            enabled="false"
+            android:exported="false"
+            directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            enabled="false"
+            android:exported="false"
+            directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            enabled="false"
+            android:exported="false"
+            directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            enabled="false"
+            android:exported="false"
+            directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            enabled="false"
+            android:exported="false"
+            directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            enabled="@bool/2131034117"
+            android:exported="false"
+            directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            permission="android.permission.DUMP"
+            enabled="true"
+            android:exported="true"
+            directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library
+            name="androidx.window.extensions"
+            required="false"/>
+        <uses-library
+            name="androidx.window.sidecar"
+            required="false"/>
+        <service
+            name="com.alipay.iap.android.aplog.service.LogServiceInToolsProcess"
+            permission="android.permission.BIND_JOB_SERVICE"
+            enabled="true"
+            android:exported="false"
+            process=":tools"/>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.alipay.iap.android.f2fpay.widgets.activity.F2FPayFullscreenDisplayActivity"/>
+        <receiver
+            name="com.huawei.hms.support.api.push.PushMsgReceiver"
+            permission="id.dana.permission.PROCESS_PUSH_MSG"
+            android:exported="true"
+            directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            name="com.huawei.hms.support.api.push.PushReceiver"
+            permission="id.dana.permission.PROCESS_PUSH_MSG"
+            android:exported="true"
+            directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            name="com.huawei.hms.support.api.push.service.HmsMsgService"
+            enabled="true"
+            android:exported="true"
+            process=":pushservice"
+            directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <provider
+            name="com.huawei.hms.support.api.push.PushProvider"
+            readPermission="id.dana.permission.PUSH_PROVIDER"
+            writePermission="id.dana.permission.PUSH_WRITE_PROVIDER"
+            android:exported="true"
+            authorities="id.dana.huawei.push.provider"/>
+        <activity
+            android:name="com.huawei.hms.support.api.push.TransActivity"
+            android:exported="false"/>
+        <service
+            name="com.xiaomi.push.service.XMPushService"
+            enabled="true"
+            process=":pushservice"/>
+        <service
+            name="com.xiaomi.push.service.XMJobService"
+            permission="android.permission.BIND_JOB_SERVICE"
+            enabled="true"
+            android:exported="false"
+            process=":pushservice"/>
+        <service
+            name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            permission="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE"
+            enabled="true"
+            android:exported="true"/>
+        <service
+            name="com.xiaomi.mipush.sdk.MessageHandleService"
+            enabled="true"/>
+        <receiver
+            name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported="false"
+            process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.xiaomi.mipush.sdk.NotificationClickedActivity"
+            enabled="true"
+            android:exported="true"
+            excludeFromRecents="true"
+            launchMode="singleInstance">
+            <meta-data
+                android:name="a"
+                android:value=""/>
+        </activity>
+        <provider
+            name="com.xiaomi.channel.commonutils.android.MIPushProvider"
+            permission="id.dana.permission.MIPUSH_RECEIVE"
+            android:exported="false"
+            authorities="id.dana.mipush.sdk.data"/>
+        <activity
+            theme="@style/2132017474"
+            android:name="com.cyberfend.cyfsecurity.CCADialogActivity"
+            excludeFromRecents="true"/>
+        <service
+            name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                value="cct"/>
+        </service>
+        <service
+            name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <service
+            name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            directBootAware="true"/>
+        <activity
+            theme="@style/2132017843"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            stateNotNeeded="true"/>
+        <provider
+            name="com.huawei.hms.aaid.InitProvider"
+            android:exported="false"
+            authorities="id.dana.aaidinitprovider"
+            initOrder="500"/>
+        <service
+            name="com.alipay.mobile.rome.syncsdk.service.LongLinkService"
+            android:exported="false"/>
+        <activity android:name="com.mixpanel.android.mpmetrics.MixpanelNotificationRouteActivity"/>
+        <receiver name="com.mixpanel.android.mpmetrics.MixpanelPushNotificationDismissedReceiver"/>
+        <meta-data
+            android:name="availableLoaded"
+            android:value="yes"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alipay.zoloz.zface.ui.ZFaceActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alipay.zoloz.zface.ui.MultiActionActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017486"
+            android:name="com.alipay.zoloz.zface.ui.GarfieldActivity"
+            screenOrientation="unspecified"
+            windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar"
+            android:name="com.zoloz.android.phone.zdoc.activities.FalconCardNativeActivityNew"
+            screenOrientation="portrait"
+            configChanges="screenSize|orientation|keyboardHidden|keyboard"/>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.alipay.mobile.verifyidentity.business.face.activity.ZolozDemoActivity"
+            windowSoftInputMode="stateAlwaysVisible"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.alipay.mobile.verifyidentity.business.menu.activity.MenuActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alipay.mobile.verifyidentity.business.security_verification.activity.VerifySecurityActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alipay.mobile.verifyidentity.business.security.activity.SecurityListActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alipay.mobile.verifyidentity.business.security.activity.SecurityPrepareActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alipay.mobile.verifyidentity.business.security.activity.SetSecurityActivity"
+            screenOrientation="portrait"
+            windowSoftInputMode="adjustPan"/>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.alipay.mobile.verifyidentity.business.pin.activity.PinActivity"/>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.alipay.mobile.verifyidentity.business.otp.activity.OtpActivity"
+            windowSoftInputMode="stateAlwaysVisible"/>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.alipay.mobile.verifyidentity.framework.QueryActivity"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.alipay.mobile.verifyidentity.framework.MenuActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@style/2132017398"
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:exported="false"
+            excludeFromRecents="true"
+            screenOrientation="behind"
+            configChanges="fontScale|layoutDirection|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|locale"
+            hardwareAccelerated="true">
+            <meta-data
+                android:name="a"
+                android:value=""/>
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.EnableServiceActivity"
+            android:exported="false"
+            configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <provider
+            name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+            android:exported="false"
+            authorities="id.dana.AGCInitializeProvider"/>
+        <service
+            name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false"/>
+        <activity
+            theme="@style/2132017152"
+            android:name="com.iap.ac.android.acs.plugin.ui.activity.GetPhoneNumberActivity"/>
+        <activity
+            android:name="com.iap.ac.android.acs.plugin.ui.activity.AddPhoneNumberActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="com.iap.ac.android.acs.plugin.ui.activity.PhoneRegionActivity"
+            screenOrientation="portrait"/>
+        <activity
+            android:name="com.iap.ac.android.acs.plugin.ui.activity.VerificationCodeActivity"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.iap.ac.android.acs.plugin.ui.activity.ThirdPartyAuthActivity"
+            android:exported="false"
+            screenOrientation="portrait"/>
+        <activity
+            theme="@android:style/Theme.NoDisplay"
+            android:name="com.iap.ac.android.acs.plugin.ui.activity.ThirdPartyBackActivity"
+            android:exported="true"
+            launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="acsback"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iap.ac.android.acs.plugin.downgrade.ui.ErrorPageActivity"
+            multiprocess="true"
+            screenOrientation="portrait"/>
+        <service
+            name="com.alibaba.griver.base.resource.predownload.AppPreDownloadJobSchedulerService"
+            permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:name="com.alibaba.griver.ui.jsapi.picker.nebula.wheelview.multilevel.MultilevelSelectActivity"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Main"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <service name="com.alibaba.griver.core.kernel.ipc.server.IpcMsgServerService"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back1"
+            taskAffinity=":back1"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back2"
+            taskAffinity=":back2"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back3"
+            taskAffinity=":back3"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back4"
+            taskAffinity=":back4"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back5"
+            taskAffinity=":back5"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Back6"
+            taskAffinity=":back6"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverFileChooserActivity"
+            screenOrientation="portrait"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Lite1"
+            process=":lite1"
+            taskAffinity=":lite1"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Lite2"
+            process=":lite2"
+            taskAffinity=":lite2"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverBaseActivity.Lite3"
+            process=":lite3"
+            taskAffinity=":lite3"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            theme="@style/2132018210"
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Main"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowIsTranslucent="false"
+            windowDisablePreview="true"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            theme="@style/2132018210"
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Lite1"
+            process=":lite1"
+            taskAffinity=":lite1"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            theme="@style/2132018210"
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Lite2"
+            process=":lite2"
+            taskAffinity=":lite2"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            theme="@style/2132018210"
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Lite3"
+            process=":lite3"
+            taskAffinity=":lite3"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back1"
+            taskAffinity=":trans_back1"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back2"
+            taskAffinity=":trans_back2"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back3"
+            taskAffinity=":trans_back3"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back4"
+            taskAffinity=":trans_back4"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back5"
+            taskAffinity=":trans_back5"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.core.ui.activity.GriverTransActivity.Back6"
+            taskAffinity=":trans_back6"
+            finishOnTaskLaunch="true"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustResize"
+            hardwareAccelerated="true"/>
+        <activity
+            theme="@style/2132017792"
+            android:name="com.alibaba.griver.core.keepalive.GriverProxyActivity"
+            configChanges="screenSize|orientation|keyboardHidden"/>
+        <service
+            name="com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite1"
+            android:exported="false"
+            process=":lite1"/>
+        <service
+            name="com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite2"
+            android:exported="false"
+            process=":lite2"/>
+        <service
+            name="com.alibaba.griver.core.kernel.ipc.client.IpcMsgClientService$Lite3"
+            android:exported="false"
+            process=":lite3"/>
+        <meta-data
+            android:name="ariver_manifest"
+            android:value="com.alibaba.griver.core.GriverManifest"/>
+        <activity
+            android:name="com.alibaba.griver.image.activity.GriverPhotoSelectActivity"
+            screenOrientation="portrait"
+            configChanges="orientation|navigation|keyboardHidden"
+            windowSoftInputMode="stateAlwaysHidden"
+            hardwareAccelerated="true"/>
+        <activity
+            theme="@android:style/Theme.Translucent"
+            android:name="com.alibaba.griver.image.activity.GriverPhotoPreviewActivity"
+            configChanges="navigation|keyboardHidden"
+            windowSoftInputMode="stateAlwaysHidden"
+            hardwareAccelerated="true"/>
+        <activity
+            theme="@android:style/Theme.Translucent"
+            android:name="com.alibaba.griver.image.activity.GriverVideoPreviewActivity"
+            configChanges="navigation|keyboardHidden"
+            windowSoftInputMode="stateAlwaysHidden"
+            hardwareAccelerated="true"/>
+        <activity
+            android:name="com.alibaba.griver.image.activity.GriverCaptureActivity"
+            screenOrientation="portrait"
+            configChanges="orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustNothing|stateHidden"
+            hardwareAccelerated="true"/>
+        <activity
+            theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alibaba.griver.image.activity.GriverCapturePreviewActivity"
+            screenOrientation="portrait"
+            configChanges="orientation|navigation|keyboardHidden"
+            windowSoftInputMode="adjustNothing|stateHidden"
+            hardwareAccelerated="true"/>
+        <activity android:name="com.alibaba.griver.device.ui.GriverOpenSettingActivity"/>
+        <service
+            name="com.alibaba.griver.device.jsapi.nfc.service.TinyAppHostApduService"
+            permission="android.permission.BIND_NFC_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.alibaba.griver.file.ui.FileViewerActivity"/>
+        <provider
+            name="com.alibaba.griver.file.utils.GriverFileProvider"
+            android:exported="false"
+            authorities="id.dana.griver.file.provider"
+            grantUriPermissions="true">
+            <meta-data
+                name="android.support.FILE_PROVIDER_PATHS"
+                resource="@xml/2132148229"/>
+        </provider>
+        <service name="com.alibaba.ariver.ipc.RemoteCallService"/>
+        <service name="com.alibaba.ariver.ariverexthub.api.ipc.RVERemoteService"/>
+        <activity
+            android:name="com.alibaba.griver.map.activity.GriverMapActivity"
+            screenOrientation="portrait"
+            configChanges="orientation|navigation|keyboardHidden"
+            windowSoftInputMode="stateAlwaysHidden"
+            hardwareAccelerated="true"/>
+        <activity android:name="com.alipay.mobile.beehive.poiselect.ui.PoiSelectActivity"/>
+        <activity
+            android:name="com.iap.ac.android.container.activity.ACContainerActivity"
+            configChanges="screenSize|orientation|navigation|keyboardHidden"/>
+        <activity android:name="com.iap.ac.android.container.activity.H5NetworkCheckActivity"/>
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="appid=100570215"/>
+        <meta-data
+            android:name="com.android.dynamic.apk.fused.modules"
+            android:value="base"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="10"/>
+    </application>
+</manifest>

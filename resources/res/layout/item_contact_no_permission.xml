@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<id.dana.richview.EmptyState xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/es_contact"
+    padding="16dp"
+    layout_marginTop="8dp"
+    NOT_FOUND_0x3="@string/allow_read_contact"
+    NOT_FOUND_0x4="@drawable/ic_no_contact_permission"
+    NOT_FOUND_0x5="0"
+    NOT_FOUND_0x6="0"
+    NOT_FOUND_0x7="0"
+    NOT_FOUND_0x8="@string/no_contact_permission_message"
+    NOT_FOUND_0x9="@string/no_contact_permission"
+    style="@style/2132017490"/>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingTop="16dp"
+    paddingBottom="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        id="@+id/vAvatarSkeleton"
+        background="@drawable/bg_circle_skeleton"
+        layout_width="28dp"
+        layout_height="28dp"
+        layout_marginStart="16dp"
+        NOT_FOUND_0xd="@+id/vNameSkeleton"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x12="@+id/vUsernameSkeleton"/>
+    <View
+        id="@+id/vUsernameSkeleton"
+        background="@drawable/bg_rounded_grey_6dp"
+        layout_width="0dp"
+        layout_height="16dp"
+        layout_marginStart="12dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/vAvatarSkeleton"
+        NOT_FOUND_0x12="0"/>
+    <View
+        textColor="#313131"
+        ellipsize="end"
+        id="@+id/vNameSkeleton"
+        background="@drawable/bg_rounded_grey_6dp"
+        layout_width="0dp"
+        layout_height="16dp"
+        layout_marginTop="4dp"
+        maxLines="1"
+        fontFamily="@font/2131296265"
+        layout_marginStart="12dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/vAvatarSkeleton"
+        NOT_FOUND_0x11="@+id/vUsernameSkeleton"
+        style="@style/2132017894"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

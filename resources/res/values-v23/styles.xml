@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132017216" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="2132017226" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="2132017240" parent="@style/2132017310">
+    </style>
+    <style name="2132017247" parent="@style/2132017311">
+    </style>
+    <style name="2132017310" parent="@style/2132017308">
+        <item name="2130968581">?android:attr/actionBarItemBackground</item>
+        <item name="2130968595">?android:attr/actionMenuTextAppearance</item>
+        <item name="2130968596">?android:attr/actionMenuTextColor</item>
+        <item name="2130968612">?android:attr/actionOverflowButtonStyle</item>
+        <item name="2130969014">@drawable/abc_control_background_material</item>
+        <item name="2130969930">?android:attr/ratingBarStyleIndicator</item>
+        <item name="2130969931">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="2132017311" parent="@style/2132017309">
+        <item name="2130968581">?android:attr/actionBarItemBackground</item>
+        <item name="2130968595">?android:attr/actionMenuTextAppearance</item>
+        <item name="2130968596">?android:attr/actionMenuTextColor</item>
+        <item name="2130968612">?android:attr/actionOverflowButtonStyle</item>
+        <item name="2130969014">@drawable/abc_control_background_material</item>
+        <item name="2130969930">?android:attr/ratingBarStyleIndicator</item>
+        <item name="2130969931">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="2132017332" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="2132017338" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="2132017340" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/2132017712</item>
+    </style>
+    <style name="2132017350" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="2132017371" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="2132017372" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="2132017378" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="2132017379" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="2132017452" parent="@style/2132017182">
+        <item name="2130968843">?android:attr/colorBackgroundFloating</item>
+    </style>
+    <style name="2132018141" parent="@style/2132017389">
+        <item name="android:popupBackground">?attr/2130969878</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="2132018142" parent="@style/2132017390">
+        <item name="android:popupBackground">?attr/2130969878</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_enabled="false"
+        drawable="@android:color/transparent"/>
+    <item
+        state_enabled="true"
+        state_pressed="true"
+        drawable="@drawable/griver_core_btn_text_press_background"/>
+    <item
+        state_focused="true"
+        state_enabled="true"
+        state_pressed="false"
+        drawable="@android:color/transparent"/>
+    <item
+        state_focused="false"
+        state_enabled="true"
+        state_pressed="false"
+        drawable="@android:color/transparent"/>
+</selector>

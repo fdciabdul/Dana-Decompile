@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    layout_marginEnd="8dp"
+    NOT_FOUND_0x5="8dp"
+    NOT_FOUND_0x6="0dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/MerchantPhotoViewerComponent"
+        layout_width="320dp"
+        layout_height="128dp"
+        scaleType="fitXY"
+        NOT_FOUND_0x7="@drawable/voucher_banner_en"/>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132017240" parent="@style/2132017315">
+    </style>
+    <style name="2132017247" parent="@style/2132017316">
+    </style>
+    <style name="2132017297" parent="@style/2132017851">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/2132018092</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="2130968626">@style/2132017532</item>
+        <item name="2130968764">@style/2132018084</item>
+        <item name="2130968765">@style/2132018084</item>
+        <item name="2130968766">@style/2132018085</item>
+        <item name="2130968767">@style/2132018084</item>
+        <item name="2130969641">@style/2132017533</item>
+    </style>
+    <style name="2132017315" parent="@style/2132017312">
+        <item name="2130969084">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="2132017316" parent="@style/2132017313">
+        <item name="2130969084">?android:attr/dialogCornerRadius</item>
+    </style>
+</resources>

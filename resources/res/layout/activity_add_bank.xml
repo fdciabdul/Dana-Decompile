@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    style="@style/2132017531">
+    <include
+        id="@+id/layoutAddBank"
+        layout_width="0dp"
+        layout_height="0dp"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@+id/layoutToolbar"
+        layout="@layout/layout_add_bank"/>
+    <include
+        id="@+id/layoutToolbar"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x8="0"
+        layout="@layout/layout_toolbar"/>
+    <include
+        id="@+id/layoutGeneralEmptyState"
+        NOT_FOUND_0x4="0"
+        NOT_FOUND_0x5="0"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="@+id/layoutToolbar"
+        layout="@layout/layout_general_empty_state"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

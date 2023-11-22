@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <ImageView
+        id="@+id/ivTooltipStart"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x6="@+id/tvTooltip"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="@+id/tvTooltip"/>
+    <ImageView
+        id="@+id/ivTooltipEnd"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x6="@+id/tvTooltip"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0xb="@+id/tvTooltip"/>
+    <TextView
+        gravity="start"
+        id="@+id/tvTooltip"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x8="@+id/ivTooltipEnd"
+        NOT_FOUND_0x9="@+id/ivTooltipStart"
+        NOT_FOUND_0xb="0"/>
+</merge>

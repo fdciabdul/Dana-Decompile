@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    paddingLeft="16dp"
+    paddingRight="16dp"
+    layout_width="match_parent"
+    layout_height="?attr/2130969122"
+    minWidth="196dp">
+    <TextView
+        textAppearance="?attr/2130970188"
+        ellipsize="marquee"
+        layout_gravity="center_vertical"
+        id="@android:id/title"
+        fadingEdge="horizontal"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        singleLine="true"
+        textAlignment="viewStart"/>
+</FrameLayout>

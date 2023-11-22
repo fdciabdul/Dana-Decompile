@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="end"
+    orientation="horizontal"
+    id="@+id/date_picker_actions"
+    paddingRight="8dp"
+    layout_width="match_parent"
+    layout_height="52dp"
+    paddingEnd="8dp">
+    <Button
+        layout_gravity="center_vertical"
+        id="@+id/cancel_button"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/mtrl_picker_cancel"
+        style="?attr/2130968765"/>
+    <Button
+        layout_gravity="center_vertical"
+        id="@+id/confirm_button"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        minWidth="64dp"
+        text="@string/mtrl_picker_confirm"
+        style="?attr/2130968767"/>
+</LinearLayout>

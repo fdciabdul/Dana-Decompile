@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/2132017490">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_contact_list"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        style="@style/2132017490"/>
+    <LinearLayout
+        orientation="vertical"
+        id="@+id/ll_loading_contact"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="350dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0">
+        <id.dana.richview.LogoProgressView
+            layout_gravity="center"
+            id="@+id/lpv_contact"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            layout_marginTop="112dp"
+            layout_marginBottom="12dp"/>
+        <TextView
+            gravity="center"
+            layout_gravity="center"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            text="@string/loading_sync_contact"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

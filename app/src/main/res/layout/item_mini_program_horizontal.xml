@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <id.dana.component.cellcomponent.DanaCellLeftView
+        id="@+id/cellMiniProgram"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginEnd="8dp"
+        layout_toStartOf="@+id/btnFavorite"
+        NOT_FOUND_0x7="6"/>
+    <id.dana.miniprogram.view.FavoriteButton
+        id="@+id/btnFavorite"
+        layout_width="24dp"
+        layout_height="24dp"
+        layout_centerVertical="true"
+        layout_alignParentEnd="true"/>
+</RelativeLayout>

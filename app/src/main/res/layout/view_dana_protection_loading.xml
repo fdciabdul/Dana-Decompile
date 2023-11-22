@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/res_0x7f0a0368_daggeremergencynotifcomponent_emergencynotifcomponentimpl"
+    background="#96ffffff"
+    visibility="gone"
+    style="@style/2132017531">
+    <id.dana.core.ui.richview.LoadingLottieAnimationView
+        id="@+id/lavDanaSecureLoading"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x8="50"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="json/lottie/dana_protection_loading_animation.lottie"
+        NOT_FOUND_0x11="120"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        gravity="center"
+        id="@+id/res_0x7f0a14ba_setbalancevisibility_params"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="9dp"
+        textAlignment="center"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="@+id/lavDanaSecureLoading"
+        style="@style/2132017405"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

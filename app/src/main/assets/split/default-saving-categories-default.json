@@ -1,0 +1,12 @@
+{
+  "saving_others": {
+    "name": "Others",
+    "icon_url_default": "https://a.m.dana.id/resource/imgs/savings/native/ic_saving_cat_general_disabled.png",
+    "icon_url_selected": "https://a.m.dana.id/resource/imgs/savings/native/ic_saving_cat_general.png",
+    "icon_url_level1": "https://a.m.dana.id/resource/imgs/savings/native/ic_saving_cat_general_level1.png",
+    "icon_url_level2": "https://a.m.dana.id/resource/imgs/savings/native/ic_saving_cat_general_level2.png",
+    "icon_url_level3": "https://a.m.dana.id/resource/imgs/savings/native/ic_saving_cat_general_level3.png",
+    "icon_url_level4": "https://a.m.dana.id/resource/imgs/savings/native/ic_saving_cat_general_level4.png",
+    "icon_url_level5": "https://a.m.dana.id/resource/imgs/savings/native/ic_saving_cat_general_level5.png"
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_white_rounded_bottom"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <View
+        id="@+id/vCheckBox"
+        background="@drawable/bg_rounded_grey_20_4dp"
+        layout_width="16dp"
+        layout_height="16dp"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x9="@+id/vTitle"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"/>
+    <View
+        id="@+id/vTitle"
+        background="@drawable/bg_rounded_grey_20_4dp"
+        layout_width="0dp"
+        layout_height="32dp"
+        layout_marginTop="8dp"
+        layout_marginBottom="8dp"
+        layout_marginStart="8dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="@+id/vCheckBox"
+        NOT_FOUND_0xc="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

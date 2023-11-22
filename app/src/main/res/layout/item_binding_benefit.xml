@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    minHeight="50dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="0">
+        <TextView
+            textSize="14sp"
+            textStyle="bold"
+            textColor="@android:color/black"
+            id="@+id/res_0x7f0a13ca_r8_lambda_x5imhbcldeinkvcvzuebzsyaono"
+            layout_width="0dp"
+            layout_height="wrap_content"
+            paddingStart="12dp"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xb="@+id/clearJavaObjects"
+            NOT_FOUND_0xd="0"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/clearJavaObjects"
+            layout_width="28dp"
+            layout_height="28dp"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0xa="0"
+            NOT_FOUND_0xd="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

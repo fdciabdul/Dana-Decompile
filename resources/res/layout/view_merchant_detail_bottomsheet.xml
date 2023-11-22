@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/bottomsheet"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    NOT_FOUND_0xe="2dp">
+    <androidx.cardview.widget.CardView
+        id="@+id/cvMerchantDetail"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        layout_marginBottom="-16dp"
+        NOT_FOUND_0xb="16dp"
+        NOT_FOUND_0xc="2dp"
+        NOT_FOUND_0xd="false">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            paddingBottom="16dp"
+            layout_width="match_parent"
+            layout_height="match_parent">
+            <ImageView
+                layout_gravity="center_horizontal"
+                id="@+id/setupButtonChild"
+                layout_width="56dp"
+                layout_height="4dp"
+                layout_marginLeft="8dp"
+                layout_marginTop="8dp"
+                layout_marginRight="8dp"
+                layout_marginStart="8dp"
+                layout_marginEnd="8dp"
+                NOT_FOUND_0x10="@+id/res_0x7f0a0e87_windowinsetscontrollercompat_impl23"
+                NOT_FOUND_0x11="0"
+                NOT_FOUND_0x12="0"
+                NOT_FOUND_0x14="0"
+                NOT_FOUND_0x15="@drawable/ic_flat_dark"/>
+            <id.dana.drawable.merchantdetail.MerchantDetailView
+                id="@+id/res_0x7f0a0e87_windowinsetscontrollercompat_impl23"
+                layout_width="match_parent"
+                layout_height="0dp"
+                NOT_FOUND_0xf="0"
+                NOT_FOUND_0x12="0"
+                NOT_FOUND_0x13="@+id/setupButtonChild"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

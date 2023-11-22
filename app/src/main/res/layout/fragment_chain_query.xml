@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/PrefetchDownloadStatus_res_0x7f0a0350"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        background="#f5f5f5"
+        layout_width="match_parent"
+        layout_height="match_parent">
+        <include
+            id="@+id/tbChainQuery"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xb="0"
+            layout="@layout/layout_toolbar"/>
+        <androidx.recyclerview.widget.RecyclerView
+            id="@+id/AutoValue_EventInternal"
+            paddingBottom="?android:attr/actionBarSize"
+            clipToPadding="false"
+            layout_width="match_parent"
+            layout_height="wrap_content"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="@+id/tbChainQuery"/>
+        <id.dana.drawable.search.searchresult.NearbySearchResultErrorView
+            id="@+id/res_0x7f0a19b9_usermanagercompat_api24impl"
+            visibility="gone"
+            layout_width="match_parent"
+            layout_height="0dp"
+            NOT_FOUND_0x7="0"
+            NOT_FOUND_0x8="0"
+            NOT_FOUND_0x9="0"
+            NOT_FOUND_0xa="@+id/tbChainQuery"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

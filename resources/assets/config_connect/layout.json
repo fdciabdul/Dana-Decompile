@@ -1,0 +1,11 @@
+{
+    "zface": {
+        "view": "standard"
+    },
+    "zdoc": {
+        "00620000001_1": {
+            "name": "eKTP/KTP",
+            "view": "standard_frame"
+        }
+    }
+}

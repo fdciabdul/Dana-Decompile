@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="120dp">
+    <LinearLayout
+        layout_gravity="top"
+        orientation="horizontal"
+        id="@+id/mtrl_picker_header"
+        paddingLeft="@dimen/2131165829"
+        paddingRight="@dimen/2131165829"
+        layout_width="match_parent"
+        layout_height="120dp"
+        baselineAligned="false"
+        paddingStart="@dimen/2131165829"
+        paddingEnd="@dimen/2131165829"
+        style="?attr/2130969654">
+        <FrameLayout
+            id="@+id/mtrl_picker_header_title_and_selection"
+            paddingLeft="12dp"
+            layout_width="0dp"
+            layout_height="match_parent"
+            layout_weight="1"
+            paddingStart="12dp">
+            <include layout="@layout/mtrl_picker_header_title_text"/>
+            <include layout="@layout/mtrl_picker_header_selection_text"/>
+        </FrameLayout>
+        <include layout="@layout/mtrl_picker_header_toggle"/>
+    </LinearLayout>
+    <View
+        layout_gravity="bottom"
+        layout_width="match_parent"
+        layout_height="1dp"
+        style="?attr/2130969653"/>
+</merge>

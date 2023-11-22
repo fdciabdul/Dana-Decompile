@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_nearby"
+    background="#f5f5f5"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginBottom="24dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/res_0x7f0a0ba5_windowinsetscompat_builderimpl30"
+        layout_width="match_parent"
+        layout_height="150dp"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        scaleType="centerCrop"
+        layout_marginHorizontal="@dimen/BuiltInFictitiousFunctionClassFactory_res_0x7f070055"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x13="@+id/res_0x7f0a11fc_observablepublishalt_innerdisposable"/>
+    <id.dana.component.buttoncomponent.DanaButtonPrimaryView
+        id="@+id/btn_explore"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginBottom="8dp"
+        layout_marginEnd="8dp"
+        NOT_FOUND_0xd="@+id/res_0x7f0a0ba5_windowinsetscompat_builderimpl30"
+        NOT_FOUND_0xf="1"
+        NOT_FOUND_0x10="@+id/res_0x7f0a0ba5_windowinsetscompat_builderimpl30"
+        NOT_FOUND_0x11="@+id/res_0x7f0a0ba5_windowinsetscompat_builderimpl30"
+        NOT_FOUND_0x14="@+id/res_0x7f0a0ba5_windowinsetscompat_builderimpl30"
+        NOT_FOUND_0x15="1"
+        NOT_FOUND_0x16="10"
+        NOT_FOUND_0x17="@string/telusuri"
+        NOT_FOUND_0x18="1"/>
+    <id.dana.promodiscovery.richview.PromoDiscoverySectionHeaderView
+        id="@+id/res_0x7f0a11fc_observablepublishalt_innerdisposable"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        NOT_FOUND_0xb="@drawable/ic_nearby_logo"
+        NOT_FOUND_0xc="@string/nearby_header"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x14="0"
+        NOT_FOUND_0x19="false"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

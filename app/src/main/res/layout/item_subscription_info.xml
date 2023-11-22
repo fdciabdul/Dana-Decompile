@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    gravity="center_horizontal"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    text="@string/my_bills_info"
+    layout_marginStart="12dp"
+    layout_marginEnd="12dp"
+    style="@style/2132017440"/>

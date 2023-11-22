@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="122dp"
+    android:width="123dp"
+    android:viewportWidth="123"
+    android:viewportHeight="122">
+    <path
+        android:fillColor="@drawable/res_0x7f080052_ic_blink__0"
+        android:pathData="M61.66,75.75V74.71L62.36,70.29L63.66,72.03L61.66,75.75ZM61.66,75.75L64.06,72.56L65.21,74.08L61.66,75.75ZM61.66,76.7V75.75L65.99,75.11L96.5,115.62H115.67L68.02,74.82L122.4,66.8L122.5,47.05L66.47,73.49L64.58,71.87L103.63,19.93H91.62L64.01,71.38L62.4,70L73.37,0H61.66H61.34H49.63L60.77,70.14L59.32,71.38L31.71,19.93H19.69L58.74,71.87L56.74,73.58L0.5,47.05L0.6,66.8L55.26,74.86L7.66,115.62H26.82L57.31,75.16L61.34,75.75V76.7L45.72,122H61.34H61.66H77.28L61.66,76.7ZM61.5,76.22L61.66,75.75L61.58,75.24L61.54,75.52L61.66,75.75L61.53,75.57L61.5,75.75L61.5,75.53L59.26,72.56L58.03,74.19L61.34,75.75L61.5,76.22ZM61.5,74.71L60.83,70.48L59.66,72.03L61.5,75.45L61.5,74.71Z"
+        android:strokeAlpha="0.75"
+        android:fillAlpha="0.75"
+        android:fillType="evenOdd"/>
+</vector>

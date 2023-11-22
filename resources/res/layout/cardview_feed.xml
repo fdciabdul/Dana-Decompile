@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    orientation="vertical"
+    style="@style/2132017490">
+    <androidx.cardview.widget.CardView
+        layout_gravity="center"
+        id="@+id/card_view_feed"
+        NOT_FOUND_0x18="1dp"
+        NOT_FOUND_0x19="1dp"
+        style="@style/2132017490">
+        <RelativeLayout
+            id="@+id/feed_wrapper"
+            padding="12dp"
+            style="@style/2132017490">
+            <ImageView
+                id="@+id/feed_icon"
+                layout_width="40dp"
+                layout_height="40dp"
+                src="@drawable/ic_request"
+                scaleType="centerCrop"
+                layout_alignParentLeft="true"/>
+            <TextView
+                textSize="13sp"
+                textColor="#4a4a4a"
+                ellipsize="end"
+                id="@+id/feed_content"
+                paddingTop="3dp"
+                layout_marginLeft="12dp"
+                layout_marginRight="19dp"
+                text="Nicholaz baru saja membeli tiket di TIX.ID! "
+                maxLines="3"
+                layout_toLeftOf="@+id/feed_time"
+                layout_toRightOf="@+id/feed_icon"
+                style="@style/2132018187"/>
+            <TextView
+                textSize="10sp"
+                textColor="#6e6e6e"
+                id="@+id/feed_time"
+                text="56m"
+                layout_alignParentRight="true"
+                style="@style/2132018187"/>
+            <TextView
+                textSize="13sp"
+                textStyle="bold"
+                textColor="#ff5d55"
+                id="@+id/feed_delete"
+                visibility="gone"
+                layout_marginTop="13dp"
+                text="@string/option_delete"
+                layout_below="@+id/feed_time"
+                layout_alignParentRight="true"
+                style="@style/2132018187"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

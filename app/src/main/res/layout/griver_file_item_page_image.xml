@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    paddingLeft="16dp"
+    paddingTop="16dp"
+    paddingRight="16dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <ImageView
+        id="@+id/page"
+        background="#ffffff"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        scaleType="fitXY"/>
+    <TextView
+        textColor="#ffffff"
+        gravity="center_horizontal"
+        id="@+id/page_index"
+        background="#333333"
+        layout_width="match_parent"
+        layout_height="15dp"
+        text="1/16"
+        textAlignment="center"/>
+</LinearLayout>

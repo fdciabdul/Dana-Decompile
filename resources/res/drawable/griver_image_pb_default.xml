@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    drawable="@drawable/griver_image_ic_loading_white"
+    pivotX="50%"
+    pivotY="50%"/>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user"/>
+            <certificates src="system"/>
+        </trust-anchors>
+    </debug-overrides>
+    <domain-config>
+        <domain includeSubdomains="true">aphome-test1-dana.alipaydev.com
+        </domain>
+        <domain includeSubdomains="true">aphome-test2-dana.alipaydev.com
+        </domain>
+        <domain includeSubdomains="true">aphome-test3-dana.alipaydev.com
+        </domain>
+        <domain includeSubdomains="true">aphome-test4-dana.alipaydev.com
+        </domain>
+        <trust-anchors>
+            <certificates
+                overridePins="true"
+                src="user"/>
+            <certificates
+                overridePins="true"
+                src="system"/>
+        </trust-anchors>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">sdk-01.moengage.com
+        </domain>
+        <domain includeSubdomains="true">sdk-02.moengage.com
+        </domain>
+        <domain includeSubdomains="true">sdk-03.moengage.com
+        </domain>
+        <domain includeSubdomains="true">mi-sbox.dnlsrv.com
+        </domain>
+        <domain includeSubdomains="true">mi-id.dnlsrv.com
+        </domain>
+        <domain includeSubdomains="true">xl.co.id
+        </domain>
+        <domain includeSubdomains="true">id-tri.ipification.com
+        </domain>
+        <domain includeSubdomains="true">localhost
+        </domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

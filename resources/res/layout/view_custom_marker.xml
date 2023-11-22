@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_width="wrap_content"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_custom_marker_icon"
+        layout_width="48dp"
+        layout_height="48dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="0"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/iv_custom_marker_loadable"
+        background="@drawable/bg_circle_white"
+        padding="3dp"
+        layout_width="40dp"
+        layout_height="40dp"
+        layout_margin="7dp"
+        NOT_FOUND_0x6="@+id/iv_custom_marker_icon"
+        NOT_FOUND_0x7="@+id/iv_custom_marker_icon"
+        NOT_FOUND_0x8="@+id/iv_custom_marker_icon"
+        NOT_FOUND_0x9="@+id/iv_custom_marker_icon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

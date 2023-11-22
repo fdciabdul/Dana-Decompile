@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/carrier_identification_toolbar"
+    style="@style/2132017490">
+    <androidx.appcompat.widget.Toolbar
+        id="@+id/toolbar"
+        background="#108ee9"
+        layout_width="match_parent"
+        layout_height="?attr/2130968583"
+        contentInsetStart="0dp"
+        contentInsetEnd="0dp"
+        contentInsetLeft="0dp"
+        contentInsetRight="0dp"
+        NOT_FOUND_0xa="0dp"
+        NOT_FOUND_0xb="0dp"
+        NOT_FOUND_0xc="1"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="0"/>
+    <RelativeLayout
+        id="@+id/rl_toolbar"
+        NOT_FOUND_0xd="@+id/toolbar"
+        NOT_FOUND_0xe="@+id/toolbar"
+        NOT_FOUND_0xf="0"
+        NOT_FOUND_0x10="@+id/toolbar"
+        style="@style/2132017531">
+        <ImageView
+            id="@+id/iv_title_image"
+            layout_width="90dp"
+            layout_height="40dp"
+            src="@drawable/ic_dana_logo_icon_text"
+            layout_centerInParent="true"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/ViewPayConfirmationAddOnBinding_res_0x7f0a0572"
+    background="#ffffff"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    layout_marginBottom="16dp"
+    contentDescription="@string/btnBackToTop"
+    NOT_FOUND_0xb="16dp"
+    NOT_FOUND_0xc="2dp"
+    NOT_FOUND_0xd="0"
+    NOT_FOUND_0xe="0"
+    NOT_FOUND_0x10="0">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_margin="8dp">
+        <ImageView
+            id="@+id/iv_up"
+            layout_width="18dp"
+            layout_height="18dp"
+            contentDescription="@string/icon_back_to_top"
+            NOT_FOUND_0xd="0"
+            NOT_FOUND_0x10="0"
+            NOT_FOUND_0x11="0"
+            NOT_FOUND_0x12="@drawable/ic_up"/>
+        <TextView
+            textSize="16sp"
+            textColor="#108ee9"
+            id="@+id/tv_back_to_top"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            text="@string/back_to_top"
+            contentDescription="@string/lbl_back_to_top"
+            fontFamily="@font/2131296266"
+            NOT_FOUND_0xd="@+id/iv_up"
+            NOT_FOUND_0xf="@+id/iv_up"
+            NOT_FOUND_0x11="@+id/iv_up"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

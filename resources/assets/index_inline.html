@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="manifest" href="manifest.json">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, viewport-fit=cover">
+  <!--[APPX-CSS]-->
+  <link rel="stylesheet" href="https://appx/af-appx.min.css" />
+  <!--appxjsstart-->
+  <script src="https://appx/af-appx.min.js#nebula-addcors" crossorigin data-from="appx"></script>
+  <!--appxjsend-->
+
+</head>
+<body>
+  <div id="__react-content"></div>
+  <script>
+    (function () {
+      if (!window.Promise) {
+        document.writeln(
+          '<script src="https://appx/es6-promise.min.js"><' + '/' + 'script>'+
+          '<script>if(self.ES6Promise){self.ES6Promise.polyfill()}<' + '/' + 'script>'
+        );
+      }
+      if (!window.Set || !window.Map) {
+        document.writeln('<script src="https://gw.alipayobjects.com/as/g/appx_release/deps/1.0.0/es6-set-map.js"><' + '/' + 'script>');
+      }
+    })();
+  </script>
+</body>
+</html>

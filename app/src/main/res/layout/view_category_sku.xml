@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    id="@+id/FlowableConcatMapEagerPublisher_res_0x7f0a02a2"
+    background="@android:color/white"
+    style="@style/2132017490">
+    <id.dana.globalsearch.view.widget.CategoryHeaderView
+        textStyle="bold"
+        textColor="@android:color/black"
+        id="@+id/categoryHeaderSKU"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_marginLeft="16dp"
+        layout_marginTop="8dp"
+        layout_marginRight="16dp"
+        text="@string/eazy_eats_dishes_title"
+        style="@style/2132017900"/>
+    <id.dana.globalsearch.view.sku.SKUItemView
+        id="@+id/res_0x7f0a1232_pendingresultscreator_discardedpendingresult"
+        layout_marginTop="4dp"
+        style="@style/2132017490"/>
+    <include
+        id="@+id/requestPermissionLocationPrompt"
+        visibility="gone"
+        layout="@layout/view_location_permission"
+        style="@style/2132017490"/>
+</LinearLayout>

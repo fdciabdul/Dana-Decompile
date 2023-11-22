@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="51dp"
+    android:width="55dp"
+    android:viewportWidth="55"
+    android:viewportHeight="51">
+    <path
+        android:fillColor="@drawable/res_0x7f0802c0_ic_promo_deals_background__0"
+        android:pathData="M-31.4285,26a43.2143,44 0,1 0,86.4286 0a43.2143,44 0,1 0,-86.4286 0z"/>
+</vector>

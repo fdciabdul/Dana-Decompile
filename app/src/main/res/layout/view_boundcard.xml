@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="match_parent"
+    fillViewport="true">
+    <androidx.recyclerview.widget.RecyclerView
+        id="@+id/rv_stack_view"
+        layoutAnimation="@anim/2130772000"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        overScrollMode="never"/>
+</androidx.core.widget.NestedScrollView>

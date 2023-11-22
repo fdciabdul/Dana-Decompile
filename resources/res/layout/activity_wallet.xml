@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_list_card"
+    background="#80000000"
+    paddingTop="5dp"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <View
+        id="@+id/view_close_click_area"
+        layout_width="0dp"
+        layout_height="0dp"
+        NOT_FOUND_0xa="@+id/pcv_cards"
+        NOT_FOUND_0xb="@+id/iv_close_payment_cards"
+        NOT_FOUND_0xc="@+id/iv_close_payment_cards"
+        NOT_FOUND_0xe="0"/>
+    <ImageView
+        id="@+id/iv_close_payment_cards"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginRight="12dp"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="@drawable/ic_round_close"/>
+    <id.dana.richview.DanaProtectionView
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginLeft="12dp"
+        NOT_FOUND_0x8="small_light"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xe="0"/>
+    <ImageView
+        id="@+id/iv_title"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xf="@drawable/wallet_white"/>
+    <id.dana.richview.PaymentCardsView
+        id="@+id/pcv_cards"
+        layout_width="match_parent"
+        layout_height="0dp"
+        layout_marginTop="15dp"
+        NOT_FOUND_0x9="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="0"
+        NOT_FOUND_0xd="@+id/iv_title"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

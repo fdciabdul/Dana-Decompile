@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    paddingBottom="44dp"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <id.dana.kyb.view.richview.KybBenefitsView
+        id="@+id/kyb_benefits_view"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0xa="0"/>
+    <id.dana.kyb.view.richview.KybTieringView
+        id="@+id/kyb_tiering_view"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        layout_marginTop="16dp"
+        layout_marginStart="16dp"
+        layout_marginEnd="16dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="@+id/kyb_benefits_view"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

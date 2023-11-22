@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="@drawable/bg_white"
+    layout_width="match_parent"
+    layout_height="match_parent">
+    <id.dana.richview.globalsearch.ToolbarGlobalSearchView
+        id="@+id/tsvSeeAll"
+        NOT_FOUND_0x7="true"
+        style="@style/2132017490"/>
+    <id.dana.globalsearch.basecategory.CategoryVerticalView
+        id="@+id/all_list"
+        layout_below="@+id/tsvSeeAll"
+        style="@style/2132017531"/>
+    <id.dana.globalsearch.view.widget.GlobalSearchErrorStateView
+        id="@+id/viewErrorState"
+        visibility="gone"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/MultiLanguageHttpClient_res_0x7f0a032b"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/ivBackground"
+        layout_width="44dp"
+        layout_height="44dp"
+        src="#e9f5fe"
+        NOT_FOUND_0x6="100dp"
+        NOT_FOUND_0x7="@+id/addFixed32"
+        NOT_FOUND_0x8="@+id/addFixed32"
+        NOT_FOUND_0xa="0"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/FSComposeAnnotatedString"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0x5="@+id/ivBackground"
+        NOT_FOUND_0x7="@+id/ivBackground"
+        NOT_FOUND_0x8="@+id/ivBackground"
+        NOT_FOUND_0xa="@+id/ivBackground"/>
+    <TextView
+        id="@+id/addFixed32"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="4dp"
+        NOT_FOUND_0x7="0"
+        NOT_FOUND_0x8="0"
+        NOT_FOUND_0x9="@+id/ivBackground"
+        style="@style/2132017433"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

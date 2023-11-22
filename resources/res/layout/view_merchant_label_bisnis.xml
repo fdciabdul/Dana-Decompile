@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_business_icon"
+    background="@drawable/bg_rectangle_grey_frame_4_dp_fill"
+    paddingTop="4dp"
+    paddingBottom="4dp"
+    layout_width="wrap_content"
+    layout_height="24dp"
+    layout_margin="4dp"
+    paddingStart="8dp"
+    paddingEnd="8dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_business_icon"
+        layout_width="12dp"
+        layout_height="12dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="@drawable/dana_logo_blue_png"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textColor="#108ee9"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        text="@string/item_merchant_list_dana_bisnis"
+        textAllCaps="true"
+        layout_marginStart="4dp"
+        NOT_FOUND_0xd="0"
+        NOT_FOUND_0xe="0"
+        NOT_FOUND_0xf="@+id/iv_business_icon"
+        NOT_FOUND_0x11="0"
+        style="@style/2132017553"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

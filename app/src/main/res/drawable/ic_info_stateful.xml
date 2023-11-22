@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_selected="true"
+        drawable="@drawable/ic_info_filled_24dp"/>
+    <item
+        state_selected="false"
+        drawable="@drawable/ic_info_grey_50"/>
+</selector>

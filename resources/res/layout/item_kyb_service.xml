@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    padding="8dp"
+    layout_width="match_parent"
+    layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        id="@+id/iv_icon"
+        layout_width="40dp"
+        layout_height="40dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="12sp"
+        textColor="#313131"
+        ellipsize="end"
+        id="@+id/tv_title"
+        layout_width="0dp"
+        layout_height="wrap_content"
+        maxLines="2"
+        fontFamily="@font/sf_pro_regular"
+        textAlignment="center"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xc="@+id/iv_icon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

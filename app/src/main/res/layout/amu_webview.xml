@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebView xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="center_horizontal"
+    id="@+id/webview"
+    paddingLeft="10dp"
+    paddingTop="5dp"
+    paddingRight="10dp"
+    paddingBottom="5dp"
+    layout_width="wrap_content"
+    layout_height="wrap_content"/>

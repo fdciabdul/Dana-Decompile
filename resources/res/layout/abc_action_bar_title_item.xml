@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    orientation="vertical"
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    style="@style/2132017592">
+    <TextView
+        ellipsize="end"
+        id="@+id/action_bar_title"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        singleLine="true"/>
+    <TextView
+        ellipsize="end"
+        id="@+id/action_bar_subtitle"
+        visibility="gone"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        layout_marginTop="-3dp"
+        singleLine="true"/>
+</LinearLayout>

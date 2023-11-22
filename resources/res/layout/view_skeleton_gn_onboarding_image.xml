@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_gravity="center"
+    id="@+id/shimmer_view"
+    background="@drawable/bg_skeleton_banner"
+    layout_width="325dp"
+    layout_height="155dp"/>

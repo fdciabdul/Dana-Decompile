@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cl_home_referral_container"
+    background="@drawable/home_component_border"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="4dp">
+    <ImageView
+        id="@+id/iv_home_referral_banner"
+        layout_width="match_parent"
+        layout_height="wrap_content"
+        adjustViewBounds="true"
+        NOT_FOUND_0x6="0"
+        NOT_FOUND_0x7="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

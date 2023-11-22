@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        state_selected="true"
+        drawable="@drawable/ic_inbox_bar_notif"/>
+    <item drawable="@drawable/ic_inbox_bar_normal"/>
+</selector>

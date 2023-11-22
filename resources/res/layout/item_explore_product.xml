@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/cv_explore_product_card"
+    layout_width="match_parent"
+    layout_height="79dp"
+    layout_marginBottom="8dp"
+    layout_marginEnd="8dp"
+    NOT_FOUND_0x9="@color/2131099989"
+    NOT_FOUND_0xa="8dp"
+    NOT_FOUND_0xb="0dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        padding="8dp"
+        layout_width="match_parent"
+        layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageView
+            id="@+id/iv_product_thumbnail"
+            layout_width="24dp"
+            layout_height="24dp"
+            NOT_FOUND_0xe="0"
+            NOT_FOUND_0xf="0"
+            NOT_FOUND_0x10="@drawable/bg_circle_grey_30"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            ellipsize="end"
+            id="@+id/tv_product_title"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            maxLines="1"
+            NOT_FOUND_0xd="@+id/tv_product_detail"
+            NOT_FOUND_0xe="0"
+            style="@style/2132017908"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            ellipsize="end"
+            id="@+id/tv_product_detail"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            maxLines="1"
+            fontFamily="@font/sf_pro_regular"
+            NOT_FOUND_0xc="0"
+            NOT_FOUND_0xe="0"
+            style="@style/2132017432"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

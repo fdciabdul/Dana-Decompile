@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid color="#108ee9"/>
+            <stroke
+                width="1dp"
+                color="#108ee9"/>
+            <corners
+                topLeftRadius="12dp"
+                topRightRadius="12dp"/>
+            <padding
+                left="0dp"
+                top="0dp"
+                right="0dp"
+                bottom="0dp"/>
+        </shape>
+    </item>
+    <item
+        drawable="@drawable/bg_item_group_send"
+        right="12dp"/>
+</layer-list>

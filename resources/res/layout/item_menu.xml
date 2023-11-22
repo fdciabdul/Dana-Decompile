@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    background="#ffffff"
+    style="@style/2132017490">
+    <View
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="@+id/rl_normal_menu"
+        style="@style/2132017967"/>
+    <RelativeLayout
+        orientation="horizontal"
+        id="@+id/rl_normal_menu"
+        padding="12dp"
+        NOT_FOUND_0x10="0"
+        NOT_FOUND_0x11="0"
+        NOT_FOUND_0x12="0"
+        NOT_FOUND_0x13="0"
+        style="@style/2132017490">
+        <TextView
+            textSize="16sp"
+            textColor="#4a4a4a"
+            id="@+id/tv_title"
+            layout_marginLeft="4dp"
+            layout_alignParentLeft="true"
+            layout_marginStart="4dp"
+            layout_alignParentStart="true"
+            style="@style/2132018187"/>
+        <ImageView
+            layout_width="24dp"
+            layout_height="24dp"
+            scaleType="center"
+            layout_alignParentRight="true"
+            rotation="-90"
+            layout_alignParentEnd="true"
+            NOT_FOUND_0x14="@drawable/arrow"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

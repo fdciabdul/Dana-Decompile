@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        id="@+id/option_unmute"
+        title="@string/unmute_button_label"/>
+    <item
+        id="@+id/option_block"
+        title="@string/option_block_friend"/>
+</menu>

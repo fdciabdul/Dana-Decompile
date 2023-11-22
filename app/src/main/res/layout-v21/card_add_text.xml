@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    gravity="center"
+    orientation="vertical"
+    id="@+id/ll_card_add"
+    paddingBottom="50dp"
+    layout_width="match_parent"
+    layout_height="wrap_content"
+    layout_marginTop="@dimen/2131165588">
+    <androidx.appcompat.widget.AppCompatTextView
+        textSize="12sp"
+        textColor="#ffffff"
+        gravity="center"
+        id="@+id/tv_add_card"
+        background="@drawable/btn_pay_topup_round"
+        layout_margin="17dp"
+        text="@string/add_debit_credit_card"
+        drawablePadding="4dp"
+        lineSpacingExtra="4sp"
+        textAllCaps="true"
+        fontFamily="@font/2131296266"
+        letterSpacing="-0.02"
+        NOT_FOUND_0x11="@drawable/ic_add_card_18_white"
+        style="@style/2132018187"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/layout_coordinator"
+    focusable="true"
+    fitsSystemWindows="true"
+    clickable="true"
+    NOT_FOUND_0x8="false"
+    style="@style/2132017531">
+    <FrameLayout
+        layout_gravity="bottom"
+        id="@+id/res_0x7f0a0717_mutedfragmentcontract_view"
+        focusable="true"
+        clickable="true"
+        layout_width="match_parent"
+        layout_height="match_parent"
+        NOT_FOUND_0x8="false"
+        NOT_FOUND_0x9="0dp"
+        NOT_FOUND_0xa="@string/bottom_sheet_behavior">
+        <include
+            id="@+id/viewSheetTopupFirstTimer"
+            visibility="visible"
+            layout="@layout/view_topup_first_timer_bottom_sheet"/>
+        <include
+            id="@+id/viewSheetTopup"
+            visibility="gone"
+            layout="@layout/view_topup_bottom_sheet"/>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

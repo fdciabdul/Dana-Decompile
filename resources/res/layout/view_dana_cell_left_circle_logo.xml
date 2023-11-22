@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    id="@+id/res_0x7f0a0421_networkuserentitydata_externalsyntheticlambda8"
+    background="#ffffff"
+    paddingLeft="16dp"
+    paddingRight="16dp"
+    layout_width="match_parent"
+    layout_height="60dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        id="@+id/iv_icon"
+        visibility="gone"
+        layout_width="28dp"
+        layout_height="28dp"
+        NOT_FOUND_0x8="@color/2131099990"
+        NOT_FOUND_0x9="1dp"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xb="0"
+        NOT_FOUND_0xd="0"/>
+    <LinearLayout
+        orientation="vertical"
+        id="@+id/ll_contentcell"
+        paddingLeft="12dp"
+        layout_width="wrap_content"
+        layout_height="wrap_content"
+        NOT_FOUND_0xa="0"
+        NOT_FOUND_0xc="@+id/iv_icon"
+        NOT_FOUND_0xd="0">
+        <TextView
+            id="@+id/tv_label"
+            visibility="gone"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            style="@style/2132017413"/>
+        <TextView
+            id="@+id/tv_description"
+            visibility="gone"
+            layout_width="wrap_content"
+            layout_height="wrap_content"
+            style="@style/2132017440"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

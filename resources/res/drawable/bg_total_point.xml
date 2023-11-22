@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape shape="rectangle">
+            <corners radius="8dp"/>
+            <solid color="#4aacf3"/>
+        </shape>
+    </item>
+    <item>
+        <vector
+            height="72dp"
+            width="145dp">
+            <group>
+                <clip-path/>
+                <path/>
+                <path/>
+                <group>
+                    <clip-path/>
+                    <path/>
+                </group>
+                <path/>
+                <path/>
+                <path/>
+                <group>
+                    <clip-path/>
+                    <path/>
+                </group>
+                <path/>
+                <path/>
+                <path/>
+                <path/>
+                <path/>
+                <path/>
+                <path/>
+                <group>
+                    <clip-path/>
+                    <path/>
+                </group>
+                <path/>
+                <path/>
+                <path/>
+                <group>
+                    <clip-path/>
+                    <path/>
+                </group>
+                <path/>
+                <path/>
+                <path/>
+                <path/>
+            </group>
+        </vector>
+    </item>
+</layer-list>
